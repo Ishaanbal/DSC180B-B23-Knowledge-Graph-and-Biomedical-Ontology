@@ -1,0 +1,241 @@
+id,type
+Pralsetinib,Drug
+RET - ret proto-oncogene (human),Protein
+CCDC6 - coiled-coil domain containing 6 (human),Protein
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),Protein
+Tyrosine-protein kinase JAK2 (human),Protein
+KIF5B - kinesin family member 5B (human),Protein
+FLT3 - fms related receptor tyrosine kinase 3 (human),Protein
+KDR - kinase insert domain receptor (human),Protein
+RET,Entity
+PTK2B,Entity
+EML4,Gene/Protein
+KIF5B,Entity
+KDR,Entity
+DRD2,Entity
+HRAS,Gene/Protein
+CCDC6,Entity
+Locally Advanced Thyroid Gland Carcinoma,Disease
+Solid Tumor|Advanced Solid Tumor|Metastatic Cancer,Disease
+Advanced Unresectable or Metastatic Solid Malignancy,Disease
+Thyroid Neoplasms,Disease
+Lung Cancer Stage III|Mutation,Disease
+Non-Small Cell Lung Cancer|Medullary Thyroid Cancer,Disease
+Solid Tumors,Disease
+Medullary Thyroid Cancer,Disease
+"RET-fusion Non Small Cell Lung Cancer|Lung Neoplasm|Carcinoma, Non-Small-Cell Lung|Respiratory Tract Neoplasms|Thoracic Neoplasms|Neoplasms by Site|Neoplasms|Lung Diseases|Respiratory Tract Disease|Carcinoma, Bronchogenic|Bronchial Diseases|Head and Neck Neoplasms|Adenocarcinoma|Carcinoma|Neoplasms by Histologic Type|Neoplasms, Germ Cell and Embryonal|Neoplasms, Nerve Tissue",Disease
+"RET-altered Non Small Cell Lung Cancer|Medullary Thyroid Cancer|RET-altered Papillary Thyroid Cancer|RET-altered Colon Cancer|RET-altered Solid Tumors|Lung Neoplasm|Carcinoma, Non-Small-Cell Lung|Thyroid Diseases|Thyroid Neoplasm|Thyroid Cancer, Papillary|Carcinoma, Neuroendocrine|Respiratory Tract Neoplasms|Thoracic Neoplasms|Neoplasms by Site|Neoplasms|Lung Diseases|Respiratory Tract Disease|Carcinoma, Bronchogenic|Bronchial Neoplasms|Endocrine System Diseases|Endocrine Gland Neoplasm|Head and Neck Neoplasms|Adenocarcinoma, Papillary|Adenocarcinoma|Carcinoma|Neoplasms, Glandular and Epithelial|Neoplasms by Histologic Type|Neuroendocrine Tumors|Neuroectodermal Tumors|Neoplasms, Germ Cell and Embryonal|Neoplasms, Nerve Tissue|Colonic Neoplasms|Colorectal Neoplasms|Intestinal Neoplasms|Gastrointestinal Neoplasms|Digestive System Neoplasm|Digestive System Disease|Gastrointestinal Disease|Colonic Diseases|Intestinal Disease",Disease
+Breast Cancer|Gastrointestinal Cancer|Non Small Cell Lung Cancer|Other Cancer,Disease
+Non-small Cell Lung Cancer,Disease
+neoplasm,Disease
+medullary thyroid gland carcinoma,Disease
+cancer,Disease
+thyroid carcinoma,Disease
+non-small cell lung carcinoma,Disease
+Selpercatinib,Chemical
+Cabozantinib,Chemical
+Vandetanib,Chemical
+L-Tyrosine,Chemical
+2-Amino-4-chloropyridine,Chemical
+Lenvatinib,Chemical
+Entrectinib,Chemical
+Larotrectinib,Chemical
+Dabrafenib,Chemical
+Osimertinib,Chemical
+"Pemetrexed, (R)-",Chemical
+Crizotinib,Chemical
+Platinum,Chemical
+Trametinib Dimethyl Sulfoxide,Chemical
+Sorafenib Tosylate,Chemical
+Lorlatinib,Chemical
+Alectinib Hydrochloride,Chemical
+Capmatinib,Chemical
+"diammine[cyclobutane-1,1-dicarboxylato(2-)-k2O1,O1]platinum",Chemical
+Brigatinib,Chemical
+Erlotinib,Chemical
+Sunitinib,Chemical
+Calcitonin,Chemical
+Afatinib,Chemical
+Paclitaxel,Chemical
+Ponatinib,Chemical
+Vemurafenib,Chemical
+Selumetinib,Chemical
+azane;dichloroplatinum,Chemical
+Gemcitabine,Chemical
+Tepotinib,Chemical
+GlyTouCan:G91391XS,Chemical
+Ceritinib,Chemical
+Repotrectinib,Chemical
+Docetaxel,Chemical
+Pemigatinib,Chemical
+Cyanogen,Chemical
+Iodine Radioisotopes,Chemical
+Ensartinib,Chemical
+Nintedanib,Chemical
+Gefitinib,Chemical
+Piperidines,Chemical
+Creatine,Chemical
+Temozolomide,Chemical
+Tetranitromethane,Chemical
+Motesanib Diphosphate,Chemical
+Fluorodeoxyglucose,Chemical
+Methyl Ethyl Ketone,Chemical
+"l-aspartic acid, sodium salt",Chemical
+Thyroxine,Chemical
+Capecitabine,Chemical
+Etoposide,Chemical
+Tucatinib,Chemical
+Sotorasib,Chemical
+Agerafenib,Chemical
+Fludeoxyglucose F-18,Chemical
+Selitrectinib,Chemical
+Cobimetinib (racemate),Chemical
+"Methyl (1R,10S,11R,19R)-11-acetyloxy-12-ethyl-4-[(12R,13S,14S)-16-ethyl-12-methoxycarbonyl-1,10-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8,15-pentaen-13-yl]-10-hydroxy-5-methoxy-8-methyl-8,16-diazapentacyclo[10.6.1.01,9.02,7.016,19]nonadeca-2(7),3,5,13-tetraene-10-carboxylate",Chemical
+"5-Chloro-N2-(4-(4-(dimethylamino)-1-piperidinyl)-2-methoxyphenyl)-N4-(2-(dimethylphosphinyl)phenyl)-2,4-pyrimidinediamine",Chemical
+Dacomitinib,Chemical
+D-Cysteine,Chemical
+Zoledronic Acid,Chemical
+Erdafitinib,Chemical
+Everolimus,Chemical
+Imatinib,Chemical
+creatinine,Chemical
+L-Alanine,Chemical
+Encorafenib,Chemical
+Dacarbazine,Chemical
+4-(3-Chloro-4-(((cyclopropylamino)carbonyl)amino)phenoxy)-7-hydroxy-6-quinolinecarboxamide,Chemical
+Eosin,Chemical
+Palbociclib,Chemical
+Neratinib,Chemical
+Acetonitrile,Chemical
+Formaldehyde,Chemical
+Poziotinib,Chemical
+Alpelisib,Chemical
+Valganciclovir,Chemical
+Formic Acid,Chemical
+Entecavir,Chemical
+Hematoxyline,Chemical
+Bilirubin,Chemical
+Pazopanib Hydrochloride,Chemical
+Pyrimidinones,Chemical
+Avapritinib,Chemical
+Elacridar,Chemical
+Iodine,Chemical
+Sodium Iodide,Chemical
+"5-[2-(8-amino-1,7-naphthyridin-5-yl)ethynyl]-N-[4-[(4-methylpiperazin-1-yl)methyl]-3-(trifluoromethyl)phenyl]pyridine-3-carboxamide",Chemical
+"(1,1'-Biphenyl)-3,3',4,4'-tetramine tetrahydrochloride dihydrate",Chemical
+"2,2'-((Dihydro-2-(4-pyridinyl)-1,3(2H,4H)-pyrimidinediyl)bis(methylene))bis(N,N-dimethylbenzenamine)",Chemical
+Somatostatin,Chemical
+Adagrasib,Chemical
+Arsenic Trioxide,Chemical
+Ivosidenib,Chemical
+Irinotecan,Chemical
+Doxorubicin,Chemical
+Lambrolizumab,Chemical
+Estradiol,Chemical
+ret proto-oncogene,Gene
+tyrosine kinase non receptor 1,Gene
+kinesin family member 5b,Gene
+coiled-coil domain containing 6,Gene
+zinc finger mynd-type containing 10,Gene
+epidermal growth factor receptor,Gene
+"b-raf proto-oncogene, serine/threonine kinase",Gene
+"ros proto-oncogene 1, receptor tyrosine kinase",Gene
+cd274 molecule,Gene
+calcitonin related polypeptide alpha,Gene
+potassium voltage-gated channel subfamily a member 1,Gene
+kinase insert domain receptor,Gene
+tumor protein p53,Gene
+nuclear receptor coactivator 4,Gene
+erb-b2 receptor tyrosine kinase 2,Gene
+"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",Gene
+programmed cell death 1,Gene
+cea cell adhesion molecule 5,Gene
+aspartate transaminase,Gene
+cytochrome p450 family 3 subfamily a member 4,Gene
+ankyrin 3,Gene
+emap like 4,Gene
+thyroid peroxidase,Gene
+platelet derived growth factor receptor beta,Gene
+protein bel-1,Gene
+atp binding cassette subfamily b member 1,Gene
+receptor protein-tyrosine kinase,Gene
+fibroblast growth factor receptor 3,Gene
+rb transcriptional corepressor 1,Gene
+microrna 8070,Gene
+microrna 4299,Gene
+neurotrophic receptor tyrosine kinase 1,Gene
+mab-21 like 4,Gene
+akt serine/threonine kinase 1,Gene
+glial cell derived neurotrophic factor,Gene
+janus kinase 1,Gene
+glutamic--pyruvic transaminase,Gene
+isochorismatase domain containing 1,Gene
+forkhead box j3,Gene
+alk receptor tyrosine kinase,Gene
+run and fyve domain containing 1,Gene
+taste 2 receptor member 38,Gene
+thyroglobulin,Gene
+"growth factor, augmenter of liver regeneration",Gene
+transforming acidic coiled-coil containing protein 3,Gene
+neurotrophic receptor tyrosine kinase 3,Gene
+fibroblast growth factor receptor 1,Gene
+kinesin family member 13a,Gene
+single-strand-selective monofunctional uracil-dna glycosylase 1,Gene
+prominin 2,Gene
+protein lf2,Gene
+progesterone immunomodulatory binding factor 1,Gene
+neuregulin 1,Gene
+c1q and tnf related 6,Gene
+semaphorin 5a,Gene
+neuregulin 3,Gene
+estrogen receptor 1,Gene
+lf1,Gene
+spermine synthase,Gene
+calcyclin binding protein,Gene
+fms related receptor tyrosine kinase 3,Gene
+gli family zinc finger 1,Gene
+"dicer 1, ribonuclease iii",Gene
+coiled-coil domain containing 30,Gene
+siah e3 ubiquitin protein ligase 1,Gene
+ben domain containing 7,Gene
+serine/threonine kinase 11,Gene
+gins complex subunit 2,Gene
+elks/rab6-interacting/cast family member 1,Gene
+platelet derived growth factor receptor alpha,Gene
+fibroblast growth factor receptor 2,Gene
+erb-b2 receptor tyrosine kinase 3,Gene
+cd74 molecule,Gene
+cereblon,Gene
+alf transcription elongation factor 1,Gene
+podocalyxin like,Gene
+fms related receptor tyrosine kinase 4,Gene
+ankyrin 1,Gene
+somatostatin receptor 2,Gene
+discs large maguk scaffold protein 5,Gene
+agamous-like mads-box protein ap1,Gene
+bromodomain containing 4,Gene
+yes1 associated transcriptional regulator,Gene
+tripartite motif containing 33,Gene
+shc adaptor protein 1,Gene
+nk2 homeobox 1,Gene
+ets variant transcription factor 6,Gene
+poc1 centriolar protein b,Gene
+ubiquitin specific peptidase 8,Gene
+"bcar3 adaptor protein, nsp family member",Gene
+"hras proto-oncogene, gtpase",Gene
+atp binding cassette subfamily g member 2 (jr blood group),Gene
+cytochrome p450 family 2 subfamily j member 2,Gene
+platelet activating factor acetylhydrolase 1b regulatory subunit 1,Gene
+multiple inositol-polyphosphate phosphatase 1,Gene
+dicarbonyl and l-xylulose reductase,Gene
+insulin like growth factor 1 receptor,Gene
+"met proto-oncogene, receptor tyrosine kinase",Gene
+adam metallopeptidase domain 15,Gene
+Hypertension,Adverse Event
+Diarrhea,Adverse Event
+Anemia,Adverse Event
+Constipation,Adverse Event
+Fatigue,Adverse Event
+Neutropenia,Adverse Event
+Pneumonitis,Adverse Event
+Hepatotoxicity,Adverse Event
