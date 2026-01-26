@@ -1,0 +1,11 @@
+name: venv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - networkx
+  - pandas
+  - ipykernel
+  - matplotlib
+  - seaborn
