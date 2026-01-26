@@ -1,0 +1,6 @@
+gid,Compound_CID,Drug_ID,Drug,Disease_ID,Indication,Max_Phase,cmpdname
+,129073603,CHEMBL4582651,PRALSETINIB,EFO_0000616,neoplasm,Phase IV,Pralsetinib
+,129073603,CHEMBL4582651,PRALSETINIB,MONDO_0015277,medullary thyroid gland carcinoma,Phase IV,Pralsetinib
+,129073603,CHEMBL4582651,PRALSETINIB,MONDO_0004992,cancer,Phase IV,Pralsetinib
+,129073603,CHEMBL4582651,PRALSETINIB,EFO_0002892,thyroid carcinoma,Phase II,Pralsetinib
+,129073603,CHEMBL4582651,PRALSETINIB,EFO_0003060,non-small cell lung carcinoma,Phase IV,Pralsetinib
