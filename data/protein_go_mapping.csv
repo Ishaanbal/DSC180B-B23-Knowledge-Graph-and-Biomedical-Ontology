@@ -1,0 +1,21 @@
+protein_id,go_id,go_name
+RET - ret proto-oncogene (human),GO:0007169,cell surface receptor protein tyrosine kinase signaling pathway
+RET - ret proto-oncogene (human),GO:0007411,axon guidance
+RET - ret proto-oncogene (human),GO:0033630,positive regulation of cell adhesion mediated by integrin
+KDR - kinase insert domain receptor (human),GO:0001525,angiogenesis
+Tyrosine-protein kinase JAK2 (human),GO:0007259,JAK-STAT cascade
+FLT3 - fms related receptor tyrosine kinase 3 (human),GO:0030183,B cell differentiation
+FLT3 - fms related receptor tyrosine kinase 3 (human),GO:0016477,cell migration
+FLT3 - fms related receptor tyrosine kinase 3 (human),GO:0007169,cell surface receptor protein tyrosine kinase signaling pathway
+KDR - kinase insert domain receptor (human),GO:0060837,blood vessel endothelial cell differentiation
+KDR - kinase insert domain receptor (human),GO:0001569,branching involved in blood vessel morphogenesis
+KIF5B - kinesin family member 5B (human),GO:0099641,anterograde axonal protein transport
+KIF5B - kinesin family member 5B (human),GO:0098971,anterograde dendritic transport of neurotransmitter receptor complex
+KIF5B - kinesin family member 5B (human),GO:1990048,anterograde neuronal dense core vesicle transport
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),GO:0007411,axon guidance
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),GO:0007169,cell surface receptor protein tyrosine kinase signaling pathway
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),GO:0071300,cellular response to retinoic acid
+RET - ret proto-oncogene (human),GO:0071300,cellular response to retinoic acid
+Tyrosine-protein kinase JAK2 (human),GO:0030041,actin filament polymerization
+Tyrosine-protein kinase JAK2 (human),GO:0042976,activation of Janus kinase activity
+Tyrosine-protein kinase JAK2 (human),GO:0002250,adaptive immune response

@@ -68,3 +68,46 @@ The knowledge graph was constructed using specific datasets exported from PubChe
 ### E. Consolidated Targets (`...consolidatedcompoundtarget.csv`)
 * **Data Content:** High-level summary of the drug's primary mechanisms of action from multiple databases (ChEMBL, TTD).
 * **Project Usage:** Serves as the ground truth for **Node Classification**, ensuring the drug is correctly typed as a "RET Inhibitor" in the graph schema.
+
+## 7. Ontology-Guided Enrichment (GO + Target-Outcome)
+We extend the KG using ontology-backed biological facts to restore **Target-to-Outcome** reasoning without adding drug-specific shortcuts.
+
+### A. GO Pathway Mapping (`protein_go_mapping.csv`)
+* **Data Content:** Protein-to-GO Biological Process annotations (1-3 terms per protein).
+* **Project Usage:** Adds `Pathway` nodes and **"involved_in"** edges to create shared intermediate biology.
+
+### B. Target-Outcome Mapping (`protein_outcome_mapping.csv`)
+* **Data Content:** Curated Protein → Disease/Adverse Event links from sources like CTD or OpenTargets.
+* **Project Usage:** Adds **"Associated_With"** edges that bridge molecular targets to clinical outcomes.
+
+### C. Enrichment Script (`scripts/enrich_go.py`)
+* **Data Content:** Single-pass enrichment script for GO pathways + target-outcome links.
+* **Project Usage:** Outputs updated `kg_nodes_enriched.csv` and `kg_edges_enriched.csv`.
+
+### D. Optional GO Auto-Annotation
+* **Data Content:** UniProt GO Biological Process annotations pulled by gene symbol.
+* **Project Usage:** Auto-populates `protein_go_mapping.csv` for rapid bootstrapping.
+
+**Run:**
+```
+python scripts/enrich_go.py --nodes data/kg_nodes_v2.csv --edges data/kg_edges_v2.csv --go-mapping data/protein_go_mapping.csv --outcome-mapping data/protein_outcome_mapping_onc.csv --out-nodes data/kg_nodes_final.csv --out-edges data/kg_edges_final.csv --add-similarity --drop-shortcuts
+```
+
+**Auto-annotate:**
+```
+python scripts/enrich_go.py --generate-go-mapping --go-mapping data/protein_go_mapping.csv --outcome-mapping data/protein_outcome_mapping.csv
+```
+
+### E. Visualization (`scripts/visualize_kg.py`)
+* **Data Content:** Interactive PyVis view of the KG.
+* **Project Usage:** Exports an HTML graph for quick inspection.
+
+**Run (final KG):**
+```
+python scripts/visualize_kg.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out figures/kg_interactive.html --max-nodes 300
+```
+
+**Run (mechanistic only):**
+```
+python scripts/visualize_kg.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out figures/kg_interactive_mech.html --mechanistic-only --max-nodes 250
+```

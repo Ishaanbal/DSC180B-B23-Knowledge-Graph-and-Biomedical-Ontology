@@ -1,0 +1,1206 @@
+protein_id,outcome_id,outcome_type,outcome_name,evidence,source
+CCDC6 - coiled-coil domain containing 6 (human),Acute Lung Injury,Disease,Acute Lung Injury,MESH:D055371,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Adenocarcinoma,Disease,Adenocarcinoma,MESH:D000230,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Adenocarcinoma, Bronchiolo-Alveolar",Disease,"Adenocarcinoma, Bronchiolo-Alveolar",MESH:D002282,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Adenocarcinoma of Lung,Disease,Adenocarcinoma of Lung,MESH:D000077192,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Adrenal Cortex Diseases,Disease,Adrenal Cortex Diseases,MESH:D000303,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Adrenal Gland Diseases,Disease,Adrenal Gland Diseases,MESH:D000307,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Adrenal Gland Neoplasms,Disease,Adrenal Gland Neoplasms,MESH:D000310,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Adrenocortical Carcinoma,Disease,Adrenocortical Carcinoma,MESH:D018268,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Anemia,Disease,Anemia,MESH:D000740,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Aplastic",Disease,"Anemia, Aplastic",MESH:D000741,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Hemolytic",Disease,"Anemia, Hemolytic",MESH:D000743,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Hemolytic, Autoimmune",Disease,"Anemia, Hemolytic, Autoimmune",MESH:D000744,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Hypochromic",Disease,"Anemia, Hypochromic",MESH:D000747,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Iron-Deficiency",Disease,"Anemia, Iron-Deficiency",MESH:D018798,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Macrocytic",Disease,"Anemia, Macrocytic",MESH:D000748,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Megaloblastic",Disease,"Anemia, Megaloblastic",MESH:D000749,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Sickle Cell",Disease,"Anemia, Sickle Cell",MESH:D000755,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Anemia, Sideroblastic",Disease,"Anemia, Sideroblastic",MESH:D000756,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Anus Neoplasms,Disease,Anus Neoplasms,MESH:D001005,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Arrhythmias, Cardiac",Disease,"Arrhythmias, Cardiac",MESH:D001145,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Autoimmune Diseases,Disease,Autoimmune Diseases,MESH:D001327,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Basal Cell Carcinoma,Disease,Basal Cell Carcinoma,MESH:D002280,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Bone Marrow Neoplasms,Disease,Bone Marrow Neoplasms,MESH:D019046,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Bone Neoplasms,Disease,Bone Neoplasms,MESH:D001859,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Brain Neoplasms,Disease,Brain Neoplasms,MESH:D001932,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Breast Neoplasms,Disease,Breast Neoplasms,MESH:D001943,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Bronchial Neoplasms,Disease,Bronchial Neoplasms,MESH:D001984,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Burkitt Lymphoma,Disease,Burkitt Lymphoma,MESH:D002051,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Carcinoid Tumor,Disease,Carcinoid Tumor,MESH:D002276,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Carcinoma,Disease,Carcinoma,MESH:D002277,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Adenosquamous",Disease,"Carcinoma, Adenosquamous",MESH:D018196,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Bronchogenic",Disease,"Carcinoma, Bronchogenic",MESH:D002283,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Ductal, Breast",Disease,"Carcinoma, Ductal, Breast",MESH:D018270,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Ehrlich Tumor",Disease,"Carcinoma, Ehrlich Tumor",MESH:D002286,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Embryonal",Disease,"Carcinoma, Embryonal",MESH:D018236,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Endometrioid",Disease,"Carcinoma, Endometrioid",MESH:D018269,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Hepatocellular",Disease,"Carcinoma, Hepatocellular",MESH:D006528,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Carcinoma in Situ,Disease,Carcinoma in Situ,MESH:D002278,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Large Cell",Disease,"Carcinoma, Large Cell",MESH:D018287,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Lewis Lung",Disease,"Carcinoma, Lewis Lung",MESH:D018827,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Merkel Cell",Disease,"Carcinoma, Merkel Cell",MESH:D015266,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Non-Small-Cell Lung",Disease,"Carcinoma, Non-Small-Cell Lung",MESH:D002289,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Ovarian Epithelial",Disease,"Carcinoma, Ovarian Epithelial",MESH:D000077216,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Pancreatic Ductal",Disease,"Carcinoma, Pancreatic Ductal",MESH:D021441,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Papillary",Disease,"Carcinoma, Papillary",MESH:D002291,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Renal Cell",Disease,"Carcinoma, Renal Cell",MESH:D002292,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Signet Ring Cell",Disease,"Carcinoma, Signet Ring Cell",MESH:D018279,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Small Cell",Disease,"Carcinoma, Small Cell",MESH:D018288,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Squamous Cell",Disease,"Carcinoma, Squamous Cell",MESH:D002294,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Carcinoma, Transitional Cell",Disease,"Carcinoma, Transitional Cell",MESH:D002295,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Cardiac Conduction System Disease,Disease,Cardiac Conduction System Disease,MESH:D000075224,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Cardiac Output, High",Disease,"Cardiac Output, High",MESH:D016534,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Cardiac Output, Low",Disease,"Cardiac Output, Low",MESH:D002303,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Cardio-Renal Syndrome,Disease,Cardio-Renal Syndrome,MESH:D059347,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Cardiovascular Abnormalities,Disease,Cardiovascular Abnormalities,MESH:D018376,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Cardiovascular Diseases,Disease,Cardiovascular Diseases,MESH:D002318,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Central Nervous System Neoplasms,Disease,Central Nervous System Neoplasms,MESH:D016543,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Cerebrovascular Disorders,Disease,Cerebrovascular Disorders,MESH:D002561,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Cholangiocarcinoma,Disease,Cholangiocarcinoma,MESH:D018281,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Cholestasis, Intrahepatic",Disease,"Cholestasis, Intrahepatic",MESH:D002780,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Choriocarcinoma,Disease,Choriocarcinoma,MESH:D002822,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Clear-cell metastatic renal cell carcinoma,Disease,Clear-cell metastatic renal cell carcinoma,MESH:C538445,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Colonic Neoplasms,Disease,Colonic Neoplasms,MESH:D003110,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Colorectal Neoplasms,Disease,Colorectal Neoplasms,MESH:D015179,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Congenital Hypothyroidism,Disease,Congenital Hypothyroidism,MESH:D003409,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Conotruncal cardiac defects,Disease,Conotruncal cardiac defects,MESH:C535464,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Death, Sudden, Cardiac",Disease,"Death, Sudden, Cardiac",MESH:D016757,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Dementia, Vascular",Disease,"Dementia, Vascular",MESH:D015140,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Desmoid Tumors,Disease,Desmoid Tumors,MESH:D018222,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Desmoplastic Small Round Cell Tumor,Disease,Desmoplastic Small Round Cell Tumor,MESH:D058405,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Diabetes Mellitus, Congenital Autoimmune",Disease,"Diabetes Mellitus, Congenital Autoimmune",MESH:C565730,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Disseminated Intravascular Coagulation,Disease,Disseminated Intravascular Coagulation,MESH:D004211,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Edema, Cardiac",Disease,"Edema, Cardiac",MESH:D004489,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Encephalomyelitis, Autoimmune, Experimental",Disease,"Encephalomyelitis, Autoimmune, Experimental",MESH:D004681,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Endometrial Neoplasms,Disease,Endometrial Neoplasms,MESH:D016889,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Esophageal Neoplasms,Disease,Esophageal Neoplasms,MESH:D004938,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Esophageal Squamous Cell Carcinoma,Disease,Esophageal Squamous Cell Carcinoma,MESH:D000077277,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Euthyroid Sick Syndromes,Disease,Euthyroid Sick Syndromes,MESH:D005067,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Fallopian Tube Neoplasms,Disease,Fallopian Tube Neoplasms,MESH:D005185,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Familial primary gastric lymphoma,Disease,Familial primary gastric lymphoma,MESH:C535648,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Gallbladder Neoplasms,Disease,Gallbladder Neoplasms,MESH:D005706,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Gastrointestinal Neoplasms,Disease,Gastrointestinal Neoplasms,MESH:D005770,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Genital Neoplasms, Female",Disease,"Genital Neoplasms, Female",MESH:D005833,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Glycosuria, Renal",Disease,"Glycosuria, Renal",MESH:D006030,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Granulosa cell tumor of the ovary,Disease,Granulosa cell tumor of the ovary,MESH:C537296,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Head and Neck Neoplasms,Disease,Head and Neck Neoplasms,MESH:D006258,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hematologic Neoplasms,Disease,Hematologic Neoplasms,MESH:D019337,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hepatic Encephalopathy,Disease,Hepatic Encephalopathy,MESH:D006501,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hepatic Insufficiency,Disease,Hepatic Insufficiency,MESH:D048550,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hepatic Veno-Occlusive Disease,Disease,Hepatic Veno-Occlusive Disease,MESH:D006504,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hepatorenal Syndrome,Disease,Hepatorenal Syndrome,MESH:D006530,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hypertension,Disease,Hypertension,MESH:D006973,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypertension, Malignant",Disease,"Hypertension, Malignant",MESH:D006974,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypertension, Portal",Disease,"Hypertension, Portal",MESH:D006975,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypertension, Pregnancy-Induced",Disease,"Hypertension, Pregnancy-Induced",MESH:D046110,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypertension, Pulmonary",Disease,"Hypertension, Pulmonary",MESH:D006976,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypertension, Renal",Disease,"Hypertension, Renal",MESH:D006977,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypertension, Renovascular",Disease,"Hypertension, Renovascular",MESH:D006978,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hyperthyroidism,Disease,Hyperthyroidism,MESH:D006980,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypomagnesemia 2, renal",Disease,"Hypomagnesemia 2, renal",MESH:C537152,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hypopharyngeal Neoplasms,Disease,Hypopharyngeal Neoplasms,MESH:D007012,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Hypothyroidism,Disease,Hypothyroidism,MESH:D007037,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Hypothyroidism, Autoimmune",Disease,"Hypothyroidism, Autoimmune",MESH:C562768,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Immune Complex Diseases,Disease,Immune Complex Diseases,MESH:D007105,CTD
+CCDC6 - coiled-coil domain containing 6 (human),IMMUNE SUPPRESSION,Disease,IMMUNE SUPPRESSION,OMIM:146850,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Immune System Diseases,Disease,Immune System Diseases,MESH:D007154,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Inflammatory Breast Neoplasms,Disease,Inflammatory Breast Neoplasms,MESH:D058922,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Intestinal Neoplasms,Disease,Intestinal Neoplasms,MESH:D007414,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Intracranial Hypertension,Disease,Intracranial Hypertension,MESH:D019586,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Kidney Neoplasms,Disease,Kidney Neoplasms,MESH:D007680,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Laryngeal Neoplasms,Disease,Laryngeal Neoplasms,MESH:D007822,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Leukemia,Disease,Leukemia,MESH:D007938,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Erythroblastic, Acute",Disease,"Leukemia, Erythroblastic, Acute",MESH:D004915,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Experimental",Disease,"Leukemia, Experimental",MESH:D007942,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Leukemia L1210,Disease,Leukemia L1210,MESH:D007939,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Lymphocytic, Chronic, B-Cell",Disease,"Leukemia, Lymphocytic, Chronic, B-Cell",MESH:D015451,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Lymphoid",Disease,"Leukemia, Lymphoid",MESH:D007945,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia-Lymphoma, Adult T-Cell",Disease,"Leukemia-Lymphoma, Adult T-Cell",MESH:D015459,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Monocytic, Acute",Disease,"Leukemia, Monocytic, Acute",MESH:D007948,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",Disease,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",MESH:D015464,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Myeloid",Disease,"Leukemia, Myeloid",MESH:D007951,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Myeloid, Acute",Disease,"Leukemia, Myeloid, Acute",MESH:D015470,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Plasma Cell",Disease,"Leukemia, Plasma Cell",MESH:D007952,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Prolymphocytic, T-Cell",Disease,"Leukemia, Prolymphocytic, T-Cell",MESH:D015461,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Promyelocytic, Acute",Disease,"Leukemia, Promyelocytic, Acute",MESH:D015473,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, Radiation-Induced",Disease,"Leukemia, Radiation-Induced",MESH:D007953,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Leukemia, T-Cell",Disease,"Leukemia, T-Cell",MESH:D015458,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Leydig Cell Tumor,Disease,Leydig Cell Tumor,MESH:D007984,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Liver Neoplasms,Disease,Liver Neoplasms,MESH:D008113,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Liver Neoplasms, Experimental",Disease,"Liver Neoplasms, Experimental",MESH:D008114,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Lung agenesis,Disease,Lung agenesis,MESH:C562992,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Lung Diseases,Disease,Lung Diseases,MESH:D008171,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lung Diseases, Interstitial",Disease,"Lung Diseases, Interstitial",MESH:D017563,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lung Diseases, Obstructive",Disease,"Lung Diseases, Obstructive",MESH:D008173,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Lung Injury,Disease,Lung Injury,MESH:D055370,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Lung Neoplasms,Disease,Lung Neoplasms,MESH:D008175,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Lymphatic Metastasis,Disease,Lymphatic Metastasis,MESH:D008207,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Lymphoma,Disease,Lymphoma,MESH:D008223,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, AIDS-Related",Disease,"Lymphoma, AIDS-Related",MESH:D016483,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, B-Cell",Disease,"Lymphoma, B-Cell",MESH:D016393,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, Extranodal NK-T-Cell",Disease,"Lymphoma, Extranodal NK-T-Cell",MESH:D054391,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, Follicular",Disease,"Lymphoma, Follicular",MESH:D008224,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, Large B-Cell, Diffuse",Disease,"Lymphoma, Large B-Cell, Diffuse",MESH:D016403,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, Mantle-Cell",Disease,"Lymphoma, Mantle-Cell",MESH:D020522,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, Non-Hodgkin",Disease,"Lymphoma, Non-Hodgkin",MESH:D008228,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, Primary Effusion",Disease,"Lymphoma, Primary Effusion",MESH:D054685,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, T-Cell",Disease,"Lymphoma, T-Cell",MESH:D016399,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Lymphoma, T-Cell, Cutaneous",Disease,"Lymphoma, T-Cell, Cutaneous",MESH:D016410,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Male Germ Cell Tumor,Disease,Male Germ Cell Tumor,MESH:C564777,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Mammary Neoplasms, Animal",Disease,"Mammary Neoplasms, Animal",MESH:D015674,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Mammary Neoplasms, Experimental",Disease,"Mammary Neoplasms, Experimental",MESH:D008325,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Massive Hepatic Necrosis,Disease,Massive Hepatic Necrosis,MESH:D047508,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Maxillary Sinus Neoplasms,Disease,Maxillary Sinus Neoplasms,MESH:D008444,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Mouth Neoplasms,Disease,Mouth Neoplasms,MESH:D009062,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Nasopharyngeal Carcinoma,Disease,Nasopharyngeal Carcinoma,MESH:D000077274,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Nasopharyngeal Neoplasms,Disease,Nasopharyngeal Neoplasms,MESH:D009303,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Neoplasm Invasiveness,Disease,Neoplasm Invasiveness,MESH:D009361,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Neoplasm Metastasis,Disease,Neoplasm Metastasis,MESH:D009362,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neoplasm Recurrence, Local",Disease,"Neoplasm Recurrence, Local",MESH:D009364,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Neoplasms,Disease,Neoplasms,MESH:D009369,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neoplasms, Bone Tissue",Disease,"Neoplasms, Bone Tissue",MESH:D018213,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neoplasms, Experimental",Disease,"Neoplasms, Experimental",MESH:D009374,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neoplasms, Germ Cell and Embryonal",Disease,"Neoplasms, Germ Cell and Embryonal",MESH:D009373,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neoplasms, Glandular and Epithelial",Disease,"Neoplasms, Glandular and Epithelial",MESH:D009375,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neoplasms, Mesothelial",Disease,"Neoplasms, Mesothelial",MESH:D018301,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neovascularization, Pathologic",Disease,"Neovascularization, Pathologic",MESH:D009389,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Neuroectodermal Tumors,Disease,Neuroectodermal Tumors,MESH:D017599,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neuroectodermal Tumors, Primitive",Disease,"Neuroectodermal Tumors, Primitive",MESH:D018242,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Neuroectodermal Tumors, Primitive, Peripheral",Disease,"Neuroectodermal Tumors, Primitive, Peripheral",MESH:D018241,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Neutropenia,Disease,Neutropenia,MESH:D009503,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Nonseminomatous germ cell tumor,Disease,Nonseminomatous germ cell tumor,MESH:C537844,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Nose Neoplasms,Disease,Nose Neoplasms,MESH:D009669,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Ocular Hypertension,Disease,Ocular Hypertension,MESH:D009798,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Ovarian Neoplasms,Disease,Ovarian Neoplasms,MESH:D010051,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Pancreatic cancer, adult",Disease,"Pancreatic cancer, adult",MESH:C535836,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Pancreatic Neoplasms,Disease,Pancreatic Neoplasms,MESH:D010190,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Paraganglioma, Extra-Adrenal",Disease,"Paraganglioma, Extra-Adrenal",MESH:D010236,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Paraquat lung,Disease,Paraquat lung,MESH:C537171,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Peripheral Vascular Diseases,Disease,Peripheral Vascular Diseases,MESH:D016491,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Pharyngeal Neoplasms,Disease,Pharyngeal Neoplasms,MESH:D010610,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Phyllodes Tumor,Disease,Phyllodes Tumor,MESH:D003557,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Pituitary Neoplasms,Disease,Pituitary Neoplasms,MESH:D010911,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Pleural Neoplasms,Disease,Pleural Neoplasms,MESH:D010997,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Porphyrias, Hepatic",Disease,"Porphyrias, Hepatic",MESH:D017094,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Precancerous Conditions,Disease,Precancerous Conditions,MESH:D011230,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D015452,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Precursor Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054198,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054218,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Prostatic Neoplasms,Disease,Prostatic Neoplasms,MESH:D011471,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Pseudolymphoma,Disease,Pseudolymphoma,MESH:D019310,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Pseudotumor Cerebri,Disease,Pseudotumor Cerebri,MESH:D011559,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Pulmonary Arterial Hypertension,Disease,Pulmonary Arterial Hypertension,MESH:D000081029,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Rectal Neoplasms,Disease,Rectal Neoplasms,MESH:D012004,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Renal Artery Obstruction,Disease,Renal Artery Obstruction,MESH:D012078,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Renal hypouricemia,Disease,Renal hypouricemia,MESH:C537757,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Renal Insufficiency,Disease,Renal Insufficiency,MESH:D051437,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Renal Insufficiency, Chronic",Disease,"Renal Insufficiency, Chronic",MESH:D051436,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Salivary Gland Neoplasms,Disease,Salivary Gland Neoplasms,MESH:D012468,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Sigmoid Neoplasms,Disease,Sigmoid Neoplasms,MESH:D012811,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Skin Neoplasms,Disease,Skin Neoplasms,MESH:D012878,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Small Cell Lung Carcinoma,Disease,Small Cell Lung Carcinoma,MESH:D055752,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Soft Tissue Neoplasms,Disease,Soft Tissue Neoplasms,MESH:D012983,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Splenic Neoplasms,Disease,Splenic Neoplasms,MESH:D013160,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Squamous Cell Carcinoma of Head and Neck,Disease,Squamous Cell Carcinoma of Head and Neck,MESH:D000077195,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Stomach Neoplasms,Disease,Stomach Neoplasms,MESH:D013274,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Testicular Germ Cell Tumor,Disease,Testicular Germ Cell Tumor,MESH:C563236,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Testicular Neoplasms,Disease,Testicular Neoplasms,MESH:D013736,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Thyroid cancer, follicular",Disease,"Thyroid cancer, follicular",MESH:C572845,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Thyroid Cancer, Papillary",Disease,"Thyroid Cancer, Papillary",marker/mechanism;MESH:D000077273,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Thyroid Diseases,Disease,Thyroid Diseases,MESH:D013959,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Thyroid Dysgenesis,Disease,Thyroid Dysgenesis,MESH:D050033,CTD
+CCDC6 - coiled-coil domain containing 6 (human),"Thyroid Hormone Metabolism, Abnormal",Disease,"Thyroid Hormone Metabolism, Abnormal",MESH:C566454,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Thyroid Neoplasms,Disease,Thyroid Neoplasms,MESH:D013964,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Tongue Neoplasms,Disease,Tongue Neoplasms,MESH:D014062,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Tracheal Neoplasms,Disease,Tracheal Neoplasms,MESH:D014134,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Triple Negative Breast Neoplasms,Disease,Triple Negative Breast Neoplasms,MESH:D064726,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Tumor Lysis Syndrome,Disease,Tumor Lysis Syndrome,MESH:D015275,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Ureteral Neoplasms,Disease,Ureteral Neoplasms,MESH:D014516,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Urethral Neoplasms,Disease,Urethral Neoplasms,MESH:D014523,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Urinary Bladder Neoplasms,Disease,Urinary Bladder Neoplasms,MESH:D001749,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Urogenital Neoplasms,Disease,Urogenital Neoplasms,MESH:D014565,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Urologic Neoplasms,Disease,Urologic Neoplasms,MESH:D014571,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Uterine Cervical Neoplasms,Disease,Uterine Cervical Neoplasms,MESH:D002583,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Uterine Neoplasms,Disease,Uterine Neoplasms,MESH:D014594,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Uveal Neoplasms,Disease,Uveal Neoplasms,MESH:D014604,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Vaginal Neoplasms,Disease,Vaginal Neoplasms,MESH:D014625,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Vascular Calcification,Disease,Vascular Calcification,MESH:D061205,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Vascular Diseases,Disease,Vascular Diseases,MESH:D014652,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Vascular Malformations,Disease,Vascular Malformations,MESH:D054079,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Vascular Remodeling,Disease,Vascular Remodeling,MESH:D066253,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Vascular System Injuries,Disease,Vascular System Injuries,MESH:D057772,CTD
+CCDC6 - coiled-coil domain containing 6 (human),Wilms Tumor,Disease,Wilms Tumor,MESH:D009396,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Acidosis, Renal Tubular",Disease,"Acidosis, Renal Tubular",MESH:D000141,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Acute erythroleukemia,Disease,Acute erythroleukemia,marker/mechanism;MESH:C535673,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Acute Lung Injury,Disease,Acute Lung Injury,MESH:D055371,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Adenocarcinoma,Disease,Adenocarcinoma,MESH:D000230,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Adenocarcinoma of Lung,Disease,Adenocarcinoma of Lung,MESH:D000077192,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Adrenal Cortex Diseases,Disease,Adrenal Cortex Diseases,MESH:D000303,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Adrenal Gland Diseases,Disease,Adrenal Gland Diseases,MESH:D000307,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Adrenal Gland Neoplasms,Disease,Adrenal Gland Neoplasms,MESH:D000310,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Adrenal Hyperplasia, Congenital",Disease,"Adrenal Hyperplasia, Congenital",MESH:D000312,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Adrenal Insufficiency,Disease,Adrenal Insufficiency,MESH:D000309,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Adrenocortical Carcinoma,Disease,Adrenocortical Carcinoma,MESH:D018268,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Anemia,Disease,Anemia,MESH:D000740,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Anemia, Aplastic",Disease,"Anemia, Aplastic",MESH:D000741,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Anemia, Hemolytic",Disease,"Anemia, Hemolytic",MESH:D000743,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Anemia, Hemolytic, Autoimmune",Disease,"Anemia, Hemolytic, Autoimmune",MESH:D000744,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Anemia, Hypochromic",Disease,"Anemia, Hypochromic",MESH:D000747,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Anemia, Iron-Deficiency",Disease,"Anemia, Iron-Deficiency",MESH:D018798,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Anemia, Refractory, with Excess of Blasts",Disease,"Anemia, Refractory, with Excess of Blasts",MESH:D000754,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Anemia, Sideroblastic",Disease,"Anemia, Sideroblastic",MESH:D000756,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Anus Neoplasms,Disease,Anus Neoplasms,MESH:D001005,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Arrhythmias, Cardiac",Disease,"Arrhythmias, Cardiac",MESH:D001145,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Autoimmune Diseases,Disease,Autoimmune Diseases,MESH:D001327,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Bone Marrow Neoplasms,Disease,Bone Marrow Neoplasms,MESH:D019046,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Brain Neoplasms,Disease,Brain Neoplasms,MESH:D001932,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Brain Stem Neoplasms,Disease,Brain Stem Neoplasms,MESH:D020295,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Breast Neoplasms,Disease,Breast Neoplasms,MESH:D001943,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Bronchial Neoplasms,Disease,Bronchial Neoplasms,MESH:D001984,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Burkitt Lymphoma,Disease,Burkitt Lymphoma,MESH:D002051,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Carcinoma,Disease,Carcinoma,MESH:D002277,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Bronchogenic",Disease,"Carcinoma, Bronchogenic",MESH:D002283,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Ductal, Breast",Disease,"Carcinoma, Ductal, Breast",MESH:D018270,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Ehrlich Tumor",Disease,"Carcinoma, Ehrlich Tumor",MESH:D002286,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Embryonal",Disease,"Carcinoma, Embryonal",MESH:D018236,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Endometrioid",Disease,"Carcinoma, Endometrioid",MESH:D018269,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Hepatocellular",Disease,"Carcinoma, Hepatocellular",MESH:D006528,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Carcinoma in Situ,Disease,Carcinoma in Situ,MESH:D002278,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Large Cell",Disease,"Carcinoma, Large Cell",MESH:D018287,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Lewis Lung",Disease,"Carcinoma, Lewis Lung",MESH:D018827,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Merkel Cell",Disease,"Carcinoma, Merkel Cell",MESH:D015266,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Non-Small-Cell Lung",Disease,"Carcinoma, Non-Small-Cell Lung",MESH:D002289,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Ovarian Epithelial",Disease,"Carcinoma, Ovarian Epithelial",MESH:D000077216,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Pancreatic Ductal",Disease,"Carcinoma, Pancreatic Ductal",MESH:D021441,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Papillary",Disease,"Carcinoma, Papillary",MESH:D002291,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Renal Cell",Disease,"Carcinoma, Renal Cell",MESH:D002292,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Small Cell",Disease,"Carcinoma, Small Cell",MESH:D018288,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Squamous Cell",Disease,"Carcinoma, Squamous Cell",MESH:D002294,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Carcinoma, Transitional Cell",Disease,"Carcinoma, Transitional Cell",MESH:D002295,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Cardiac Complexes, Premature",Disease,"Cardiac Complexes, Premature",MESH:D005117,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Cardiac Conduction System Disease,Disease,Cardiac Conduction System Disease,MESH:D000075224,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Cardiac Output, High",Disease,"Cardiac Output, High",MESH:D016534,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Cardiac Tamponade,Disease,Cardiac Tamponade,MESH:D002305,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Cardiovascular Abnormalities,Disease,Cardiovascular Abnormalities,MESH:D018376,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Cardiovascular Diseases,Disease,Cardiovascular Diseases,MESH:D002318,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Central Nervous System Neoplasms,Disease,Central Nervous System Neoplasms,MESH:D016543,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Cerebrovascular Disorders,Disease,Cerebrovascular Disorders,MESH:D002561,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Cholangiocarcinoma,Disease,Cholangiocarcinoma,MESH:D018281,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Cholestasis, Intrahepatic",Disease,"Cholestasis, Intrahepatic",MESH:D002780,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Choriocarcinoma,Disease,Choriocarcinoma,MESH:D002822,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Colonic Neoplasms,Disease,Colonic Neoplasms,MESH:D003110,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Colorectal Neoplasms,Disease,Colorectal Neoplasms,MESH:D015179,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Congenital Hypothyroidism,Disease,Congenital Hypothyroidism,MESH:D003409,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Death, Sudden, Cardiac",Disease,"Death, Sudden, Cardiac",MESH:D016757,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Dementia, Vascular",Disease,"Dementia, Vascular",MESH:D015140,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Desmoid Tumors,Disease,Desmoid Tumors,MESH:D018222,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Disseminated Intravascular Coagulation,Disease,Disseminated Intravascular Coagulation,MESH:D004211,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Edema, Cardiac",Disease,"Edema, Cardiac",MESH:D004489,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Encephalomyelitis, Autoimmune, Experimental",Disease,"Encephalomyelitis, Autoimmune, Experimental",MESH:D004681,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Endometrial Neoplasms,Disease,Endometrial Neoplasms,MESH:D016889,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Esophageal Neoplasms,Disease,Esophageal Neoplasms,MESH:D004938,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Esophageal Squamous Cell Carcinoma,Disease,Esophageal Squamous Cell Carcinoma,MESH:D000077277,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Euthyroid Sick Syndromes,Disease,Euthyroid Sick Syndromes,MESH:D005067,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Fallopian Tube Neoplasms,Disease,Fallopian Tube Neoplasms,MESH:D005185,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Gallbladder Neoplasms,Disease,Gallbladder Neoplasms,MESH:D005706,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Gastrointestinal Neoplasms,Disease,Gastrointestinal Neoplasms,MESH:D005770,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Gastrointestinal Stromal Tumors,Disease,Gastrointestinal Stromal Tumors,MESH:D046152,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Genital Neoplasms, Female",Disease,"Genital Neoplasms, Female",MESH:D005833,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Glycosuria, Renal",Disease,"Glycosuria, Renal",MESH:D006030,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Granulosa cell tumor of the ovary,Disease,Granulosa cell tumor of the ovary,MESH:C537296,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Head and Neck Neoplasms,Disease,Head and Neck Neoplasms,MESH:D006258,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Hematologic Neoplasms,Disease,Hematologic Neoplasms,MESH:D019337,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Hepatic Encephalopathy,Disease,Hepatic Encephalopathy,MESH:D006501,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Hepatic Insufficiency,Disease,Hepatic Insufficiency,MESH:D048550,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Hepatic Veno-Occlusive Disease,Disease,Hepatic Veno-Occlusive Disease,MESH:D006504,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Hepatitis, Autoimmune",Disease,"Hepatitis, Autoimmune",MESH:D019693,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Hypertension,Disease,Hypertension,MESH:D006973,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Hypertension, Portal",Disease,"Hypertension, Portal",MESH:D006975,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Hypertension, Pregnancy-Induced",Disease,"Hypertension, Pregnancy-Induced",MESH:D046110,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Hypertension, Pulmonary",Disease,"Hypertension, Pulmonary",MESH:D006976,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Hypertension, Renovascular",Disease,"Hypertension, Renovascular",MESH:D006978,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Hyperthyroidism,Disease,Hyperthyroidism,MESH:D006980,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Hypomagnesemia 2, renal",Disease,"Hypomagnesemia 2, renal",MESH:C537152,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Hypothyroidism,Disease,Hypothyroidism,MESH:D007037,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Immune Complex Diseases,Disease,Immune Complex Diseases,MESH:D007105,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Immune System Diseases,Disease,Immune System Diseases,MESH:D007154,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Inflammatory Breast Neoplasms,Disease,Inflammatory Breast Neoplasms,MESH:D058922,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Intestinal Neoplasms,Disease,Intestinal Neoplasms,MESH:D007414,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Intracranial Hypertension,Disease,Intracranial Hypertension,MESH:D019586,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Kidney Neoplasms,Disease,Kidney Neoplasms,MESH:D007680,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Laryngeal Neoplasms,Disease,Laryngeal Neoplasms,MESH:D007822,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Leukemia,Disease,Leukemia,MESH:D007938,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Experimental",Disease,"Leukemia, Experimental",MESH:D007942,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Lymphocytic, Chronic, B-Cell",Disease,"Leukemia, Lymphocytic, Chronic, B-Cell",MESH:D015451,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Lymphoid",Disease,"Leukemia, Lymphoid",MESH:D007945,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia-Lymphoma, Adult T-Cell",Disease,"Leukemia-Lymphoma, Adult T-Cell",MESH:D015459,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Monocytic, Acute",Disease,"Leukemia, Monocytic, Acute",MESH:D007948,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",Disease,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",MESH:D015464,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Myeloid",Disease,"Leukemia, Myeloid",MESH:D007951,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Myeloid, Acute",Disease,"Leukemia, Myeloid, Acute",marker/mechanism;MESH:D015470,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Myeloid, Chronic-Phase",Disease,"Leukemia, Myeloid, Chronic-Phase",MESH:D015466,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Myelomonocytic, Chronic",Disease,"Leukemia, Myelomonocytic, Chronic",MESH:D015477,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, Promyelocytic, Acute",Disease,"Leukemia, Promyelocytic, Acute",marker/mechanism;MESH:D015473,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Leukemia, T-Cell",Disease,"Leukemia, T-Cell",MESH:D015458,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Leydig Cell Tumor,Disease,Leydig Cell Tumor,MESH:D007984,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Liver Neoplasms,Disease,Liver Neoplasms,MESH:D008113,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Liver Neoplasms, Experimental",Disease,"Liver Neoplasms, Experimental",MESH:D008114,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Lung agenesis,Disease,Lung agenesis,MESH:C562992,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Lung Diseases,Disease,Lung Diseases,MESH:D008171,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lung Diseases, Interstitial",Disease,"Lung Diseases, Interstitial",MESH:D017563,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Lung Injury,Disease,Lung Injury,MESH:D055370,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Lung Neoplasms,Disease,Lung Neoplasms,MESH:D008175,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Lymphatic Metastasis,Disease,Lymphatic Metastasis,MESH:D008207,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Lymphoma,Disease,Lymphoma,MESH:D008223,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, AIDS-Related",Disease,"Lymphoma, AIDS-Related",MESH:D016483,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, B-Cell",Disease,"Lymphoma, B-Cell",MESH:D016393,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, Large B-Cell, Diffuse",Disease,"Lymphoma, Large B-Cell, Diffuse",MESH:D016403,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, Large-Cell, Anaplastic",Disease,"Lymphoma, Large-Cell, Anaplastic",MESH:D017728,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, Mantle-Cell",Disease,"Lymphoma, Mantle-Cell",MESH:D020522,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, Non-Hodgkin",Disease,"Lymphoma, Non-Hodgkin",MESH:D008228,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, T-Cell",Disease,"Lymphoma, T-Cell",MESH:D016399,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, T-Cell, Cutaneous",Disease,"Lymphoma, T-Cell, Cutaneous",MESH:D016410,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Lymphoma, T-Cell, Peripheral",Disease,"Lymphoma, T-Cell, Peripheral",MESH:D016411,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Male Germ Cell Tumor,Disease,Male Germ Cell Tumor,MESH:C564777,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Mammary Neoplasms, Animal",Disease,"Mammary Neoplasms, Animal",MESH:D015674,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Mammary Neoplasms, Experimental",Disease,"Mammary Neoplasms, Experimental",MESH:D008325,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Massive Hepatic Necrosis,Disease,Massive Hepatic Necrosis,MESH:D047508,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Maxillary Sinus Neoplasms,Disease,Maxillary Sinus Neoplasms,MESH:D008444,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Mouth Neoplasms,Disease,Mouth Neoplasms,MESH:D009062,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Nasopharyngeal Carcinoma,Disease,Nasopharyngeal Carcinoma,MESH:D000077274,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Nasopharyngeal Neoplasms,Disease,Nasopharyngeal Neoplasms,MESH:D009303,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Neoplasm Invasiveness,Disease,Neoplasm Invasiveness,MESH:D009361,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Neoplasm Metastasis,Disease,Neoplasm Metastasis,MESH:D009362,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Neoplasm Recurrence, Local",Disease,"Neoplasm Recurrence, Local",MESH:D009364,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Neoplasms,Disease,Neoplasms,MESH:D009369,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Neoplasms, Experimental",Disease,"Neoplasms, Experimental",MESH:D009374,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Neoplasms, Germ Cell and Embryonal",Disease,"Neoplasms, Germ Cell and Embryonal",MESH:D009373,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Neoplasms, Glandular and Epithelial",Disease,"Neoplasms, Glandular and Epithelial",MESH:D009375,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Neovascularization, Pathologic",Disease,"Neovascularization, Pathologic",MESH:D009389,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Neuroectodermal Tumors,Disease,Neuroectodermal Tumors,MESH:D017599,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Neuroendocrine Tumors,Disease,Neuroendocrine Tumors,MESH:D018358,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Neutropenia,Disease,Neutropenia,MESH:D009503,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Nonseminomatous germ cell tumor,Disease,Nonseminomatous germ cell tumor,MESH:C537844,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Nose Neoplasms,Disease,Nose Neoplasms,MESH:D009669,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Ocular Hypertension,Disease,Ocular Hypertension,MESH:D009798,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Ovarian Neoplasms,Disease,Ovarian Neoplasms,MESH:D010051,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Pancreatic cancer, adult",Disease,"Pancreatic cancer, adult",MESH:C535836,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Pancreatic Neoplasms,Disease,Pancreatic Neoplasms,MESH:D010190,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Paraganglioma, Extra-Adrenal",Disease,"Paraganglioma, Extra-Adrenal",MESH:D010236,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Peripheral Vascular Diseases,Disease,Peripheral Vascular Diseases,MESH:D016491,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Pharyngeal Neoplasms,Disease,Pharyngeal Neoplasms,MESH:D010610,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Pituitary Neoplasms,Disease,Pituitary Neoplasms,MESH:D010911,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Pleural Neoplasms,Disease,Pleural Neoplasms,MESH:D010997,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Porphyrias, Hepatic",Disease,"Porphyrias, Hepatic",MESH:D017094,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Precancerous Conditions,Disease,Precancerous Conditions,MESH:D011230,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D015452,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Precursor Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor Cell Lymphoblastic Leukemia-Lymphoma,marker/mechanism;MESH:D054198,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054218,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Prostatic Neoplasms,Disease,Prostatic Neoplasms,MESH:D011471,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Pseudotumor Cerebri,Disease,Pseudotumor Cerebri,MESH:D011559,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Rectal Neoplasms,Disease,Rectal Neoplasms,MESH:D012004,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Renal Artery Obstruction,Disease,Renal Artery Obstruction,MESH:D012078,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Renal Insufficiency,Disease,Renal Insufficiency,MESH:D051437,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Renal Insufficiency, Chronic",Disease,"Renal Insufficiency, Chronic",MESH:D051436,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Salivary Gland Neoplasms,Disease,Salivary Gland Neoplasms,MESH:D012468,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Sebaceous Gland Neoplasms,Disease,Sebaceous Gland Neoplasms,MESH:D012626,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Sinus Arrest, Cardiac",Disease,"Sinus Arrest, Cardiac",MESH:D054138,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Skin Neoplasms,Disease,Skin Neoplasms,MESH:D012878,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Small Cell Lung Carcinoma,Disease,Small Cell Lung Carcinoma,MESH:D055752,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Squamous Cell Carcinoma of Head and Neck,Disease,Squamous Cell Carcinoma of Head and Neck,MESH:D000077195,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Stomach Neoplasms,Disease,Stomach Neoplasms,MESH:D013274,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Testicular Germ Cell Tumor,Disease,Testicular Germ Cell Tumor,MESH:C563236,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Testicular Neoplasms,Disease,Testicular Neoplasms,MESH:D013736,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Thyroid cancer, follicular",Disease,"Thyroid cancer, follicular",MESH:C572845,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Thyroid Diseases,Disease,Thyroid Diseases,MESH:D013959,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Thyroid Dysgenesis,Disease,Thyroid Dysgenesis,MESH:D050033,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),"Thyroid Hormone Metabolism, Abnormal",Disease,"Thyroid Hormone Metabolism, Abnormal",MESH:C566454,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Thyroid Neoplasms,Disease,Thyroid Neoplasms,MESH:D013964,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Tongue Neoplasms,Disease,Tongue Neoplasms,MESH:D014062,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Tracheal Neoplasms,Disease,Tracheal Neoplasms,MESH:D014134,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Triple Negative Breast Neoplasms,Disease,Triple Negative Breast Neoplasms,MESH:D064726,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Ureteral Neoplasms,Disease,Ureteral Neoplasms,MESH:D014516,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Urethral Neoplasms,Disease,Urethral Neoplasms,MESH:D014523,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Urinary Bladder Neoplasms,Disease,Urinary Bladder Neoplasms,MESH:D001749,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Urogenital Neoplasms,Disease,Urogenital Neoplasms,MESH:D014565,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Urologic Neoplasms,Disease,Urologic Neoplasms,MESH:D014571,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Uterine Cervical Neoplasms,Disease,Uterine Cervical Neoplasms,MESH:D002583,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Uterine Neoplasms,Disease,Uterine Neoplasms,MESH:D014594,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Uveal Neoplasms,Disease,Uveal Neoplasms,MESH:D014604,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Vaginal Neoplasms,Disease,Vaginal Neoplasms,MESH:D014625,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Vascular Calcification,Disease,Vascular Calcification,MESH:D061205,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Vascular Diseases,Disease,Vascular Diseases,MESH:D014652,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Vascular Malformations,Disease,Vascular Malformations,MESH:D054079,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Vascular Remodeling,Disease,Vascular Remodeling,MESH:D066253,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Vascular System Injuries,Disease,Vascular System Injuries,MESH:D057772,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Wilms Tumor,Disease,Wilms Tumor,MESH:D009396,CTD
+Tyrosine-protein kinase JAK2 (human),"Acidosis, Renal Tubular",Disease,"Acidosis, Renal Tubular",MESH:D000141,CTD
+Tyrosine-protein kinase JAK2 (human),Acute Lung Injury,Disease,Acute Lung Injury,MESH:D055371,CTD
+Tyrosine-protein kinase JAK2 (human),Adenocarcinoma,Disease,Adenocarcinoma,MESH:D000230,CTD
+Tyrosine-protein kinase JAK2 (human),"Adenocarcinoma, Bronchiolo-Alveolar",Disease,"Adenocarcinoma, Bronchiolo-Alveolar",MESH:D002282,CTD
+Tyrosine-protein kinase JAK2 (human),"Adenocarcinoma, Clear Cell",Disease,"Adenocarcinoma, Clear Cell",MESH:D018262,CTD
+Tyrosine-protein kinase JAK2 (human),"Adenocarcinoma, Mucinous",Disease,"Adenocarcinoma, Mucinous",MESH:D002288,CTD
+Tyrosine-protein kinase JAK2 (human),Adenocarcinoma of Lung,Disease,Adenocarcinoma of Lung,MESH:D000077192,CTD
+Tyrosine-protein kinase JAK2 (human),Adrenal Cortex Diseases,Disease,Adrenal Cortex Diseases,MESH:D000303,CTD
+Tyrosine-protein kinase JAK2 (human),Adrenal Cortex Neoplasms,Disease,Adrenal Cortex Neoplasms,MESH:D000306,CTD
+Tyrosine-protein kinase JAK2 (human),Adrenal Gland Diseases,Disease,Adrenal Gland Diseases,MESH:D000307,CTD
+Tyrosine-protein kinase JAK2 (human),Adrenal Gland Neoplasms,Disease,Adrenal Gland Neoplasms,MESH:D000310,CTD
+Tyrosine-protein kinase JAK2 (human),"Adrenal Hyperplasia, Congenital",Disease,"Adrenal Hyperplasia, Congenital",MESH:D000312,CTD
+Tyrosine-protein kinase JAK2 (human),Adrenal Insufficiency,Disease,Adrenal Insufficiency,MESH:D000309,CTD
+Tyrosine-protein kinase JAK2 (human),Adrenocortical Carcinoma,Disease,Adrenocortical Carcinoma,MESH:D018268,CTD
+Tyrosine-protein kinase JAK2 (human),Anemia,Disease,Anemia,MESH:D000740,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Aplastic",Disease,"Anemia, Aplastic",MESH:D000741,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Hemolytic",Disease,"Anemia, Hemolytic",MESH:D000743,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Hemolytic, Autoimmune",Disease,"Anemia, Hemolytic, Autoimmune",MESH:D000744,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Hypochromic",Disease,"Anemia, Hypochromic",MESH:D000747,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Iron-Deficiency",Disease,"Anemia, Iron-Deficiency",MESH:D018798,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Macrocytic",Disease,"Anemia, Macrocytic",MESH:D000748,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Megaloblastic",Disease,"Anemia, Megaloblastic",MESH:D000749,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Refractory, with Excess of Blasts",Disease,"Anemia, Refractory, with Excess of Blasts",MESH:D000754,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Sickle Cell",Disease,"Anemia, Sickle Cell",MESH:D000755,CTD
+Tyrosine-protein kinase JAK2 (human),"Anemia, Sideroblastic",Disease,"Anemia, Sideroblastic",MESH:D000756,CTD
+Tyrosine-protein kinase JAK2 (human),Anus Neoplasms,Disease,Anus Neoplasms,MESH:D001005,CTD
+Tyrosine-protein kinase JAK2 (human),"Arrhythmias, Cardiac",Disease,"Arrhythmias, Cardiac",MESH:D001145,CTD
+Tyrosine-protein kinase JAK2 (human),Autoimmune Diseases,Disease,Autoimmune Diseases,MESH:D001327,CTD
+Tyrosine-protein kinase JAK2 (human),Basal Cell Carcinoma,Disease,Basal Cell Carcinoma,MESH:D002280,CTD
+Tyrosine-protein kinase JAK2 (human),Basal Ganglia Cerebrovascular Disease,Disease,Basal Ganglia Cerebrovascular Disease,MESH:D020144,CTD
+Tyrosine-protein kinase JAK2 (human),Bone Marrow Neoplasms,Disease,Bone Marrow Neoplasms,MESH:D019046,CTD
+Tyrosine-protein kinase JAK2 (human),Bone Neoplasms,Disease,Bone Neoplasms,MESH:D001859,CTD
+Tyrosine-protein kinase JAK2 (human),Brachydactyly with hypertension,Disease,Brachydactyly with hypertension,MESH:C537095,CTD
+Tyrosine-protein kinase JAK2 (human),Brain Neoplasms,Disease,Brain Neoplasms,MESH:D001932,CTD
+Tyrosine-protein kinase JAK2 (human),Breast Neoplasms,Disease,Breast Neoplasms,MESH:D001943,CTD
+Tyrosine-protein kinase JAK2 (human),"Breast Neoplasms, Male",Disease,"Breast Neoplasms, Male",MESH:D018567,CTD
+Tyrosine-protein kinase JAK2 (human),Bronchial Neoplasms,Disease,Bronchial Neoplasms,MESH:D001984,CTD
+Tyrosine-protein kinase JAK2 (human),Burkitt Lymphoma,Disease,Burkitt Lymphoma,MESH:D002051,CTD
+Tyrosine-protein kinase JAK2 (human),Carcinoid Tumor,Disease,Carcinoid Tumor,MESH:D002276,CTD
+Tyrosine-protein kinase JAK2 (human),Carcinoma,Disease,Carcinoma,MESH:D002277,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Adenosquamous",Disease,"Carcinoma, Adenosquamous",MESH:D018196,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Bronchogenic",Disease,"Carcinoma, Bronchogenic",MESH:D002283,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Ductal",Disease,"Carcinoma, Ductal",MESH:D044584,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Ductal, Breast",Disease,"Carcinoma, Ductal, Breast",MESH:D018270,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Ehrlich Tumor",Disease,"Carcinoma, Ehrlich Tumor",MESH:D002286,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Embryonal",Disease,"Carcinoma, Embryonal",MESH:D018236,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Endometrioid",Disease,"Carcinoma, Endometrioid",MESH:D018269,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Hepatocellular",Disease,"Carcinoma, Hepatocellular",MESH:D006528,CTD
+Tyrosine-protein kinase JAK2 (human),Carcinoma in Situ,Disease,Carcinoma in Situ,MESH:D002278,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Islet Cell",Disease,"Carcinoma, Islet Cell",MESH:D018273,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Large Cell",Disease,"Carcinoma, Large Cell",MESH:D018287,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Lewis Lung",Disease,"Carcinoma, Lewis Lung",MESH:D018827,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Lobular",Disease,"Carcinoma, Lobular",MESH:D018275,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Merkel Cell",Disease,"Carcinoma, Merkel Cell",MESH:D015266,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Non-Small-Cell Lung",Disease,"Carcinoma, Non-Small-Cell Lung",MESH:D002289,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Ovarian Epithelial",Disease,"Carcinoma, Ovarian Epithelial",MESH:D000077216,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Pancreatic Ductal",Disease,"Carcinoma, Pancreatic Ductal",MESH:D021441,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Papillary",Disease,"Carcinoma, Papillary",MESH:D002291,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Renal Cell",Disease,"Carcinoma, Renal Cell",MESH:D002292,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Small Cell",Disease,"Carcinoma, Small Cell",MESH:D018288,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Squamous Cell",Disease,"Carcinoma, Squamous Cell",MESH:D002294,CTD
+Tyrosine-protein kinase JAK2 (human),"Carcinoma, Transitional Cell",Disease,"Carcinoma, Transitional Cell",MESH:D002295,CTD
+Tyrosine-protein kinase JAK2 (human),"Cardiac Complexes, Premature",Disease,"Cardiac Complexes, Premature",MESH:D005117,CTD
+Tyrosine-protein kinase JAK2 (human),Cardiac Conduction System Disease,Disease,Cardiac Conduction System Disease,MESH:D000075224,CTD
+Tyrosine-protein kinase JAK2 (human),"Cardiac Output, High",Disease,"Cardiac Output, High",MESH:D016534,CTD
+Tyrosine-protein kinase JAK2 (human),"Cardiac Output, Low",Disease,"Cardiac Output, Low",MESH:D002303,CTD
+Tyrosine-protein kinase JAK2 (human),Cardiac Tamponade,Disease,Cardiac Tamponade,MESH:D002305,CTD
+Tyrosine-protein kinase JAK2 (human),Cardiovascular Abnormalities,Disease,Cardiovascular Abnormalities,MESH:D018376,CTD
+Tyrosine-protein kinase JAK2 (human),Cardiovascular Diseases,Disease,Cardiovascular Diseases,MESH:D002318,CTD
+Tyrosine-protein kinase JAK2 (human),Central Nervous System Neoplasms,Disease,Central Nervous System Neoplasms,MESH:D016543,CTD
+Tyrosine-protein kinase JAK2 (human),Cerebrovascular Disorders,Disease,Cerebrovascular Disorders,MESH:D002561,CTD
+Tyrosine-protein kinase JAK2 (human),Cholangiocarcinoma,Disease,Cholangiocarcinoma,MESH:D018281,CTD
+Tyrosine-protein kinase JAK2 (human),"Cholestasis, Extrahepatic",Disease,"Cholestasis, Extrahepatic",MESH:D001651,CTD
+Tyrosine-protein kinase JAK2 (human),"Cholestasis, Intrahepatic",Disease,"Cholestasis, Intrahepatic",MESH:D002780,CTD
+Tyrosine-protein kinase JAK2 (human),"Cholestasis, progressive familial intrahepatic 3",Disease,"Cholestasis, progressive familial intrahepatic 3",MESH:C535935,CTD
+Tyrosine-protein kinase JAK2 (human),Choriocarcinoma,Disease,Choriocarcinoma,MESH:D002822,CTD
+Tyrosine-protein kinase JAK2 (human),Choroidal Neovascularization,Disease,Choroidal Neovascularization,MESH:D020256,CTD
+Tyrosine-protein kinase JAK2 (human),Clear-cell metastatic renal cell carcinoma,Disease,Clear-cell metastatic renal cell carcinoma,MESH:C538445,CTD
+Tyrosine-protein kinase JAK2 (human),Colitis-Associated Neoplasms,Disease,Colitis-Associated Neoplasms,MESH:D000083023,CTD
+Tyrosine-protein kinase JAK2 (human),Colonic Neoplasms,Disease,Colonic Neoplasms,MESH:D003110,CTD
+Tyrosine-protein kinase JAK2 (human),Colorectal Neoplasms,Disease,Colorectal Neoplasms,MESH:D015179,CTD
+Tyrosine-protein kinase JAK2 (human),Congenital Hypothyroidism,Disease,Congenital Hypothyroidism,MESH:D003409,CTD
+Tyrosine-protein kinase JAK2 (human),Conotruncal cardiac defects,Disease,Conotruncal cardiac defects,MESH:C535464,CTD
+Tyrosine-protein kinase JAK2 (human),Corneal Neovascularization,Disease,Corneal Neovascularization,MESH:D016510,CTD
+Tyrosine-protein kinase JAK2 (human),Cystadenocarcinoma,Disease,Cystadenocarcinoma,MESH:D003536,CTD
+Tyrosine-protein kinase JAK2 (human),"Death, Sudden, Cardiac",Disease,"Death, Sudden, Cardiac",MESH:D016757,CTD
+Tyrosine-protein kinase JAK2 (human),"Dementia, Vascular",Disease,"Dementia, Vascular",MESH:D015140,CTD
+Tyrosine-protein kinase JAK2 (human),Desmoid Tumors,Disease,Desmoid Tumors,MESH:D018222,CTD
+Tyrosine-protein kinase JAK2 (human),Desmoplastic Small Round Cell Tumor,Disease,Desmoplastic Small Round Cell Tumor,MESH:D058405,CTD
+Tyrosine-protein kinase JAK2 (human),Disseminated Intravascular Coagulation,Disease,Disseminated Intravascular Coagulation,MESH:D004211,CTD
+Tyrosine-protein kinase JAK2 (human),"Edema, Cardiac",Disease,"Edema, Cardiac",MESH:D004489,CTD
+Tyrosine-protein kinase JAK2 (human),"Encephalomyelitis, Autoimmune, Experimental",Disease,"Encephalomyelitis, Autoimmune, Experimental",MESH:D004681,CTD
+Tyrosine-protein kinase JAK2 (human),Endocrine Gland Neoplasms,Disease,Endocrine Gland Neoplasms,MESH:D004701,CTD
+Tyrosine-protein kinase JAK2 (human),Endometrial Neoplasms,Disease,Endometrial Neoplasms,MESH:D016889,CTD
+Tyrosine-protein kinase JAK2 (human),Esophageal Neoplasms,Disease,Esophageal Neoplasms,MESH:D004938,CTD
+Tyrosine-protein kinase JAK2 (human),Esophageal Squamous Cell Carcinoma,Disease,Esophageal Squamous Cell Carcinoma,MESH:D000077277,CTD
+Tyrosine-protein kinase JAK2 (human),Essential Hypertension,Disease,Essential Hypertension,MESH:D000075222,CTD
+Tyrosine-protein kinase JAK2 (human),Euthyroid Sick Syndromes,Disease,Euthyroid Sick Syndromes,MESH:D005067,CTD
+Tyrosine-protein kinase JAK2 (human),Fallopian Tube Neoplasms,Disease,Fallopian Tube Neoplasms,MESH:D005185,CTD
+Tyrosine-protein kinase JAK2 (human),Familial primary gastric lymphoma,Disease,Familial primary gastric lymphoma,MESH:C535648,CTD
+Tyrosine-protein kinase JAK2 (human),Fanconi Anemia,Disease,Fanconi Anemia,MESH:D005199,CTD
+Tyrosine-protein kinase JAK2 (human),Gallbladder Neoplasms,Disease,Gallbladder Neoplasms,MESH:D005706,CTD
+Tyrosine-protein kinase JAK2 (human),Gastrointestinal Neoplasms,Disease,Gastrointestinal Neoplasms,MESH:D005770,CTD
+Tyrosine-protein kinase JAK2 (human),Gastrointestinal Stromal Tumors,Disease,Gastrointestinal Stromal Tumors,MESH:D046152,CTD
+Tyrosine-protein kinase JAK2 (human),"Genital Neoplasms, Female",Disease,"Genital Neoplasms, Female",MESH:D005833,CTD
+Tyrosine-protein kinase JAK2 (human),"Genital Neoplasms, Male",Disease,"Genital Neoplasms, Male",MESH:D005834,CTD
+Tyrosine-protein kinase JAK2 (human),Giant Cell Tumor of Bone,Disease,Giant Cell Tumor of Bone,MESH:D018212,CTD
+Tyrosine-protein kinase JAK2 (human),"Glycosuria, Renal",Disease,"Glycosuria, Renal",MESH:D006030,CTD
+Tyrosine-protein kinase JAK2 (human),Granulosa cell tumor of the ovary,Disease,Granulosa cell tumor of the ovary,MESH:C537296,CTD
+Tyrosine-protein kinase JAK2 (human),Head and Neck Neoplasms,Disease,Head and Neck Neoplasms,MESH:D006258,CTD
+Tyrosine-protein kinase JAK2 (human),Hematologic Neoplasms,Disease,Hematologic Neoplasms,MESH:D019337,CTD
+Tyrosine-protein kinase JAK2 (human),Hepatic Encephalopathy,Disease,Hepatic Encephalopathy,MESH:D006501,CTD
+Tyrosine-protein kinase JAK2 (human),Hepatic Insufficiency,Disease,Hepatic Insufficiency,MESH:D048550,CTD
+Tyrosine-protein kinase JAK2 (human),Hepatic Veno-Occlusive Disease,Disease,Hepatic Veno-Occlusive Disease,MESH:D006504,CTD
+Tyrosine-protein kinase JAK2 (human),"Hepatitis, Autoimmune",Disease,"Hepatitis, Autoimmune",MESH:D019693,CTD
+Tyrosine-protein kinase JAK2 (human),Hypertension,Disease,Hypertension,MESH:D006973,CTD
+Tyrosine-protein kinase JAK2 (human),"Hypertension, Malignant",Disease,"Hypertension, Malignant",MESH:D006974,CTD
+Tyrosine-protein kinase JAK2 (human),"Hypertension, Portal",Disease,"Hypertension, Portal",MESH:D006975,CTD
+Tyrosine-protein kinase JAK2 (human),"Hypertension, Pregnancy-Induced",Disease,"Hypertension, Pregnancy-Induced",MESH:D046110,CTD
+Tyrosine-protein kinase JAK2 (human),"Hypertension, Pulmonary",Disease,"Hypertension, Pulmonary",MESH:D006976,CTD
+Tyrosine-protein kinase JAK2 (human),"Hypertension, Renal",Disease,"Hypertension, Renal",MESH:D006977,CTD
+Tyrosine-protein kinase JAK2 (human),"Hypertension, Renovascular",Disease,"Hypertension, Renovascular",MESH:D006978,CTD
+Tyrosine-protein kinase JAK2 (human),Hyperthyroidism,Disease,Hyperthyroidism,MESH:D006980,CTD
+Tyrosine-protein kinase JAK2 (human),"Hypomagnesemia 2, renal",Disease,"Hypomagnesemia 2, renal",MESH:C537152,CTD
+Tyrosine-protein kinase JAK2 (human),Hypothyroidism,Disease,Hypothyroidism,MESH:D007037,CTD
+Tyrosine-protein kinase JAK2 (human),Idiopathic intracranial hypertension with papilledema,Disease,Idiopathic intracranial hypertension with papilledema,MESH:C531795,CTD
+Tyrosine-protein kinase JAK2 (human),Immune Complex Diseases,Disease,Immune Complex Diseases,MESH:D007105,CTD
+Tyrosine-protein kinase JAK2 (human),IMMUNE SUPPRESSION,Disease,IMMUNE SUPPRESSION,OMIM:146850,CTD
+Tyrosine-protein kinase JAK2 (human),Immune System Diseases,Disease,Immune System Diseases,MESH:D007154,CTD
+Tyrosine-protein kinase JAK2 (human),Inflammatory Breast Neoplasms,Disease,Inflammatory Breast Neoplasms,MESH:D058922,CTD
+Tyrosine-protein kinase JAK2 (human),Intestinal Neoplasms,Disease,Intestinal Neoplasms,MESH:D007414,CTD
+Tyrosine-protein kinase JAK2 (human),Intracranial Hypertension,Disease,Intracranial Hypertension,MESH:D019586,CTD
+Tyrosine-protein kinase JAK2 (human),Kidney Neoplasms,Disease,Kidney Neoplasms,MESH:D007680,CTD
+Tyrosine-protein kinase JAK2 (human),Laryngeal Neoplasms,Disease,Laryngeal Neoplasms,MESH:D007822,CTD
+Tyrosine-protein kinase JAK2 (human),Leukemia,Disease,Leukemia,marker/mechanism;MESH:D007938,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Erythroblastic, Acute",Disease,"Leukemia, Erythroblastic, Acute",MESH:D004915,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Experimental",Disease,"Leukemia, Experimental",MESH:D007942,CTD
+Tyrosine-protein kinase JAK2 (human),Leukemia L1210,Disease,Leukemia L1210,MESH:D007939,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Large Granular Lymphocytic",Disease,"Leukemia, Large Granular Lymphocytic",MESH:D054066,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Lymphocytic, Chronic, B-Cell",Disease,"Leukemia, Lymphocytic, Chronic, B-Cell",MESH:D015451,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Lymphoid",Disease,"Leukemia, Lymphoid",MESH:D007945,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia-Lymphoma, Adult T-Cell",Disease,"Leukemia-Lymphoma, Adult T-Cell",MESH:D015459,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Monocytic, Acute",Disease,"Leukemia, Monocytic, Acute",MESH:D007948,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",Disease,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",MESH:D015464,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Myeloid",Disease,"Leukemia, Myeloid",MESH:D007951,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Myeloid, Acute",Disease,"Leukemia, Myeloid, Acute",marker/mechanism;MESH:D015470,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Myelomonocytic, Acute",Disease,"Leukemia, Myelomonocytic, Acute",MESH:D015479,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Myelomonocytic, Chronic",Disease,"Leukemia, Myelomonocytic, Chronic",MESH:D015477,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Plasma Cell",Disease,"Leukemia, Plasma Cell",MESH:D007952,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, Promyelocytic, Acute",Disease,"Leukemia, Promyelocytic, Acute",MESH:D015473,CTD
+Tyrosine-protein kinase JAK2 (human),"Leukemia, T-Cell",Disease,"Leukemia, T-Cell",MESH:D015458,CTD
+Tyrosine-protein kinase JAK2 (human),Leydig Cell Tumor,Disease,Leydig Cell Tumor,MESH:D007984,CTD
+Tyrosine-protein kinase JAK2 (human),Liver Neoplasms,Disease,Liver Neoplasms,MESH:D008113,CTD
+Tyrosine-protein kinase JAK2 (human),"Liver Neoplasms, Experimental",Disease,"Liver Neoplasms, Experimental",marker/mechanism;MESH:D008114,CTD
+Tyrosine-protein kinase JAK2 (human),Lung agenesis,Disease,Lung agenesis,MESH:C562992,CTD
+Tyrosine-protein kinase JAK2 (human),Lung Diseases,Disease,Lung Diseases,MESH:D008171,CTD
+Tyrosine-protein kinase JAK2 (human),"Lung Diseases, Interstitial",Disease,"Lung Diseases, Interstitial",MESH:D017563,CTD
+Tyrosine-protein kinase JAK2 (human),"Lung Diseases, Obstructive",Disease,"Lung Diseases, Obstructive",MESH:D008173,CTD
+Tyrosine-protein kinase JAK2 (human),"Lung Diseases, Parasitic",Disease,"Lung Diseases, Parasitic",MESH:D008174,CTD
+Tyrosine-protein kinase JAK2 (human),Lung Injury,Disease,Lung Injury,MESH:D055370,CTD
+Tyrosine-protein kinase JAK2 (human),Lung Neoplasms,Disease,Lung Neoplasms,MESH:D008175,CTD
+Tyrosine-protein kinase JAK2 (human),Lymphatic Metastasis,Disease,Lymphatic Metastasis,MESH:D008207,CTD
+Tyrosine-protein kinase JAK2 (human),Lymphoma,Disease,Lymphoma,MESH:D008223,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, AIDS-Related",Disease,"Lymphoma, AIDS-Related",MESH:D016483,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, B-Cell",Disease,"Lymphoma, B-Cell",MESH:D016393,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, Extranodal NK-T-Cell",Disease,"Lymphoma, Extranodal NK-T-Cell",MESH:D054391,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, Follicular",Disease,"Lymphoma, Follicular",MESH:D008224,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, Large B-Cell, Diffuse",Disease,"Lymphoma, Large B-Cell, Diffuse",MESH:D016403,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, Mantle-Cell",Disease,"Lymphoma, Mantle-Cell",MESH:D020522,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, Non-Hodgkin",Disease,"Lymphoma, Non-Hodgkin",MESH:D008228,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, T-Cell",Disease,"Lymphoma, T-Cell",MESH:D016399,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, T-Cell, Cutaneous",Disease,"Lymphoma, T-Cell, Cutaneous",MESH:D016410,CTD
+Tyrosine-protein kinase JAK2 (human),"Lymphoma, T-Cell, Peripheral",Disease,"Lymphoma, T-Cell, Peripheral",MESH:D016411,CTD
+Tyrosine-protein kinase JAK2 (human),Male Germ Cell Tumor,Disease,Male Germ Cell Tumor,MESH:C564777,CTD
+Tyrosine-protein kinase JAK2 (human),"Mammary Neoplasms, Animal",Disease,"Mammary Neoplasms, Animal",MESH:D015674,CTD
+Tyrosine-protein kinase JAK2 (human),"Mammary Neoplasms, Experimental",Disease,"Mammary Neoplasms, Experimental",MESH:D008325,CTD
+Tyrosine-protein kinase JAK2 (human),Massive Hepatic Necrosis,Disease,Massive Hepatic Necrosis,MESH:D047508,CTD
+Tyrosine-protein kinase JAK2 (human),Maxillary Sinus Neoplasms,Disease,Maxillary Sinus Neoplasms,MESH:D008444,CTD
+Tyrosine-protein kinase JAK2 (human),Meningeal Carcinomatosis,Disease,Meningeal Carcinomatosis,MESH:D055756,CTD
+Tyrosine-protein kinase JAK2 (human),Mesenteric Vascular Occlusion,Disease,Mesenteric Vascular Occlusion,marker/mechanism;MESH:D008641,CTD
+Tyrosine-protein kinase JAK2 (human),"Mixed Tumor, Mullerian",Disease,"Mixed Tumor, Mullerian",MESH:D018200,CTD
+Tyrosine-protein kinase JAK2 (human),Mouth Neoplasms,Disease,Mouth Neoplasms,MESH:D009062,CTD
+Tyrosine-protein kinase JAK2 (human),Nasopharyngeal Carcinoma,Disease,Nasopharyngeal Carcinoma,MESH:D000077274,CTD
+Tyrosine-protein kinase JAK2 (human),Nasopharyngeal Neoplasms,Disease,Nasopharyngeal Neoplasms,MESH:D009303,CTD
+Tyrosine-protein kinase JAK2 (human),Neoplasm Invasiveness,Disease,Neoplasm Invasiveness,MESH:D009361,CTD
+Tyrosine-protein kinase JAK2 (human),Neoplasm Metastasis,Disease,Neoplasm Metastasis,MESH:D009362,CTD
+Tyrosine-protein kinase JAK2 (human),Neoplasm Micrometastasis,Disease,Neoplasm Micrometastasis,MESH:D061206,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasm Recurrence, Local",Disease,"Neoplasm Recurrence, Local",MESH:D009364,CTD
+Tyrosine-protein kinase JAK2 (human),Neoplasms,Disease,Neoplasms,MESH:D009369,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Bone Tissue",Disease,"Neoplasms, Bone Tissue",MESH:D018213,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Experimental",Disease,"Neoplasms, Experimental",MESH:D009374,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Fibrous Tissue",Disease,"Neoplasms, Fibrous Tissue",MESH:D018218,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Germ Cell and Embryonal",Disease,"Neoplasms, Germ Cell and Embryonal",MESH:D009373,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Glandular and Epithelial",Disease,"Neoplasms, Glandular and Epithelial",MESH:D009375,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Hormone-Dependent",Disease,"Neoplasms, Hormone-Dependent",MESH:D009376,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Radiation-Induced",Disease,"Neoplasms, Radiation-Induced",MESH:D009381,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Second Primary",Disease,"Neoplasms, Second Primary",MESH:D016609,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Squamous Cell",Disease,"Neoplasms, Squamous Cell",MESH:D018307,CTD
+Tyrosine-protein kinase JAK2 (human),"Neoplasms, Unknown Primary",Disease,"Neoplasms, Unknown Primary",MESH:D009382,CTD
+Tyrosine-protein kinase JAK2 (human),"Neovascularization, Pathologic",Disease,"Neovascularization, Pathologic",MESH:D009389,CTD
+Tyrosine-protein kinase JAK2 (human),Nervous System Neoplasms,Disease,Nervous System Neoplasms,MESH:D009423,CTD
+Tyrosine-protein kinase JAK2 (human),"Neuritis, Autoimmune, Experimental",Disease,"Neuritis, Autoimmune, Experimental",MESH:D009444,CTD
+Tyrosine-protein kinase JAK2 (human),Neuroectodermal Tumors,Disease,Neuroectodermal Tumors,MESH:D017599,CTD
+Tyrosine-protein kinase JAK2 (human),"Neuroectodermal Tumors, Primitive",Disease,"Neuroectodermal Tumors, Primitive",MESH:D018242,CTD
+Tyrosine-protein kinase JAK2 (human),"Neuroectodermal Tumors, Primitive, Peripheral",Disease,"Neuroectodermal Tumors, Primitive, Peripheral",MESH:D018241,CTD
+Tyrosine-protein kinase JAK2 (human),Neuroendocrine Tumors,Disease,Neuroendocrine Tumors,MESH:D018358,CTD
+Tyrosine-protein kinase JAK2 (human),Neutropenia,Disease,Neutropenia,MESH:D009503,CTD
+Tyrosine-protein kinase JAK2 (human),Nonseminomatous germ cell tumor,Disease,Nonseminomatous germ cell tumor,MESH:C537844,CTD
+Tyrosine-protein kinase JAK2 (human),Nose Neoplasms,Disease,Nose Neoplasms,MESH:D009669,CTD
+Tyrosine-protein kinase JAK2 (human),Ocular Hypertension,Disease,Ocular Hypertension,MESH:D009798,CTD
+Tyrosine-protein kinase JAK2 (human),Ovarian Neoplasms,Disease,Ovarian Neoplasms,MESH:D010051,CTD
+Tyrosine-protein kinase JAK2 (human),"Pancreatic cancer, adult",Disease,"Pancreatic cancer, adult",MESH:C535836,CTD
+Tyrosine-protein kinase JAK2 (human),Pancreatic Neoplasms,Disease,Pancreatic Neoplasms,MESH:D010190,CTD
+Tyrosine-protein kinase JAK2 (human),"Paraganglioma, Extra-Adrenal",Disease,"Paraganglioma, Extra-Adrenal",MESH:D010236,CTD
+Tyrosine-protein kinase JAK2 (human),Peripheral Vascular Diseases,Disease,Peripheral Vascular Diseases,MESH:D016491,CTD
+Tyrosine-protein kinase JAK2 (human),Pharyngeal Neoplasms,Disease,Pharyngeal Neoplasms,MESH:D010610,CTD
+Tyrosine-protein kinase JAK2 (human),Phyllodes Tumor,Disease,Phyllodes Tumor,MESH:D003557,CTD
+Tyrosine-protein kinase JAK2 (human),Pituitary Neoplasms,Disease,Pituitary Neoplasms,MESH:D010911,CTD
+Tyrosine-protein kinase JAK2 (human),Pleural Neoplasms,Disease,Pleural Neoplasms,MESH:D010997,CTD
+Tyrosine-protein kinase JAK2 (human),"Porphyrias, Hepatic",Disease,"Porphyrias, Hepatic",MESH:D017094,CTD
+Tyrosine-protein kinase JAK2 (human),Precancerous Conditions,Disease,Precancerous Conditions,MESH:D011230,CTD
+Tyrosine-protein kinase JAK2 (human),Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D015452,CTD
+Tyrosine-protein kinase JAK2 (human),Precursor Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054198,CTD
+Tyrosine-protein kinase JAK2 (human),Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054218,CTD
+Tyrosine-protein kinase JAK2 (human),"Pregnancy Complications, Cardiovascular",Disease,"Pregnancy Complications, Cardiovascular",MESH:D011249,CTD
+Tyrosine-protein kinase JAK2 (human),Prostatic Neoplasms,Disease,Prostatic Neoplasms,marker/mechanism;MESH:D011471,CTD
+Tyrosine-protein kinase JAK2 (human),Pseudolymphoma,Disease,Pseudolymphoma,MESH:D019310,CTD
+Tyrosine-protein kinase JAK2 (human),Pseudotumor Cerebri,Disease,Pseudotumor Cerebri,MESH:D011559,CTD
+Tyrosine-protein kinase JAK2 (human),Pulmonary Arterial Hypertension,Disease,Pulmonary Arterial Hypertension,MESH:D000081029,CTD
+Tyrosine-protein kinase JAK2 (human),Rectal Neoplasms,Disease,Rectal Neoplasms,MESH:D012004,CTD
+Tyrosine-protein kinase JAK2 (human),Renal Aminoacidurias,Disease,Renal Aminoacidurias,MESH:D000608,CTD
+Tyrosine-protein kinase JAK2 (human),Renal Artery Obstruction,Disease,Renal Artery Obstruction,MESH:D012078,CTD
+Tyrosine-protein kinase JAK2 (human),Renal hypouricemia,Disease,Renal hypouricemia,MESH:C537757,CTD
+Tyrosine-protein kinase JAK2 (human),Renal Insufficiency,Disease,Renal Insufficiency,MESH:D051437,CTD
+Tyrosine-protein kinase JAK2 (human),"Renal Insufficiency, Chronic",Disease,"Renal Insufficiency, Chronic",MESH:D051436,CTD
+Tyrosine-protein kinase JAK2 (human),Retinal Neovascularization,Disease,Retinal Neovascularization,MESH:D015861,CTD
+Tyrosine-protein kinase JAK2 (human),Salivary Gland Neoplasms,Disease,Salivary Gland Neoplasms,MESH:D012468,CTD
+Tyrosine-protein kinase JAK2 (human),Sebaceous Gland Neoplasms,Disease,Sebaceous Gland Neoplasms,MESH:D012626,CTD
+Tyrosine-protein kinase JAK2 (human),"Sinus Arrest, Cardiac",Disease,"Sinus Arrest, Cardiac",MESH:D054138,CTD
+Tyrosine-protein kinase JAK2 (human),"Skin Diseases, Vascular",Disease,"Skin Diseases, Vascular",MESH:D017445,CTD
+Tyrosine-protein kinase JAK2 (human),Skin Neoplasms,Disease,Skin Neoplasms,MESH:D012878,CTD
+Tyrosine-protein kinase JAK2 (human),Small Cell Lung Carcinoma,Disease,Small Cell Lung Carcinoma,MESH:D055752,CTD
+Tyrosine-protein kinase JAK2 (human),Soft Tissue Neoplasms,Disease,Soft Tissue Neoplasms,MESH:D012983,CTD
+Tyrosine-protein kinase JAK2 (human),Splenic Neoplasms,Disease,Splenic Neoplasms,MESH:D013160,CTD
+Tyrosine-protein kinase JAK2 (human),Squamous Cell Carcinoma of Head and Neck,Disease,Squamous Cell Carcinoma of Head and Neck,MESH:D000077195,CTD
+Tyrosine-protein kinase JAK2 (human),Stomach Neoplasms,Disease,Stomach Neoplasms,MESH:D013274,CTD
+Tyrosine-protein kinase JAK2 (human),Testicular Germ Cell Tumor,Disease,Testicular Germ Cell Tumor,MESH:C563236,CTD
+Tyrosine-protein kinase JAK2 (human),Testicular Neoplasms,Disease,Testicular Neoplasms,MESH:D013736,CTD
+Tyrosine-protein kinase JAK2 (human),"Thyroid cancer, follicular",Disease,"Thyroid cancer, follicular",MESH:C572845,CTD
+Tyrosine-protein kinase JAK2 (human),"Thyroid cancer, medullary",Disease,"Thyroid cancer, medullary",MESH:C536914,CTD
+Tyrosine-protein kinase JAK2 (human),"Thyroid Cancer, Papillary",Disease,"Thyroid Cancer, Papillary",MESH:D000077273,CTD
+Tyrosine-protein kinase JAK2 (human),Thyroid Diseases,Disease,Thyroid Diseases,MESH:D013959,CTD
+Tyrosine-protein kinase JAK2 (human),Thyroid Dysgenesis,Disease,Thyroid Dysgenesis,MESH:D050033,CTD
+Tyrosine-protein kinase JAK2 (human),"Thyroid Hormone Metabolism, Abnormal",Disease,"Thyroid Hormone Metabolism, Abnormal",MESH:C566454,CTD
+Tyrosine-protein kinase JAK2 (human),Thyroid Neoplasms,Disease,Thyroid Neoplasms,MESH:D013964,CTD
+Tyrosine-protein kinase JAK2 (human),Tongue Neoplasms,Disease,Tongue Neoplasms,MESH:D014062,CTD
+Tyrosine-protein kinase JAK2 (human),Tracheal Neoplasms,Disease,Tracheal Neoplasms,MESH:D014134,CTD
+Tyrosine-protein kinase JAK2 (human),Triple Negative Breast Neoplasms,Disease,Triple Negative Breast Neoplasms,MESH:D064726,CTD
+Tyrosine-protein kinase JAK2 (human),Tumor Lysis Syndrome,Disease,Tumor Lysis Syndrome,MESH:D015275,CTD
+Tyrosine-protein kinase JAK2 (human),Ureteral Neoplasms,Disease,Ureteral Neoplasms,MESH:D014516,CTD
+Tyrosine-protein kinase JAK2 (human),Urethral Neoplasms,Disease,Urethral Neoplasms,MESH:D014523,CTD
+Tyrosine-protein kinase JAK2 (human),Urinary Bladder Neoplasms,Disease,Urinary Bladder Neoplasms,marker/mechanism;MESH:D001749,CTD
+Tyrosine-protein kinase JAK2 (human),Urogenital Neoplasms,Disease,Urogenital Neoplasms,MESH:D014565,CTD
+Tyrosine-protein kinase JAK2 (human),Urologic Neoplasms,Disease,Urologic Neoplasms,MESH:D014571,CTD
+Tyrosine-protein kinase JAK2 (human),Uterine Cervical Neoplasms,Disease,Uterine Cervical Neoplasms,marker/mechanism;MESH:D002583,CTD
+Tyrosine-protein kinase JAK2 (human),Uterine Neoplasms,Disease,Uterine Neoplasms,MESH:D014594,CTD
+Tyrosine-protein kinase JAK2 (human),Uveal Neoplasms,Disease,Uveal Neoplasms,MESH:D014604,CTD
+Tyrosine-protein kinase JAK2 (human),Vaginal Neoplasms,Disease,Vaginal Neoplasms,MESH:D014625,CTD
+Tyrosine-protein kinase JAK2 (human),Vascular Calcification,Disease,Vascular Calcification,MESH:D061205,CTD
+Tyrosine-protein kinase JAK2 (human),Vascular Diseases,Disease,Vascular Diseases,MESH:D014652,CTD
+Tyrosine-protein kinase JAK2 (human),Vascular Headaches,Disease,Vascular Headaches,MESH:D014653,CTD
+Tyrosine-protein kinase JAK2 (human),Vascular Malformations,Disease,Vascular Malformations,MESH:D054079,CTD
+Tyrosine-protein kinase JAK2 (human),Vascular Neoplasms,Disease,Vascular Neoplasms,MESH:D019043,CTD
+Tyrosine-protein kinase JAK2 (human),Vascular Remodeling,Disease,Vascular Remodeling,MESH:D066253,CTD
+Tyrosine-protein kinase JAK2 (human),Vascular System Injuries,Disease,Vascular System Injuries,MESH:D057772,CTD
+Tyrosine-protein kinase JAK2 (human),Vulvar Neoplasms,Disease,Vulvar Neoplasms,MESH:D014846,CTD
+Tyrosine-protein kinase JAK2 (human),Wilms Tumor,Disease,Wilms Tumor,MESH:D009396,CTD
+KDR - kinase insert domain receptor (human),Abdominal Neoplasms,Disease,Abdominal Neoplasms,MESH:D000008,CTD
+KDR - kinase insert domain receptor (human),"Acidosis, Renal Tubular",Disease,"Acidosis, Renal Tubular",MESH:D000141,CTD
+KDR - kinase insert domain receptor (human),Acute Lung Injury,Disease,Acute Lung Injury,MESH:D055371,CTD
+KDR - kinase insert domain receptor (human),Adenocarcinoma,Disease,Adenocarcinoma,marker/mechanism;MESH:D000230,CTD
+KDR - kinase insert domain receptor (human),"Adenocarcinoma, Bronchiolo-Alveolar",Disease,"Adenocarcinoma, Bronchiolo-Alveolar",MESH:D002282,CTD
+KDR - kinase insert domain receptor (human),"Adenocarcinoma, Clear Cell",Disease,"Adenocarcinoma, Clear Cell",MESH:D018262,CTD
+KDR - kinase insert domain receptor (human),"Adenocarcinoma, Mucinous",Disease,"Adenocarcinoma, Mucinous",MESH:D002288,CTD
+KDR - kinase insert domain receptor (human),Adenocarcinoma of Lung,Disease,Adenocarcinoma of Lung,MESH:D000077192,CTD
+KDR - kinase insert domain receptor (human),Adrenal Cortex Diseases,Disease,Adrenal Cortex Diseases,MESH:D000303,CTD
+KDR - kinase insert domain receptor (human),Adrenal Cortex Neoplasms,Disease,Adrenal Cortex Neoplasms,MESH:D000306,CTD
+KDR - kinase insert domain receptor (human),Adrenal Gland Diseases,Disease,Adrenal Gland Diseases,MESH:D000307,CTD
+KDR - kinase insert domain receptor (human),Adrenal Gland Neoplasms,Disease,Adrenal Gland Neoplasms,MESH:D000310,CTD
+KDR - kinase insert domain receptor (human),"Adrenal Hyperplasia, Congenital",Disease,"Adrenal Hyperplasia, Congenital",MESH:D000312,CTD
+KDR - kinase insert domain receptor (human),Adrenal Insufficiency,Disease,Adrenal Insufficiency,MESH:D000309,CTD
+KDR - kinase insert domain receptor (human),Adrenocortical Carcinoma,Disease,Adrenocortical Carcinoma,MESH:D018268,CTD
+KDR - kinase insert domain receptor (human),Anemia,Disease,Anemia,MESH:D000740,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Aplastic",Disease,"Anemia, Aplastic",MESH:D000741,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Diamond-Blackfan",Disease,"Anemia, Diamond-Blackfan",MESH:D029503,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Hemolytic",Disease,"Anemia, Hemolytic",MESH:D000743,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Hemolytic, Autoimmune",Disease,"Anemia, Hemolytic, Autoimmune",MESH:D000744,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Hypochromic",Disease,"Anemia, Hypochromic",MESH:D000747,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Iron-Deficiency",Disease,"Anemia, Iron-Deficiency",MESH:D018798,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Macrocytic",Disease,"Anemia, Macrocytic",MESH:D000748,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Megaloblastic",Disease,"Anemia, Megaloblastic",MESH:D000749,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Refractory, with Excess of Blasts",Disease,"Anemia, Refractory, with Excess of Blasts",MESH:D000754,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Sickle Cell",Disease,"Anemia, Sickle Cell",MESH:D000755,CTD
+KDR - kinase insert domain receptor (human),"Anemia, Sideroblastic",Disease,"Anemia, Sideroblastic",MESH:D000756,CTD
+KDR - kinase insert domain receptor (human),Anus Neoplasms,Disease,Anus Neoplasms,MESH:D001005,CTD
+KDR - kinase insert domain receptor (human),"Arrhythmias, Cardiac",Disease,"Arrhythmias, Cardiac",MESH:D001145,CTD
+KDR - kinase insert domain receptor (human),Autoimmune Diseases,Disease,Autoimmune Diseases,MESH:D001327,CTD
+KDR - kinase insert domain receptor (human),Basal Cell Carcinoma,Disease,Basal Cell Carcinoma,MESH:D002280,CTD
+KDR - kinase insert domain receptor (human),Bone Marrow Neoplasms,Disease,Bone Marrow Neoplasms,MESH:D019046,CTD
+KDR - kinase insert domain receptor (human),Bone Neoplasms,Disease,Bone Neoplasms,MESH:D001859,CTD
+KDR - kinase insert domain receptor (human),Brachydactyly with hypertension,Disease,Brachydactyly with hypertension,MESH:C537095,CTD
+KDR - kinase insert domain receptor (human),Brain Neoplasms,Disease,Brain Neoplasms,MESH:D001932,CTD
+KDR - kinase insert domain receptor (human),Breast Neoplasms,Disease,Breast Neoplasms,marker/mechanism;MESH:D001943,CTD
+KDR - kinase insert domain receptor (human),"Breast Neoplasms, Male",Disease,"Breast Neoplasms, Male",MESH:D018567,CTD
+KDR - kinase insert domain receptor (human),Bronchial Neoplasms,Disease,Bronchial Neoplasms,MESH:D001984,CTD
+KDR - kinase insert domain receptor (human),Burkitt Lymphoma,Disease,Burkitt Lymphoma,MESH:D002051,CTD
+KDR - kinase insert domain receptor (human),Carcinoid Tumor,Disease,Carcinoid Tumor,MESH:D002276,CTD
+KDR - kinase insert domain receptor (human),Carcinoma,Disease,Carcinoma,MESH:D002277,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Adenosquamous",Disease,"Carcinoma, Adenosquamous",MESH:D018196,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Bronchogenic",Disease,"Carcinoma, Bronchogenic",MESH:D002283,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Ductal",Disease,"Carcinoma, Ductal",MESH:D044584,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Ductal, Breast",Disease,"Carcinoma, Ductal, Breast",MESH:D018270,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Ehrlich Tumor",Disease,"Carcinoma, Ehrlich Tumor",MESH:D002286,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Embryonal",Disease,"Carcinoma, Embryonal",MESH:D018236,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Endometrioid",Disease,"Carcinoma, Endometrioid",MESH:D018269,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Hepatocellular",Disease,"Carcinoma, Hepatocellular",MESH:D006528,CTD
+KDR - kinase insert domain receptor (human),Carcinoma in Situ,Disease,Carcinoma in Situ,MESH:D002278,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Islet Cell",Disease,"Carcinoma, Islet Cell",MESH:D018273,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Large Cell",Disease,"Carcinoma, Large Cell",MESH:D018287,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Lewis Lung",Disease,"Carcinoma, Lewis Lung",MESH:D018827,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Lobular",Disease,"Carcinoma, Lobular",MESH:D018275,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Merkel Cell",Disease,"Carcinoma, Merkel Cell",MESH:D015266,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Non-Small-Cell Lung",Disease,"Carcinoma, Non-Small-Cell Lung",MESH:D002289,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Ovarian Epithelial",Disease,"Carcinoma, Ovarian Epithelial",MESH:D000077216,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Pancreatic Ductal",Disease,"Carcinoma, Pancreatic Ductal",MESH:D021441,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Papillary",Disease,"Carcinoma, Papillary",MESH:D002291,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Renal Cell",Disease,"Carcinoma, Renal Cell",MESH:D002292,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Signet Ring Cell",Disease,"Carcinoma, Signet Ring Cell",MESH:D018279,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Small Cell",Disease,"Carcinoma, Small Cell",MESH:D018288,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Squamous Cell",Disease,"Carcinoma, Squamous Cell",MESH:D002294,CTD
+KDR - kinase insert domain receptor (human),"Carcinoma, Transitional Cell",Disease,"Carcinoma, Transitional Cell",MESH:D002295,CTD
+KDR - kinase insert domain receptor (human),"Cardiac Complexes, Premature",Disease,"Cardiac Complexes, Premature",MESH:D005117,CTD
+KDR - kinase insert domain receptor (human),Cardiac Conduction System Disease,Disease,Cardiac Conduction System Disease,MESH:D000075224,CTD
+KDR - kinase insert domain receptor (human),"Cardiac Output, High",Disease,"Cardiac Output, High",MESH:D016534,CTD
+KDR - kinase insert domain receptor (human),"Cardiac Output, Low",Disease,"Cardiac Output, Low",MESH:D002303,CTD
+KDR - kinase insert domain receptor (human),Cardiac Tamponade,Disease,Cardiac Tamponade,MESH:D002305,CTD
+KDR - kinase insert domain receptor (human),Cardio-Renal Syndrome,Disease,Cardio-Renal Syndrome,MESH:D059347,CTD
+KDR - kinase insert domain receptor (human),Cardiovascular Abnormalities,Disease,Cardiovascular Abnormalities,MESH:D018376,CTD
+KDR - kinase insert domain receptor (human),Cardiovascular Diseases,Disease,Cardiovascular Diseases,MESH:D002318,CTD
+KDR - kinase insert domain receptor (human),Central Nervous System Neoplasms,Disease,Central Nervous System Neoplasms,MESH:D016543,CTD
+KDR - kinase insert domain receptor (human),Cerebellar Neoplasms,Disease,Cerebellar Neoplasms,MESH:D002528,CTD
+KDR - kinase insert domain receptor (human),Cerebrovascular Disorders,Disease,Cerebrovascular Disorders,MESH:D002561,CTD
+KDR - kinase insert domain receptor (human),Cholangiocarcinoma,Disease,Cholangiocarcinoma,MESH:D018281,CTD
+KDR - kinase insert domain receptor (human),"Cholestasis, Extrahepatic",Disease,"Cholestasis, Extrahepatic",MESH:D001651,CTD
+KDR - kinase insert domain receptor (human),"Cholestasis, Intrahepatic",Disease,"Cholestasis, Intrahepatic",MESH:D002780,CTD
+KDR - kinase insert domain receptor (human),Choriocarcinoma,Disease,Choriocarcinoma,MESH:D002822,CTD
+KDR - kinase insert domain receptor (human),Choroidal Neovascularization,Disease,Choroidal Neovascularization,MESH:D020256,CTD
+KDR - kinase insert domain receptor (human),Clear-cell metastatic renal cell carcinoma,Disease,Clear-cell metastatic renal cell carcinoma,MESH:C538445,CTD
+KDR - kinase insert domain receptor (human),Colonic Neoplasms,Disease,Colonic Neoplasms,MESH:D003110,CTD
+KDR - kinase insert domain receptor (human),Colorectal Neoplasms,Disease,Colorectal Neoplasms,marker/mechanism|therapeutic;MESH:D015179,CTD
+KDR - kinase insert domain receptor (human),Congenital Hypothyroidism,Disease,Congenital Hypothyroidism,MESH:D003409,CTD
+KDR - kinase insert domain receptor (human),Conotruncal cardiac defects,Disease,Conotruncal cardiac defects,MESH:C535464,CTD
+KDR - kinase insert domain receptor (human),Corneal Neovascularization,Disease,Corneal Neovascularization,MESH:D016510,CTD
+KDR - kinase insert domain receptor (human),Cystadenocarcinoma,Disease,Cystadenocarcinoma,MESH:D003536,CTD
+KDR - kinase insert domain receptor (human),"Death, Sudden, Cardiac",Disease,"Death, Sudden, Cardiac",MESH:D016757,CTD
+KDR - kinase insert domain receptor (human),"Dementia, Vascular",Disease,"Dementia, Vascular",MESH:D015140,CTD
+KDR - kinase insert domain receptor (human),Desmoid Tumors,Disease,Desmoid Tumors,MESH:D018222,CTD
+KDR - kinase insert domain receptor (human),Desmoplastic Small Round Cell Tumor,Disease,Desmoplastic Small Round Cell Tumor,MESH:D058405,CTD
+KDR - kinase insert domain receptor (human),"Diabetes Mellitus, Congenital Autoimmune",Disease,"Diabetes Mellitus, Congenital Autoimmune",MESH:C565730,CTD
+KDR - kinase insert domain receptor (human),Disseminated Intravascular Coagulation,Disease,Disseminated Intravascular Coagulation,MESH:D004211,CTD
+KDR - kinase insert domain receptor (human),Duodenal Neoplasms,Disease,Duodenal Neoplasms,MESH:D004379,CTD
+KDR - kinase insert domain receptor (human),Ear Neoplasms,Disease,Ear Neoplasms,MESH:D004428,CTD
+KDR - kinase insert domain receptor (human),"Edema, Cardiac",Disease,"Edema, Cardiac",MESH:D004489,CTD
+KDR - kinase insert domain receptor (human),"Encephalomyelitis, Autoimmune, Experimental",Disease,"Encephalomyelitis, Autoimmune, Experimental",MESH:D004681,CTD
+KDR - kinase insert domain receptor (human),Endometrial Neoplasms,Disease,Endometrial Neoplasms,MESH:D016889,CTD
+KDR - kinase insert domain receptor (human),Esophageal Neoplasms,Disease,Esophageal Neoplasms,marker/mechanism;MESH:D004938,CTD
+KDR - kinase insert domain receptor (human),Esophageal Squamous Cell Carcinoma,Disease,Esophageal Squamous Cell Carcinoma,MESH:D000077277,CTD
+KDR - kinase insert domain receptor (human),Essential Hypertension,Disease,Essential Hypertension,MESH:D000075222,CTD
+KDR - kinase insert domain receptor (human),Euthyroid Sick Syndromes,Disease,Euthyroid Sick Syndromes,MESH:D005067,CTD
+KDR - kinase insert domain receptor (human),Eye Neoplasms,Disease,Eye Neoplasms,marker/mechanism;MESH:D005134,CTD
+KDR - kinase insert domain receptor (human),Familial primary gastric lymphoma,Disease,Familial primary gastric lymphoma,MESH:C535648,CTD
+KDR - kinase insert domain receptor (human),Fanconi Anemia,Disease,Fanconi Anemia,MESH:D005199,CTD
+KDR - kinase insert domain receptor (human),Gallbladder Neoplasms,Disease,Gallbladder Neoplasms,MESH:D005706,CTD
+KDR - kinase insert domain receptor (human),Gastro-enteropancreatic neuroendocrine tumor,Disease,Gastro-enteropancreatic neuroendocrine tumor,MESH:C535650,CTD
+KDR - kinase insert domain receptor (human),Gastrointestinal Neoplasms,Disease,Gastrointestinal Neoplasms,MESH:D005770,CTD
+KDR - kinase insert domain receptor (human),Gastrointestinal Stromal Tumors,Disease,Gastrointestinal Stromal Tumors,MESH:D046152,CTD
+KDR - kinase insert domain receptor (human),"Genital Neoplasms, Female",Disease,"Genital Neoplasms, Female",MESH:D005833,CTD
+KDR - kinase insert domain receptor (human),"Glycosuria, Renal",Disease,"Glycosuria, Renal",MESH:D006030,CTD
+KDR - kinase insert domain receptor (human),Head and Neck Neoplasms,Disease,Head and Neck Neoplasms,MESH:D006258,CTD
+KDR - kinase insert domain receptor (human),Hematologic Neoplasms,Disease,Hematologic Neoplasms,MESH:D019337,CTD
+KDR - kinase insert domain receptor (human),Hepatic Encephalopathy,Disease,Hepatic Encephalopathy,MESH:D006501,CTD
+KDR - kinase insert domain receptor (human),Hepatic Insufficiency,Disease,Hepatic Insufficiency,MESH:D048550,CTD
+KDR - kinase insert domain receptor (human),Hepatic Veno-Occlusive Disease,Disease,Hepatic Veno-Occlusive Disease,MESH:D006504,CTD
+KDR - kinase insert domain receptor (human),"Hepatitis, Autoimmune",Disease,"Hepatitis, Autoimmune",MESH:D019693,CTD
+KDR - kinase insert domain receptor (human),Hepatorenal Syndrome,Disease,Hepatorenal Syndrome,MESH:D006530,CTD
+KDR - kinase insert domain receptor (human),Hypertension,Disease,Hypertension,MESH:D006973,CTD
+KDR - kinase insert domain receptor (human),"Hypertension, Malignant",Disease,"Hypertension, Malignant",MESH:D006974,CTD
+KDR - kinase insert domain receptor (human),"Hypertension, Portal",Disease,"Hypertension, Portal",MESH:D006975,CTD
+KDR - kinase insert domain receptor (human),"Hypertension, Pregnancy-Induced",Disease,"Hypertension, Pregnancy-Induced",MESH:D046110,CTD
+KDR - kinase insert domain receptor (human),"Hypertension, Pulmonary",Disease,"Hypertension, Pulmonary",MESH:D006976,CTD
+KDR - kinase insert domain receptor (human),"Hypertension, Renal",Disease,"Hypertension, Renal",MESH:D006977,CTD
+KDR - kinase insert domain receptor (human),"Hypertension, Renovascular",Disease,"Hypertension, Renovascular",MESH:D006978,CTD
+KDR - kinase insert domain receptor (human),Hyperthyroidism,Disease,Hyperthyroidism,MESH:D006980,CTD
+KDR - kinase insert domain receptor (human),Hypothyroidism,Disease,Hypothyroidism,MESH:D007037,CTD
+KDR - kinase insert domain receptor (human),Immune Complex Diseases,Disease,Immune Complex Diseases,MESH:D007105,CTD
+KDR - kinase insert domain receptor (human),IMMUNE SUPPRESSION,Disease,IMMUNE SUPPRESSION,OMIM:146850,CTD
+KDR - kinase insert domain receptor (human),Immune System Diseases,Disease,Immune System Diseases,MESH:D007154,CTD
+KDR - kinase insert domain receptor (human),Inflammatory Breast Neoplasms,Disease,Inflammatory Breast Neoplasms,MESH:D058922,CTD
+KDR - kinase insert domain receptor (human),Intestinal Neoplasms,Disease,Intestinal Neoplasms,MESH:D007414,CTD
+KDR - kinase insert domain receptor (human),Intracranial Hypertension,Disease,Intracranial Hypertension,MESH:D019586,CTD
+KDR - kinase insert domain receptor (human),Kidney disorder involving deposition of calcium and oxalate or phosphate in the renal tubules,Disease,Kidney disorder involving deposition of calcium and oxalate or phosphate in the renal tubules,MESH:C531755,CTD
+KDR - kinase insert domain receptor (human),Kidney Neoplasms,Disease,Kidney Neoplasms,MESH:D007680,CTD
+KDR - kinase insert domain receptor (human),Laryngeal Neoplasms,Disease,Laryngeal Neoplasms,MESH:D007822,CTD
+KDR - kinase insert domain receptor (human),Leukemia,Disease,Leukemia,MESH:D007938,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Erythroblastic, Acute",Disease,"Leukemia, Erythroblastic, Acute",MESH:D004915,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Experimental",Disease,"Leukemia, Experimental",MESH:D007942,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Hairy Cell",Disease,"Leukemia, Hairy Cell",MESH:D007943,CTD
+KDR - kinase insert domain receptor (human),Leukemia L1210,Disease,Leukemia L1210,MESH:D007939,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Lymphocytic, Chronic, B-Cell",Disease,"Leukemia, Lymphocytic, Chronic, B-Cell",MESH:D015451,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Lymphoid",Disease,"Leukemia, Lymphoid",MESH:D007945,CTD
+KDR - kinase insert domain receptor (human),"Leukemia-Lymphoma, Adult T-Cell",Disease,"Leukemia-Lymphoma, Adult T-Cell",MESH:D015459,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Monocytic, Acute",Disease,"Leukemia, Monocytic, Acute",MESH:D007948,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",Disease,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",MESH:D015464,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Myeloid",Disease,"Leukemia, Myeloid",MESH:D007951,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Myeloid, Acute",Disease,"Leukemia, Myeloid, Acute",MESH:D015470,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative",Disease,"Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative",MESH:D054438,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Myelomonocytic, Chronic",Disease,"Leukemia, Myelomonocytic, Chronic",MESH:D015477,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Myelomonocytic, Juvenile",Disease,"Leukemia, Myelomonocytic, Juvenile",MESH:D054429,CTD
+KDR - kinase insert domain receptor (human),Leukemia P388,Disease,Leukemia P388,MESH:D007941,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Plasma Cell",Disease,"Leukemia, Plasma Cell",MESH:D007952,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Prolymphocytic, T-Cell",Disease,"Leukemia, Prolymphocytic, T-Cell",MESH:D015461,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, Promyelocytic, Acute",Disease,"Leukemia, Promyelocytic, Acute",MESH:D015473,CTD
+KDR - kinase insert domain receptor (human),"Leukemia, T-Cell",Disease,"Leukemia, T-Cell",MESH:D015458,CTD
+KDR - kinase insert domain receptor (human),Leydig Cell Tumor,Disease,Leydig Cell Tumor,MESH:D007984,CTD
+KDR - kinase insert domain receptor (human),Liver Neoplasms,Disease,Liver Neoplasms,MESH:D008113,CTD
+KDR - kinase insert domain receptor (human),"Liver Neoplasms, Experimental",Disease,"Liver Neoplasms, Experimental",marker/mechanism;MESH:D008114,CTD
+KDR - kinase insert domain receptor (human),Lung agenesis,Disease,Lung agenesis,MESH:C562992,CTD
+KDR - kinase insert domain receptor (human),Lung Diseases,Disease,Lung Diseases,MESH:D008171,CTD
+KDR - kinase insert domain receptor (human),"Lung Diseases, Fungal",Disease,"Lung Diseases, Fungal",MESH:D008172,CTD
+KDR - kinase insert domain receptor (human),"Lung Diseases, Interstitial",Disease,"Lung Diseases, Interstitial",MESH:D017563,CTD
+KDR - kinase insert domain receptor (human),"Lung Diseases, Obstructive",Disease,"Lung Diseases, Obstructive",MESH:D008173,CTD
+KDR - kinase insert domain receptor (human),Lung Injury,Disease,Lung Injury,MESH:D055370,CTD
+KDR - kinase insert domain receptor (human),Lung Neoplasms,Disease,Lung Neoplasms,marker/mechanism;MESH:D008175,CTD
+KDR - kinase insert domain receptor (human),Lymphatic Metastasis,Disease,Lymphatic Metastasis,MESH:D008207,CTD
+KDR - kinase insert domain receptor (human),Lymphoma,Disease,Lymphoma,MESH:D008223,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, AIDS-Related",Disease,"Lymphoma, AIDS-Related",MESH:D016483,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, B-Cell",Disease,"Lymphoma, B-Cell",MESH:D016393,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, Extranodal NK-T-Cell",Disease,"Lymphoma, Extranodal NK-T-Cell",MESH:D054391,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, Follicular",Disease,"Lymphoma, Follicular",MESH:D008224,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, Large B-Cell, Diffuse",Disease,"Lymphoma, Large B-Cell, Diffuse",MESH:D016403,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, Large-Cell, Anaplastic",Disease,"Lymphoma, Large-Cell, Anaplastic",MESH:D017728,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, Mantle-Cell",Disease,"Lymphoma, Mantle-Cell",MESH:D020522,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, Non-Hodgkin",Disease,"Lymphoma, Non-Hodgkin",MESH:D008228,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, Primary Effusion",Disease,"Lymphoma, Primary Effusion",MESH:D054685,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, T-Cell",Disease,"Lymphoma, T-Cell",MESH:D016399,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, T-Cell, Cutaneous",Disease,"Lymphoma, T-Cell, Cutaneous",MESH:D016410,CTD
+KDR - kinase insert domain receptor (human),"Lymphoma, T-Cell, Peripheral",Disease,"Lymphoma, T-Cell, Peripheral",MESH:D016411,CTD
+KDR - kinase insert domain receptor (human),"Mammary Neoplasms, Animal",Disease,"Mammary Neoplasms, Animal",MESH:D015674,CTD
+KDR - kinase insert domain receptor (human),"Mammary Neoplasms, Experimental",Disease,"Mammary Neoplasms, Experimental",MESH:D008325,CTD
+KDR - kinase insert domain receptor (human),Massive Hepatic Necrosis,Disease,Massive Hepatic Necrosis,MESH:D047508,CTD
+KDR - kinase insert domain receptor (human),Maxillary Sinus Neoplasms,Disease,Maxillary Sinus Neoplasms,MESH:D008444,CTD
+KDR - kinase insert domain receptor (human),Meningeal Carcinomatosis,Disease,Meningeal Carcinomatosis,MESH:D055756,CTD
+KDR - kinase insert domain receptor (human),Mesenteric Vascular Occlusion,Disease,Mesenteric Vascular Occlusion,MESH:D008641,CTD
+KDR - kinase insert domain receptor (human),Mouth Neoplasms,Disease,Mouth Neoplasms,MESH:D009062,CTD
+KDR - kinase insert domain receptor (human),Nasopharyngeal Carcinoma,Disease,Nasopharyngeal Carcinoma,MESH:D000077274,CTD
+KDR - kinase insert domain receptor (human),Nasopharyngeal Neoplasms,Disease,Nasopharyngeal Neoplasms,MESH:D009303,CTD
+KDR - kinase insert domain receptor (human),Neoplasm Invasiveness,Disease,Neoplasm Invasiveness,MESH:D009361,CTD
+KDR - kinase insert domain receptor (human),Neoplasm Metastasis,Disease,Neoplasm Metastasis,MESH:D009362,CTD
+KDR - kinase insert domain receptor (human),Neoplasm Micrometastasis,Disease,Neoplasm Micrometastasis,MESH:D061206,CTD
+KDR - kinase insert domain receptor (human),"Neoplasm Recurrence, Local",Disease,"Neoplasm Recurrence, Local",MESH:D009364,CTD
+KDR - kinase insert domain receptor (human),Neoplasms,Disease,Neoplasms,MESH:D009369,CTD
+KDR - kinase insert domain receptor (human),"Neoplasms, Bone Tissue",Disease,"Neoplasms, Bone Tissue",MESH:D018213,CTD
+KDR - kinase insert domain receptor (human),"Neoplasms, Experimental",Disease,"Neoplasms, Experimental",MESH:D009374,CTD
+KDR - kinase insert domain receptor (human),"Neoplasms, Glandular and Epithelial",Disease,"Neoplasms, Glandular and Epithelial",MESH:D009375,CTD
+KDR - kinase insert domain receptor (human),"Neoplasms, Hormone-Dependent",Disease,"Neoplasms, Hormone-Dependent",MESH:D009376,CTD
+KDR - kinase insert domain receptor (human),"Neoplasms, Mesothelial",Disease,"Neoplasms, Mesothelial",MESH:D018301,CTD
+KDR - kinase insert domain receptor (human),"Neoplasms, Multiple Primary",Disease,"Neoplasms, Multiple Primary",MESH:D009378,CTD
+KDR - kinase insert domain receptor (human),"Neovascularization, Pathologic",Disease,"Neovascularization, Pathologic",marker/mechanism;MESH:D009389,CTD
+KDR - kinase insert domain receptor (human),Nervous System Neoplasms,Disease,Nervous System Neoplasms,MESH:D009423,CTD
+KDR - kinase insert domain receptor (human),"Neuroectodermal Tumor, Melanotic",Disease,"Neuroectodermal Tumor, Melanotic",MESH:D017600,CTD
+KDR - kinase insert domain receptor (human),Neuroectodermal Tumors,Disease,Neuroectodermal Tumors,MESH:D017599,CTD
+KDR - kinase insert domain receptor (human),"Neuroectodermal Tumors, Primitive",Disease,"Neuroectodermal Tumors, Primitive",MESH:D018242,CTD
+KDR - kinase insert domain receptor (human),"Neuroectodermal Tumors, Primitive, Peripheral",Disease,"Neuroectodermal Tumors, Primitive, Peripheral",MESH:D018241,CTD
+KDR - kinase insert domain receptor (human),Neuroendocrine Tumors,Disease,Neuroendocrine Tumors,MESH:D018358,CTD
+KDR - kinase insert domain receptor (human),Neutropenia,Disease,Neutropenia,MESH:D009503,CTD
+KDR - kinase insert domain receptor (human),Nose Neoplasms,Disease,Nose Neoplasms,MESH:D009669,CTD
+KDR - kinase insert domain receptor (human),Ocular Hypertension,Disease,Ocular Hypertension,MESH:D009798,CTD
+KDR - kinase insert domain receptor (human),Ovarian Neoplasms,Disease,Ovarian Neoplasms,marker/mechanism;MESH:D010051,CTD
+KDR - kinase insert domain receptor (human),"Pancreatic cancer, adult",Disease,"Pancreatic cancer, adult",MESH:C535836,CTD
+KDR - kinase insert domain receptor (human),Pancreatic Neoplasms,Disease,Pancreatic Neoplasms,therapeutic;MESH:D010190,CTD
+KDR - kinase insert domain receptor (human),"Paraganglioma, Extra-Adrenal",Disease,"Paraganglioma, Extra-Adrenal",MESH:D010236,CTD
+KDR - kinase insert domain receptor (human),Parotid Neoplasms,Disease,Parotid Neoplasms,MESH:D010307,CTD
+KDR - kinase insert domain receptor (human),Peripheral Vascular Diseases,Disease,Peripheral Vascular Diseases,MESH:D016491,CTD
+KDR - kinase insert domain receptor (human),Peritoneal Neoplasms,Disease,Peritoneal Neoplasms,MESH:D010534,CTD
+KDR - kinase insert domain receptor (human),Pharyngeal Neoplasms,Disease,Pharyngeal Neoplasms,MESH:D010610,CTD
+KDR - kinase insert domain receptor (human),Phyllodes Tumor,Disease,Phyllodes Tumor,MESH:D003557,CTD
+KDR - kinase insert domain receptor (human),Pituitary Neoplasms,Disease,Pituitary Neoplasms,MESH:D010911,CTD
+KDR - kinase insert domain receptor (human),Pleural Neoplasms,Disease,Pleural Neoplasms,MESH:D010997,CTD
+KDR - kinase insert domain receptor (human),"Porphyrias, Hepatic",Disease,"Porphyrias, Hepatic",MESH:D017094,CTD
+KDR - kinase insert domain receptor (human),Precancerous Conditions,Disease,Precancerous Conditions,MESH:D011230,CTD
+KDR - kinase insert domain receptor (human),Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D015452,CTD
+KDR - kinase insert domain receptor (human),Precursor Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054198,CTD
+KDR - kinase insert domain receptor (human),Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054218,CTD
+KDR - kinase insert domain receptor (human),"Pregnancy Complications, Cardiovascular",Disease,"Pregnancy Complications, Cardiovascular",MESH:D011249,CTD
+KDR - kinase insert domain receptor (human),Prostatic Neoplasms,Disease,Prostatic Neoplasms,MESH:D011471,CTD
+KDR - kinase insert domain receptor (human),Pseudolymphoma,Disease,Pseudolymphoma,MESH:D019310,CTD
+KDR - kinase insert domain receptor (human),Pseudotumor Cerebri,Disease,Pseudotumor Cerebri,MESH:D011559,CTD
+KDR - kinase insert domain receptor (human),Pulmonary Arterial Hypertension,Disease,Pulmonary Arterial Hypertension,MESH:D000081029,CTD
+KDR - kinase insert domain receptor (human),Rectal Neoplasms,Disease,Rectal Neoplasms,MESH:D012004,CTD
+KDR - kinase insert domain receptor (human),Renal Aminoacidurias,Disease,Renal Aminoacidurias,MESH:D000608,CTD
+KDR - kinase insert domain receptor (human),Renal Artery Obstruction,Disease,Renal Artery Obstruction,MESH:D012078,CTD
+KDR - kinase insert domain receptor (human),Renal hypouricemia,Disease,Renal hypouricemia,MESH:C537757,CTD
+KDR - kinase insert domain receptor (human),Renal Insufficiency,Disease,Renal Insufficiency,MESH:D051437,CTD
+KDR - kinase insert domain receptor (human),"Renal Insufficiency, Chronic",Disease,"Renal Insufficiency, Chronic",MESH:D051436,CTD
+KDR - kinase insert domain receptor (human),Retinal Neovascularization,Disease,Retinal Neovascularization,MESH:D015861,CTD
+KDR - kinase insert domain receptor (human),Salivary Gland Neoplasms,Disease,Salivary Gland Neoplasms,MESH:D012468,CTD
+KDR - kinase insert domain receptor (human),Sebaceous Gland Neoplasms,Disease,Sebaceous Gland Neoplasms,MESH:D012626,CTD
+KDR - kinase insert domain receptor (human),Sigmoid Neoplasms,Disease,Sigmoid Neoplasms,MESH:D012811,CTD
+KDR - kinase insert domain receptor (human),"Sinus Arrest, Cardiac",Disease,"Sinus Arrest, Cardiac",MESH:D054138,CTD
+KDR - kinase insert domain receptor (human),"Skin Diseases, Vascular",Disease,"Skin Diseases, Vascular",MESH:D017445,CTD
+KDR - kinase insert domain receptor (human),Skin Neoplasms,Disease,Skin Neoplasms,MESH:D012878,CTD
+KDR - kinase insert domain receptor (human),Small Cell Lung Carcinoma,Disease,Small Cell Lung Carcinoma,MESH:D055752,CTD
+KDR - kinase insert domain receptor (human),Soft Tissue Neoplasms,Disease,Soft Tissue Neoplasms,MESH:D012983,CTD
+KDR - kinase insert domain receptor (human),Splenic Neoplasms,Disease,Splenic Neoplasms,MESH:D013160,CTD
+KDR - kinase insert domain receptor (human),Squamous Cell Carcinoma of Head and Neck,Disease,Squamous Cell Carcinoma of Head and Neck,MESH:D000077195,CTD
+KDR - kinase insert domain receptor (human),Stomach Neoplasms,Disease,Stomach Neoplasms,MESH:D013274,CTD
+KDR - kinase insert domain receptor (human),Testicular Neoplasms,Disease,Testicular Neoplasms,MESH:D013736,CTD
+KDR - kinase insert domain receptor (human),Thymus Neoplasms,Disease,Thymus Neoplasms,MESH:D013953,CTD
+KDR - kinase insert domain receptor (human),"Thyroid cancer, follicular",Disease,"Thyroid cancer, follicular",MESH:C572845,CTD
+KDR - kinase insert domain receptor (human),"Thyroid cancer, medullary",Disease,"Thyroid cancer, medullary",MESH:C536914,CTD
+KDR - kinase insert domain receptor (human),"Thyroid Cancer, Papillary",Disease,"Thyroid Cancer, Papillary",MESH:D000077273,CTD
+KDR - kinase insert domain receptor (human),Thyroid Diseases,Disease,Thyroid Diseases,MESH:D013959,CTD
+KDR - kinase insert domain receptor (human),Thyroid Dysgenesis,Disease,Thyroid Dysgenesis,MESH:D050033,CTD
+KDR - kinase insert domain receptor (human),"Thyroid Hormone Metabolism, Abnormal",Disease,"Thyroid Hormone Metabolism, Abnormal",MESH:C566454,CTD
+KDR - kinase insert domain receptor (human),Thyroiditis,Disease,Thyroiditis,MESH:D013966,CTD
+KDR - kinase insert domain receptor (human),"Thyroiditis, Autoimmune",Disease,"Thyroiditis, Autoimmune",MESH:D013967,CTD
+KDR - kinase insert domain receptor (human),Thyroid Neoplasms,Disease,Thyroid Neoplasms,MESH:D013964,CTD
+KDR - kinase insert domain receptor (human),Tongue Neoplasms,Disease,Tongue Neoplasms,MESH:D014062,CTD
+KDR - kinase insert domain receptor (human),Triple Negative Breast Neoplasms,Disease,Triple Negative Breast Neoplasms,MESH:D064726,CTD
+KDR - kinase insert domain receptor (human),Tumor Lysis Syndrome,Disease,Tumor Lysis Syndrome,MESH:D015275,CTD
+KDR - kinase insert domain receptor (human),Ureteral Neoplasms,Disease,Ureteral Neoplasms,MESH:D014516,CTD
+KDR - kinase insert domain receptor (human),Urinary Bladder Neoplasms,Disease,Urinary Bladder Neoplasms,MESH:D001749,CTD
+KDR - kinase insert domain receptor (human),Urogenital Neoplasms,Disease,Urogenital Neoplasms,MESH:D014565,CTD
+KDR - kinase insert domain receptor (human),Urologic Neoplasms,Disease,Urologic Neoplasms,MESH:D014571,CTD
+KDR - kinase insert domain receptor (human),Uterine Cervical Neoplasms,Disease,Uterine Cervical Neoplasms,MESH:D002583,CTD
+KDR - kinase insert domain receptor (human),Uterine Neoplasms,Disease,Uterine Neoplasms,MESH:D014594,CTD
+KDR - kinase insert domain receptor (human),Uveal Neoplasms,Disease,Uveal Neoplasms,MESH:D014604,CTD
+KDR - kinase insert domain receptor (human),Vaginal Neoplasms,Disease,Vaginal Neoplasms,MESH:D014625,CTD
+KDR - kinase insert domain receptor (human),Vascular Calcification,Disease,Vascular Calcification,MESH:D061205,CTD
+KDR - kinase insert domain receptor (human),Vascular Diseases,Disease,Vascular Diseases,MESH:D014652,CTD
+KDR - kinase insert domain receptor (human),Vascular Malformations,Disease,Vascular Malformations,MESH:D054079,CTD
+KDR - kinase insert domain receptor (human),Vascular Neoplasms,Disease,Vascular Neoplasms,MESH:D019043,CTD
+KDR - kinase insert domain receptor (human),Vascular Remodeling,Disease,Vascular Remodeling,MESH:D066253,CTD
+KDR - kinase insert domain receptor (human),Vascular System Injuries,Disease,Vascular System Injuries,MESH:D057772,CTD
+KDR - kinase insert domain receptor (human),Wilms Tumor,Disease,Wilms Tumor,MESH:D009396,CTD
+KIF5B - kinesin family member 5B (human),Abdominal Neoplasms,Disease,Abdominal Neoplasms,MESH:D000008,CTD
+KIF5B - kinesin family member 5B (human),Acute Lung Injury,Disease,Acute Lung Injury,MESH:D055371,CTD
+KIF5B - kinesin family member 5B (human),Adenocarcinoma,Disease,Adenocarcinoma,MESH:D000230,CTD
+KIF5B - kinesin family member 5B (human),"Adenocarcinoma, Bronchiolo-Alveolar",Disease,"Adenocarcinoma, Bronchiolo-Alveolar",MESH:D002282,CTD
+KIF5B - kinesin family member 5B (human),Adenocarcinoma of Lung,Disease,Adenocarcinoma of Lung,MESH:D000077192,CTD
+KIF5B - kinesin family member 5B (human),"Adenocarcinoma, Papillary",Disease,"Adenocarcinoma, Papillary",MESH:D000231,CTD
+KIF5B - kinesin family member 5B (human),Adrenal Cortex Diseases,Disease,Adrenal Cortex Diseases,MESH:D000303,CTD
+KIF5B - kinesin family member 5B (human),Adrenal Gland Diseases,Disease,Adrenal Gland Diseases,MESH:D000307,CTD
+KIF5B - kinesin family member 5B (human),Adrenal Gland Neoplasms,Disease,Adrenal Gland Neoplasms,MESH:D000310,CTD
+KIF5B - kinesin family member 5B (human),Adrenal Insufficiency,Disease,Adrenal Insufficiency,MESH:D000309,CTD
+KIF5B - kinesin family member 5B (human),Adrenocortical Carcinoma,Disease,Adrenocortical Carcinoma,MESH:D018268,CTD
+KIF5B - kinesin family member 5B (human),Anemia,Disease,Anemia,MESH:D000740,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Aplastic",Disease,"Anemia, Aplastic",MESH:D000741,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Hemolytic",Disease,"Anemia, Hemolytic",MESH:D000743,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Hemolytic, Autoimmune",Disease,"Anemia, Hemolytic, Autoimmune",MESH:D000744,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Hypochromic",Disease,"Anemia, Hypochromic",MESH:D000747,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Iron-Deficiency",Disease,"Anemia, Iron-Deficiency",MESH:D018798,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Macrocytic",Disease,"Anemia, Macrocytic",MESH:D000748,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Megaloblastic",Disease,"Anemia, Megaloblastic",MESH:D000749,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Sickle Cell",Disease,"Anemia, Sickle Cell",MESH:D000755,CTD
+KIF5B - kinesin family member 5B (human),"Anemia, Sideroblastic",Disease,"Anemia, Sideroblastic",MESH:D000756,CTD
+KIF5B - kinesin family member 5B (human),Anus Neoplasms,Disease,Anus Neoplasms,MESH:D001005,CTD
+KIF5B - kinesin family member 5B (human),"Arrhythmias, Cardiac",Disease,"Arrhythmias, Cardiac",MESH:D001145,CTD
+KIF5B - kinesin family member 5B (human),Autoimmune Diseases,Disease,Autoimmune Diseases,MESH:D001327,CTD
+KIF5B - kinesin family member 5B (human),Basal Cell Carcinoma,Disease,Basal Cell Carcinoma,MESH:D002280,CTD
+KIF5B - kinesin family member 5B (human),Bone Marrow Neoplasms,Disease,Bone Marrow Neoplasms,MESH:D019046,CTD
+KIF5B - kinesin family member 5B (human),Bone Neoplasms,Disease,Bone Neoplasms,MESH:D001859,CTD
+KIF5B - kinesin family member 5B (human),Brain Neoplasms,Disease,Brain Neoplasms,MESH:D001932,CTD
+KIF5B - kinesin family member 5B (human),Breast Neoplasms,Disease,Breast Neoplasms,MESH:D001943,CTD
+KIF5B - kinesin family member 5B (human),"Breast Neoplasms, Male",Disease,"Breast Neoplasms, Male",MESH:D018567,CTD
+KIF5B - kinesin family member 5B (human),Burkitt Lymphoma,Disease,Burkitt Lymphoma,MESH:D002051,CTD
+KIF5B - kinesin family member 5B (human),Carcinoid Tumor,Disease,Carcinoid Tumor,MESH:D002276,CTD
+KIF5B - kinesin family member 5B (human),Carcinoma,Disease,Carcinoma,MESH:D002277,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Ductal",Disease,"Carcinoma, Ductal",MESH:D044584,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Ductal, Breast",Disease,"Carcinoma, Ductal, Breast",MESH:D018270,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Ehrlich Tumor",Disease,"Carcinoma, Ehrlich Tumor",MESH:D002286,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Embryonal",Disease,"Carcinoma, Embryonal",MESH:D018236,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Endometrioid",Disease,"Carcinoma, Endometrioid",MESH:D018269,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Hepatocellular",Disease,"Carcinoma, Hepatocellular",MESH:D006528,CTD
+KIF5B - kinesin family member 5B (human),Carcinoma in Situ,Disease,Carcinoma in Situ,MESH:D002278,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Lewis Lung",Disease,"Carcinoma, Lewis Lung",MESH:D018827,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Merkel Cell",Disease,"Carcinoma, Merkel Cell",MESH:D015266,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Non-Small-Cell Lung",Disease,"Carcinoma, Non-Small-Cell Lung",marker/mechanism;MESH:D002289,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Ovarian Epithelial",Disease,"Carcinoma, Ovarian Epithelial",MESH:D000077216,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Renal Cell",Disease,"Carcinoma, Renal Cell",MESH:D002292,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Squamous Cell",Disease,"Carcinoma, Squamous Cell",MESH:D002294,CTD
+KIF5B - kinesin family member 5B (human),"Carcinoma, Transitional Cell",Disease,"Carcinoma, Transitional Cell",MESH:D002295,CTD
+KIF5B - kinesin family member 5B (human),Cardiac Conduction System Disease,Disease,Cardiac Conduction System Disease,MESH:D000075224,CTD
+KIF5B - kinesin family member 5B (human),"Cardiac Output, High",Disease,"Cardiac Output, High",MESH:D016534,CTD
+KIF5B - kinesin family member 5B (human),"Cardiac Output, Low",Disease,"Cardiac Output, Low",MESH:D002303,CTD
+KIF5B - kinesin family member 5B (human),Cardio-Renal Syndrome,Disease,Cardio-Renal Syndrome,MESH:D059347,CTD
+KIF5B - kinesin family member 5B (human),Cardiovascular Abnormalities,Disease,Cardiovascular Abnormalities,MESH:D018376,CTD
+KIF5B - kinesin family member 5B (human),Cardiovascular Diseases,Disease,Cardiovascular Diseases,MESH:D002318,CTD
+KIF5B - kinesin family member 5B (human),Central Nervous System Neoplasms,Disease,Central Nervous System Neoplasms,MESH:D016543,CTD
+KIF5B - kinesin family member 5B (human),Cerebrovascular Disorders,Disease,Cerebrovascular Disorders,MESH:D002561,CTD
+KIF5B - kinesin family member 5B (human),Cholangiocarcinoma,Disease,Cholangiocarcinoma,MESH:D018281,CTD
+KIF5B - kinesin family member 5B (human),"Cholestasis, Intrahepatic",Disease,"Cholestasis, Intrahepatic",MESH:D002780,CTD
+KIF5B - kinesin family member 5B (human),"Cholestasis, progressive familial intrahepatic 3",Disease,"Cholestasis, progressive familial intrahepatic 3",MESH:C535935,CTD
+KIF5B - kinesin family member 5B (human),Choriocarcinoma,Disease,Choriocarcinoma,MESH:D002822,CTD
+KIF5B - kinesin family member 5B (human),Choroidal Neovascularization,Disease,Choroidal Neovascularization,MESH:D020256,CTD
+KIF5B - kinesin family member 5B (human),Colonic Neoplasms,Disease,Colonic Neoplasms,MESH:D003110,CTD
+KIF5B - kinesin family member 5B (human),Colorectal Neoplasms,Disease,Colorectal Neoplasms,MESH:D015179,CTD
+KIF5B - kinesin family member 5B (human),Congenital Hypothyroidism,Disease,Congenital Hypothyroidism,MESH:D003409,CTD
+KIF5B - kinesin family member 5B (human),Conotruncal cardiac defects,Disease,Conotruncal cardiac defects,MESH:C535464,CTD
+KIF5B - kinesin family member 5B (human),"Death, Sudden, Cardiac",Disease,"Death, Sudden, Cardiac",MESH:D016757,CTD
+KIF5B - kinesin family member 5B (human),"Dementia, Vascular",Disease,"Dementia, Vascular",MESH:D015140,CTD
+KIF5B - kinesin family member 5B (human),Desmoid Tumors,Disease,Desmoid Tumors,MESH:D018222,CTD
+KIF5B - kinesin family member 5B (human),Desmoplastic Small Round Cell Tumor,Disease,Desmoplastic Small Round Cell Tumor,MESH:D058405,CTD
+KIF5B - kinesin family member 5B (human),Disseminated Intravascular Coagulation,Disease,Disseminated Intravascular Coagulation,MESH:D004211,CTD
+KIF5B - kinesin family member 5B (human),Ear Neoplasms,Disease,Ear Neoplasms,MESH:D004428,CTD
+KIF5B - kinesin family member 5B (human),"Edema, Cardiac",Disease,"Edema, Cardiac",MESH:D004489,CTD
+KIF5B - kinesin family member 5B (human),"Encephalomyelitis, Autoimmune, Experimental",Disease,"Encephalomyelitis, Autoimmune, Experimental",MESH:D004681,CTD
+KIF5B - kinesin family member 5B (human),Endometrial Neoplasms,Disease,Endometrial Neoplasms,MESH:D016889,CTD
+KIF5B - kinesin family member 5B (human),Esophageal Neoplasms,Disease,Esophageal Neoplasms,MESH:D004938,CTD
+KIF5B - kinesin family member 5B (human),Esophageal Squamous Cell Carcinoma,Disease,Esophageal Squamous Cell Carcinoma,MESH:D000077277,CTD
+KIF5B - kinesin family member 5B (human),Euthyroid Sick Syndromes,Disease,Euthyroid Sick Syndromes,MESH:D005067,CTD
+KIF5B - kinesin family member 5B (human),Familial primary gastric lymphoma,Disease,Familial primary gastric lymphoma,MESH:C535648,CTD
+KIF5B - kinesin family member 5B (human),Fanconi Anemia,Disease,Fanconi Anemia,MESH:D005199,CTD
+KIF5B - kinesin family member 5B (human),Gallbladder Neoplasms,Disease,Gallbladder Neoplasms,MESH:D005706,CTD
+KIF5B - kinesin family member 5B (human),Gastrointestinal Neoplasms,Disease,Gastrointestinal Neoplasms,MESH:D005770,CTD
+KIF5B - kinesin family member 5B (human),"Genital Neoplasms, Female",Disease,"Genital Neoplasms, Female",MESH:D005833,CTD
+KIF5B - kinesin family member 5B (human),"Genital Neoplasms, Male",Disease,"Genital Neoplasms, Male",MESH:D005834,CTD
+KIF5B - kinesin family member 5B (human),Granulosa cell tumor of the ovary,Disease,Granulosa cell tumor of the ovary,MESH:C537296,CTD
+KIF5B - kinesin family member 5B (human),Head and Neck Neoplasms,Disease,Head and Neck Neoplasms,MESH:D006258,CTD
+KIF5B - kinesin family member 5B (human),Hematologic Neoplasms,Disease,Hematologic Neoplasms,MESH:D019337,CTD
+KIF5B - kinesin family member 5B (human),Hepatic Encephalopathy,Disease,Hepatic Encephalopathy,MESH:D006501,CTD
+KIF5B - kinesin family member 5B (human),Hepatic Insufficiency,Disease,Hepatic Insufficiency,MESH:D048550,CTD
+KIF5B - kinesin family member 5B (human),Hepatic Veno-Occlusive Disease,Disease,Hepatic Veno-Occlusive Disease,MESH:D006504,CTD
+KIF5B - kinesin family member 5B (human),Hypertension,Disease,Hypertension,MESH:D006973,CTD
+KIF5B - kinesin family member 5B (human),"Hypertension, Malignant",Disease,"Hypertension, Malignant",MESH:D006974,CTD
+KIF5B - kinesin family member 5B (human),"Hypertension, Portal",Disease,"Hypertension, Portal",MESH:D006975,CTD
+KIF5B - kinesin family member 5B (human),"Hypertension, Pregnancy-Induced",Disease,"Hypertension, Pregnancy-Induced",MESH:D046110,CTD
+KIF5B - kinesin family member 5B (human),"Hypertension, Pulmonary",Disease,"Hypertension, Pulmonary",MESH:D006976,CTD
+KIF5B - kinesin family member 5B (human),"Hypertension, Renal",Disease,"Hypertension, Renal",MESH:D006977,CTD
+KIF5B - kinesin family member 5B (human),"Hypertension, Renovascular",Disease,"Hypertension, Renovascular",MESH:D006978,CTD
+KIF5B - kinesin family member 5B (human),Hyperthyroidism,Disease,Hyperthyroidism,MESH:D006980,CTD
+KIF5B - kinesin family member 5B (human),Hypothyroidism,Disease,Hypothyroidism,MESH:D007037,CTD
+KIF5B - kinesin family member 5B (human),Immune Complex Diseases,Disease,Immune Complex Diseases,MESH:D007105,CTD
+KIF5B - kinesin family member 5B (human),IMMUNE SUPPRESSION,Disease,IMMUNE SUPPRESSION,OMIM:146850,CTD
+KIF5B - kinesin family member 5B (human),Immune System Diseases,Disease,Immune System Diseases,MESH:D007154,CTD
+KIF5B - kinesin family member 5B (human),Inflammatory Breast Neoplasms,Disease,Inflammatory Breast Neoplasms,MESH:D058922,CTD
+KIF5B - kinesin family member 5B (human),Intestinal Neoplasms,Disease,Intestinal Neoplasms,MESH:D007414,CTD
+KIF5B - kinesin family member 5B (human),Intracranial Hypertension,Disease,Intracranial Hypertension,MESH:D019586,CTD
+KIF5B - kinesin family member 5B (human),Kidney Neoplasms,Disease,Kidney Neoplasms,MESH:D007680,CTD
+KIF5B - kinesin family member 5B (human),Laryngeal Neoplasms,Disease,Laryngeal Neoplasms,MESH:D007822,CTD
+KIF5B - kinesin family member 5B (human),Leukemia,Disease,Leukemia,MESH:D007938,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Erythroblastic, Acute",Disease,"Leukemia, Erythroblastic, Acute",MESH:D004915,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Experimental",Disease,"Leukemia, Experimental",MESH:D007942,CTD
+KIF5B - kinesin family member 5B (human),Leukemia L1210,Disease,Leukemia L1210,MESH:D007939,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Lymphoid",Disease,"Leukemia, Lymphoid",MESH:D007945,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia-Lymphoma, Adult T-Cell",Disease,"Leukemia-Lymphoma, Adult T-Cell",MESH:D015459,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Monocytic, Acute",Disease,"Leukemia, Monocytic, Acute",MESH:D007948,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",Disease,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",MESH:D015464,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Myeloid",Disease,"Leukemia, Myeloid",MESH:D007951,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Myeloid, Acute",Disease,"Leukemia, Myeloid, Acute",MESH:D015470,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, Promyelocytic, Acute",Disease,"Leukemia, Promyelocytic, Acute",MESH:D015473,CTD
+KIF5B - kinesin family member 5B (human),"Leukemia, T-Cell",Disease,"Leukemia, T-Cell",MESH:D015458,CTD
+KIF5B - kinesin family member 5B (human),Leydig Cell Tumor,Disease,Leydig Cell Tumor,MESH:D007984,CTD
+KIF5B - kinesin family member 5B (human),Liver Neoplasms,Disease,Liver Neoplasms,MESH:D008113,CTD
+KIF5B - kinesin family member 5B (human),"Liver Neoplasms, Experimental",Disease,"Liver Neoplasms, Experimental",MESH:D008114,CTD
+KIF5B - kinesin family member 5B (human),Lung agenesis,Disease,Lung agenesis,MESH:C562992,CTD
+KIF5B - kinesin family member 5B (human),Lung Diseases,Disease,Lung Diseases,MESH:D008171,CTD
+KIF5B - kinesin family member 5B (human),"Lung Diseases, Interstitial",Disease,"Lung Diseases, Interstitial",MESH:D017563,CTD
+KIF5B - kinesin family member 5B (human),"Lung Diseases, Obstructive",Disease,"Lung Diseases, Obstructive",MESH:D008173,CTD
+KIF5B - kinesin family member 5B (human),Lung Injury,Disease,Lung Injury,MESH:D055370,CTD
+KIF5B - kinesin family member 5B (human),Lung Neoplasms,Disease,Lung Neoplasms,MESH:D008175,CTD
+KIF5B - kinesin family member 5B (human),Lymphatic Metastasis,Disease,Lymphatic Metastasis,MESH:D008207,CTD
+KIF5B - kinesin family member 5B (human),Lymphoma,Disease,Lymphoma,MESH:D008223,CTD
+KIF5B - kinesin family member 5B (human),"Lymphoma, AIDS-Related",Disease,"Lymphoma, AIDS-Related",MESH:D016483,CTD
+KIF5B - kinesin family member 5B (human),"Lymphoma, B-Cell",Disease,"Lymphoma, B-Cell",MESH:D016393,CTD
+KIF5B - kinesin family member 5B (human),"Lymphoma, Extranodal NK-T-Cell",Disease,"Lymphoma, Extranodal NK-T-Cell",MESH:D054391,CTD
+KIF5B - kinesin family member 5B (human),"Lymphoma, Large B-Cell, Diffuse",Disease,"Lymphoma, Large B-Cell, Diffuse",MESH:D016403,CTD
+KIF5B - kinesin family member 5B (human),"Lymphoma, Non-Hodgkin",Disease,"Lymphoma, Non-Hodgkin",MESH:D008228,CTD
+KIF5B - kinesin family member 5B (human),"Lymphoma, T-Cell",Disease,"Lymphoma, T-Cell",MESH:D016399,CTD
+KIF5B - kinesin family member 5B (human),"Mammary Neoplasms, Animal",Disease,"Mammary Neoplasms, Animal",MESH:D015674,CTD
+KIF5B - kinesin family member 5B (human),"Mammary Neoplasms, Experimental",Disease,"Mammary Neoplasms, Experimental",MESH:D008325,CTD
+KIF5B - kinesin family member 5B (human),Massive Hepatic Necrosis,Disease,Massive Hepatic Necrosis,MESH:D047508,CTD
+KIF5B - kinesin family member 5B (human),Maxillary Sinus Neoplasms,Disease,Maxillary Sinus Neoplasms,MESH:D008444,CTD
+KIF5B - kinesin family member 5B (human),"Mixed Tumor, Mullerian",Disease,"Mixed Tumor, Mullerian",MESH:D018200,CTD
+KIF5B - kinesin family member 5B (human),Mouth Neoplasms,Disease,Mouth Neoplasms,MESH:D009062,CTD
+KIF5B - kinesin family member 5B (human),Nasopharyngeal Carcinoma,Disease,Nasopharyngeal Carcinoma,MESH:D000077274,CTD
+KIF5B - kinesin family member 5B (human),Nasopharyngeal Neoplasms,Disease,Nasopharyngeal Neoplasms,MESH:D009303,CTD
+KIF5B - kinesin family member 5B (human),Neoplasm Invasiveness,Disease,Neoplasm Invasiveness,MESH:D009361,CTD
+KIF5B - kinesin family member 5B (human),Neoplasm Metastasis,Disease,Neoplasm Metastasis,MESH:D009362,CTD
+KIF5B - kinesin family member 5B (human),Neoplasm Micrometastasis,Disease,Neoplasm Micrometastasis,MESH:D061206,CTD
+KIF5B - kinesin family member 5B (human),"Neoplasm Recurrence, Local",Disease,"Neoplasm Recurrence, Local",MESH:D009364,CTD
+KIF5B - kinesin family member 5B (human),Neoplasms,Disease,Neoplasms,MESH:D009369,CTD
+KIF5B - kinesin family member 5B (human),"Neoplasms, Bone Tissue",Disease,"Neoplasms, Bone Tissue",MESH:D018213,CTD
+KIF5B - kinesin family member 5B (human),"Neoplasms, Experimental",Disease,"Neoplasms, Experimental",MESH:D009374,CTD
+KIF5B - kinesin family member 5B (human),"Neoplasms, Glandular and Epithelial",Disease,"Neoplasms, Glandular and Epithelial",MESH:D009375,CTD
+KIF5B - kinesin family member 5B (human),"Neoplasms, Hormone-Dependent",Disease,"Neoplasms, Hormone-Dependent",MESH:D009376,CTD
+KIF5B - kinesin family member 5B (human),"Neoplasms, Mesothelial",Disease,"Neoplasms, Mesothelial",MESH:D018301,CTD
+KIF5B - kinesin family member 5B (human),"Neoplasms, Radiation-Induced",Disease,"Neoplasms, Radiation-Induced",MESH:D009381,CTD
+KIF5B - kinesin family member 5B (human),"Neovascularization, Pathologic",Disease,"Neovascularization, Pathologic",MESH:D009389,CTD
+KIF5B - kinesin family member 5B (human),Nerve Sheath Neoplasms,Disease,Nerve Sheath Neoplasms,MESH:D018317,CTD
+KIF5B - kinesin family member 5B (human),"Neuroectodermal Tumors, Primitive, Peripheral",Disease,"Neuroectodermal Tumors, Primitive, Peripheral",MESH:D018241,CTD
+KIF5B - kinesin family member 5B (human),Neutropenia,Disease,Neutropenia,MESH:D009503,CTD
+KIF5B - kinesin family member 5B (human),Nose Neoplasms,Disease,Nose Neoplasms,MESH:D009669,CTD
+KIF5B - kinesin family member 5B (human),Ocular Hypertension,Disease,Ocular Hypertension,MESH:D009798,CTD
+KIF5B - kinesin family member 5B (human),Ovarian Neoplasms,Disease,Ovarian Neoplasms,MESH:D010051,CTD
+KIF5B - kinesin family member 5B (human),"Pancreatic cancer, adult",Disease,"Pancreatic cancer, adult",MESH:C535836,CTD
+KIF5B - kinesin family member 5B (human),Pancreatic Neoplasms,Disease,Pancreatic Neoplasms,MESH:D010190,CTD
+KIF5B - kinesin family member 5B (human),"Paraganglioma, Extra-Adrenal",Disease,"Paraganglioma, Extra-Adrenal",MESH:D010236,CTD
+KIF5B - kinesin family member 5B (human),Peripheral Vascular Diseases,Disease,Peripheral Vascular Diseases,MESH:D016491,CTD
+KIF5B - kinesin family member 5B (human),Pharyngeal Neoplasms,Disease,Pharyngeal Neoplasms,MESH:D010610,CTD
+KIF5B - kinesin family member 5B (human),Phyllodes Tumor,Disease,Phyllodes Tumor,MESH:D003557,CTD
+KIF5B - kinesin family member 5B (human),Pituitary Neoplasms,Disease,Pituitary Neoplasms,MESH:D010911,CTD
+KIF5B - kinesin family member 5B (human),Pleural Neoplasms,Disease,Pleural Neoplasms,MESH:D010997,CTD
+KIF5B - kinesin family member 5B (human),"Porphyrias, Hepatic",Disease,"Porphyrias, Hepatic",MESH:D017094,CTD
+KIF5B - kinesin family member 5B (human),Precancerous Conditions,Disease,Precancerous Conditions,MESH:D011230,CTD
+KIF5B - kinesin family member 5B (human),Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D015452,CTD
+KIF5B - kinesin family member 5B (human),Precursor Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054198,CTD
+KIF5B - kinesin family member 5B (human),Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,Disease,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,MESH:D054218,CTD
+KIF5B - kinesin family member 5B (human),Prostatic Neoplasms,Disease,Prostatic Neoplasms,MESH:D011471,CTD
+KIF5B - kinesin family member 5B (human),Pseudolymphoma,Disease,Pseudolymphoma,MESH:D019310,CTD
+KIF5B - kinesin family member 5B (human),Pseudotumor Cerebri,Disease,Pseudotumor Cerebri,MESH:D011559,CTD
+KIF5B - kinesin family member 5B (human),Pulmonary Arterial Hypertension,Disease,Pulmonary Arterial Hypertension,MESH:D000081029,CTD
+KIF5B - kinesin family member 5B (human),Rectal Neoplasms,Disease,Rectal Neoplasms,MESH:D012004,CTD
+KIF5B - kinesin family member 5B (human),Renal hypouricemia,Disease,Renal hypouricemia,MESH:C537757,CTD
+KIF5B - kinesin family member 5B (human),Renal Insufficiency,Disease,Renal Insufficiency,MESH:D051437,CTD
+KIF5B - kinesin family member 5B (human),"Renal Insufficiency, Chronic",Disease,"Renal Insufficiency, Chronic",MESH:D051436,CTD
+KIF5B - kinesin family member 5B (human),Retinal Neovascularization,Disease,Retinal Neovascularization,MESH:D015861,CTD
+KIF5B - kinesin family member 5B (human),Salivary Gland Neoplasms,Disease,Salivary Gland Neoplasms,MESH:D012468,CTD
+KIF5B - kinesin family member 5B (human),Sebaceous Gland Neoplasms,Disease,Sebaceous Gland Neoplasms,MESH:D012626,CTD
+KIF5B - kinesin family member 5B (human),"Skin Diseases, Vascular",Disease,"Skin Diseases, Vascular",MESH:D017445,CTD
+KIF5B - kinesin family member 5B (human),Skin Neoplasms,Disease,Skin Neoplasms,MESH:D012878,CTD
+KIF5B - kinesin family member 5B (human),Small Cell Lung Carcinoma,Disease,Small Cell Lung Carcinoma,MESH:D055752,CTD
+KIF5B - kinesin family member 5B (human),Soft Tissue Neoplasms,Disease,Soft Tissue Neoplasms,MESH:D012983,CTD
+KIF5B - kinesin family member 5B (human),Splenic Neoplasms,Disease,Splenic Neoplasms,MESH:D013160,CTD
+KIF5B - kinesin family member 5B (human),Squamous Cell Carcinoma of Head and Neck,Disease,Squamous Cell Carcinoma of Head and Neck,MESH:D000077195,CTD
+KIF5B - kinesin family member 5B (human),Stomach Neoplasms,Disease,Stomach Neoplasms,MESH:D013274,CTD
+KIF5B - kinesin family member 5B (human),Testicular Germ Cell Tumor,Disease,Testicular Germ Cell Tumor,MESH:C563236,CTD
+KIF5B - kinesin family member 5B (human),Testicular Neoplasms,Disease,Testicular Neoplasms,MESH:D013736,CTD
+KIF5B - kinesin family member 5B (human),"Thyroid cancer, follicular",Disease,"Thyroid cancer, follicular",MESH:C572845,CTD
+KIF5B - kinesin family member 5B (human),"Thyroid cancer, medullary",Disease,"Thyroid cancer, medullary",MESH:C536914,CTD
+KIF5B - kinesin family member 5B (human),Thyroid Diseases,Disease,Thyroid Diseases,MESH:D013959,CTD
+KIF5B - kinesin family member 5B (human),"Thyroid Hormone Metabolism, Abnormal",Disease,"Thyroid Hormone Metabolism, Abnormal",MESH:C566454,CTD
+KIF5B - kinesin family member 5B (human),Thyroid Neoplasms,Disease,Thyroid Neoplasms,MESH:D013964,CTD
+KIF5B - kinesin family member 5B (human),Tongue Neoplasms,Disease,Tongue Neoplasms,MESH:D014062,CTD
+KIF5B - kinesin family member 5B (human),Triple Negative Breast Neoplasms,Disease,Triple Negative Breast Neoplasms,MESH:D064726,CTD
+KIF5B - kinesin family member 5B (human),Tumor Lysis Syndrome,Disease,Tumor Lysis Syndrome,MESH:D015275,CTD
+KIF5B - kinesin family member 5B (human),Ureteral Neoplasms,Disease,Ureteral Neoplasms,MESH:D014516,CTD
+KIF5B - kinesin family member 5B (human),Urinary Bladder Neoplasms,Disease,Urinary Bladder Neoplasms,MESH:D001749,CTD
+KIF5B - kinesin family member 5B (human),Urogenital Neoplasms,Disease,Urogenital Neoplasms,MESH:D014565,CTD
+KIF5B - kinesin family member 5B (human),Urologic Neoplasms,Disease,Urologic Neoplasms,MESH:D014571,CTD
+KIF5B - kinesin family member 5B (human),Uterine Cervical Neoplasms,Disease,Uterine Cervical Neoplasms,MESH:D002583,CTD
+KIF5B - kinesin family member 5B (human),Uterine Neoplasms,Disease,Uterine Neoplasms,MESH:D014594,CTD
+KIF5B - kinesin family member 5B (human),Uveal Neoplasms,Disease,Uveal Neoplasms,MESH:D014604,CTD
+KIF5B - kinesin family member 5B (human),Vascular Calcification,Disease,Vascular Calcification,MESH:D061205,CTD
+KIF5B - kinesin family member 5B (human),Vascular Diseases,Disease,Vascular Diseases,MESH:D014652,CTD
+KIF5B - kinesin family member 5B (human),Vascular Malformations,Disease,Vascular Malformations,MESH:D054079,CTD
+KIF5B - kinesin family member 5B (human),Vascular Remodeling,Disease,Vascular Remodeling,MESH:D066253,CTD
+KIF5B - kinesin family member 5B (human),Vascular System Injuries,Disease,Vascular System Injuries,MESH:D057772,CTD
+KIF5B - kinesin family member 5B (human),Wilms Tumor,Disease,Wilms Tumor,MESH:D009396,CTD

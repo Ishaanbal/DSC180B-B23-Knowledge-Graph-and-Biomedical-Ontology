@@ -9,3 +9,4 @@ dependencies:
   - ipykernel
   - matplotlib
   - seaborn
+  - pyvis

@@ -1,0 +1,9 @@
+protein_id,outcome_id,outcome_type,outcome_name,evidence,source
+KDR - kinase insert domain receptor (human),Hypertension,Adverse Event,Hypertension,VEGFR2 inhibition linked to hypertension (class effect),CTD
+Tyrosine-protein kinase JAK2 (human),Neutropenia,Adverse Event,Neutropenia,JAK2 inhibition linked to cytopenias,OpenTargets
+CCDC6 - coiled-coil domain containing 6 (human),Abdominal Pain,Disease,Abdominal Pain,MESH:D015746,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),Abdominal Pain,Disease,Abdominal Pain,MESH:D015746,CTD
+Tyrosine-protein kinase JAK2 (human),"Abdomen, Acute",Disease,"Abdomen, Acute",MESH:D000006,CTD
+KIF5B - kinesin family member 5B (human),Abdominal Injuries,Disease,Abdominal Injuries,MESH:D000007,CTD
+RET - ret proto-oncogene (human),Abdominal Injuries,Disease,Abdominal Injuries,MESH:D000007,CTD
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),Abdominal Injuries,Disease,Abdominal Injuries,MESH:D000007,CTD

@@ -1,0 +1,1457 @@
+source,relation,target,value,unit,metadata,source_file
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.3,nM,IC50 (AID: 1934929),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.3,nM,IC50 (AID: 1895756),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1934930),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1934928),Bioactivity
+Pralsetinib,inhibits,CCDC6 - coiled-coil domain containing 6 (human),0.4,nM,IC50 (AID: 1895760),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1895758),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1895755),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1895760),Bioactivity
+Pralsetinib,inhibits,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.4,nM,IC50 (AID: 2091116),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.7,nM,IC50 (AID: 1776961),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.78,nM,IC50 (AID: 1776959),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),1.0,nM,Kd (AID: 1995913),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),1.9300000000000002,nM,IC50 (AID: 1776960),Bioactivity
+Pralsetinib,inhibits,Tyrosine-protein kinase JAK2 (human),2.0,nM,IC50 (AID: 1776972),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),2.4,nM,IC50 (AID: 1946834),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),4.0,nM,GI50 (AID: 1704862),Bioactivity
+Pralsetinib,inhibits,KIF5B - kinesin family member 5B (human),4.0,nM,GI50 (AID: 1704858),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),4.0,nM,GI50 (AID: 1704857),Bioactivity
+Pralsetinib,inhibits,KIF5B - kinesin family member 5B (human),4.0,nM,GI50 (AID: 1704862),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),4.0,nM,GI50 (AID: 1704858),Bioactivity
+Pralsetinib,inhibits,CCDC6 - coiled-coil domain containing 6 (human),4.0,nM,GI50 (AID: 1704857),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),5.0,nM,IC50 (AID: 1895764),Bioactivity
+Pralsetinib,inhibits,KIF5B - kinesin family member 5B (human),5.0,nM,IC50 (AID: 1895764),Bioactivity
+Pralsetinib,inhibits,FLT3 - fms related receptor tyrosine kinase 3 (human),6.5,nM,IC50 (AID: 1776973),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),10.0,nM,IC50 (AID: 1806406),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),10.0,nM,IC50 (AID: 1806405),Bioactivity
+Pralsetinib,inhibits,KDR - kinase insert domain receptor (human),35.0,nM,IC50 (AID: 1895759),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),100.0,nM,IC50 (AID: 1806406),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),100.0,nM,IC50 (AID: 1806405),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),500.0,nM,IC50 (AID: 1804253),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),500.0,nM,IC50 (AID: 1804254),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),6000.0,nM,IC50 (AID: 1804253),Bioactivity
+Pralsetinib,inhibits,RET - ret proto-oncogene (human),6000.0,nM,IC50 (AID: 1804254),Bioactivity
+Pralsetinib,inhibits,RET,Active,,Proto-oncogene c-Ret (RET),ConsolidatedTargets
+Pralsetinib,targets,RET,Active,,RET,ConsolidatedTargets
+Pralsetinib,inhibits,PTK2B,Active,,PTK2B,ConsolidatedTargets
+Pralsetinib,inhibits,RET,Active,,ret proto-oncogene,ConsolidatedTargets
+Pralsetinib,targets,EML4,Active,,EML4,ConsolidatedTargets
+Pralsetinib,inhibits,KIF5B,Active,,KIF5B,ConsolidatedTargets
+Pralsetinib,inhibits,KDR,Active,,kinase insert domain receptor,ConsolidatedTargets
+Pralsetinib,inhibits,DRD2,Active,,DRD2,ConsolidatedTargets
+Pralsetinib,targets,HRAS,Active,,HRAS,ConsolidatedTargets
+Pralsetinib,inhibits,RET,Active,,RET,ConsolidatedTargets
+Pralsetinib,inhibits,CCDC6,Active,,CCDC6,ConsolidatedTargets
+Pralsetinib,targets,RET,Active,,Proto-oncogene tyrosine-protein kinase receptor Ret,ConsolidatedTargets
+Pralsetinib,co_occurs_with_chemical,Selpercatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Cabozantinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Vandetanib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,L-Tyrosine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,2-Amino-4-chloropyridine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Lenvatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Entrectinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Larotrectinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Dabrafenib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Osimertinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"Pemetrexed, (R)-",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Crizotinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Platinum,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Trametinib Dimethyl Sulfoxide,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Sorafenib Tosylate,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Lorlatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Alectinib Hydrochloride,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Capmatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"diammine[cyclobutane-1,1-dicarboxylato(2-)-k2O1,O1]platinum",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Brigatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Erlotinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Sunitinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Calcitonin,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Afatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Paclitaxel,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Ponatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Vemurafenib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Selumetinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,azane;dichloroplatinum,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Gemcitabine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Tepotinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,GlyTouCan:G91391XS,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Ceritinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Repotrectinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Docetaxel,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Pemigatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Cyanogen,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Iodine Radioisotopes,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Ensartinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Nintedanib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Gefitinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Piperidines,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Creatine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Temozolomide,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Tetranitromethane,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Motesanib Diphosphate,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Fluorodeoxyglucose,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Methyl Ethyl Ketone,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"l-aspartic acid, sodium salt",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Thyroxine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Capecitabine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Etoposide,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Tucatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Sotorasib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Agerafenib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Fludeoxyglucose F-18,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Selitrectinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Cobimetinib (racemate),Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"Methyl (1R,10S,11R,19R)-11-acetyloxy-12-ethyl-4-[(12R,13S,14S)-16-ethyl-12-methoxycarbonyl-1,10-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8,15-pentaen-13-yl]-10-hydroxy-5-methoxy-8-methyl-8,16-diazapentacyclo[10.6.1.01,9.02,7.016,19]nonadeca-2(7),3,5,13-tetraene-10-carboxylate",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"5-Chloro-N2-(4-(4-(dimethylamino)-1-piperidinyl)-2-methoxyphenyl)-N4-(2-(dimethylphosphinyl)phenyl)-2,4-pyrimidinediamine",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Dacomitinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,D-Cysteine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Zoledronic Acid,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Erdafitinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Everolimus,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Imatinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,creatinine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,L-Alanine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Encorafenib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Dacarbazine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,4-(3-Chloro-4-(((cyclopropylamino)carbonyl)amino)phenoxy)-7-hydroxy-6-quinolinecarboxamide,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Eosin,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Palbociclib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Neratinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Acetonitrile,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Formaldehyde,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Poziotinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Alpelisib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Valganciclovir,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Formic Acid,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Entecavir,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Hematoxyline,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Bilirubin,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Pazopanib Hydrochloride,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Pyrimidinones,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Avapritinib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Elacridar,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Iodine,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Sodium Iodide,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"5-[2-(8-amino-1,7-naphthyridin-5-yl)ethynyl]-N-[4-[(4-methylpiperazin-1-yl)methyl]-3-(trifluoromethyl)phenyl]pyridine-3-carboxamide",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"(1,1'-Biphenyl)-3,3',4,4'-tetramine tetrahydrochloride dihydrate",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,"2,2'-((Dihydro-2-(4-pyridinyl)-1,3(2H,4H)-pyrimidinediyl)bis(methylene))bis(N,N-dimethylbenzenamine)",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Somatostatin,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Adagrasib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Arsenic Trioxide,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Ivosidenib,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Irinotecan,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Doxorubicin,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Lambrolizumab,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_chemical,Estradiol,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,ret proto-oncogene,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,tyrosine kinase non receptor 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,kinesin family member 5b,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,coiled-coil domain containing 6,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,zinc finger mynd-type containing 10,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,epidermal growth factor receptor,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"b-raf proto-oncogene, serine/threonine kinase",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"ros proto-oncogene 1, receptor tyrosine kinase",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,cd274 molecule,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,calcitonin related polypeptide alpha,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,potassium voltage-gated channel subfamily a member 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,kinase insert domain receptor,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,tumor protein p53,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,nuclear receptor coactivator 4,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,erb-b2 receptor tyrosine kinase 2,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,programmed cell death 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,cea cell adhesion molecule 5,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,aspartate transaminase,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,cytochrome p450 family 3 subfamily a member 4,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,ankyrin 3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,emap like 4,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,thyroid peroxidase,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,platelet derived growth factor receptor beta,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,protein bel-1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,atp binding cassette subfamily b member 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,receptor protein-tyrosine kinase,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,fibroblast growth factor receptor 3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,rb transcriptional corepressor 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,microrna 8070,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,microrna 4299,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,neurotrophic receptor tyrosine kinase 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,mab-21 like 4,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,akt serine/threonine kinase 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,glial cell derived neurotrophic factor,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,janus kinase 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,glutamic--pyruvic transaminase,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,isochorismatase domain containing 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,forkhead box j3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,alk receptor tyrosine kinase,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,run and fyve domain containing 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,taste 2 receptor member 38,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,thyroglobulin,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"growth factor, augmenter of liver regeneration",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,transforming acidic coiled-coil containing protein 3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,neurotrophic receptor tyrosine kinase 3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,fibroblast growth factor receptor 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,kinesin family member 13a,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,single-strand-selective monofunctional uracil-dna glycosylase 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,prominin 2,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,protein lf2,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,progesterone immunomodulatory binding factor 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,neuregulin 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,c1q and tnf related 6,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,semaphorin 5a,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,neuregulin 3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,estrogen receptor 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,lf1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,spermine synthase,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,calcyclin binding protein,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,fms related receptor tyrosine kinase 3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,gli family zinc finger 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"dicer 1, ribonuclease iii",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,coiled-coil domain containing 30,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,siah e3 ubiquitin protein ligase 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,ben domain containing 7,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,serine/threonine kinase 11,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,gins complex subunit 2,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,elks/rab6-interacting/cast family member 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,platelet derived growth factor receptor alpha,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,fibroblast growth factor receptor 2,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,erb-b2 receptor tyrosine kinase 3,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,cd74 molecule,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,cereblon,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,alf transcription elongation factor 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,podocalyxin like,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,fms related receptor tyrosine kinase 4,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,ankyrin 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,somatostatin receptor 2,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,discs large maguk scaffold protein 5,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,agamous-like mads-box protein ap1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,bromodomain containing 4,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,yes1 associated transcriptional regulator,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,tripartite motif containing 33,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,shc adaptor protein 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,nk2 homeobox 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,ets variant transcription factor 6,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,poc1 centriolar protein b,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,ubiquitin specific peptidase 8,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"bcar3 adaptor protein, nsp family member",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"hras proto-oncogene, gtpase",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,atp binding cassette subfamily g member 2 (jr blood group),Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,cytochrome p450 family 2 subfamily j member 2,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,platelet activating factor acetylhydrolase 1b regulatory subunit 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,multiple inositol-polyphosphate phosphatase 1,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,dicarbonyl and l-xylulose reductase,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,insulin like growth factor 1 receptor,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,"met proto-oncogene, receptor tyrosine kinase",Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+Pralsetinib,co_occurs_with_gene,adam metallopeptidase domain 15,Co-occurrence,Text Mining,PubChem Neighbor,data/Chemical_Gene-Co-Occurrences-in-Literature_CID_129073603.json
+RET - ret proto-oncogene (human),involved_in,GO:0007169,,,cell surface receptor protein tyrosine kinase signaling pathway,GO
+RET - ret proto-oncogene (human),involved_in,GO:0007411,,,axon guidance,GO
+FLT3 - fms related receptor tyrosine kinase 3 (human),involved_in,GO:0007169,,,cell surface receptor protein tyrosine kinase signaling pathway,GO
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),involved_in,GO:0007411,,,axon guidance,GO
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),involved_in,GO:0007169,,,cell surface receptor protein tyrosine kinase signaling pathway,GO
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),involved_in,GO:0071300,,,cellular response to retinoic acid,GO
+RET - ret proto-oncogene (human),involved_in,GO:0071300,,,cellular response to retinoic acid,GO
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Acute Lung Injury,,,MESH:D055371,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Adenocarcinoma,,,MESH:D000230,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Adenocarcinoma, Bronchiolo-Alveolar",,,MESH:D002282,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Adenocarcinoma of Lung,,,MESH:D000077192,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Adrenal Cortex Diseases,,,MESH:D000303,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Adrenal Gland Diseases,,,MESH:D000307,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Adrenal Gland Neoplasms,,,MESH:D000310,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Adrenocortical Carcinoma,,,MESH:D018268,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Anemia,,,MESH:D000740,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Aplastic",,,MESH:D000741,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Hemolytic",,,MESH:D000743,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Hemolytic, Autoimmune",,,MESH:D000744,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Hypochromic",,,MESH:D000747,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Iron-Deficiency",,,MESH:D018798,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Macrocytic",,,MESH:D000748,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Megaloblastic",,,MESH:D000749,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Sickle Cell",,,MESH:D000755,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Anemia, Sideroblastic",,,MESH:D000756,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Anus Neoplasms,,,MESH:D001005,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Arrhythmias, Cardiac",,,MESH:D001145,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Autoimmune Diseases,,,MESH:D001327,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Basal Cell Carcinoma,,,MESH:D002280,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Bone Marrow Neoplasms,,,MESH:D019046,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Bone Neoplasms,,,MESH:D001859,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Brain Neoplasms,,,MESH:D001932,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Breast Neoplasms,,,MESH:D001943,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Bronchial Neoplasms,,,MESH:D001984,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Burkitt Lymphoma,,,MESH:D002051,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Carcinoid Tumor,,,MESH:D002276,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Carcinoma,,,MESH:D002277,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Adenosquamous",,,MESH:D018196,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Bronchogenic",,,MESH:D002283,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Ductal, Breast",,,MESH:D018270,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Ehrlich Tumor",,,MESH:D002286,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Embryonal",,,MESH:D018236,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Endometrioid",,,MESH:D018269,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Hepatocellular",,,MESH:D006528,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Carcinoma in Situ,,,MESH:D002278,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Large Cell",,,MESH:D018287,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Lewis Lung",,,MESH:D018827,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Merkel Cell",,,MESH:D015266,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Non-Small-Cell Lung",,,MESH:D002289,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Ovarian Epithelial",,,MESH:D000077216,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Pancreatic Ductal",,,MESH:D021441,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Papillary",,,MESH:D002291,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Renal Cell",,,MESH:D002292,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Signet Ring Cell",,,MESH:D018279,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Small Cell",,,MESH:D018288,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Squamous Cell",,,MESH:D002294,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Carcinoma, Transitional Cell",,,MESH:D002295,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Cardiac Conduction System Disease,,,MESH:D000075224,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Cardiac Output, High",,,MESH:D016534,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Cardiac Output, Low",,,MESH:D002303,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Cardio-Renal Syndrome,,,MESH:D059347,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Cardiovascular Abnormalities,,,MESH:D018376,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Cardiovascular Diseases,,,MESH:D002318,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Central Nervous System Neoplasms,,,MESH:D016543,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Cerebrovascular Disorders,,,MESH:D002561,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Cholangiocarcinoma,,,MESH:D018281,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Cholestasis, Intrahepatic",,,MESH:D002780,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Choriocarcinoma,,,MESH:D002822,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Clear-cell metastatic renal cell carcinoma,,,MESH:C538445,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Colonic Neoplasms,,,MESH:D003110,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Colorectal Neoplasms,,,MESH:D015179,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Congenital Hypothyroidism,,,MESH:D003409,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Conotruncal cardiac defects,,,MESH:C535464,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Death, Sudden, Cardiac",,,MESH:D016757,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Dementia, Vascular",,,MESH:D015140,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Desmoid Tumors,,,MESH:D018222,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Desmoplastic Small Round Cell Tumor,,,MESH:D058405,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Diabetes Mellitus, Congenital Autoimmune",,,MESH:C565730,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Disseminated Intravascular Coagulation,,,MESH:D004211,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Edema, Cardiac",,,MESH:D004489,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Encephalomyelitis, Autoimmune, Experimental",,,MESH:D004681,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Endometrial Neoplasms,,,MESH:D016889,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Esophageal Neoplasms,,,MESH:D004938,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Esophageal Squamous Cell Carcinoma,,,MESH:D000077277,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Euthyroid Sick Syndromes,,,MESH:D005067,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Fallopian Tube Neoplasms,,,MESH:D005185,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Familial primary gastric lymphoma,,,MESH:C535648,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Gallbladder Neoplasms,,,MESH:D005706,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Gastrointestinal Neoplasms,,,MESH:D005770,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Genital Neoplasms, Female",,,MESH:D005833,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Glycosuria, Renal",,,MESH:D006030,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Granulosa cell tumor of the ovary,,,MESH:C537296,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Head and Neck Neoplasms,,,MESH:D006258,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hematologic Neoplasms,,,MESH:D019337,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hepatic Encephalopathy,,,MESH:D006501,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hepatic Insufficiency,,,MESH:D048550,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hepatic Veno-Occlusive Disease,,,MESH:D006504,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hepatorenal Syndrome,,,MESH:D006530,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hypertension,,,MESH:D006973,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypertension, Malignant",,,MESH:D006974,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypertension, Portal",,,MESH:D006975,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypertension, Pregnancy-Induced",,,MESH:D046110,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypertension, Pulmonary",,,MESH:D006976,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypertension, Renal",,,MESH:D006977,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypertension, Renovascular",,,MESH:D006978,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hyperthyroidism,,,MESH:D006980,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypomagnesemia 2, renal",,,MESH:C537152,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hypopharyngeal Neoplasms,,,MESH:D007012,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Hypothyroidism,,,MESH:D007037,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Hypothyroidism, Autoimmune",,,MESH:C562768,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Immune Complex Diseases,,,MESH:D007105,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,IMMUNE SUPPRESSION,,,OMIM:146850,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Immune System Diseases,,,MESH:D007154,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Inflammatory Breast Neoplasms,,,MESH:D058922,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Intestinal Neoplasms,,,MESH:D007414,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Intracranial Hypertension,,,MESH:D019586,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Kidney Neoplasms,,,MESH:D007680,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Laryngeal Neoplasms,,,MESH:D007822,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Leukemia,,,MESH:D007938,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Erythroblastic, Acute",,,MESH:D004915,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Experimental",,,MESH:D007942,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Leukemia L1210,,,MESH:D007939,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Lymphocytic, Chronic, B-Cell",,,MESH:D015451,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Lymphoid",,,MESH:D007945,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia-Lymphoma, Adult T-Cell",,,MESH:D015459,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Monocytic, Acute",,,MESH:D007948,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",,,MESH:D015464,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Myeloid",,,MESH:D007951,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Myeloid, Acute",,,MESH:D015470,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Plasma Cell",,,MESH:D007952,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Prolymphocytic, T-Cell",,,MESH:D015461,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Promyelocytic, Acute",,,MESH:D015473,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, Radiation-Induced",,,MESH:D007953,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Leukemia, T-Cell",,,MESH:D015458,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Leydig Cell Tumor,,,MESH:D007984,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Liver Neoplasms,,,MESH:D008113,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Liver Neoplasms, Experimental",,,MESH:D008114,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Lung agenesis,,,MESH:C562992,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Lung Diseases,,,MESH:D008171,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lung Diseases, Interstitial",,,MESH:D017563,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lung Diseases, Obstructive",,,MESH:D008173,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Lung Injury,,,MESH:D055370,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Lung Neoplasms,,,MESH:D008175,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Lymphatic Metastasis,,,MESH:D008207,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Lymphoma,,,MESH:D008223,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, AIDS-Related",,,MESH:D016483,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, B-Cell",,,MESH:D016393,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, Extranodal NK-T-Cell",,,MESH:D054391,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, Follicular",,,MESH:D008224,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, Large B-Cell, Diffuse",,,MESH:D016403,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, Mantle-Cell",,,MESH:D020522,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, Non-Hodgkin",,,MESH:D008228,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, Primary Effusion",,,MESH:D054685,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, T-Cell",,,MESH:D016399,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Lymphoma, T-Cell, Cutaneous",,,MESH:D016410,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Male Germ Cell Tumor,,,MESH:C564777,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Mammary Neoplasms, Animal",,,MESH:D015674,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Mammary Neoplasms, Experimental",,,MESH:D008325,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Massive Hepatic Necrosis,,,MESH:D047508,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Maxillary Sinus Neoplasms,,,MESH:D008444,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Mouth Neoplasms,,,MESH:D009062,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Nasopharyngeal Carcinoma,,,MESH:D000077274,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Nasopharyngeal Neoplasms,,,MESH:D009303,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Neoplasm Invasiveness,,,MESH:D009361,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Neoplasm Metastasis,,,MESH:D009362,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neoplasm Recurrence, Local",,,MESH:D009364,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Neoplasms,,,MESH:D009369,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neoplasms, Bone Tissue",,,MESH:D018213,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neoplasms, Experimental",,,MESH:D009374,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neoplasms, Germ Cell and Embryonal",,,MESH:D009373,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neoplasms, Glandular and Epithelial",,,MESH:D009375,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neoplasms, Mesothelial",,,MESH:D018301,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neovascularization, Pathologic",,,MESH:D009389,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Neuroectodermal Tumors,,,MESH:D017599,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neuroectodermal Tumors, Primitive",,,MESH:D018242,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Neuroectodermal Tumors, Primitive, Peripheral",,,MESH:D018241,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Neutropenia,,,MESH:D009503,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Nonseminomatous germ cell tumor,,,MESH:C537844,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Nose Neoplasms,,,MESH:D009669,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Ocular Hypertension,,,MESH:D009798,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Ovarian Neoplasms,,,MESH:D010051,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Pancreatic cancer, adult",,,MESH:C535836,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Pancreatic Neoplasms,,,MESH:D010190,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Paraganglioma, Extra-Adrenal",,,MESH:D010236,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Paraquat lung,,,MESH:C537171,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Peripheral Vascular Diseases,,,MESH:D016491,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Pharyngeal Neoplasms,,,MESH:D010610,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Phyllodes Tumor,,,MESH:D003557,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Pituitary Neoplasms,,,MESH:D010911,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Pleural Neoplasms,,,MESH:D010997,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Porphyrias, Hepatic",,,MESH:D017094,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Precancerous Conditions,,,MESH:D011230,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D015452,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Precursor Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054198,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054218,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Prostatic Neoplasms,,,MESH:D011471,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Pseudolymphoma,,,MESH:D019310,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Pseudotumor Cerebri,,,MESH:D011559,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Pulmonary Arterial Hypertension,,,MESH:D000081029,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Rectal Neoplasms,,,MESH:D012004,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Renal Artery Obstruction,,,MESH:D012078,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Renal hypouricemia,,,MESH:C537757,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Renal Insufficiency,,,MESH:D051437,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Renal Insufficiency, Chronic",,,MESH:D051436,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Salivary Gland Neoplasms,,,MESH:D012468,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Sigmoid Neoplasms,,,MESH:D012811,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Skin Neoplasms,,,MESH:D012878,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Small Cell Lung Carcinoma,,,MESH:D055752,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Soft Tissue Neoplasms,,,MESH:D012983,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Splenic Neoplasms,,,MESH:D013160,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Squamous Cell Carcinoma of Head and Neck,,,MESH:D000077195,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Stomach Neoplasms,,,MESH:D013274,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Testicular Germ Cell Tumor,,,MESH:C563236,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Testicular Neoplasms,,,MESH:D013736,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Thyroid cancer, follicular",,,MESH:C572845,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Thyroid Cancer, Papillary",,,marker/mechanism;MESH:D000077273,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Thyroid Diseases,,,MESH:D013959,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Thyroid Dysgenesis,,,MESH:D050033,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,"Thyroid Hormone Metabolism, Abnormal",,,MESH:C566454,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Thyroid Neoplasms,,,MESH:D013964,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Tongue Neoplasms,,,MESH:D014062,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Tracheal Neoplasms,,,MESH:D014134,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Triple Negative Breast Neoplasms,,,MESH:D064726,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Tumor Lysis Syndrome,,,MESH:D015275,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Ureteral Neoplasms,,,MESH:D014516,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Urethral Neoplasms,,,MESH:D014523,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Urinary Bladder Neoplasms,,,MESH:D001749,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Urogenital Neoplasms,,,MESH:D014565,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Urologic Neoplasms,,,MESH:D014571,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Uterine Cervical Neoplasms,,,MESH:D002583,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Uterine Neoplasms,,,MESH:D014594,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Uveal Neoplasms,,,MESH:D014604,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Vaginal Neoplasms,,,MESH:D014625,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Vascular Calcification,,,MESH:D061205,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Vascular Diseases,,,MESH:D014652,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Vascular Malformations,,,MESH:D054079,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Vascular Remodeling,,,MESH:D066253,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Vascular System Injuries,,,MESH:D057772,CTD
+CCDC6 - coiled-coil domain containing 6 (human),associated_with,Wilms Tumor,,,MESH:D009396,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Acidosis, Renal Tubular",,,MESH:D000141,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Acute erythroleukemia,,,marker/mechanism;MESH:C535673,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Acute Lung Injury,,,MESH:D055371,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Adenocarcinoma,,,MESH:D000230,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Adenocarcinoma of Lung,,,MESH:D000077192,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Adrenal Cortex Diseases,,,MESH:D000303,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Adrenal Gland Diseases,,,MESH:D000307,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Adrenal Gland Neoplasms,,,MESH:D000310,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Adrenal Hyperplasia, Congenital",,,MESH:D000312,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Adrenal Insufficiency,,,MESH:D000309,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Adrenocortical Carcinoma,,,MESH:D018268,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Anemia,,,MESH:D000740,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Anemia, Aplastic",,,MESH:D000741,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Anemia, Hemolytic",,,MESH:D000743,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Anemia, Hemolytic, Autoimmune",,,MESH:D000744,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Anemia, Hypochromic",,,MESH:D000747,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Anemia, Iron-Deficiency",,,MESH:D018798,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Anemia, Refractory, with Excess of Blasts",,,MESH:D000754,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Anemia, Sideroblastic",,,MESH:D000756,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Anus Neoplasms,,,MESH:D001005,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Arrhythmias, Cardiac",,,MESH:D001145,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Autoimmune Diseases,,,MESH:D001327,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Bone Marrow Neoplasms,,,MESH:D019046,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Brain Neoplasms,,,MESH:D001932,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Brain Stem Neoplasms,,,MESH:D020295,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Breast Neoplasms,,,MESH:D001943,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Bronchial Neoplasms,,,MESH:D001984,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Burkitt Lymphoma,,,MESH:D002051,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Carcinoma,,,MESH:D002277,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Bronchogenic",,,MESH:D002283,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Ductal, Breast",,,MESH:D018270,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Ehrlich Tumor",,,MESH:D002286,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Embryonal",,,MESH:D018236,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Endometrioid",,,MESH:D018269,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Hepatocellular",,,MESH:D006528,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Carcinoma in Situ,,,MESH:D002278,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Large Cell",,,MESH:D018287,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Lewis Lung",,,MESH:D018827,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Merkel Cell",,,MESH:D015266,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Non-Small-Cell Lung",,,MESH:D002289,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Ovarian Epithelial",,,MESH:D000077216,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Pancreatic Ductal",,,MESH:D021441,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Papillary",,,MESH:D002291,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Renal Cell",,,MESH:D002292,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Small Cell",,,MESH:D018288,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Squamous Cell",,,MESH:D002294,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Carcinoma, Transitional Cell",,,MESH:D002295,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Cardiac Complexes, Premature",,,MESH:D005117,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Cardiac Conduction System Disease,,,MESH:D000075224,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Cardiac Output, High",,,MESH:D016534,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Cardiac Tamponade,,,MESH:D002305,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Cardiovascular Abnormalities,,,MESH:D018376,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Cardiovascular Diseases,,,MESH:D002318,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Central Nervous System Neoplasms,,,MESH:D016543,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Cerebrovascular Disorders,,,MESH:D002561,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Cholangiocarcinoma,,,MESH:D018281,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Cholestasis, Intrahepatic",,,MESH:D002780,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Choriocarcinoma,,,MESH:D002822,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Colonic Neoplasms,,,MESH:D003110,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Colorectal Neoplasms,,,MESH:D015179,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Congenital Hypothyroidism,,,MESH:D003409,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Death, Sudden, Cardiac",,,MESH:D016757,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Dementia, Vascular",,,MESH:D015140,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Desmoid Tumors,,,MESH:D018222,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Disseminated Intravascular Coagulation,,,MESH:D004211,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Edema, Cardiac",,,MESH:D004489,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Encephalomyelitis, Autoimmune, Experimental",,,MESH:D004681,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Endometrial Neoplasms,,,MESH:D016889,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Esophageal Neoplasms,,,MESH:D004938,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Esophageal Squamous Cell Carcinoma,,,MESH:D000077277,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Euthyroid Sick Syndromes,,,MESH:D005067,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Fallopian Tube Neoplasms,,,MESH:D005185,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Gallbladder Neoplasms,,,MESH:D005706,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Gastrointestinal Neoplasms,,,MESH:D005770,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Gastrointestinal Stromal Tumors,,,MESH:D046152,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Genital Neoplasms, Female",,,MESH:D005833,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Glycosuria, Renal",,,MESH:D006030,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Granulosa cell tumor of the ovary,,,MESH:C537296,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Head and Neck Neoplasms,,,MESH:D006258,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Hematologic Neoplasms,,,MESH:D019337,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Hepatic Encephalopathy,,,MESH:D006501,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Hepatic Insufficiency,,,MESH:D048550,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Hepatic Veno-Occlusive Disease,,,MESH:D006504,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Hepatitis, Autoimmune",,,MESH:D019693,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Hypertension,,,MESH:D006973,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Hypertension, Portal",,,MESH:D006975,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Hypertension, Pregnancy-Induced",,,MESH:D046110,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Hypertension, Pulmonary",,,MESH:D006976,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Hypertension, Renovascular",,,MESH:D006978,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Hyperthyroidism,,,MESH:D006980,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Hypomagnesemia 2, renal",,,MESH:C537152,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Hypothyroidism,,,MESH:D007037,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Immune Complex Diseases,,,MESH:D007105,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Immune System Diseases,,,MESH:D007154,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Inflammatory Breast Neoplasms,,,MESH:D058922,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Intestinal Neoplasms,,,MESH:D007414,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Intracranial Hypertension,,,MESH:D019586,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Kidney Neoplasms,,,MESH:D007680,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Laryngeal Neoplasms,,,MESH:D007822,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Leukemia,,,MESH:D007938,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Experimental",,,MESH:D007942,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Lymphocytic, Chronic, B-Cell",,,MESH:D015451,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Lymphoid",,,MESH:D007945,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia-Lymphoma, Adult T-Cell",,,MESH:D015459,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Monocytic, Acute",,,MESH:D007948,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",,,MESH:D015464,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Myeloid",,,MESH:D007951,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Myeloid, Acute",,,marker/mechanism;MESH:D015470,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Myeloid, Chronic-Phase",,,MESH:D015466,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Myelomonocytic, Chronic",,,MESH:D015477,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, Promyelocytic, Acute",,,marker/mechanism;MESH:D015473,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Leukemia, T-Cell",,,MESH:D015458,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Leydig Cell Tumor,,,MESH:D007984,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Liver Neoplasms,,,MESH:D008113,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Liver Neoplasms, Experimental",,,MESH:D008114,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Lung agenesis,,,MESH:C562992,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Lung Diseases,,,MESH:D008171,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lung Diseases, Interstitial",,,MESH:D017563,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Lung Injury,,,MESH:D055370,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Lung Neoplasms,,,MESH:D008175,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Lymphatic Metastasis,,,MESH:D008207,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Lymphoma,,,MESH:D008223,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, AIDS-Related",,,MESH:D016483,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, B-Cell",,,MESH:D016393,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, Large B-Cell, Diffuse",,,MESH:D016403,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, Large-Cell, Anaplastic",,,MESH:D017728,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, Mantle-Cell",,,MESH:D020522,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, Non-Hodgkin",,,MESH:D008228,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, T-Cell",,,MESH:D016399,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, T-Cell, Cutaneous",,,MESH:D016410,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Lymphoma, T-Cell, Peripheral",,,MESH:D016411,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Male Germ Cell Tumor,,,MESH:C564777,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Mammary Neoplasms, Animal",,,MESH:D015674,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Mammary Neoplasms, Experimental",,,MESH:D008325,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Massive Hepatic Necrosis,,,MESH:D047508,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Maxillary Sinus Neoplasms,,,MESH:D008444,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Mouth Neoplasms,,,MESH:D009062,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Nasopharyngeal Carcinoma,,,MESH:D000077274,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Nasopharyngeal Neoplasms,,,MESH:D009303,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Neoplasm Invasiveness,,,MESH:D009361,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Neoplasm Metastasis,,,MESH:D009362,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Neoplasm Recurrence, Local",,,MESH:D009364,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Neoplasms,,,MESH:D009369,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Neoplasms, Experimental",,,MESH:D009374,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Neoplasms, Germ Cell and Embryonal",,,MESH:D009373,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Neoplasms, Glandular and Epithelial",,,MESH:D009375,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Neovascularization, Pathologic",,,MESH:D009389,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Neuroectodermal Tumors,,,MESH:D017599,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Neuroendocrine Tumors,,,MESH:D018358,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Neutropenia,,,MESH:D009503,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Nonseminomatous germ cell tumor,,,MESH:C537844,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Nose Neoplasms,,,MESH:D009669,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Ocular Hypertension,,,MESH:D009798,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Ovarian Neoplasms,,,MESH:D010051,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Pancreatic cancer, adult",,,MESH:C535836,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Pancreatic Neoplasms,,,MESH:D010190,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Paraganglioma, Extra-Adrenal",,,MESH:D010236,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Peripheral Vascular Diseases,,,MESH:D016491,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Pharyngeal Neoplasms,,,MESH:D010610,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Pituitary Neoplasms,,,MESH:D010911,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Pleural Neoplasms,,,MESH:D010997,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Porphyrias, Hepatic",,,MESH:D017094,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Precancerous Conditions,,,MESH:D011230,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D015452,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Precursor Cell Lymphoblastic Leukemia-Lymphoma,,,marker/mechanism;MESH:D054198,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054218,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Prostatic Neoplasms,,,MESH:D011471,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Pseudotumor Cerebri,,,MESH:D011559,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Rectal Neoplasms,,,MESH:D012004,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Renal Artery Obstruction,,,MESH:D012078,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Renal Insufficiency,,,MESH:D051437,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Renal Insufficiency, Chronic",,,MESH:D051436,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Salivary Gland Neoplasms,,,MESH:D012468,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Sebaceous Gland Neoplasms,,,MESH:D012626,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Sinus Arrest, Cardiac",,,MESH:D054138,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Skin Neoplasms,,,MESH:D012878,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Small Cell Lung Carcinoma,,,MESH:D055752,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Squamous Cell Carcinoma of Head and Neck,,,MESH:D000077195,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Stomach Neoplasms,,,MESH:D013274,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Testicular Germ Cell Tumor,,,MESH:C563236,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Testicular Neoplasms,,,MESH:D013736,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Thyroid cancer, follicular",,,MESH:C572845,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Thyroid Diseases,,,MESH:D013959,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Thyroid Dysgenesis,,,MESH:D050033,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,"Thyroid Hormone Metabolism, Abnormal",,,MESH:C566454,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Thyroid Neoplasms,,,MESH:D013964,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Tongue Neoplasms,,,MESH:D014062,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Tracheal Neoplasms,,,MESH:D014134,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Triple Negative Breast Neoplasms,,,MESH:D064726,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Ureteral Neoplasms,,,MESH:D014516,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Urethral Neoplasms,,,MESH:D014523,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Urinary Bladder Neoplasms,,,MESH:D001749,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Urogenital Neoplasms,,,MESH:D014565,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Urologic Neoplasms,,,MESH:D014571,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Uterine Cervical Neoplasms,,,MESH:D002583,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Uterine Neoplasms,,,MESH:D014594,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Uveal Neoplasms,,,MESH:D014604,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Vaginal Neoplasms,,,MESH:D014625,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Vascular Calcification,,,MESH:D061205,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Vascular Diseases,,,MESH:D014652,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Vascular Malformations,,,MESH:D054079,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Vascular Remodeling,,,MESH:D066253,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Vascular System Injuries,,,MESH:D057772,CTD
+FLT3 - fms related receptor tyrosine kinase 3 (human),associated_with,Wilms Tumor,,,MESH:D009396,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Acidosis, Renal Tubular",,,MESH:D000141,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Acute Lung Injury,,,MESH:D055371,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adenocarcinoma,,,MESH:D000230,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Adenocarcinoma, Bronchiolo-Alveolar",,,MESH:D002282,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Adenocarcinoma, Clear Cell",,,MESH:D018262,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Adenocarcinoma, Mucinous",,,MESH:D002288,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adenocarcinoma of Lung,,,MESH:D000077192,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adrenal Cortex Diseases,,,MESH:D000303,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adrenal Cortex Neoplasms,,,MESH:D000306,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adrenal Gland Diseases,,,MESH:D000307,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adrenal Gland Neoplasms,,,MESH:D000310,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Adrenal Hyperplasia, Congenital",,,MESH:D000312,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adrenal Insufficiency,,,MESH:D000309,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Adrenocortical Carcinoma,,,MESH:D018268,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Anemia,,,MESH:D000740,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Aplastic",,,MESH:D000741,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Hemolytic",,,MESH:D000743,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Hemolytic, Autoimmune",,,MESH:D000744,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Hypochromic",,,MESH:D000747,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Iron-Deficiency",,,MESH:D018798,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Macrocytic",,,MESH:D000748,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Megaloblastic",,,MESH:D000749,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Refractory, with Excess of Blasts",,,MESH:D000754,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Sickle Cell",,,MESH:D000755,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Anemia, Sideroblastic",,,MESH:D000756,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Anus Neoplasms,,,MESH:D001005,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Arrhythmias, Cardiac",,,MESH:D001145,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Autoimmune Diseases,,,MESH:D001327,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Basal Cell Carcinoma,,,MESH:D002280,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Basal Ganglia Cerebrovascular Disease,,,MESH:D020144,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Bone Marrow Neoplasms,,,MESH:D019046,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Bone Neoplasms,,,MESH:D001859,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Brachydactyly with hypertension,,,MESH:C537095,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Brain Neoplasms,,,MESH:D001932,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Breast Neoplasms,,,MESH:D001943,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Breast Neoplasms, Male",,,MESH:D018567,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Bronchial Neoplasms,,,MESH:D001984,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Burkitt Lymphoma,,,MESH:D002051,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Carcinoid Tumor,,,MESH:D002276,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Carcinoma,,,MESH:D002277,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Adenosquamous",,,MESH:D018196,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Bronchogenic",,,MESH:D002283,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Ductal",,,MESH:D044584,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Ductal, Breast",,,MESH:D018270,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Ehrlich Tumor",,,MESH:D002286,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Embryonal",,,MESH:D018236,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Endometrioid",,,MESH:D018269,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Hepatocellular",,,MESH:D006528,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Carcinoma in Situ,,,MESH:D002278,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Islet Cell",,,MESH:D018273,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Large Cell",,,MESH:D018287,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Lewis Lung",,,MESH:D018827,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Lobular",,,MESH:D018275,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Merkel Cell",,,MESH:D015266,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Non-Small-Cell Lung",,,MESH:D002289,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Ovarian Epithelial",,,MESH:D000077216,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Pancreatic Ductal",,,MESH:D021441,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Papillary",,,MESH:D002291,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Renal Cell",,,MESH:D002292,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Small Cell",,,MESH:D018288,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Squamous Cell",,,MESH:D002294,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Carcinoma, Transitional Cell",,,MESH:D002295,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Cardiac Complexes, Premature",,,MESH:D005117,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Cardiac Conduction System Disease,,,MESH:D000075224,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Cardiac Output, High",,,MESH:D016534,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Cardiac Output, Low",,,MESH:D002303,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Cardiac Tamponade,,,MESH:D002305,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Cardiovascular Abnormalities,,,MESH:D018376,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Cardiovascular Diseases,,,MESH:D002318,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Central Nervous System Neoplasms,,,MESH:D016543,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Cerebrovascular Disorders,,,MESH:D002561,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Cholangiocarcinoma,,,MESH:D018281,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Cholestasis, Extrahepatic",,,MESH:D001651,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Cholestasis, Intrahepatic",,,MESH:D002780,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Cholestasis, progressive familial intrahepatic 3",,,MESH:C535935,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Choriocarcinoma,,,MESH:D002822,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Choroidal Neovascularization,,,MESH:D020256,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Clear-cell metastatic renal cell carcinoma,,,MESH:C538445,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Colitis-Associated Neoplasms,,,MESH:D000083023,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Colonic Neoplasms,,,MESH:D003110,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Colorectal Neoplasms,,,MESH:D015179,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Congenital Hypothyroidism,,,MESH:D003409,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Conotruncal cardiac defects,,,MESH:C535464,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Corneal Neovascularization,,,MESH:D016510,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Cystadenocarcinoma,,,MESH:D003536,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Death, Sudden, Cardiac",,,MESH:D016757,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Dementia, Vascular",,,MESH:D015140,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Desmoid Tumors,,,MESH:D018222,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Desmoplastic Small Round Cell Tumor,,,MESH:D058405,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Disseminated Intravascular Coagulation,,,MESH:D004211,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Edema, Cardiac",,,MESH:D004489,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Encephalomyelitis, Autoimmune, Experimental",,,MESH:D004681,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Endocrine Gland Neoplasms,,,MESH:D004701,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Endometrial Neoplasms,,,MESH:D016889,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Esophageal Neoplasms,,,MESH:D004938,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Esophageal Squamous Cell Carcinoma,,,MESH:D000077277,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Essential Hypertension,,,MESH:D000075222,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Euthyroid Sick Syndromes,,,MESH:D005067,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Fallopian Tube Neoplasms,,,MESH:D005185,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Familial primary gastric lymphoma,,,MESH:C535648,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Fanconi Anemia,,,MESH:D005199,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Gallbladder Neoplasms,,,MESH:D005706,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Gastrointestinal Neoplasms,,,MESH:D005770,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Gastrointestinal Stromal Tumors,,,MESH:D046152,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Genital Neoplasms, Female",,,MESH:D005833,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Genital Neoplasms, Male",,,MESH:D005834,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Giant Cell Tumor of Bone,,,MESH:D018212,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Glycosuria, Renal",,,MESH:D006030,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Granulosa cell tumor of the ovary,,,MESH:C537296,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Head and Neck Neoplasms,,,MESH:D006258,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Hematologic Neoplasms,,,MESH:D019337,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Hepatic Encephalopathy,,,MESH:D006501,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Hepatic Insufficiency,,,MESH:D048550,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Hepatic Veno-Occlusive Disease,,,MESH:D006504,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hepatitis, Autoimmune",,,MESH:D019693,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Hypertension,,,MESH:D006973,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hypertension, Malignant",,,MESH:D006974,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hypertension, Portal",,,MESH:D006975,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hypertension, Pregnancy-Induced",,,MESH:D046110,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hypertension, Pulmonary",,,MESH:D006976,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hypertension, Renal",,,MESH:D006977,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hypertension, Renovascular",,,MESH:D006978,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Hyperthyroidism,,,MESH:D006980,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Hypomagnesemia 2, renal",,,MESH:C537152,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Hypothyroidism,,,MESH:D007037,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Idiopathic intracranial hypertension with papilledema,,,MESH:C531795,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Immune Complex Diseases,,,MESH:D007105,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,IMMUNE SUPPRESSION,,,OMIM:146850,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Immune System Diseases,,,MESH:D007154,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Inflammatory Breast Neoplasms,,,MESH:D058922,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Intestinal Neoplasms,,,MESH:D007414,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Intracranial Hypertension,,,MESH:D019586,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Kidney Neoplasms,,,MESH:D007680,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Laryngeal Neoplasms,,,MESH:D007822,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Leukemia,,,marker/mechanism;MESH:D007938,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Erythroblastic, Acute",,,MESH:D004915,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Experimental",,,MESH:D007942,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Leukemia L1210,,,MESH:D007939,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Large Granular Lymphocytic",,,MESH:D054066,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Lymphocytic, Chronic, B-Cell",,,MESH:D015451,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Lymphoid",,,MESH:D007945,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia-Lymphoma, Adult T-Cell",,,MESH:D015459,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Monocytic, Acute",,,MESH:D007948,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",,,MESH:D015464,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Myeloid",,,MESH:D007951,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Myeloid, Acute",,,marker/mechanism;MESH:D015470,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Myelomonocytic, Acute",,,MESH:D015479,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Myelomonocytic, Chronic",,,MESH:D015477,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Plasma Cell",,,MESH:D007952,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, Promyelocytic, Acute",,,MESH:D015473,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Leukemia, T-Cell",,,MESH:D015458,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Leydig Cell Tumor,,,MESH:D007984,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Liver Neoplasms,,,MESH:D008113,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Liver Neoplasms, Experimental",,,marker/mechanism;MESH:D008114,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Lung agenesis,,,MESH:C562992,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Lung Diseases,,,MESH:D008171,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lung Diseases, Interstitial",,,MESH:D017563,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lung Diseases, Obstructive",,,MESH:D008173,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lung Diseases, Parasitic",,,MESH:D008174,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Lung Injury,,,MESH:D055370,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Lung Neoplasms,,,MESH:D008175,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Lymphatic Metastasis,,,MESH:D008207,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Lymphoma,,,MESH:D008223,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, AIDS-Related",,,MESH:D016483,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, B-Cell",,,MESH:D016393,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, Extranodal NK-T-Cell",,,MESH:D054391,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, Follicular",,,MESH:D008224,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, Large B-Cell, Diffuse",,,MESH:D016403,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, Mantle-Cell",,,MESH:D020522,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, Non-Hodgkin",,,MESH:D008228,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, T-Cell",,,MESH:D016399,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, T-Cell, Cutaneous",,,MESH:D016410,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Lymphoma, T-Cell, Peripheral",,,MESH:D016411,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Male Germ Cell Tumor,,,MESH:C564777,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Mammary Neoplasms, Animal",,,MESH:D015674,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Mammary Neoplasms, Experimental",,,MESH:D008325,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Massive Hepatic Necrosis,,,MESH:D047508,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Maxillary Sinus Neoplasms,,,MESH:D008444,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Meningeal Carcinomatosis,,,MESH:D055756,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Mesenteric Vascular Occlusion,,,marker/mechanism;MESH:D008641,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Mixed Tumor, Mullerian",,,MESH:D018200,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Mouth Neoplasms,,,MESH:D009062,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Nasopharyngeal Carcinoma,,,MESH:D000077274,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Nasopharyngeal Neoplasms,,,MESH:D009303,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Neoplasm Invasiveness,,,MESH:D009361,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Neoplasm Metastasis,,,MESH:D009362,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Neoplasm Micrometastasis,,,MESH:D061206,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasm Recurrence, Local",,,MESH:D009364,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Neoplasms,,,MESH:D009369,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Bone Tissue",,,MESH:D018213,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Experimental",,,MESH:D009374,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Fibrous Tissue",,,MESH:D018218,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Germ Cell and Embryonal",,,MESH:D009373,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Glandular and Epithelial",,,MESH:D009375,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Hormone-Dependent",,,MESH:D009376,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Radiation-Induced",,,MESH:D009381,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Second Primary",,,MESH:D016609,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Squamous Cell",,,MESH:D018307,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neoplasms, Unknown Primary",,,MESH:D009382,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neovascularization, Pathologic",,,MESH:D009389,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Nervous System Neoplasms,,,MESH:D009423,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neuritis, Autoimmune, Experimental",,,MESH:D009444,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Neuroectodermal Tumors,,,MESH:D017599,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neuroectodermal Tumors, Primitive",,,MESH:D018242,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Neuroectodermal Tumors, Primitive, Peripheral",,,MESH:D018241,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Neuroendocrine Tumors,,,MESH:D018358,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Neutropenia,,,MESH:D009503,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Nonseminomatous germ cell tumor,,,MESH:C537844,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Nose Neoplasms,,,MESH:D009669,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Ocular Hypertension,,,MESH:D009798,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Ovarian Neoplasms,,,MESH:D010051,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Pancreatic cancer, adult",,,MESH:C535836,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Pancreatic Neoplasms,,,MESH:D010190,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Paraganglioma, Extra-Adrenal",,,MESH:D010236,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Peripheral Vascular Diseases,,,MESH:D016491,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Pharyngeal Neoplasms,,,MESH:D010610,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Phyllodes Tumor,,,MESH:D003557,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Pituitary Neoplasms,,,MESH:D010911,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Pleural Neoplasms,,,MESH:D010997,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Porphyrias, Hepatic",,,MESH:D017094,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Precancerous Conditions,,,MESH:D011230,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D015452,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Precursor Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054198,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054218,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Pregnancy Complications, Cardiovascular",,,MESH:D011249,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Prostatic Neoplasms,,,marker/mechanism;MESH:D011471,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Pseudolymphoma,,,MESH:D019310,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Pseudotumor Cerebri,,,MESH:D011559,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Pulmonary Arterial Hypertension,,,MESH:D000081029,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Rectal Neoplasms,,,MESH:D012004,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Renal Aminoacidurias,,,MESH:D000608,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Renal Artery Obstruction,,,MESH:D012078,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Renal hypouricemia,,,MESH:C537757,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Renal Insufficiency,,,MESH:D051437,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Renal Insufficiency, Chronic",,,MESH:D051436,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Retinal Neovascularization,,,MESH:D015861,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Salivary Gland Neoplasms,,,MESH:D012468,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Sebaceous Gland Neoplasms,,,MESH:D012626,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Sinus Arrest, Cardiac",,,MESH:D054138,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Skin Diseases, Vascular",,,MESH:D017445,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Skin Neoplasms,,,MESH:D012878,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Small Cell Lung Carcinoma,,,MESH:D055752,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Soft Tissue Neoplasms,,,MESH:D012983,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Splenic Neoplasms,,,MESH:D013160,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Squamous Cell Carcinoma of Head and Neck,,,MESH:D000077195,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Stomach Neoplasms,,,MESH:D013274,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Testicular Germ Cell Tumor,,,MESH:C563236,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Testicular Neoplasms,,,MESH:D013736,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Thyroid cancer, follicular",,,MESH:C572845,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Thyroid cancer, medullary",,,MESH:C536914,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Thyroid Cancer, Papillary",,,MESH:D000077273,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Thyroid Diseases,,,MESH:D013959,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Thyroid Dysgenesis,,,MESH:D050033,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,"Thyroid Hormone Metabolism, Abnormal",,,MESH:C566454,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Thyroid Neoplasms,,,MESH:D013964,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Tongue Neoplasms,,,MESH:D014062,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Tracheal Neoplasms,,,MESH:D014134,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Triple Negative Breast Neoplasms,,,MESH:D064726,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Tumor Lysis Syndrome,,,MESH:D015275,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Ureteral Neoplasms,,,MESH:D014516,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Urethral Neoplasms,,,MESH:D014523,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Urinary Bladder Neoplasms,,,marker/mechanism;MESH:D001749,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Urogenital Neoplasms,,,MESH:D014565,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Urologic Neoplasms,,,MESH:D014571,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Uterine Cervical Neoplasms,,,marker/mechanism;MESH:D002583,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Uterine Neoplasms,,,MESH:D014594,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Uveal Neoplasms,,,MESH:D014604,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vaginal Neoplasms,,,MESH:D014625,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vascular Calcification,,,MESH:D061205,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vascular Diseases,,,MESH:D014652,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vascular Headaches,,,MESH:D014653,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vascular Malformations,,,MESH:D054079,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vascular Neoplasms,,,MESH:D019043,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vascular Remodeling,,,MESH:D066253,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vascular System Injuries,,,MESH:D057772,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Vulvar Neoplasms,,,MESH:D014846,CTD
+Tyrosine-protein kinase JAK2 (human),associated_with,Wilms Tumor,,,MESH:D009396,CTD
+KDR - kinase insert domain receptor (human),associated_with,Abdominal Neoplasms,,,MESH:D000008,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Acidosis, Renal Tubular",,,MESH:D000141,CTD
+KDR - kinase insert domain receptor (human),associated_with,Acute Lung Injury,,,MESH:D055371,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adenocarcinoma,,,marker/mechanism;MESH:D000230,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Adenocarcinoma, Bronchiolo-Alveolar",,,MESH:D002282,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Adenocarcinoma, Clear Cell",,,MESH:D018262,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Adenocarcinoma, Mucinous",,,MESH:D002288,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adenocarcinoma of Lung,,,MESH:D000077192,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adrenal Cortex Diseases,,,MESH:D000303,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adrenal Cortex Neoplasms,,,MESH:D000306,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adrenal Gland Diseases,,,MESH:D000307,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adrenal Gland Neoplasms,,,MESH:D000310,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Adrenal Hyperplasia, Congenital",,,MESH:D000312,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adrenal Insufficiency,,,MESH:D000309,CTD
+KDR - kinase insert domain receptor (human),associated_with,Adrenocortical Carcinoma,,,MESH:D018268,CTD
+KDR - kinase insert domain receptor (human),associated_with,Anemia,,,MESH:D000740,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Aplastic",,,MESH:D000741,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Diamond-Blackfan",,,MESH:D029503,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Hemolytic",,,MESH:D000743,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Hemolytic, Autoimmune",,,MESH:D000744,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Hypochromic",,,MESH:D000747,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Iron-Deficiency",,,MESH:D018798,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Macrocytic",,,MESH:D000748,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Megaloblastic",,,MESH:D000749,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Refractory, with Excess of Blasts",,,MESH:D000754,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Sickle Cell",,,MESH:D000755,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Anemia, Sideroblastic",,,MESH:D000756,CTD
+KDR - kinase insert domain receptor (human),associated_with,Anus Neoplasms,,,MESH:D001005,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Arrhythmias, Cardiac",,,MESH:D001145,CTD
+KDR - kinase insert domain receptor (human),associated_with,Autoimmune Diseases,,,MESH:D001327,CTD
+KDR - kinase insert domain receptor (human),associated_with,Basal Cell Carcinoma,,,MESH:D002280,CTD
+KDR - kinase insert domain receptor (human),associated_with,Bone Marrow Neoplasms,,,MESH:D019046,CTD
+KDR - kinase insert domain receptor (human),associated_with,Bone Neoplasms,,,MESH:D001859,CTD
+KDR - kinase insert domain receptor (human),associated_with,Brachydactyly with hypertension,,,MESH:C537095,CTD
+KDR - kinase insert domain receptor (human),associated_with,Brain Neoplasms,,,MESH:D001932,CTD
+KDR - kinase insert domain receptor (human),associated_with,Breast Neoplasms,,,marker/mechanism;MESH:D001943,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Breast Neoplasms, Male",,,MESH:D018567,CTD
+KDR - kinase insert domain receptor (human),associated_with,Bronchial Neoplasms,,,MESH:D001984,CTD
+KDR - kinase insert domain receptor (human),associated_with,Burkitt Lymphoma,,,MESH:D002051,CTD
+KDR - kinase insert domain receptor (human),associated_with,Carcinoid Tumor,,,MESH:D002276,CTD
+KDR - kinase insert domain receptor (human),associated_with,Carcinoma,,,MESH:D002277,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Adenosquamous",,,MESH:D018196,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Bronchogenic",,,MESH:D002283,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Ductal",,,MESH:D044584,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Ductal, Breast",,,MESH:D018270,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Ehrlich Tumor",,,MESH:D002286,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Embryonal",,,MESH:D018236,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Endometrioid",,,MESH:D018269,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Hepatocellular",,,MESH:D006528,CTD
+KDR - kinase insert domain receptor (human),associated_with,Carcinoma in Situ,,,MESH:D002278,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Islet Cell",,,MESH:D018273,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Large Cell",,,MESH:D018287,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Lewis Lung",,,MESH:D018827,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Lobular",,,MESH:D018275,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Merkel Cell",,,MESH:D015266,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Non-Small-Cell Lung",,,MESH:D002289,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Ovarian Epithelial",,,MESH:D000077216,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Pancreatic Ductal",,,MESH:D021441,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Papillary",,,MESH:D002291,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Renal Cell",,,MESH:D002292,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Signet Ring Cell",,,MESH:D018279,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Small Cell",,,MESH:D018288,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Squamous Cell",,,MESH:D002294,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Carcinoma, Transitional Cell",,,MESH:D002295,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Cardiac Complexes, Premature",,,MESH:D005117,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cardiac Conduction System Disease,,,MESH:D000075224,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Cardiac Output, High",,,MESH:D016534,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Cardiac Output, Low",,,MESH:D002303,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cardiac Tamponade,,,MESH:D002305,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cardio-Renal Syndrome,,,MESH:D059347,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cardiovascular Abnormalities,,,MESH:D018376,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cardiovascular Diseases,,,MESH:D002318,CTD
+KDR - kinase insert domain receptor (human),associated_with,Central Nervous System Neoplasms,,,MESH:D016543,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cerebellar Neoplasms,,,MESH:D002528,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cerebrovascular Disorders,,,MESH:D002561,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cholangiocarcinoma,,,MESH:D018281,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Cholestasis, Extrahepatic",,,MESH:D001651,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Cholestasis, Intrahepatic",,,MESH:D002780,CTD
+KDR - kinase insert domain receptor (human),associated_with,Choriocarcinoma,,,MESH:D002822,CTD
+KDR - kinase insert domain receptor (human),associated_with,Choroidal Neovascularization,,,MESH:D020256,CTD
+KDR - kinase insert domain receptor (human),associated_with,Clear-cell metastatic renal cell carcinoma,,,MESH:C538445,CTD
+KDR - kinase insert domain receptor (human),associated_with,Colonic Neoplasms,,,MESH:D003110,CTD
+KDR - kinase insert domain receptor (human),associated_with,Colorectal Neoplasms,,,marker/mechanism|therapeutic;MESH:D015179,CTD
+KDR - kinase insert domain receptor (human),associated_with,Congenital Hypothyroidism,,,MESH:D003409,CTD
+KDR - kinase insert domain receptor (human),associated_with,Conotruncal cardiac defects,,,MESH:C535464,CTD
+KDR - kinase insert domain receptor (human),associated_with,Corneal Neovascularization,,,MESH:D016510,CTD
+KDR - kinase insert domain receptor (human),associated_with,Cystadenocarcinoma,,,MESH:D003536,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Death, Sudden, Cardiac",,,MESH:D016757,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Dementia, Vascular",,,MESH:D015140,CTD
+KDR - kinase insert domain receptor (human),associated_with,Desmoid Tumors,,,MESH:D018222,CTD
+KDR - kinase insert domain receptor (human),associated_with,Desmoplastic Small Round Cell Tumor,,,MESH:D058405,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Diabetes Mellitus, Congenital Autoimmune",,,MESH:C565730,CTD
+KDR - kinase insert domain receptor (human),associated_with,Disseminated Intravascular Coagulation,,,MESH:D004211,CTD
+KDR - kinase insert domain receptor (human),associated_with,Duodenal Neoplasms,,,MESH:D004379,CTD
+KDR - kinase insert domain receptor (human),associated_with,Ear Neoplasms,,,MESH:D004428,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Edema, Cardiac",,,MESH:D004489,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Encephalomyelitis, Autoimmune, Experimental",,,MESH:D004681,CTD
+KDR - kinase insert domain receptor (human),associated_with,Endometrial Neoplasms,,,MESH:D016889,CTD
+KDR - kinase insert domain receptor (human),associated_with,Esophageal Neoplasms,,,marker/mechanism;MESH:D004938,CTD
+KDR - kinase insert domain receptor (human),associated_with,Esophageal Squamous Cell Carcinoma,,,MESH:D000077277,CTD
+KDR - kinase insert domain receptor (human),associated_with,Essential Hypertension,,,MESH:D000075222,CTD
+KDR - kinase insert domain receptor (human),associated_with,Euthyroid Sick Syndromes,,,MESH:D005067,CTD
+KDR - kinase insert domain receptor (human),associated_with,Eye Neoplasms,,,marker/mechanism;MESH:D005134,CTD
+KDR - kinase insert domain receptor (human),associated_with,Familial primary gastric lymphoma,,,MESH:C535648,CTD
+KDR - kinase insert domain receptor (human),associated_with,Fanconi Anemia,,,MESH:D005199,CTD
+KDR - kinase insert domain receptor (human),associated_with,Gallbladder Neoplasms,,,MESH:D005706,CTD
+KDR - kinase insert domain receptor (human),associated_with,Gastro-enteropancreatic neuroendocrine tumor,,,MESH:C535650,CTD
+KDR - kinase insert domain receptor (human),associated_with,Gastrointestinal Neoplasms,,,MESH:D005770,CTD
+KDR - kinase insert domain receptor (human),associated_with,Gastrointestinal Stromal Tumors,,,MESH:D046152,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Genital Neoplasms, Female",,,MESH:D005833,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Glycosuria, Renal",,,MESH:D006030,CTD
+KDR - kinase insert domain receptor (human),associated_with,Head and Neck Neoplasms,,,MESH:D006258,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hematologic Neoplasms,,,MESH:D019337,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hepatic Encephalopathy,,,MESH:D006501,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hepatic Insufficiency,,,MESH:D048550,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hepatic Veno-Occlusive Disease,,,MESH:D006504,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Hepatitis, Autoimmune",,,MESH:D019693,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hepatorenal Syndrome,,,MESH:D006530,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hypertension,,,MESH:D006973,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Hypertension, Malignant",,,MESH:D006974,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Hypertension, Portal",,,MESH:D006975,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Hypertension, Pregnancy-Induced",,,MESH:D046110,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Hypertension, Pulmonary",,,MESH:D006976,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Hypertension, Renal",,,MESH:D006977,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Hypertension, Renovascular",,,MESH:D006978,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hyperthyroidism,,,MESH:D006980,CTD
+KDR - kinase insert domain receptor (human),associated_with,Hypothyroidism,,,MESH:D007037,CTD
+KDR - kinase insert domain receptor (human),associated_with,Immune Complex Diseases,,,MESH:D007105,CTD
+KDR - kinase insert domain receptor (human),associated_with,IMMUNE SUPPRESSION,,,OMIM:146850,CTD
+KDR - kinase insert domain receptor (human),associated_with,Immune System Diseases,,,MESH:D007154,CTD
+KDR - kinase insert domain receptor (human),associated_with,Inflammatory Breast Neoplasms,,,MESH:D058922,CTD
+KDR - kinase insert domain receptor (human),associated_with,Intestinal Neoplasms,,,MESH:D007414,CTD
+KDR - kinase insert domain receptor (human),associated_with,Intracranial Hypertension,,,MESH:D019586,CTD
+KDR - kinase insert domain receptor (human),associated_with,Kidney disorder involving deposition of calcium and oxalate or phosphate in the renal tubules,,,MESH:C531755,CTD
+KDR - kinase insert domain receptor (human),associated_with,Kidney Neoplasms,,,MESH:D007680,CTD
+KDR - kinase insert domain receptor (human),associated_with,Laryngeal Neoplasms,,,MESH:D007822,CTD
+KDR - kinase insert domain receptor (human),associated_with,Leukemia,,,MESH:D007938,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Erythroblastic, Acute",,,MESH:D004915,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Experimental",,,MESH:D007942,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Hairy Cell",,,MESH:D007943,CTD
+KDR - kinase insert domain receptor (human),associated_with,Leukemia L1210,,,MESH:D007939,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Lymphocytic, Chronic, B-Cell",,,MESH:D015451,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Lymphoid",,,MESH:D007945,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia-Lymphoma, Adult T-Cell",,,MESH:D015459,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Monocytic, Acute",,,MESH:D007948,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",,,MESH:D015464,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Myeloid",,,MESH:D007951,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Myeloid, Acute",,,MESH:D015470,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative",,,MESH:D054438,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Myelomonocytic, Chronic",,,MESH:D015477,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Myelomonocytic, Juvenile",,,MESH:D054429,CTD
+KDR - kinase insert domain receptor (human),associated_with,Leukemia P388,,,MESH:D007941,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Plasma Cell",,,MESH:D007952,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Prolymphocytic, T-Cell",,,MESH:D015461,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, Promyelocytic, Acute",,,MESH:D015473,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Leukemia, T-Cell",,,MESH:D015458,CTD
+KDR - kinase insert domain receptor (human),associated_with,Leydig Cell Tumor,,,MESH:D007984,CTD
+KDR - kinase insert domain receptor (human),associated_with,Liver Neoplasms,,,MESH:D008113,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Liver Neoplasms, Experimental",,,marker/mechanism;MESH:D008114,CTD
+KDR - kinase insert domain receptor (human),associated_with,Lung agenesis,,,MESH:C562992,CTD
+KDR - kinase insert domain receptor (human),associated_with,Lung Diseases,,,MESH:D008171,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lung Diseases, Fungal",,,MESH:D008172,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lung Diseases, Interstitial",,,MESH:D017563,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lung Diseases, Obstructive",,,MESH:D008173,CTD
+KDR - kinase insert domain receptor (human),associated_with,Lung Injury,,,MESH:D055370,CTD
+KDR - kinase insert domain receptor (human),associated_with,Lung Neoplasms,,,marker/mechanism;MESH:D008175,CTD
+KDR - kinase insert domain receptor (human),associated_with,Lymphatic Metastasis,,,MESH:D008207,CTD
+KDR - kinase insert domain receptor (human),associated_with,Lymphoma,,,MESH:D008223,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, AIDS-Related",,,MESH:D016483,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, B-Cell",,,MESH:D016393,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, Extranodal NK-T-Cell",,,MESH:D054391,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, Follicular",,,MESH:D008224,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, Large B-Cell, Diffuse",,,MESH:D016403,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, Large-Cell, Anaplastic",,,MESH:D017728,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, Mantle-Cell",,,MESH:D020522,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, Non-Hodgkin",,,MESH:D008228,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, Primary Effusion",,,MESH:D054685,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, T-Cell",,,MESH:D016399,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, T-Cell, Cutaneous",,,MESH:D016410,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Lymphoma, T-Cell, Peripheral",,,MESH:D016411,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Mammary Neoplasms, Animal",,,MESH:D015674,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Mammary Neoplasms, Experimental",,,MESH:D008325,CTD
+KDR - kinase insert domain receptor (human),associated_with,Massive Hepatic Necrosis,,,MESH:D047508,CTD
+KDR - kinase insert domain receptor (human),associated_with,Maxillary Sinus Neoplasms,,,MESH:D008444,CTD
+KDR - kinase insert domain receptor (human),associated_with,Meningeal Carcinomatosis,,,MESH:D055756,CTD
+KDR - kinase insert domain receptor (human),associated_with,Mesenteric Vascular Occlusion,,,MESH:D008641,CTD
+KDR - kinase insert domain receptor (human),associated_with,Mouth Neoplasms,,,MESH:D009062,CTD
+KDR - kinase insert domain receptor (human),associated_with,Nasopharyngeal Carcinoma,,,MESH:D000077274,CTD
+KDR - kinase insert domain receptor (human),associated_with,Nasopharyngeal Neoplasms,,,MESH:D009303,CTD
+KDR - kinase insert domain receptor (human),associated_with,Neoplasm Invasiveness,,,MESH:D009361,CTD
+KDR - kinase insert domain receptor (human),associated_with,Neoplasm Metastasis,,,MESH:D009362,CTD
+KDR - kinase insert domain receptor (human),associated_with,Neoplasm Micrometastasis,,,MESH:D061206,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neoplasm Recurrence, Local",,,MESH:D009364,CTD
+KDR - kinase insert domain receptor (human),associated_with,Neoplasms,,,MESH:D009369,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neoplasms, Bone Tissue",,,MESH:D018213,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neoplasms, Experimental",,,MESH:D009374,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neoplasms, Glandular and Epithelial",,,MESH:D009375,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neoplasms, Hormone-Dependent",,,MESH:D009376,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neoplasms, Mesothelial",,,MESH:D018301,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neoplasms, Multiple Primary",,,MESH:D009378,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neovascularization, Pathologic",,,marker/mechanism;MESH:D009389,CTD
+KDR - kinase insert domain receptor (human),associated_with,Nervous System Neoplasms,,,MESH:D009423,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neuroectodermal Tumor, Melanotic",,,MESH:D017600,CTD
+KDR - kinase insert domain receptor (human),associated_with,Neuroectodermal Tumors,,,MESH:D017599,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neuroectodermal Tumors, Primitive",,,MESH:D018242,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Neuroectodermal Tumors, Primitive, Peripheral",,,MESH:D018241,CTD
+KDR - kinase insert domain receptor (human),associated_with,Neuroendocrine Tumors,,,MESH:D018358,CTD
+KDR - kinase insert domain receptor (human),associated_with,Neutropenia,,,MESH:D009503,CTD
+KDR - kinase insert domain receptor (human),associated_with,Nose Neoplasms,,,MESH:D009669,CTD
+KDR - kinase insert domain receptor (human),associated_with,Ocular Hypertension,,,MESH:D009798,CTD
+KDR - kinase insert domain receptor (human),associated_with,Ovarian Neoplasms,,,marker/mechanism;MESH:D010051,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Pancreatic cancer, adult",,,MESH:C535836,CTD
+KDR - kinase insert domain receptor (human),associated_with,Pancreatic Neoplasms,,,therapeutic;MESH:D010190,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Paraganglioma, Extra-Adrenal",,,MESH:D010236,CTD
+KDR - kinase insert domain receptor (human),associated_with,Parotid Neoplasms,,,MESH:D010307,CTD
+KDR - kinase insert domain receptor (human),associated_with,Peripheral Vascular Diseases,,,MESH:D016491,CTD
+KDR - kinase insert domain receptor (human),associated_with,Peritoneal Neoplasms,,,MESH:D010534,CTD
+KDR - kinase insert domain receptor (human),associated_with,Pharyngeal Neoplasms,,,MESH:D010610,CTD
+KDR - kinase insert domain receptor (human),associated_with,Phyllodes Tumor,,,MESH:D003557,CTD
+KDR - kinase insert domain receptor (human),associated_with,Pituitary Neoplasms,,,MESH:D010911,CTD
+KDR - kinase insert domain receptor (human),associated_with,Pleural Neoplasms,,,MESH:D010997,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Porphyrias, Hepatic",,,MESH:D017094,CTD
+KDR - kinase insert domain receptor (human),associated_with,Precancerous Conditions,,,MESH:D011230,CTD
+KDR - kinase insert domain receptor (human),associated_with,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D015452,CTD
+KDR - kinase insert domain receptor (human),associated_with,Precursor Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054198,CTD
+KDR - kinase insert domain receptor (human),associated_with,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054218,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Pregnancy Complications, Cardiovascular",,,MESH:D011249,CTD
+KDR - kinase insert domain receptor (human),associated_with,Prostatic Neoplasms,,,MESH:D011471,CTD
+KDR - kinase insert domain receptor (human),associated_with,Pseudolymphoma,,,MESH:D019310,CTD
+KDR - kinase insert domain receptor (human),associated_with,Pseudotumor Cerebri,,,MESH:D011559,CTD
+KDR - kinase insert domain receptor (human),associated_with,Pulmonary Arterial Hypertension,,,MESH:D000081029,CTD
+KDR - kinase insert domain receptor (human),associated_with,Rectal Neoplasms,,,MESH:D012004,CTD
+KDR - kinase insert domain receptor (human),associated_with,Renal Aminoacidurias,,,MESH:D000608,CTD
+KDR - kinase insert domain receptor (human),associated_with,Renal Artery Obstruction,,,MESH:D012078,CTD
+KDR - kinase insert domain receptor (human),associated_with,Renal hypouricemia,,,MESH:C537757,CTD
+KDR - kinase insert domain receptor (human),associated_with,Renal Insufficiency,,,MESH:D051437,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Renal Insufficiency, Chronic",,,MESH:D051436,CTD
+KDR - kinase insert domain receptor (human),associated_with,Retinal Neovascularization,,,MESH:D015861,CTD
+KDR - kinase insert domain receptor (human),associated_with,Salivary Gland Neoplasms,,,MESH:D012468,CTD
+KDR - kinase insert domain receptor (human),associated_with,Sebaceous Gland Neoplasms,,,MESH:D012626,CTD
+KDR - kinase insert domain receptor (human),associated_with,Sigmoid Neoplasms,,,MESH:D012811,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Sinus Arrest, Cardiac",,,MESH:D054138,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Skin Diseases, Vascular",,,MESH:D017445,CTD
+KDR - kinase insert domain receptor (human),associated_with,Skin Neoplasms,,,MESH:D012878,CTD
+KDR - kinase insert domain receptor (human),associated_with,Small Cell Lung Carcinoma,,,MESH:D055752,CTD
+KDR - kinase insert domain receptor (human),associated_with,Soft Tissue Neoplasms,,,MESH:D012983,CTD
+KDR - kinase insert domain receptor (human),associated_with,Splenic Neoplasms,,,MESH:D013160,CTD
+KDR - kinase insert domain receptor (human),associated_with,Squamous Cell Carcinoma of Head and Neck,,,MESH:D000077195,CTD
+KDR - kinase insert domain receptor (human),associated_with,Stomach Neoplasms,,,MESH:D013274,CTD
+KDR - kinase insert domain receptor (human),associated_with,Testicular Neoplasms,,,MESH:D013736,CTD
+KDR - kinase insert domain receptor (human),associated_with,Thymus Neoplasms,,,MESH:D013953,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Thyroid cancer, follicular",,,MESH:C572845,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Thyroid cancer, medullary",,,MESH:C536914,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Thyroid Cancer, Papillary",,,MESH:D000077273,CTD
+KDR - kinase insert domain receptor (human),associated_with,Thyroid Diseases,,,MESH:D013959,CTD
+KDR - kinase insert domain receptor (human),associated_with,Thyroid Dysgenesis,,,MESH:D050033,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Thyroid Hormone Metabolism, Abnormal",,,MESH:C566454,CTD
+KDR - kinase insert domain receptor (human),associated_with,Thyroiditis,,,MESH:D013966,CTD
+KDR - kinase insert domain receptor (human),associated_with,"Thyroiditis, Autoimmune",,,MESH:D013967,CTD
+KDR - kinase insert domain receptor (human),associated_with,Thyroid Neoplasms,,,MESH:D013964,CTD
+KDR - kinase insert domain receptor (human),associated_with,Tongue Neoplasms,,,MESH:D014062,CTD
+KDR - kinase insert domain receptor (human),associated_with,Triple Negative Breast Neoplasms,,,MESH:D064726,CTD
+KDR - kinase insert domain receptor (human),associated_with,Tumor Lysis Syndrome,,,MESH:D015275,CTD
+KDR - kinase insert domain receptor (human),associated_with,Ureteral Neoplasms,,,MESH:D014516,CTD
+KDR - kinase insert domain receptor (human),associated_with,Urinary Bladder Neoplasms,,,MESH:D001749,CTD
+KDR - kinase insert domain receptor (human),associated_with,Urogenital Neoplasms,,,MESH:D014565,CTD
+KDR - kinase insert domain receptor (human),associated_with,Urologic Neoplasms,,,MESH:D014571,CTD
+KDR - kinase insert domain receptor (human),associated_with,Uterine Cervical Neoplasms,,,MESH:D002583,CTD
+KDR - kinase insert domain receptor (human),associated_with,Uterine Neoplasms,,,MESH:D014594,CTD
+KDR - kinase insert domain receptor (human),associated_with,Uveal Neoplasms,,,MESH:D014604,CTD
+KDR - kinase insert domain receptor (human),associated_with,Vaginal Neoplasms,,,MESH:D014625,CTD
+KDR - kinase insert domain receptor (human),associated_with,Vascular Calcification,,,MESH:D061205,CTD
+KDR - kinase insert domain receptor (human),associated_with,Vascular Diseases,,,MESH:D014652,CTD
+KDR - kinase insert domain receptor (human),associated_with,Vascular Malformations,,,MESH:D054079,CTD
+KDR - kinase insert domain receptor (human),associated_with,Vascular Neoplasms,,,MESH:D019043,CTD
+KDR - kinase insert domain receptor (human),associated_with,Vascular Remodeling,,,MESH:D066253,CTD
+KDR - kinase insert domain receptor (human),associated_with,Vascular System Injuries,,,MESH:D057772,CTD
+KDR - kinase insert domain receptor (human),associated_with,Wilms Tumor,,,MESH:D009396,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Abdominal Neoplasms,,,MESH:D000008,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Acute Lung Injury,,,MESH:D055371,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Adenocarcinoma,,,MESH:D000230,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Adenocarcinoma, Bronchiolo-Alveolar",,,MESH:D002282,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Adenocarcinoma of Lung,,,MESH:D000077192,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Adenocarcinoma, Papillary",,,MESH:D000231,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Adrenal Cortex Diseases,,,MESH:D000303,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Adrenal Gland Diseases,,,MESH:D000307,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Adrenal Gland Neoplasms,,,MESH:D000310,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Adrenal Insufficiency,,,MESH:D000309,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Adrenocortical Carcinoma,,,MESH:D018268,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Anemia,,,MESH:D000740,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Aplastic",,,MESH:D000741,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Hemolytic",,,MESH:D000743,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Hemolytic, Autoimmune",,,MESH:D000744,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Hypochromic",,,MESH:D000747,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Iron-Deficiency",,,MESH:D018798,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Macrocytic",,,MESH:D000748,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Megaloblastic",,,MESH:D000749,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Sickle Cell",,,MESH:D000755,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Anemia, Sideroblastic",,,MESH:D000756,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Anus Neoplasms,,,MESH:D001005,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Arrhythmias, Cardiac",,,MESH:D001145,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Autoimmune Diseases,,,MESH:D001327,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Basal Cell Carcinoma,,,MESH:D002280,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Bone Marrow Neoplasms,,,MESH:D019046,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Bone Neoplasms,,,MESH:D001859,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Brain Neoplasms,,,MESH:D001932,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Breast Neoplasms,,,MESH:D001943,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Breast Neoplasms, Male",,,MESH:D018567,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Burkitt Lymphoma,,,MESH:D002051,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Carcinoid Tumor,,,MESH:D002276,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Carcinoma,,,MESH:D002277,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Ductal",,,MESH:D044584,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Ductal, Breast",,,MESH:D018270,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Ehrlich Tumor",,,MESH:D002286,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Embryonal",,,MESH:D018236,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Endometrioid",,,MESH:D018269,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Hepatocellular",,,MESH:D006528,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Carcinoma in Situ,,,MESH:D002278,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Lewis Lung",,,MESH:D018827,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Merkel Cell",,,MESH:D015266,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Non-Small-Cell Lung",,,marker/mechanism;MESH:D002289,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Ovarian Epithelial",,,MESH:D000077216,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Renal Cell",,,MESH:D002292,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Squamous Cell",,,MESH:D002294,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Carcinoma, Transitional Cell",,,MESH:D002295,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Cardiac Conduction System Disease,,,MESH:D000075224,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Cardiac Output, High",,,MESH:D016534,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Cardiac Output, Low",,,MESH:D002303,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Cardio-Renal Syndrome,,,MESH:D059347,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Cardiovascular Abnormalities,,,MESH:D018376,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Cardiovascular Diseases,,,MESH:D002318,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Central Nervous System Neoplasms,,,MESH:D016543,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Cerebrovascular Disorders,,,MESH:D002561,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Cholangiocarcinoma,,,MESH:D018281,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Cholestasis, Intrahepatic",,,MESH:D002780,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Cholestasis, progressive familial intrahepatic 3",,,MESH:C535935,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Choriocarcinoma,,,MESH:D002822,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Choroidal Neovascularization,,,MESH:D020256,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Colonic Neoplasms,,,MESH:D003110,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Colorectal Neoplasms,,,MESH:D015179,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Congenital Hypothyroidism,,,MESH:D003409,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Conotruncal cardiac defects,,,MESH:C535464,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Death, Sudden, Cardiac",,,MESH:D016757,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Dementia, Vascular",,,MESH:D015140,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Desmoid Tumors,,,MESH:D018222,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Desmoplastic Small Round Cell Tumor,,,MESH:D058405,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Disseminated Intravascular Coagulation,,,MESH:D004211,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Ear Neoplasms,,,MESH:D004428,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Edema, Cardiac",,,MESH:D004489,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Encephalomyelitis, Autoimmune, Experimental",,,MESH:D004681,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Endometrial Neoplasms,,,MESH:D016889,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Esophageal Neoplasms,,,MESH:D004938,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Esophageal Squamous Cell Carcinoma,,,MESH:D000077277,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Euthyroid Sick Syndromes,,,MESH:D005067,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Familial primary gastric lymphoma,,,MESH:C535648,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Fanconi Anemia,,,MESH:D005199,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Gallbladder Neoplasms,,,MESH:D005706,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Gastrointestinal Neoplasms,,,MESH:D005770,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Genital Neoplasms, Female",,,MESH:D005833,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Genital Neoplasms, Male",,,MESH:D005834,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Granulosa cell tumor of the ovary,,,MESH:C537296,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Head and Neck Neoplasms,,,MESH:D006258,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Hematologic Neoplasms,,,MESH:D019337,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Hepatic Encephalopathy,,,MESH:D006501,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Hepatic Insufficiency,,,MESH:D048550,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Hepatic Veno-Occlusive Disease,,,MESH:D006504,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Hypertension,,,MESH:D006973,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Hypertension, Malignant",,,MESH:D006974,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Hypertension, Portal",,,MESH:D006975,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Hypertension, Pregnancy-Induced",,,MESH:D046110,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Hypertension, Pulmonary",,,MESH:D006976,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Hypertension, Renal",,,MESH:D006977,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Hypertension, Renovascular",,,MESH:D006978,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Hyperthyroidism,,,MESH:D006980,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Hypothyroidism,,,MESH:D007037,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Immune Complex Diseases,,,MESH:D007105,CTD
+KIF5B - kinesin family member 5B (human),associated_with,IMMUNE SUPPRESSION,,,OMIM:146850,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Immune System Diseases,,,MESH:D007154,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Inflammatory Breast Neoplasms,,,MESH:D058922,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Intestinal Neoplasms,,,MESH:D007414,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Intracranial Hypertension,,,MESH:D019586,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Kidney Neoplasms,,,MESH:D007680,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Laryngeal Neoplasms,,,MESH:D007822,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Leukemia,,,MESH:D007938,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Erythroblastic, Acute",,,MESH:D004915,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Experimental",,,MESH:D007942,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Leukemia L1210,,,MESH:D007939,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Lymphoid",,,MESH:D007945,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia-Lymphoma, Adult T-Cell",,,MESH:D015459,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Monocytic, Acute",,,MESH:D007948,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",,,MESH:D015464,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Myeloid",,,MESH:D007951,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Myeloid, Acute",,,MESH:D015470,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, Promyelocytic, Acute",,,MESH:D015473,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Leukemia, T-Cell",,,MESH:D015458,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Leydig Cell Tumor,,,MESH:D007984,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Liver Neoplasms,,,MESH:D008113,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Liver Neoplasms, Experimental",,,MESH:D008114,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Lung agenesis,,,MESH:C562992,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Lung Diseases,,,MESH:D008171,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lung Diseases, Interstitial",,,MESH:D017563,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lung Diseases, Obstructive",,,MESH:D008173,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Lung Injury,,,MESH:D055370,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Lung Neoplasms,,,MESH:D008175,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Lymphatic Metastasis,,,MESH:D008207,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Lymphoma,,,MESH:D008223,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lymphoma, AIDS-Related",,,MESH:D016483,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lymphoma, B-Cell",,,MESH:D016393,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lymphoma, Extranodal NK-T-Cell",,,MESH:D054391,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lymphoma, Large B-Cell, Diffuse",,,MESH:D016403,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lymphoma, Non-Hodgkin",,,MESH:D008228,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Lymphoma, T-Cell",,,MESH:D016399,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Mammary Neoplasms, Animal",,,MESH:D015674,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Mammary Neoplasms, Experimental",,,MESH:D008325,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Massive Hepatic Necrosis,,,MESH:D047508,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Maxillary Sinus Neoplasms,,,MESH:D008444,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Mixed Tumor, Mullerian",,,MESH:D018200,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Mouth Neoplasms,,,MESH:D009062,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Nasopharyngeal Carcinoma,,,MESH:D000077274,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Nasopharyngeal Neoplasms,,,MESH:D009303,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Neoplasm Invasiveness,,,MESH:D009361,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Neoplasm Metastasis,,,MESH:D009362,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Neoplasm Micrometastasis,,,MESH:D061206,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neoplasm Recurrence, Local",,,MESH:D009364,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Neoplasms,,,MESH:D009369,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neoplasms, Bone Tissue",,,MESH:D018213,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neoplasms, Experimental",,,MESH:D009374,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neoplasms, Glandular and Epithelial",,,MESH:D009375,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neoplasms, Hormone-Dependent",,,MESH:D009376,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neoplasms, Mesothelial",,,MESH:D018301,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neoplasms, Radiation-Induced",,,MESH:D009381,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neovascularization, Pathologic",,,MESH:D009389,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Nerve Sheath Neoplasms,,,MESH:D018317,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Neuroectodermal Tumors, Primitive, Peripheral",,,MESH:D018241,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Neutropenia,,,MESH:D009503,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Nose Neoplasms,,,MESH:D009669,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Ocular Hypertension,,,MESH:D009798,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Ovarian Neoplasms,,,MESH:D010051,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Pancreatic cancer, adult",,,MESH:C535836,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Pancreatic Neoplasms,,,MESH:D010190,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Paraganglioma, Extra-Adrenal",,,MESH:D010236,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Peripheral Vascular Diseases,,,MESH:D016491,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Pharyngeal Neoplasms,,,MESH:D010610,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Phyllodes Tumor,,,MESH:D003557,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Pituitary Neoplasms,,,MESH:D010911,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Pleural Neoplasms,,,MESH:D010997,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Porphyrias, Hepatic",,,MESH:D017094,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Precancerous Conditions,,,MESH:D011230,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D015452,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Precursor Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054198,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,,,MESH:D054218,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Prostatic Neoplasms,,,MESH:D011471,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Pseudolymphoma,,,MESH:D019310,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Pseudotumor Cerebri,,,MESH:D011559,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Pulmonary Arterial Hypertension,,,MESH:D000081029,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Rectal Neoplasms,,,MESH:D012004,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Renal hypouricemia,,,MESH:C537757,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Renal Insufficiency,,,MESH:D051437,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Renal Insufficiency, Chronic",,,MESH:D051436,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Retinal Neovascularization,,,MESH:D015861,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Salivary Gland Neoplasms,,,MESH:D012468,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Sebaceous Gland Neoplasms,,,MESH:D012626,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Skin Diseases, Vascular",,,MESH:D017445,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Skin Neoplasms,,,MESH:D012878,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Small Cell Lung Carcinoma,,,MESH:D055752,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Soft Tissue Neoplasms,,,MESH:D012983,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Splenic Neoplasms,,,MESH:D013160,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Squamous Cell Carcinoma of Head and Neck,,,MESH:D000077195,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Stomach Neoplasms,,,MESH:D013274,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Testicular Germ Cell Tumor,,,MESH:C563236,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Testicular Neoplasms,,,MESH:D013736,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Thyroid cancer, follicular",,,MESH:C572845,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Thyroid cancer, medullary",,,MESH:C536914,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Thyroid Diseases,,,MESH:D013959,CTD
+KIF5B - kinesin family member 5B (human),associated_with,"Thyroid Hormone Metabolism, Abnormal",,,MESH:C566454,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Thyroid Neoplasms,,,MESH:D013964,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Tongue Neoplasms,,,MESH:D014062,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Triple Negative Breast Neoplasms,,,MESH:D064726,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Tumor Lysis Syndrome,,,MESH:D015275,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Ureteral Neoplasms,,,MESH:D014516,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Urinary Bladder Neoplasms,,,MESH:D001749,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Urogenital Neoplasms,,,MESH:D014565,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Urologic Neoplasms,,,MESH:D014571,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Uterine Cervical Neoplasms,,,MESH:D002583,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Uterine Neoplasms,,,MESH:D014594,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Uveal Neoplasms,,,MESH:D014604,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Vascular Calcification,,,MESH:D061205,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Vascular Diseases,,,MESH:D014652,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Vascular Malformations,,,MESH:D054079,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Vascular Remodeling,,,MESH:D066253,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Vascular System Injuries,,,MESH:D057772,CTD
+KIF5B - kinesin family member 5B (human),associated_with,Wilms Tumor,,,MESH:D009396,CTD

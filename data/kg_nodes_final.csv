@@ -1,0 +1,581 @@
+id,type
+Pralsetinib,Drug
+RET - ret proto-oncogene (human),Protein
+CCDC6 - coiled-coil domain containing 6 (human),Protein
+Proto-oncogene tyrosine-protein kinase receptor Ret (human),Protein
+Tyrosine-protein kinase JAK2 (human),Protein
+KIF5B - kinesin family member 5B (human),Protein
+FLT3 - fms related receptor tyrosine kinase 3 (human),Protein
+KDR - kinase insert domain receptor (human),Protein
+RET,Gene/Protein
+PTK2B,Gene/Protein
+EML4,Gene/Protein
+KIF5B,Gene/Protein
+KDR,Gene/Protein
+DRD2,Gene/Protein
+HRAS,Gene/Protein
+CCDC6,Gene/Protein
+Locally Advanced Thyroid Gland Carcinoma,Disease
+Solid Tumor,Disease
+Advanced Solid Tumor,Disease
+Metastatic Cancer,Disease
+Advanced Unresectable or Metastatic Solid Malignancy,Disease
+Thyroid Neoplasms,Disease
+Lung Cancer Stage III,Disease
+Mutation,Disease
+Non-Small Cell Lung Cancer,Disease
+Medullary Thyroid Cancer,Disease
+Solid Tumors,Disease
+RET-fusion Non Small Cell Lung Cancer,Disease
+Lung Neoplasm,Disease
+"Carcinoma, Non-Small-Cell Lung",Disease
+Respiratory Tract Neoplasms,Disease
+Thoracic Neoplasms,Disease
+Neoplasms by Site,Disease
+Neoplasms,Disease
+Lung Diseases,Disease
+Respiratory Tract Disease,Disease
+"Carcinoma, Bronchogenic",Disease
+Bronchial Diseases,Disease
+Head and Neck Neoplasms,Disease
+Adenocarcinoma,Disease
+Carcinoma,Disease
+Neoplasms by Histologic Type,Disease
+"Neoplasms, Germ Cell and Embryonal",Disease
+"Neoplasms, Nerve Tissue",Disease
+RET-altered Non Small Cell Lung Cancer,Disease
+RET-altered Papillary Thyroid Cancer,Disease
+RET-altered Colon Cancer,Disease
+RET-altered Solid Tumors,Disease
+Thyroid Diseases,Disease
+Thyroid Neoplasm,Disease
+"Thyroid Cancer, Papillary",Disease
+"Carcinoma, Neuroendocrine",Disease
+Bronchial Neoplasms,Disease
+Endocrine System Diseases,Disease
+Endocrine Gland Neoplasm,Disease
+"Adenocarcinoma, Papillary",Disease
+"Neoplasms, Glandular and Epithelial",Disease
+Neuroendocrine Tumors,Disease
+Neuroectodermal Tumors,Disease
+Colonic Neoplasms,Disease
+Colorectal Neoplasms,Disease
+Intestinal Neoplasms,Disease
+Gastrointestinal Neoplasms,Disease
+Digestive System Neoplasm,Disease
+Digestive System Disease,Disease
+Gastrointestinal Disease,Disease
+Colonic Diseases,Disease
+Intestinal Disease,Disease
+Breast Cancer,Disease
+Gastrointestinal Cancer,Disease
+Non Small Cell Lung Cancer,Disease
+Other Cancer,Disease
+Non-small Cell Lung Cancer,Disease
+neoplasm,Disease
+medullary thyroid gland carcinoma,Disease
+cancer,Disease
+thyroid carcinoma,Disease
+non-small cell lung carcinoma,Disease
+Selpercatinib,Chemical
+Cabozantinib,Chemical
+Vandetanib,Chemical
+L-Tyrosine,Chemical
+2-Amino-4-chloropyridine,Chemical
+Lenvatinib,Chemical
+Entrectinib,Chemical
+Larotrectinib,Chemical
+Dabrafenib,Chemical
+Osimertinib,Chemical
+"Pemetrexed, (R)-",Chemical
+Crizotinib,Chemical
+Platinum,Chemical
+Trametinib Dimethyl Sulfoxide,Chemical
+Sorafenib Tosylate,Chemical
+Lorlatinib,Chemical
+Alectinib Hydrochloride,Chemical
+Capmatinib,Chemical
+"diammine[cyclobutane-1,1-dicarboxylato(2-)-k2O1,O1]platinum",Chemical
+Brigatinib,Chemical
+Erlotinib,Chemical
+Sunitinib,Chemical
+Calcitonin,Chemical
+Afatinib,Chemical
+Paclitaxel,Chemical
+Ponatinib,Chemical
+Vemurafenib,Chemical
+Selumetinib,Chemical
+azane;dichloroplatinum,Chemical
+Gemcitabine,Chemical
+Tepotinib,Chemical
+GlyTouCan:G91391XS,Chemical
+Ceritinib,Chemical
+Repotrectinib,Chemical
+Docetaxel,Chemical
+Pemigatinib,Chemical
+Cyanogen,Chemical
+Iodine Radioisotopes,Chemical
+Ensartinib,Chemical
+Nintedanib,Chemical
+Gefitinib,Chemical
+Piperidines,Chemical
+Creatine,Chemical
+Temozolomide,Chemical
+Tetranitromethane,Chemical
+Motesanib Diphosphate,Chemical
+Fluorodeoxyglucose,Chemical
+Methyl Ethyl Ketone,Chemical
+"l-aspartic acid, sodium salt",Chemical
+Thyroxine,Chemical
+Capecitabine,Chemical
+Etoposide,Chemical
+Tucatinib,Chemical
+Sotorasib,Chemical
+Agerafenib,Chemical
+Fludeoxyglucose F-18,Chemical
+Selitrectinib,Chemical
+Cobimetinib (racemate),Chemical
+"Methyl (1R,10S,11R,19R)-11-acetyloxy-12-ethyl-4-[(12R,13S,14S)-16-ethyl-12-methoxycarbonyl-1,10-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8,15-pentaen-13-yl]-10-hydroxy-5-methoxy-8-methyl-8,16-diazapentacyclo[10.6.1.01,9.02,7.016,19]nonadeca-2(7),3,5,13-tetraene-10-carboxylate",Chemical
+"5-Chloro-N2-(4-(4-(dimethylamino)-1-piperidinyl)-2-methoxyphenyl)-N4-(2-(dimethylphosphinyl)phenyl)-2,4-pyrimidinediamine",Chemical
+Dacomitinib,Chemical
+D-Cysteine,Chemical
+Zoledronic Acid,Chemical
+Erdafitinib,Chemical
+Everolimus,Chemical
+Imatinib,Chemical
+creatinine,Chemical
+L-Alanine,Chemical
+Encorafenib,Chemical
+Dacarbazine,Chemical
+4-(3-Chloro-4-(((cyclopropylamino)carbonyl)amino)phenoxy)-7-hydroxy-6-quinolinecarboxamide,Chemical
+Eosin,Chemical
+Palbociclib,Chemical
+Neratinib,Chemical
+Acetonitrile,Chemical
+Formaldehyde,Chemical
+Poziotinib,Chemical
+Alpelisib,Chemical
+Valganciclovir,Chemical
+Formic Acid,Chemical
+Entecavir,Chemical
+Hematoxyline,Chemical
+Bilirubin,Chemical
+Pazopanib Hydrochloride,Chemical
+Pyrimidinones,Chemical
+Avapritinib,Chemical
+Elacridar,Chemical
+Iodine,Chemical
+Sodium Iodide,Chemical
+"5-[2-(8-amino-1,7-naphthyridin-5-yl)ethynyl]-N-[4-[(4-methylpiperazin-1-yl)methyl]-3-(trifluoromethyl)phenyl]pyridine-3-carboxamide",Chemical
+"(1,1'-Biphenyl)-3,3',4,4'-tetramine tetrahydrochloride dihydrate",Chemical
+"2,2'-((Dihydro-2-(4-pyridinyl)-1,3(2H,4H)-pyrimidinediyl)bis(methylene))bis(N,N-dimethylbenzenamine)",Chemical
+Somatostatin,Chemical
+Adagrasib,Chemical
+Arsenic Trioxide,Chemical
+Ivosidenib,Chemical
+Irinotecan,Chemical
+Doxorubicin,Chemical
+Lambrolizumab,Chemical
+Estradiol,Chemical
+ret proto-oncogene,Gene
+tyrosine kinase non receptor 1,Gene
+kinesin family member 5b,Gene
+coiled-coil domain containing 6,Gene
+zinc finger mynd-type containing 10,Gene
+epidermal growth factor receptor,Gene
+"b-raf proto-oncogene, serine/threonine kinase",Gene
+"ros proto-oncogene 1, receptor tyrosine kinase",Gene
+cd274 molecule,Gene
+calcitonin related polypeptide alpha,Gene
+potassium voltage-gated channel subfamily a member 1,Gene
+kinase insert domain receptor,Gene
+tumor protein p53,Gene
+nuclear receptor coactivator 4,Gene
+erb-b2 receptor tyrosine kinase 2,Gene
+"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",Gene
+programmed cell death 1,Gene
+cea cell adhesion molecule 5,Gene
+aspartate transaminase,Gene
+cytochrome p450 family 3 subfamily a member 4,Gene
+ankyrin 3,Gene
+emap like 4,Gene
+thyroid peroxidase,Gene
+platelet derived growth factor receptor beta,Gene
+protein bel-1,Gene
+atp binding cassette subfamily b member 1,Gene
+receptor protein-tyrosine kinase,Gene
+fibroblast growth factor receptor 3,Gene
+rb transcriptional corepressor 1,Gene
+microrna 8070,Gene
+microrna 4299,Gene
+neurotrophic receptor tyrosine kinase 1,Gene
+mab-21 like 4,Gene
+akt serine/threonine kinase 1,Gene
+glial cell derived neurotrophic factor,Gene
+janus kinase 1,Gene
+glutamic--pyruvic transaminase,Gene
+isochorismatase domain containing 1,Gene
+forkhead box j3,Gene
+alk receptor tyrosine kinase,Gene
+run and fyve domain containing 1,Gene
+taste 2 receptor member 38,Gene
+thyroglobulin,Gene
+"growth factor, augmenter of liver regeneration",Gene
+transforming acidic coiled-coil containing protein 3,Gene
+neurotrophic receptor tyrosine kinase 3,Gene
+fibroblast growth factor receptor 1,Gene
+kinesin family member 13a,Gene
+single-strand-selective monofunctional uracil-dna glycosylase 1,Gene
+prominin 2,Gene
+protein lf2,Gene
+progesterone immunomodulatory binding factor 1,Gene
+neuregulin 1,Gene
+c1q and tnf related 6,Gene
+semaphorin 5a,Gene
+neuregulin 3,Gene
+estrogen receptor 1,Gene
+lf1,Gene
+spermine synthase,Gene
+calcyclin binding protein,Gene
+fms related receptor tyrosine kinase 3,Gene
+gli family zinc finger 1,Gene
+"dicer 1, ribonuclease iii",Gene
+coiled-coil domain containing 30,Gene
+siah e3 ubiquitin protein ligase 1,Gene
+ben domain containing 7,Gene
+serine/threonine kinase 11,Gene
+gins complex subunit 2,Gene
+elks/rab6-interacting/cast family member 1,Gene
+platelet derived growth factor receptor alpha,Gene
+fibroblast growth factor receptor 2,Gene
+erb-b2 receptor tyrosine kinase 3,Gene
+cd74 molecule,Gene
+cereblon,Gene
+alf transcription elongation factor 1,Gene
+podocalyxin like,Gene
+fms related receptor tyrosine kinase 4,Gene
+ankyrin 1,Gene
+somatostatin receptor 2,Gene
+discs large maguk scaffold protein 5,Gene
+agamous-like mads-box protein ap1,Gene
+bromodomain containing 4,Gene
+yes1 associated transcriptional regulator,Gene
+tripartite motif containing 33,Gene
+shc adaptor protein 1,Gene
+nk2 homeobox 1,Gene
+ets variant transcription factor 6,Gene
+poc1 centriolar protein b,Gene
+ubiquitin specific peptidase 8,Gene
+"bcar3 adaptor protein, nsp family member",Gene
+"hras proto-oncogene, gtpase",Gene
+atp binding cassette subfamily g member 2 (jr blood group),Gene
+cytochrome p450 family 2 subfamily j member 2,Gene
+platelet activating factor acetylhydrolase 1b regulatory subunit 1,Gene
+multiple inositol-polyphosphate phosphatase 1,Gene
+dicarbonyl and l-xylulose reductase,Gene
+insulin like growth factor 1 receptor,Gene
+"met proto-oncogene, receptor tyrosine kinase",Gene
+adam metallopeptidase domain 15,Gene
+Hypertension,Adverse Event
+Diarrhea,Adverse Event
+Anemia,Adverse Event
+Constipation,Adverse Event
+Fatigue,Adverse Event
+Neutropenia,Adverse Event
+Pneumonitis,Adverse Event
+Hepatotoxicity,Adverse Event
+GO:0007169,Pathway
+GO:0007411,Pathway
+GO:0071300,Pathway
+Acute Lung Injury,Disease
+"Adenocarcinoma, Bronchiolo-Alveolar",Disease
+Adenocarcinoma of Lung,Disease
+Adrenal Cortex Diseases,Disease
+Adrenal Gland Diseases,Disease
+Adrenal Gland Neoplasms,Disease
+Adrenocortical Carcinoma,Disease
+"Anemia, Aplastic",Disease
+"Anemia, Hemolytic",Disease
+"Anemia, Hemolytic, Autoimmune",Disease
+"Anemia, Hypochromic",Disease
+"Anemia, Iron-Deficiency",Disease
+"Anemia, Macrocytic",Disease
+"Anemia, Megaloblastic",Disease
+"Anemia, Sickle Cell",Disease
+"Anemia, Sideroblastic",Disease
+Anus Neoplasms,Disease
+"Arrhythmias, Cardiac",Disease
+Autoimmune Diseases,Disease
+Basal Cell Carcinoma,Disease
+Bone Marrow Neoplasms,Disease
+Bone Neoplasms,Disease
+Brain Neoplasms,Disease
+Breast Neoplasms,Disease
+Burkitt Lymphoma,Disease
+Carcinoid Tumor,Disease
+"Carcinoma, Adenosquamous",Disease
+"Carcinoma, Ductal, Breast",Disease
+"Carcinoma, Ehrlich Tumor",Disease
+"Carcinoma, Embryonal",Disease
+"Carcinoma, Endometrioid",Disease
+"Carcinoma, Hepatocellular",Disease
+Carcinoma in Situ,Disease
+"Carcinoma, Large Cell",Disease
+"Carcinoma, Lewis Lung",Disease
+"Carcinoma, Merkel Cell",Disease
+"Carcinoma, Ovarian Epithelial",Disease
+"Carcinoma, Pancreatic Ductal",Disease
+"Carcinoma, Papillary",Disease
+"Carcinoma, Renal Cell",Disease
+"Carcinoma, Signet Ring Cell",Disease
+"Carcinoma, Small Cell",Disease
+"Carcinoma, Squamous Cell",Disease
+"Carcinoma, Transitional Cell",Disease
+Cardiac Conduction System Disease,Disease
+"Cardiac Output, High",Disease
+"Cardiac Output, Low",Disease
+Cardio-Renal Syndrome,Disease
+Cardiovascular Abnormalities,Disease
+Cardiovascular Diseases,Disease
+Central Nervous System Neoplasms,Disease
+Cerebrovascular Disorders,Disease
+Cholangiocarcinoma,Disease
+"Cholestasis, Intrahepatic",Disease
+Choriocarcinoma,Disease
+Clear-cell metastatic renal cell carcinoma,Disease
+Congenital Hypothyroidism,Disease
+Conotruncal cardiac defects,Disease
+"Death, Sudden, Cardiac",Disease
+"Dementia, Vascular",Disease
+Desmoid Tumors,Disease
+Desmoplastic Small Round Cell Tumor,Disease
+"Diabetes Mellitus, Congenital Autoimmune",Disease
+Disseminated Intravascular Coagulation,Disease
+"Edema, Cardiac",Disease
+"Encephalomyelitis, Autoimmune, Experimental",Disease
+Endometrial Neoplasms,Disease
+Esophageal Neoplasms,Disease
+Esophageal Squamous Cell Carcinoma,Disease
+Euthyroid Sick Syndromes,Disease
+Fallopian Tube Neoplasms,Disease
+Familial primary gastric lymphoma,Disease
+Gallbladder Neoplasms,Disease
+"Genital Neoplasms, Female",Disease
+"Glycosuria, Renal",Disease
+Granulosa cell tumor of the ovary,Disease
+Hematologic Neoplasms,Disease
+Hepatic Encephalopathy,Disease
+Hepatic Insufficiency,Disease
+Hepatic Veno-Occlusive Disease,Disease
+Hepatorenal Syndrome,Disease
+"Hypertension, Malignant",Disease
+"Hypertension, Portal",Disease
+"Hypertension, Pregnancy-Induced",Disease
+"Hypertension, Pulmonary",Disease
+"Hypertension, Renal",Disease
+"Hypertension, Renovascular",Disease
+Hyperthyroidism,Disease
+"Hypomagnesemia 2, renal",Disease
+Hypopharyngeal Neoplasms,Disease
+Hypothyroidism,Disease
+"Hypothyroidism, Autoimmune",Disease
+Immune Complex Diseases,Disease
+IMMUNE SUPPRESSION,Disease
+Immune System Diseases,Disease
+Inflammatory Breast Neoplasms,Disease
+Intracranial Hypertension,Disease
+Kidney Neoplasms,Disease
+Laryngeal Neoplasms,Disease
+Leukemia,Disease
+"Leukemia, Erythroblastic, Acute",Disease
+"Leukemia, Experimental",Disease
+Leukemia L1210,Disease
+"Leukemia, Lymphocytic, Chronic, B-Cell",Disease
+"Leukemia, Lymphoid",Disease
+"Leukemia-Lymphoma, Adult T-Cell",Disease
+"Leukemia, Monocytic, Acute",Disease
+"Leukemia, Myelogenous, Chronic, BCR-ABL Positive",Disease
+"Leukemia, Myeloid",Disease
+"Leukemia, Myeloid, Acute",Disease
+"Leukemia, Plasma Cell",Disease
+"Leukemia, Prolymphocytic, T-Cell",Disease
+"Leukemia, Promyelocytic, Acute",Disease
+"Leukemia, Radiation-Induced",Disease
+"Leukemia, T-Cell",Disease
+Leydig Cell Tumor,Disease
+Liver Neoplasms,Disease
+"Liver Neoplasms, Experimental",Disease
+Lung agenesis,Disease
+"Lung Diseases, Interstitial",Disease
+"Lung Diseases, Obstructive",Disease
+Lung Injury,Disease
+Lung Neoplasms,Disease
+Lymphatic Metastasis,Disease
+Lymphoma,Disease
+"Lymphoma, AIDS-Related",Disease
+"Lymphoma, B-Cell",Disease
+"Lymphoma, Extranodal NK-T-Cell",Disease
+"Lymphoma, Follicular",Disease
+"Lymphoma, Large B-Cell, Diffuse",Disease
+"Lymphoma, Mantle-Cell",Disease
+"Lymphoma, Non-Hodgkin",Disease
+"Lymphoma, Primary Effusion",Disease
+"Lymphoma, T-Cell",Disease
+"Lymphoma, T-Cell, Cutaneous",Disease
+Male Germ Cell Tumor,Disease
+"Mammary Neoplasms, Animal",Disease
+"Mammary Neoplasms, Experimental",Disease
+Massive Hepatic Necrosis,Disease
+Maxillary Sinus Neoplasms,Disease
+Mouth Neoplasms,Disease
+Nasopharyngeal Carcinoma,Disease
+Nasopharyngeal Neoplasms,Disease
+Neoplasm Invasiveness,Disease
+Neoplasm Metastasis,Disease
+"Neoplasm Recurrence, Local",Disease
+"Neoplasms, Bone Tissue",Disease
+"Neoplasms, Experimental",Disease
+"Neoplasms, Mesothelial",Disease
+"Neovascularization, Pathologic",Disease
+"Neuroectodermal Tumors, Primitive",Disease
+"Neuroectodermal Tumors, Primitive, Peripheral",Disease
+Nonseminomatous germ cell tumor,Disease
+Nose Neoplasms,Disease
+Ocular Hypertension,Disease
+Ovarian Neoplasms,Disease
+"Pancreatic cancer, adult",Disease
+Pancreatic Neoplasms,Disease
+"Paraganglioma, Extra-Adrenal",Disease
+Paraquat lung,Disease
+Peripheral Vascular Diseases,Disease
+Pharyngeal Neoplasms,Disease
+Phyllodes Tumor,Disease
+Pituitary Neoplasms,Disease
+Pleural Neoplasms,Disease
+"Porphyrias, Hepatic",Disease
+Precancerous Conditions,Disease
+Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,Disease
+Precursor Cell Lymphoblastic Leukemia-Lymphoma,Disease
+Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,Disease
+Prostatic Neoplasms,Disease
+Pseudolymphoma,Disease
+Pseudotumor Cerebri,Disease
+Pulmonary Arterial Hypertension,Disease
+Rectal Neoplasms,Disease
+Renal Artery Obstruction,Disease
+Renal hypouricemia,Disease
+Renal Insufficiency,Disease
+"Renal Insufficiency, Chronic",Disease
+Salivary Gland Neoplasms,Disease
+Sigmoid Neoplasms,Disease
+Skin Neoplasms,Disease
+Small Cell Lung Carcinoma,Disease
+Soft Tissue Neoplasms,Disease
+Splenic Neoplasms,Disease
+Squamous Cell Carcinoma of Head and Neck,Disease
+Stomach Neoplasms,Disease
+Testicular Germ Cell Tumor,Disease
+Testicular Neoplasms,Disease
+"Thyroid cancer, follicular",Disease
+Thyroid Dysgenesis,Disease
+"Thyroid Hormone Metabolism, Abnormal",Disease
+Tongue Neoplasms,Disease
+Tracheal Neoplasms,Disease
+Triple Negative Breast Neoplasms,Disease
+Tumor Lysis Syndrome,Disease
+Ureteral Neoplasms,Disease
+Urethral Neoplasms,Disease
+Urinary Bladder Neoplasms,Disease
+Urogenital Neoplasms,Disease
+Urologic Neoplasms,Disease
+Uterine Cervical Neoplasms,Disease
+Uterine Neoplasms,Disease
+Uveal Neoplasms,Disease
+Vaginal Neoplasms,Disease
+Vascular Calcification,Disease
+Vascular Diseases,Disease
+Vascular Malformations,Disease
+Vascular Remodeling,Disease
+Vascular System Injuries,Disease
+Wilms Tumor,Disease
+"Acidosis, Renal Tubular",Disease
+Acute erythroleukemia,Disease
+"Adrenal Hyperplasia, Congenital",Disease
+Adrenal Insufficiency,Disease
+"Anemia, Refractory, with Excess of Blasts",Disease
+Brain Stem Neoplasms,Disease
+"Cardiac Complexes, Premature",Disease
+Cardiac Tamponade,Disease
+Gastrointestinal Stromal Tumors,Disease
+"Hepatitis, Autoimmune",Disease
+"Leukemia, Myeloid, Chronic-Phase",Disease
+"Leukemia, Myelomonocytic, Chronic",Disease
+"Lymphoma, Large-Cell, Anaplastic",Disease
+"Lymphoma, T-Cell, Peripheral",Disease
+Sebaceous Gland Neoplasms,Disease
+"Sinus Arrest, Cardiac",Disease
+"Adenocarcinoma, Clear Cell",Disease
+"Adenocarcinoma, Mucinous",Disease
+Adrenal Cortex Neoplasms,Disease
+Basal Ganglia Cerebrovascular Disease,Disease
+Brachydactyly with hypertension,Disease
+"Breast Neoplasms, Male",Disease
+"Carcinoma, Ductal",Disease
+"Carcinoma, Islet Cell",Disease
+"Carcinoma, Lobular",Disease
+"Cholestasis, Extrahepatic",Disease
+"Cholestasis, progressive familial intrahepatic 3",Disease
+Choroidal Neovascularization,Disease
+Colitis-Associated Neoplasms,Disease
+Corneal Neovascularization,Disease
+Cystadenocarcinoma,Disease
+Endocrine Gland Neoplasms,Disease
+Essential Hypertension,Disease
+Fanconi Anemia,Disease
+"Genital Neoplasms, Male",Disease
+Giant Cell Tumor of Bone,Disease
+Idiopathic intracranial hypertension with papilledema,Disease
+"Leukemia, Large Granular Lymphocytic",Disease
+"Leukemia, Myelomonocytic, Acute",Disease
+"Lung Diseases, Parasitic",Disease
+Meningeal Carcinomatosis,Disease
+Mesenteric Vascular Occlusion,Disease
+"Mixed Tumor, Mullerian",Disease
+Neoplasm Micrometastasis,Disease
+"Neoplasms, Fibrous Tissue",Disease
+"Neoplasms, Hormone-Dependent",Disease
+"Neoplasms, Radiation-Induced",Disease
+"Neoplasms, Second Primary",Disease
+"Neoplasms, Squamous Cell",Disease
+"Neoplasms, Unknown Primary",Disease
+Nervous System Neoplasms,Disease
+"Neuritis, Autoimmune, Experimental",Disease
+"Pregnancy Complications, Cardiovascular",Disease
+Renal Aminoacidurias,Disease
+Retinal Neovascularization,Disease
+"Skin Diseases, Vascular",Disease
+"Thyroid cancer, medullary",Disease
+Vascular Headaches,Disease
+Vascular Neoplasms,Disease
+Vulvar Neoplasms,Disease
+Abdominal Neoplasms,Disease
+"Anemia, Diamond-Blackfan",Disease
+Cerebellar Neoplasms,Disease
+Duodenal Neoplasms,Disease
+Ear Neoplasms,Disease
+Eye Neoplasms,Disease
+Gastro-enteropancreatic neuroendocrine tumor,Disease
+Kidney disorder involving deposition of calcium and oxalate or phosphate in the renal tubules,Disease
+"Leukemia, Hairy Cell",Disease
+"Leukemia, Myeloid, Chronic, Atypical, BCR-ABL Negative",Disease
+"Leukemia, Myelomonocytic, Juvenile",Disease
+Leukemia P388,Disease
+"Lung Diseases, Fungal",Disease
+"Neoplasms, Multiple Primary",Disease
+"Neuroectodermal Tumor, Melanotic",Disease
+Parotid Neoplasms,Disease
+Peritoneal Neoplasms,Disease
+Thymus Neoplasms,Disease
+Thyroiditis,Disease
+"Thyroiditis, Autoimmune",Disease
+Nerve Sheath Neoplasms,Disease
