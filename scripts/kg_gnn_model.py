@@ -32,9 +32,20 @@ class GCNLinkPredictor(nn.Module):
         self.dropout = dropout
         self.embed_dim = out_channels if num_layers >= 2 else hidden_channels
 
-        # Link predictor: score (h_src, h_dst) -> [0, 1]
+        # Link predictor: score (h_src, h_dst) -> [0, 1] for (drug, protein)
         self.link_mlp = nn.Sequential(
             nn.Linear(2 * self.embed_dim, hidden_channels),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden_channels, 1),
+        )
+        # Separate head for (protein, outcome) so outcome scores can vary by protein.
+        # Deeper head to amplify small differences in protein embeddings.
+        self.outcome_link_mlp = nn.Sequential(
+            nn.Linear(2 * self.embed_dim, hidden_channels),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(hidden_channels, hidden_channels),
             nn.ReLU(),
             nn.Dropout(dropout),
             nn.Linear(hidden_channels, 1),
@@ -65,6 +76,22 @@ class GCNLinkPredictor(nn.Module):
         logits = self.link_mlp(pair).squeeze(-1)
         return torch.sigmoid(logits)
 
+    def predict_outcome_link(self, h: torch.Tensor, src_idx: int, dst_indices: torch.Tensor) -> torch.Tensor:
+        """Score (protein src_idx, outcome) for each outcome in dst_indices. Uses outcome_link_mlp."""
+        h_src = h[src_idx : src_idx + 1].expand(dst_indices.size(0), -1)
+        h_dst = h[dst_indices]
+        pair = torch.cat([h_src, h_dst], dim=1)
+        logits = self.outcome_link_mlp(pair).squeeze(-1)
+        return torch.sigmoid(logits)
+
+    def predict_outcome_link_pairs(self, h: torch.Tensor, src_indices: torch.Tensor, dst_indices: torch.Tensor) -> torch.Tensor:
+        """Score (protein, outcome) pairs for training. Uses outcome_link_mlp."""
+        h_src = h[src_indices]
+        h_dst = h[dst_indices]
+        pair = torch.cat([h_src, h_dst], dim=1)
+        logits = self.outcome_link_mlp(pair).squeeze(-1)
+        return torch.sigmoid(logits)
+
     def loss_batch(
         self,
         h: torch.Tensor,
@@ -90,9 +117,9 @@ class GCNLinkPredictor(nn.Module):
         neg_src: torch.Tensor,
         neg_dst: torch.Tensor,
     ) -> torch.Tensor:
-        """BCE loss for (protein, associated_with, outcome) link prediction."""
-        pos_scores = self.predict_link_pairs(h, pos_src, pos_dst)
-        neg_scores = self.predict_link_pairs(h, neg_src, neg_dst)
+        """BCE loss for (protein, associated_with, outcome) link prediction. Uses outcome_link_mlp."""
+        pos_scores = self.predict_outcome_link_pairs(h, pos_src, pos_dst)
+        neg_scores = self.predict_outcome_link_pairs(h, neg_src, neg_dst)
         return F.binary_cross_entropy(
             torch.cat([pos_scores, neg_scores]),
             torch.cat([torch.ones_like(pos_scores, device=h.device), torch.zeros_like(neg_scores, device=h.device)]),

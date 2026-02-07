@@ -157,8 +157,8 @@ def main() -> None:
             idx = order[i]
             tail_idx = candidate_tails[idx]
             node_id = idx_to_id[tail_idx]
-            # Score (this protein, outcome) for all outcomes
-            out_scores = model.predict_link(h, tail_idx, cand_outcome_t)
+            # Score (this protein, outcome) for all outcomes using outcome-specific head
+            out_scores = model.predict_outcome_link(h, tail_idx, cand_outcome_t)
             out_scores_np = out_scores.detach().cpu().numpy()
             out_order = out_scores_np.argsort()[::-1][: args.top_outcomes]
             outcome_names = [idx_to_id[candidate_outcomes[j]] for j in out_order]

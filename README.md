@@ -15,7 +15,7 @@ Pralsetinib has limited long-term real-world safety data. Post-marketing pharmac
 1. **Build KG** — Data extraction (bioassays, literature, clinical trials, co-occurrences) → `kg_nodes.csv`, `kg_edges.csv`.
 2. **Enrich** — GO pathways + target–outcome links → `kg_nodes_final.csv`, `kg_edges_final.csv`.
 3. **Visualize** — Interactive PyVis HTML.
-4. **Predict off-targets and outcomes** — GNN runs on the full graph (including Disease/Adverse Event nodes). It is trained on two link-prediction tasks: **(Pralsetinib, inhibits, protein)** and **(protein, associated_with, Disease/AE)**. Output: ranked proteins + score + **GNN-ranked Disease/AE** per protein (`gnn_predicted_outcomes` column).
+4. **Predict off-targets and outcomes** — GNN runs on the full graph (including Disease/Adverse Event nodes). It uses **two separate link-prediction heads**: one for **(Pralsetinib, inhibits, protein)** and one for **(protein, associated_with, Disease/AE)**. The outcome head is trained and used only for protein–outcome scoring, so **GNN-ranked Disease/AE** can vary by protein. Output: ranked proteins + score + **`gnn_predicted_outcomes`** (top-k Disease/AE per protein, protein-specific).
 5. **Optional: ontology lookup** — `add_effects_to_predictions.py` adds KG-derived `associated_adverse_effects` (exact KG edges) for comparison or combined use.
 
 ---
@@ -50,15 +50,18 @@ python scripts/visualize_kg.py --nodes data/kg_nodes_final.csv --edges data/kg_e
 
 ### GNN off-target prediction (train + infer)
 
-The GNN uses the **full graph** (Drug, Protein, Disease, Adverse Event, Pathway, etc.): message passing runs over all nodes. It is trained on two tasks — **(drug, inhibits, protein)** and **(protein, associated_with, Disease/AE)** — so Disease/AE nodes are used both in the graph and as prediction targets.
+The GNN uses the **full graph** (Drug, Protein, Disease, Adverse Event, Pathway, etc.): message passing runs over all nodes. It is trained on two **separate** link-prediction tasks:
+
+- **(drug, inhibits, protein)** — one MLP head; used for off-target ranking.
+- **(protein, associated_with, Disease/AE)** — a **dedicated outcome MLP head** (separate from the drug–protein head), so outcome rankings can differ per protein.
 
 ```bash
 python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out data/off_target_predictions_gnn.csv --epochs 200
 ```
 
-**Output:** `data/off_target_predictions_gnn.csv` with columns `rank`, `protein_id`, `score`, and **`gnn_predicted_outcomes`** (top-k Disease/Adverse Event nodes the GNN scores as most associated with that protein, e.g. "Anemia | Hypertension | Neutropenia").
+**Output:** `data/off_target_predictions_gnn.csv` with columns `rank`, `protein_id`, `score`, and **`gnn_predicted_outcomes`** — top-k Disease/Adverse Event nodes the **outcome head** scores as most associated with that protein. Outcomes are **protein-specific** (e.g. different proteins may get different orderings such as "Neutropenia | Hypertension | Anemia | …" vs "Anemia | Hypertension | Neutropenia | …").
 
-**Optional args:** `--hidden 64 --embed 32 --top 100 --neg-per-pos 5 --save-model models/kg_gnn.pt`; `--outcome-weight 0.5` (weight for the protein–outcome loss); `--top-outcomes 5` (number of Disease/AE per protein); `--no-outcome-task` to disable the (protein, outcome) task and the `gnn_predicted_outcomes` column.
+**Optional args:** `--hidden 64 --embed 32 --top 100 --neg-per-pos 5 --save-model models/kg_gnn.pt`; `--outcome-weight 0.5` or `1.0` (weight for the protein–outcome loss; higher can improve outcome variation); `--top-outcomes 5` (number of Disease/AE per protein); `--no-outcome-task` to disable the (protein, outcome) task and the `gnn_predicted_outcomes` column.
 
 ### Map predictions to adverse effects (ontology lookup)
 
@@ -76,7 +79,7 @@ Output: `data/off_target_predictions_with_effects.csv` adds `associated_adverse_
 |--|-----------------------------------|-------------------------------------------|
 | **Produced by** | GNN script (`kg_gnn_link_prediction.py`) | Post-processing (`add_effects_to_predictions.py`) |
 | **Effect column** | `gnn_predicted_outcomes` | `associated_adverse_effects` |
-| **How effects are obtained** | **Model prediction:** GNN scores every (protein, Disease/AE) pair and returns the top-k. Learned from the graph; can list outcomes even when the KG has no direct edge. | **Lookup:** For each protein, the script finds all KG edges `(protein, associated_with, adverse_event)` and lists those targets. No model — only outcomes that already exist as edges in the KG; empty if there are none. |
+| **How effects are obtained** | **Model prediction:** A dedicated outcome head scores every (protein, Disease/AE) pair and returns the top-k per protein. Learned from the graph; rankings can vary by protein; can list outcomes even when the KG has no direct edge. | **Lookup:** For each protein, the script finds all KG edges `(protein, associated_with, adverse_event)` and lists those targets. No model — only outcomes that already exist as edges in the KG; empty if there are none. |
 
 Use the **GNN CSV** for model-predicted outcomes; use the **with_effects CSV** for ontology-derived effects and to compare with the GNN.
 
@@ -110,6 +113,6 @@ All input data are under `data/`. KG outputs: `kg_nodes.csv` / `kg_edges.csv` (i
 | `data_extraction.ipynb` | Build initial KG from PubChem |
 | `scripts/enrich_go.py` | GO + target–outcome enrichment |
 | `scripts/visualize_kg.py` | PyVis HTML export |
-| `scripts/kg_gnn_*.py` | GNN data, model, train/infer (predicts proteins + GNN-ranked Disease/AE) |
+| `scripts/kg_gnn_*.py` | GNN data, model (two heads: drug–protein + protein–outcome), train/infer (predicts proteins + protein-specific GNN-ranked Disease/AE) |
 | `scripts/add_effects_to_predictions.py` | Map predicted proteins → adverse effects via KG (ontology lookup) |
 | `eda/eda.ipynb` | Exploratory analysis on final KG |
