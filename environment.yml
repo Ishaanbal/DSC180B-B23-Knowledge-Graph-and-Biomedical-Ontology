@@ -10,3 +10,8 @@ dependencies:
   - matplotlib
   - seaborn
   - pyvis
+  # GNN off-target link prediction
+  - pytorch
+  - pip
+  - pip:
+    - torch-geometric>=2.4
