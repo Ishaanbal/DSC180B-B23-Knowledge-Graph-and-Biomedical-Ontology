@@ -1,113 +1,115 @@
-# DSC180B-B23-Knowledge-Graph-and-Biomedical-Ontology
-
-https://pubchem.ncbi.nlm.nih.gov/compound/129073603
-
 # Pralsetinib Polypharmacology & Toxicity Knowledge Graph
 
-## 1. Project Overview
-This project establishes a **Knowledge Graph (KG)** to model the polypharmacology of Pralsetinib, a selective RET kinase inhibitor. Beyond its primary therapeutic mechanism, this graph maps **off-target interactions** (e.g., KDR, JAK2) directly to clinical **Adverse Events** (e.g., Hypertension, Neutropenia).
+[DSC180B-B23] **Neuro-symbolic, ontology-based off-target prediction** for **Pralsetinib** (PubChem [129073603](https://pubchem.ncbi.nlm.nih.gov/compound/129073603)), a recently approved RET kinase inhibitor.
 
-**The Objective:** To demonstrate a **Mechanism-to-Toxicity** analysis where the graph structure reveals how specific off-target molecular inhibition drives observed clinical side effects.
+## Project goal
 
-## 2. Dataset Specifications (Version 1.0)
-We have consolidated structured bioassay data and unstructured literature text into a normalized Graph format suitable for ingestion into graph databases (e.g., Neo4j).
+Pralsetinib has limited long-term real-world safety data. Post-marketing pharmacovigilance already shows unexpected adverse effects (e.g., rhabdomyolysis, cognitive disorders, severe infections) beyond on-target effects. Because it is new, used in a small subset of patients, and has complex kinase biology, there is a high **“unknown off-target space”** — making it well-suited for an ontology-based off-target prediction study.
 
-* **Total Nodes:** 240 (Drugs, Proteins, Genes, Diseases, Adverse Events)
-* **Total Edges:** 313 (Relationships linking mechanisms to outcomes)
-* **File Outputs:**
-    * `kg_nodes.csv`: The entity dictionary containing unique IDs and Types.
-    * `kg_edges.csv`: The relationship triplets (Source -> Relation -> Target).
+**Our approach (neuro-symbolic):** Build a knowledge graph that links mechanisms to toxicity (`Pralsetinib --[inhibits]--> Off-Target --[associated_with]--> Adverse Event`), enrich it with ontologies (GO, target–outcome). The **GNN** runs on the full graph (including Disease and Adverse Event nodes) and is trained to predict both **(drug, inhibits, protein)** and **(protein, associated_with, Disease/AE)**. The output is ranked off-target proteins plus **GNN-predicted Disease/AE** per protein; an optional **ontology lookup** adds KG-derived effects for comparison. The final deliverable is **predicted effects** — hypotheses for safety-relevant outcomes tied to specific off-targets.
 
-## 3. Graph Schema & Logic
-The graph connects molecular mechanisms to patient outcomes using two distinct reasoning paths:
+---
 
-**Path A: Therapeutic Efficacy (Primary Mechanism)**
-> `Pralsetinib` --[inhibits]--> `RET (Primary Target)` --[treats]--> `NSCLC (Disease)`
+## Pipeline overview
 
-**Path B: Toxicity Etiology (Off-Target Mechanism)**
-> `Pralsetinib` --[inhibits]--> `KDR (Off-Target)` --[associated_with]--> `Hypertension (Adverse Event)`
+1. **Build KG** — Data extraction (bioassays, literature, clinical trials, co-occurrences) → `kg_nodes.csv`, `kg_edges.csv`.
+2. **Enrich** — GO pathways + target–outcome links → `kg_nodes_final.csv`, `kg_edges_final.csv`.
+3. **Visualize** — Interactive PyVis HTML.
+4. **Predict off-targets and outcomes** — GNN runs on the full graph (including Disease/Adverse Event nodes). It is trained on two link-prediction tasks: **(Pralsetinib, inhibits, protein)** and **(protein, associated_with, Disease/AE)**. Output: ranked proteins + score + **GNN-ranked Disease/AE** per protein (`gnn_predicted_outcomes` column).
+5. **Optional: ontology lookup** — `add_effects_to_predictions.py` adds KG-derived `associated_adverse_effects` (exact KG edges) for comparison or combined use.
 
-*Note: By explicitly mapping Path B, our model can infer the molecular root cause of specific side effects.*
+---
 
-## 4. Data Sources & Pipeline
-We utilized a Python-based pipeline to ingest, clean, and normalize disparate data sources from PubChem:
+## Running scripts
 
-| Source File | Data Type | Contribution to Graph |
-| :--- | :--- | :--- |
-| **Bioassays** | Structured CSV | Provided quantitative **IC50** values (nM) for RET and verified off-targets. |
-| **Literature** | Unstructured Text | Used text mining to extract **Adverse Events** (e.g., "Hypertension") from abstracts. |
-| **Co-occurrences** | JSON | Identified latent chemical-gene associations not present in standard bioassays. |
-| **Clinical Trials** | Structured CSV | Mapped the drug to approved **Disease Indications**. |
+**Environment:** `conda env create -f environment.yml` (or `conda env update -f environment.yml`). Dependencies: Python 3.10, pandas, networkx, pytorch, torch-geometric (pip), pyvis, matplotlib, seaborn.
 
-## 5. Key Findings Validated in the Graph
-The current graph structure successfully captures the following "Mechanism-to-Toxicity" chains:
+### Enrichment (GO + target–outcome)
 
-* **Hypertension:** Linked to **KDR (VEGFR2)** inhibition, a known class effect of VEGF pathway interference.
-* **Neutropenia:** Linked to **JAK2/FLT3** inhibition, which impacts hematopoietic cell proliferation.
-* **Pneumonitis:** Identified via text mining as a significant clinical risk.
-
-## 6. Data Dictionary & Usage
-The knowledge graph was constructed using specific datasets exported from PubChem. Below is the breakdown of each file and its role in the pipeline:
-
-### A. Bioactivity Data (`...bioactivity.csv`)
-* **Data Content:** Quantitative experimental results ($IC_{50}$, $K_i$, $K_d$) from biochemical assays.
-* **Project Usage:** Defines the **"Inhibits"** edges. We use this to establish the primary potency against RET (0.3-0.4 nM) and identify confirmed off-targets (e.g., JAK2).
-
-### B. Literature Abstracts (`...literature.csv`)
-* **Data Content:** Titles, abstracts, and metadata for PubMed articles referencing Pralsetinib.
-* **Project Usage:** The source for **Text Mining**. We scan these abstracts for keywords (e.g., "hypertension", "neutropenia") to generate **"Associated_With"** edges linking targets to Adverse Events.
-
-### C. Co-Occurrence Data (`...Co-Occurrences...json`)
-* **Data Content:** Computed associations between the drug and other genes/chemicals based on frequency in scientific text.
-* **Project Usage:** Uncovers **"Hidden" Off-Targets**. This dataset revealed high-confidence associations with targets like KDR (VEGFR2) and EGFR that were underrepresented in the structured bioassay data.
-
-### D. Clinical Trials (`...clinicaltrials.csv` & `...opentargets...csv`)
-* **Data Content:** FDA clinical trial records, phases, and approved conditions.
-* **Project Usage:** Defines the **"Treats"** edges. This establishes the "Clean" therapeutic pathway (Pralsetinib → NSCLC) to contrast against the toxicity pathways.
-
-### E. Consolidated Targets (`...consolidatedcompoundtarget.csv`)
-* **Data Content:** High-level summary of the drug's primary mechanisms of action from multiple databases (ChEMBL, TTD).
-* **Project Usage:** Serves as the ground truth for **Node Classification**, ensuring the drug is correctly typed as a "RET Inhibitor" in the graph schema.
-
-## 7. Ontology-Guided Enrichment (GO + Target-Outcome)
-We extend the KG using ontology-backed biological facts to restore **Target-to-Outcome** reasoning without adding drug-specific shortcuts.
-
-### A. GO Pathway Mapping (`protein_go_mapping.csv`)
-* **Data Content:** Protein-to-GO Biological Process annotations (1-3 terms per protein).
-* **Project Usage:** Adds `Pathway` nodes and **"involved_in"** edges to create shared intermediate biology.
-
-### B. Target-Outcome Mapping (`protein_outcome_mapping.csv`)
-* **Data Content:** Curated Protein → Disease/Adverse Event links from sources like CTD or OpenTargets.
-* **Project Usage:** Adds **"Associated_With"** edges that bridge molecular targets to clinical outcomes.
-
-### C. Enrichment Script (`scripts/enrich_go.py`)
-* **Data Content:** Single-pass enrichment script for GO pathways + target-outcome links.
-* **Project Usage:** Outputs updated `kg_nodes_enriched.csv` and `kg_edges_enriched.csv`.
-
-### D. Optional GO Auto-Annotation
-* **Data Content:** UniProt GO Biological Process annotations pulled by gene symbol.
-* **Project Usage:** Auto-populates `protein_go_mapping.csv` for rapid bootstrapping.
-
-**Run:**
-```
+```bash
 python scripts/enrich_go.py --nodes data/kg_nodes_v2.csv --edges data/kg_edges_v2.csv --go-mapping data/protein_go_mapping.csv --outcome-mapping data/protein_outcome_mapping_onc.csv --out-nodes data/kg_nodes_final.csv --out-edges data/kg_edges_final.csv --add-similarity --drop-shortcuts
 ```
 
-**Auto-annotate:**
-```
+Optional auto-annotate GO mapping:
+
+```bash
 python scripts/enrich_go.py --generate-go-mapping --go-mapping data/protein_go_mapping.csv --outcome-mapping data/protein_outcome_mapping.csv
 ```
 
-### E. Visualization (`scripts/visualize_kg.py`)
-* **Data Content:** Interactive PyVis view of the KG.
-* **Project Usage:** Exports an HTML graph for quick inspection.
+### Visualization
 
-**Run (final KG):**
-```
+```bash
 python scripts/visualize_kg.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out figures/kg_interactive.html --max-nodes 300
 ```
 
-**Run (mechanistic only):**
-```
+Mechanistic-only view (no direct drug→disease/AE edges):
+
+```bash
 python scripts/visualize_kg.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out figures/kg_interactive_mech.html --mechanistic-only --max-nodes 250
 ```
+
+### GNN off-target prediction (train + infer)
+
+The GNN uses the **full graph** (Drug, Protein, Disease, Adverse Event, Pathway, etc.): message passing runs over all nodes. It is trained on two tasks — **(drug, inhibits, protein)** and **(protein, associated_with, Disease/AE)** — so Disease/AE nodes are used both in the graph and as prediction targets.
+
+```bash
+python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out data/off_target_predictions_gnn.csv --epochs 200
+```
+
+**Output:** `data/off_target_predictions_gnn.csv` with columns `rank`, `protein_id`, `score`, and **`gnn_predicted_outcomes`** (top-k Disease/Adverse Event nodes the GNN scores as most associated with that protein, e.g. "Anemia | Hypertension | Neutropenia").
+
+**Optional args:** `--hidden 64 --embed 32 --top 100 --neg-per-pos 5 --save-model models/kg_gnn.pt`; `--outcome-weight 0.5` (weight for the protein–outcome loss); `--top-outcomes 5` (number of Disease/AE per protein); `--no-outcome-task` to disable the (protein, outcome) task and the `gnn_predicted_outcomes` column.
+
+### Map predictions to adverse effects (ontology lookup)
+
+To add **KG-derived** effects (exact `associated_with` edges from the graph) alongside the GNN-ranked outcomes:
+
+```bash
+python scripts/add_effects_to_predictions.py --predictions data/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out data/off_target_predictions_with_effects.csv
+```
+
+Output: `data/off_target_predictions_with_effects.csv` adds `associated_adverse_effects` (ontology lookup). You can compare with `gnn_predicted_outcomes` from the GNN.
+
+**Difference between the two prediction CSVs:**
+
+| | `off_target_predictions_gnn.csv` | `off_target_predictions_with_effects.csv` |
+|--|-----------------------------------|-------------------------------------------|
+| **Produced by** | GNN script (`kg_gnn_link_prediction.py`) | Post-processing (`add_effects_to_predictions.py`) |
+| **Effect column** | `gnn_predicted_outcomes` | `associated_adverse_effects` |
+| **How effects are obtained** | **Model prediction:** GNN scores every (protein, Disease/AE) pair and returns the top-k. Learned from the graph; can list outcomes even when the KG has no direct edge. | **Lookup:** For each protein, the script finds all KG edges `(protein, associated_with, adverse_event)` and lists those targets. No model — only outcomes that already exist as edges in the KG; empty if there are none. |
+
+Use the **GNN CSV** for model-predicted outcomes; use the **with_effects CSV** for ontology-derived effects and to compare with the GNN.
+
+---
+
+## Data files & sources
+
+All input data are under `data/`. KG outputs: `kg_nodes.csv` / `kg_edges.csv` (initial), `kg_nodes_final.csv` / `kg_edges_final.csv` (after enrichment).
+
+| File | Source | Role in pipeline |
+|------|--------|-------------------|
+| `pubchem_cid_129073603_bioactivity.csv` | PubChem / ChEMBL | IC50, Kd, Ki → **inhibits** edges (RET, off-targets). |
+| `pubchem_cid_129073603_literature.csv` | PubChem | Abstracts → text mining for **associated_with** (target → AE). |
+| `Chemical_Co-Occurrences-in-Literature_*.json` | PubChem | Chemical–chemical co-occurrence. |
+| `Chemical_Gene-Co-Occurrences-in-Literature_*.json` | PubChem | Chemical–gene co-occurrence → latent off-targets (e.g. KDR, EGFR). |
+| `pubchem_cid_129073603_clinicaltrials.csv` | PubChem / FDA | Trial conditions → **treats** edges. |
+| `pubchem_cid_129073603_opentargetsdrugindication.csv` | OpenTargets | Indications → **treats**. |
+| `pubchem_cid_129073603_consolidatedcompoundtarget.csv` | ChEMBL / TTD | Primary MoA → node typing (e.g. RET inhibitor). |
+| `protein_go_mapping.csv` | GO / UniProt or manual | Protein → GO Biological Process → **involved_in** (Pathway nodes). |
+| `protein_outcome_mapping.csv` / `protein_outcome_mapping_onc.csv` | CTD / OpenTargets | Protein → Disease/AE → **associated_with** edges. |
+
+**Graph schema:** Nodes = Drug, Protein, Gene/Protein, Disease, Adverse Event, Pathway, Chemical, Gene. Edges = inhibits, treats, associated_with, involved_in, co_occurs_with_*, etc. **Key chains:** Hypertension ↔ KDR; Neutropenia ↔ JAK2/FLT3; Pneumonitis (text-mined).
+
+---
+
+## Repo layout
+
+| Path | Purpose |
+|------|--------|
+| `data/` | KG CSVs, PubChem exports, GO/outcome mappings |
+| `data_extraction.ipynb` | Build initial KG from PubChem |
+| `scripts/enrich_go.py` | GO + target–outcome enrichment |
+| `scripts/visualize_kg.py` | PyVis HTML export |
+| `scripts/kg_gnn_*.py` | GNN data, model, train/infer (predicts proteins + GNN-ranked Disease/AE) |
+| `scripts/add_effects_to_predictions.py` | Map predicted proteins → adverse effects via KG (ontology lookup) |
+| `eda/eda.ipynb` | Exploratory analysis on final KG |

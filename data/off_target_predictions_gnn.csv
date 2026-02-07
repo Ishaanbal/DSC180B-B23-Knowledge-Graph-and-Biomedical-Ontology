@@ -1,0 +1,16 @@
+rank,protein_id,score,gnn_predicted_outcomes
+1,RET - ret proto-oncogene (human),0.9772342443466187,Anemia | Hypertension | Neutropenia
+2,RET,0.8396307229995728,Anemia | Hypertension | Neutropenia
+3,KIF5B - kinesin family member 5B (human),0.808605968952179,Anemia | Hypertension | Neutropenia
+4,CCDC6 - coiled-coil domain containing 6 (human),0.7798845171928406,Anemia | Hypertension | Neutropenia
+5,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.7645823359489441,Anemia | Hypertension | Neutropenia
+6,KDR - kinase insert domain receptor (human),0.7645823359489441,Anemia | Hypertension | Neutropenia
+7,FLT3 - fms related receptor tyrosine kinase 3 (human),0.7645823359489441,Anemia | Hypertension | Neutropenia
+8,Tyrosine-protein kinase JAK2 (human),0.7645823359489441,Anemia | Hypertension | Neutropenia
+9,HRAS,0.07497595995664597,Anemia | Hypertension | Neutropenia
+10,PTK2B,0.07497594505548477,Anemia | Hypertension | Neutropenia
+11,EML4,0.07497594505548477,Anemia | Hypertension | Neutropenia
+12,DRD2,0.07497594505548477,Anemia | Hypertension | Neutropenia
+13,CCDC6,0.07497594505548477,Anemia | Hypertension | Neutropenia
+14,KIF5B,0.07497594505548477,Anemia | Hypertension | Neutropenia
+15,KDR,0.07497594505548477,Anemia | Hypertension | Neutropenia
