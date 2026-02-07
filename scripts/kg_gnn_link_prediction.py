@@ -44,6 +44,7 @@ def main() -> None:
     parser.add_argument("--outcome-weight", type=float, default=0.5, help="Weight for (protein, outcome) loss vs inhibits loss")
     parser.add_argument("--top-outcomes", type=int, default=5, help="Top-k Disease/AE per protein to write in output")
     parser.add_argument("--no-outcome-task", action="store_true", help="Disable (protein, associated_with, outcome) training and outcome column")
+    parser.add_argument("--top-candidates", type=int, default=20, help="Top-k candidate novel off-targets (no KG edge) to write to _candidates CSV; 0 to disable")
     args = parser.parse_args()
 
     torch.manual_seed(args.seed)
@@ -146,7 +147,8 @@ def main() -> None:
     # Rank by score descending
     order = scores_np.argsort()[::-1]
     top_k = min(args.top, len(candidate_tails))
-    fieldnames = ["rank", "protein_id", "score"]
+    pos_set = set(positive_tails)
+    fieldnames = ["rank", "protein_id", "score", "known_target"]
     rows = []
 
     # Optionally add GNN-ranked Disease/AE per protein
@@ -157,6 +159,7 @@ def main() -> None:
             idx = order[i]
             tail_idx = candidate_tails[idx]
             node_id = idx_to_id[tail_idx]
+            known = tail_idx in pos_set
             # Score (this protein, outcome) for all outcomes using outcome-specific head
             out_scores = model.predict_outcome_link(h, tail_idx, cand_outcome_t)
             out_scores_np = out_scores.detach().cpu().numpy()
@@ -166,6 +169,7 @@ def main() -> None:
                 "rank": i + 1,
                 "protein_id": node_id,
                 "score": float(scores_np[idx]),
+                "known_target": known,
                 "gnn_predicted_outcomes": " | ".join(outcome_names),
             })
     else:
@@ -173,10 +177,12 @@ def main() -> None:
             idx = order[i]
             tail_idx = candidate_tails[idx]
             node_id = idx_to_id[tail_idx]
+            known = tail_idx in pos_set
             rows.append({
                 "rank": i + 1,
                 "protein_id": node_id,
                 "score": float(scores_np[idx]),
+                "known_target": known,
             })
 
     out_path = Path(args.out)
@@ -189,9 +195,46 @@ def main() -> None:
     print(f"Wrote top-{top_k} predictions to {out_path}")
 
     # Quick eval: how many known positives in top-k?
-    pos_set = set(positive_tails)
     in_top = sum(1 for i in range(top_k) if candidate_tails[order[i]] in pos_set)
     print(f"Known positives in top-{top_k}: {in_top} / {len(positive_tails)}")
+
+    # Candidate novel off-targets: top-k proteins with NO (Pralsetinib, inhibits, protein) edge in KG
+    if args.top_candidates > 0:
+        cand_outcome_t = torch.tensor(candidate_outcomes, dtype=torch.long, device=device) if (use_outcome_task and candidate_outcomes) else None
+        candidate_rows = []
+        seen = 0
+        for i in range(len(order)):
+            idx = order[i]
+            tail_idx = candidate_tails[idx]
+            if tail_idx in pos_set:
+                continue
+            seen += 1
+            if seen > args.top_candidates:
+                break
+            node_id = idx_to_id[tail_idx]
+            row = {
+                "candidate_rank": seen,
+                "protein_id": node_id,
+                "score": float(scores_np[idx]),
+            }
+            if cand_outcome_t is not None and args.top_outcomes > 0:
+                with torch.no_grad():
+                    out_scores = model.predict_outcome_link(h, tail_idx, cand_outcome_t)
+                out_scores_np = out_scores.cpu().numpy()
+                out_order = out_scores_np.argsort()[::-1][: args.top_outcomes]
+                outcome_names = [idx_to_id[candidate_outcomes[j]] for j in out_order]
+                row["gnn_predicted_outcomes"] = " | ".join(outcome_names)
+            candidate_rows.append(row)
+        if candidate_rows:
+            cand_path = out_path.parent / (out_path.stem + "_candidates.csv")
+            cand_fields = ["candidate_rank", "protein_id", "score"]
+            if candidate_rows[0].get("gnn_predicted_outcomes") is not None:
+                cand_fields.append("gnn_predicted_outcomes")
+            with open(cand_path, "w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(f, fieldnames=cand_fields)
+                w.writeheader()
+                w.writerows(candidate_rows)
+            print(f"Wrote top-{len(candidate_rows)} candidate novel off-targets (no KG edge) to {cand_path}")
 
     # Optional: save trained model for reuse (e.g. inference-only later)
     if args.save_model:

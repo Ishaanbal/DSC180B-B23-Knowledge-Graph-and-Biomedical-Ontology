@@ -39,6 +39,11 @@ def main() -> None:
         help="KG nodes CSV (to identify Adverse Event nodes)",
     )
     parser.add_argument(
+        "--drug",
+        default="Pralsetinib",
+        help="Drug name for (drug, inhibits, protein) known-target lookup",
+    )
+    parser.add_argument(
         "--out",
         default="data/off_target_predictions_with_effects.csv",
         help="Output CSV with associated_adverse_effects column",
@@ -75,10 +80,23 @@ def main() -> None:
         if tgt not in protein_to_ae[src]:
             protein_to_ae[src].append(tgt)
 
+    # Known targets: proteins with (drug, inhibits, protein) edge in KG
+    inhib = edges_df[
+        (edges_df["source"].astype(str) == args.drug)
+        & (edges_df["relation"] == "inhibits")
+    ]
+    known_target_ids = set(inhib["target"].astype(str).str.strip().tolist())
+    pred_df["known_target"] = pred_df["protein_id"].astype(str).isin(known_target_ids)
+
     # Add column to predictions
     pred_df["associated_adverse_effects"] = pred_df["protein_id"].astype(str).map(
         lambda x: " | ".join(sorted(protein_to_ae.get(x, []))) or ""
     )
+
+    # Column order: rank, protein_id, score, known_target, then rest, then associated_adverse_effects
+    base = [c for c in ["rank", "protein_id", "score", "known_target"] if c in pred_df.columns]
+    rest = [c for c in pred_df.columns if c not in base and c != "associated_adverse_effects"]
+    pred_df = pred_df[base + rest + ["associated_adverse_effects"]]
 
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)

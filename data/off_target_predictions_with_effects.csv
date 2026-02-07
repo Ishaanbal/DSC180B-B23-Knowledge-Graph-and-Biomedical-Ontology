@@ -1,16 +1,16 @@
-rank,protein_id,score,associated_adverse_effects
-1,RET - ret proto-oncogene (human),0.7809160351753235,
-2,RET,0.3557727336883545,
-3,KIF5B - kinesin family member 5B (human),0.3097748160362243,Anemia | Hypertension | Neutropenia
-4,CCDC6 - coiled-coil domain containing 6 (human),0.2715092599391937,Anemia | Hypertension | Neutropenia
-5,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.2359009683132171,
-6,KDR - kinase insert domain receptor (human),0.2359009683132171,Anemia | Hypertension | Neutropenia
-7,FLT3 - fms related receptor tyrosine kinase 3 (human),0.2359009683132171,Anemia | Hypertension | Neutropenia
-8,Tyrosine-protein kinase JAK2 (human),0.2359009683132171,Anemia | Hypertension | Neutropenia
-9,PTK2B,0.1171123161911964,
-10,KIF5B,0.1171123161911964,
-11,EML4,0.1171123161911964,
-12,DRD2,0.1171123161911964,
-13,HRAS,0.1171123161911964,
-14,CCDC6,0.1171123161911964,
-15,KDR,0.1171123161911964,
+rank,protein_id,score,known_target,gnn_predicted_outcomes,associated_adverse_effects
+1,RET - ret proto-oncogene (human),0.9999984502792358,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+2,RET,0.9966461062431335,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+3,KIF5B - kinesin family member 5B (human),0.990574061870575,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",Anemia | Hypertension | Neutropenia
+4,CCDC6 - coiled-coil domain containing 6 (human),0.9778980612754822,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",Anemia | Hypertension | Neutropenia
+5,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.9238754510879515,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+6,KDR - kinase insert domain receptor (human),0.9238754510879515,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",Anemia | Hypertension | Neutropenia
+7,FLT3 - fms related receptor tyrosine kinase 3 (human),0.9238754510879515,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",Anemia | Hypertension | Neutropenia
+8,Tyrosine-protein kinase JAK2 (human),0.9238754510879515,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",Anemia | Hypertension | Neutropenia
+9,DRD2,0.0679964050650596,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+10,CCDC6,0.0679964050650596,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+11,HRAS,0.0679964050650596,False,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+12,PTK2B,0.0679963752627372,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+13,EML4,0.0679963752627372,False,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+14,KIF5B,0.0679963752627372,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",
+15,KDR,0.0679963752627372,True,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic",

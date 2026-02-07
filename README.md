@@ -59,9 +59,11 @@ The GNN uses the **full graph** (Drug, Protein, Disease, Adverse Event, Pathway,
 python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out data/off_target_predictions_gnn.csv --epochs 200
 ```
 
-**Output:** `data/off_target_predictions_gnn.csv` with columns `rank`, `protein_id`, `score`, and **`gnn_predicted_outcomes`** — top-k Disease/Adverse Event nodes the **outcome head** scores as most associated with that protein. Outcomes are **protein-specific** (e.g. different proteins may get different orderings such as "Neutropenia | Hypertension | Anemia | …" vs "Anemia | Hypertension | Neutropenia | …").
+**Output:**
+- **`data/off_target_predictions_gnn.csv`** — columns: `rank`, `protein_id`, `score`, **`known_target`** (True if this protein already has a (Pralsetinib, inhibits, protein) edge in the KG; False otherwise), and **`gnn_predicted_outcomes`** (top-k Disease/AE from the outcome head, protein-specific). Use `known_target` to separate **KG-consistent known targets** from **candidate novel off-targets**.
+- **`data/off_target_predictions_gnn_candidates.csv`** — top-k proteins with **no** inhibits edge in the KG, ranked by score (hypotheses for validation). Columns: `candidate_rank`, `protein_id`, `score`, and optionally `gnn_predicted_outcomes`. Written only if `--top-candidates > 0`.
 
-**Optional args:** `--hidden 64 --embed 32 --top 100 --neg-per-pos 5 --save-model models/kg_gnn.pt`; `--outcome-weight 0.5` or `1.0` (weight for the protein–outcome loss; higher can improve outcome variation); `--top-outcomes 5` (number of Disease/AE per protein); `--no-outcome-task` to disable the (protein, outcome) task and the `gnn_predicted_outcomes` column.
+**Optional args:** `--hidden 64 --embed 32 --top 100 --neg-per-pos 5 --save-model models/kg_gnn.pt`; `--outcome-weight 0.5` or `1.0` (weight for the protein–outcome loss; higher can improve outcome variation); `--top-outcomes 5` (number of Disease/AE per protein); **`--top-candidates 20`** (number of candidate novel off-targets to write to the _candidates CSV; use 0 to disable); `--no-outcome-task` to disable the (protein, outcome) task and the `gnn_predicted_outcomes` column.
 
 ### Map predictions to adverse effects (ontology lookup)
 
@@ -102,6 +104,21 @@ All input data are under `data/`. KG outputs: `kg_nodes.csv` / `kg_edges.csv` (i
 | `protein_outcome_mapping.csv` / `protein_outcome_mapping_onc.csv` | CTD / OpenTargets | Protein → Disease/AE → **associated_with** edges. |
 
 **Graph schema:** Nodes = Drug, Protein, Gene/Protein, Disease, Adverse Event, Pathway, Chemical, Gene. Edges = inhibits, treats, associated_with, involved_in, co_occurs_with_*, etc. **Key chains:** Hypertension ↔ KDR; Neutropenia ↔ JAK2/FLT3; Pneumonitis (text-mined).
+
+---
+
+## Next steps & concerns
+
+**Current limitation — small protein set.** With the current KG we have only **15 candidate proteins** (Protein/Gene nodes) and **13 of them are known targets** (they already have a (Pralsetinib, inhibits, protein) edge). So the GNN is mostly recalling known edges and only **2 proteins** appear as candidate novel off-targets. The result therefore doesn’t yet tell us much we didn’t already encode in the graph.
+
+**Expand the KG with more proteins.** To get more informative predictions:
+- Add more **Protein/Gene nodes** to the graph (e.g. from a broader kinase panel, STRING/OpenTargets, or a curated list of plausible off-targets).
+- Keep (Pralsetinib, inhibits, protein) edges only for **known** targets; leave the rest as “no edge” so the model can rank them. Then the **candidate novel off-targets** list (and `off_target_predictions_gnn_candidates.csv`) will be a larger, ranked set of hypotheses to validate.
+
+**Other next steps.**  
+- **Held-out evaluation:** Reserve some (Pralsetinib, inhibits, protein) edges for testing (don’t use them in training) to measure link-prediction performance.  
+- **Richer outcome signal:** Add more (protein, associated_with, Disease/AE) edges so the outcome head has more signal and per-protein outcomes are more differentiated.  
+- **Interpretation:** Use `known_target` and the _candidates file to separate “KG-consistent known targets” from “candidate novel off-targets” and focus validation on the latter.
 
 ---
 
