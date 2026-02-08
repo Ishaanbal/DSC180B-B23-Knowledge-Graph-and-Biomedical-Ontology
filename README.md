@@ -85,7 +85,15 @@ This keeps a single predictions file and makes the reasoning explicit and path-b
 ## Data and predictions layout
 
 - **`data/`** — Inputs used to build the KG: PubChem exports, GO/outcome mappings, and the KG itself (`kg_nodes*.csv`, `kg_edges*.csv`). No model outputs live here.
-- **`predictions/`** — Model outputs only: `off_target_predictions_gnn.csv` (raw GNN), `off_target_predictions.csv` (canonical, with effects and reasoning), and `off_target_predictions_candidates.csv` (novel off-target candidates).
+- **`predictions/`** — Model outputs only (see comparison below).
+
+**Difference between the three prediction CSVs:**
+
+| File | Produced by | Rows | Purpose |
+|------|-------------|------|---------|
+| **`off_target_predictions_gnn.csv`** | GNN script | Top-k proteins (all) | Raw GNN output; input to build script. Columns: rank, protein_id, score, known_target, gnn_predicted_outcomes. |
+| **`off_target_predictions.csv`** | Build script | Same as _gnn | **Canonical file** — use this for analysis. Adds `associated_adverse_effects` and path-based `reasoning`. |
+| **`off_target_predictions_candidates.csv`** | GNN script | Only proteins with *no* (Pralsetinib, inhibits, protein) edge in KG | Convenience list of **novel off-target candidates** to validate. Redundant with filtering the canonical file on `known_target == False`. |
 
 ---
 
