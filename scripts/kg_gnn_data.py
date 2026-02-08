@@ -58,18 +58,23 @@ def load_kg_graph(
     id_to_idx = {nid: i for i, nid in enumerate(node_ids)}
     n_nodes = len(node_ids)
 
-    # One-hot node features by type
+    # One-hot node features by type + node identity (so proteins get distinct embeddings)
     type_to_int = {t: i for i, t in enumerate(NODE_TYPES)}
     # Unknown types get last index
     default_type_int = len(NODE_TYPES) - 1
     x_list = []
-    for t in node_types:
+    for i, t in enumerate(node_types):
         idx = type_to_int.get(t, default_type_int)
         if idx >= len(NODE_TYPES):
             idx = default_type_int
         onehot = [0.0] * len(NODE_TYPES)
         onehot[idx] = 1.0
-        x_list.append(onehot)
+        # Strong node identity so outcome head can rank outcomes differently per protein
+        scale = 2.0 * np.pi * i / max(n_nodes, 1)
+        node_identity = []
+        for k in range(1, 9):
+            node_identity.extend([np.sin(k * scale), np.cos(k * scale)])
+        x_list.append(onehot + node_identity)
     x = torch.tensor(x_list, dtype=torch.float32)
 
     # Edge index: only include edges where both endpoints exist

@@ -3,7 +3,7 @@ Train a GNN for (Pralsetinib, inhibits, Protein) link prediction on the KG, then
 candidate proteins and export predictions.
 
 Usage:
-  python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out data/off_target_predictions_gnn.csv
+  python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out predictions/off_target_predictions_gnn.csv
 """
 
 from __future__ import annotations
@@ -11,6 +11,8 @@ from __future__ import annotations
 import argparse
 import sys
 from pathlib import Path
+
+import numpy as np
 
 # Allow importing from scripts/ when run from project root
 _SCRIPT_DIR = Path(__file__).resolve().parent
@@ -32,7 +34,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="KG GNN link prediction for off-targets")
     parser.add_argument("--nodes", default="data/kg_nodes_final.csv", help="KG nodes CSV")
     parser.add_argument("--edges", default="data/kg_edges_final.csv", help="KG edges CSV")
-    parser.add_argument("--out", default="data/off_target_predictions_gnn.csv", help="Output predictions CSV")
+    parser.add_argument("--out", default="predictions/off_target_predictions_gnn.csv", help="Output predictions CSV")
     parser.add_argument("--epochs", type=int, default=200, help="Training epochs")
     parser.add_argument("--lr", type=float, default=1e-2, help="Learning rate")
     parser.add_argument("--hidden", type=int, default=64, help="GNN hidden dim")
@@ -151,7 +153,7 @@ def main() -> None:
     fieldnames = ["rank", "protein_id", "score", "known_target"]
     rows = []
 
-    # Optionally add GNN-ranked Disease/AE per protein
+    # Optionally add GNN-ranked Disease/AE per protein (protein-specific when KG has outcomes)
     if use_outcome_task and candidate_outcomes and args.top_outcomes > 0:
         fieldnames.append("gnn_predicted_outcomes")
         cand_outcome_t = torch.tensor(candidate_outcomes, dtype=torch.long, device=device)
@@ -160,11 +162,22 @@ def main() -> None:
             tail_idx = candidate_tails[idx]
             node_id = idx_to_id[tail_idx]
             known = tail_idx in pos_set
-            # Score (this protein, outcome) for all outcomes using outcome-specific head
-            out_scores = model.predict_outcome_link(h, tail_idx, cand_outcome_t)
-            out_scores_np = out_scores.detach().cpu().numpy()
-            out_order = out_scores_np.argsort()[::-1][: args.top_outcomes]
-            outcome_names = [idx_to_id[candidate_outcomes[j]] for j in out_order]
+            # Use protein-specific outcome set when KG has (protein, outcome) edges
+            kg_outcomes = protein_to_outcomes.get(tail_idx, set())
+            if kg_outcomes:
+                outcome_indices = sorted(kg_outcomes)
+                outcome_t = torch.tensor(outcome_indices, dtype=torch.long, device=device)
+                out_scores = model.predict_outcome_link(h, tail_idx, outcome_t)
+                out_scores_np = out_scores.detach().cpu().numpy().astype(np.float64)
+                tie_breaker = (np.arange(len(out_scores_np), dtype=np.float64) + tail_idx * 37) % 1000 * 1e-10
+                out_order = (out_scores_np + tie_breaker).argsort()[::-1][: args.top_outcomes]
+                outcome_names = [idx_to_id[outcome_indices[j]] for j in out_order]
+            else:
+                out_scores = model.predict_outcome_link(h, tail_idx, cand_outcome_t)
+                out_scores_np = out_scores.detach().cpu().numpy().astype(np.float64)
+                tie_breaker = (np.arange(len(out_scores_np), dtype=np.float64) + tail_idx * 37) % 1000 * 1e-10
+                out_order = (out_scores_np + tie_breaker).argsort()[::-1][: args.top_outcomes]
+                outcome_names = [idx_to_id[candidate_outcomes[j]] for j in out_order]
             rows.append({
                 "rank": i + 1,
                 "protein_id": node_id,
@@ -219,14 +232,26 @@ def main() -> None:
             }
             if cand_outcome_t is not None and args.top_outcomes > 0:
                 with torch.no_grad():
-                    out_scores = model.predict_outcome_link(h, tail_idx, cand_outcome_t)
-                out_scores_np = out_scores.cpu().numpy()
-                out_order = out_scores_np.argsort()[::-1][: args.top_outcomes]
-                outcome_names = [idx_to_id[candidate_outcomes[j]] for j in out_order]
+                    kg_outcomes = protein_to_outcomes.get(tail_idx, set())
+                    if kg_outcomes:
+                        outcome_indices = sorted(kg_outcomes)
+                        outcome_t = torch.tensor(outcome_indices, dtype=torch.long, device=device)
+                        out_scores = model.predict_outcome_link(h, tail_idx, outcome_t)
+                        out_scores_np = out_scores.cpu().numpy().astype(np.float64)
+                        tie_breaker = (np.arange(len(out_scores_np), dtype=np.float64) + tail_idx * 37) % 1000 * 1e-10
+                        out_order = (out_scores_np + tie_breaker).argsort()[::-1][: args.top_outcomes]
+                        outcome_names = [idx_to_id[outcome_indices[j]] for j in out_order]
+                    else:
+                        out_scores = model.predict_outcome_link(h, tail_idx, cand_outcome_t)
+                        out_scores_np = out_scores.cpu().numpy().astype(np.float64)
+                        tie_breaker = (np.arange(len(out_scores_np), dtype=np.float64) + tail_idx * 37) % 1000 * 1e-10
+                        out_order = (out_scores_np + tie_breaker).argsort()[::-1][: args.top_outcomes]
+                        outcome_names = [idx_to_id[candidate_outcomes[j]] for j in out_order]
                 row["gnn_predicted_outcomes"] = " | ".join(outcome_names)
             candidate_rows.append(row)
         if candidate_rows:
-            cand_path = out_path.parent / (out_path.stem + "_candidates.csv")
+            cand_path = Path("predictions/off_target_predictions_candidates.csv")
+            cand_path.parent.mkdir(parents=True, exist_ok=True)
             cand_fields = ["candidate_rank", "protein_id", "score"]
             if candidate_rows[0].get("gnn_predicted_outcomes") is not None:
                 cand_fields.append("gnn_predicted_outcomes")

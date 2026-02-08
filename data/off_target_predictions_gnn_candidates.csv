@@ -1,3 +1,0 @@
-candidate_rank,protein_id,score,gnn_predicted_outcomes
-1,HRAS,0.06799640506505966,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic"
-2,EML4,0.06799637526273727,"Neutropenia | Anemia | Hypertension | Autoimmune Diseases | Renal Insufficiency, Chronic"
