@@ -250,7 +250,7 @@ def main() -> None:
                 row["gnn_predicted_outcomes"] = " | ".join(outcome_names)
             candidate_rows.append(row)
         if candidate_rows:
-            cand_path = out_path.parent / (out_path.stem + "_candidates.csv")
+            cand_path = out_path.parent / "off_target_predictions_candidates.csv"
             cand_fields = ["candidate_rank", "protein_id", "score"]
             if candidate_rows[0].get("gnn_predicted_outcomes") is not None:
                 cand_fields.append("gnn_predicted_outcomes")

@@ -15,8 +15,7 @@ Pralsetinib has limited long-term real-world safety data. Post-marketing pharmac
 1. **Build KG** — Data extraction (bioassays, literature, clinical trials, co-occurrences) → `kg_nodes.csv`, `kg_edges.csv`.
 2. **Enrich** — GO pathways + target–outcome links → `kg_nodes_final.csv`, `kg_edges_final.csv`.
 3. **Visualize** — Interactive PyVis HTML.
-4. **Predict off-targets and outcomes** — GNN runs on the full graph (including Disease/Adverse Event nodes). It uses **two separate link-prediction heads**: one for **(Pralsetinib, inhibits, protein)** and one for **(protein, associated_with, Disease/AE)**. The outcome head is trained and used only for protein–outcome scoring, so **GNN-ranked Disease/AE** can vary by protein. Output: ranked proteins + score + **`gnn_predicted_outcomes`** (top-k Disease/AE per protein, protein-specific).
-5. **Optional: ontology lookup** — `add_effects_to_predictions.py` adds KG-derived `associated_adverse_effects` (exact KG edges) for comparison or combined use.
+4. **Predict off-targets and outcomes** — GNN runs on the full graph; outputs **`off_target_predictions_gnn.csv`** (intermediate). Then **`build_off_target_predictions.py`** adds KG-derived effects and **path-based chain-of-thought reasoning** (actual KG paths) → single canonical **`off_target_predictions.csv`**.
 
 ---
 
@@ -59,31 +58,27 @@ The GNN uses the **full graph** (Drug, Protein, Disease, Adverse Event, Pathway,
 python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out data/off_target_predictions_gnn.csv --epochs 200
 ```
 
-**Output:**
-- **`data/off_target_predictions_gnn.csv`** — columns: `rank`, `protein_id`, `score`, **`known_target`** (True if this protein already has a (Pralsetinib, inhibits, protein) edge in the KG; False otherwise), and **`gnn_predicted_outcomes`** (top-k Disease/AE from the outcome head, protein-specific). Use `known_target` to separate **KG-consistent known targets** from **candidate novel off-targets**.
-- **`data/off_target_predictions_gnn_candidates.csv`** — top-k proteins with **no** inhibits edge in the KG, ranked by score (hypotheses for validation). Columns: `candidate_rank`, `protein_id`, `score`, and optionally `gnn_predicted_outcomes`. Written only if `--top-candidates > 0`.
+**Output (intermediate):**
+- **`data/off_target_predictions_gnn.csv`** — raw GNN output: `rank`, `protein_id`, `score`, `known_target`, `gnn_predicted_outcomes`. Input to the build script below.
+- **`data/off_target_predictions_candidates.csv`** — proteins with **no** (Pralsetinib, inhibits, protein) edge in the KG, ranked by score (hypotheses for validation). Written only if `--top-candidates > 0`.
 
-**Optional args:** `--hidden 64 --embed 32 --top 100 --neg-per-pos 5 --save-model models/kg_gnn.pt`; `--outcome-weight 0.5` or `1.0` (weight for the protein–outcome loss; higher can improve outcome variation); `--top-outcomes 5` (number of Disease/AE per protein); **`--top-candidates 20`** (number of candidate novel off-targets to write to the _candidates CSV; use 0 to disable); `--no-outcome-task` to disable the (protein, outcome) task and the `gnn_predicted_outcomes` column.
+**Optional args:** `--hidden 64 --embed 32 --top 100 --neg-per-pos 5 --save-model models/kg_gnn.pt`; `--outcome-weight 0.5` or `1.0`; `--top-outcomes 5`; **`--top-candidates 20`** (use 0 to disable); `--no-outcome-task`.
 
-### Map predictions to adverse effects (ontology lookup)
+### Build final predictions (effects + path-based reasoning)
 
-To add **KG-derived** effects (exact `associated_with` edges from the graph) alongside the GNN-ranked outcomes:
+One script adds KG-derived effects and **path-based chain-of-thought** (explicit KG paths) so predictions are non-redundant and auditable:
 
 ```bash
-python scripts/add_effects_to_predictions.py --predictions data/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out data/off_target_predictions_with_effects.csv
+python scripts/build_off_target_predictions.py --predictions data/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out data/off_target_predictions.csv
 ```
 
-Output: `data/off_target_predictions_with_effects.csv` adds `associated_adverse_effects` (ontology lookup). You can compare with `gnn_predicted_outcomes` from the GNN.
+**Output: `data/off_target_predictions.csv`** (canonical file). Columns: `rank`, `protein_id`, `score`, `known_target`, `gnn_predicted_outcomes`, `associated_adverse_effects`, **`reasoning`**.
 
-**Difference between the two prediction CSVs:**
+The **`reasoning`** column is path-based on the KG:
+- **Path 1:** `Pralsetinib --[inhibits]--> protein_id` (with evidence from KG, e.g. IC50), or “No edge in KG; GNN predicts link (score=…)” for novel predictions.
+- **Path 2:** `protein_id --[associated_with]--> outcome1 | outcome2 | …` (actual KG edges to Disease/AE), or “No edges in KG; GNN top predicted: …” when the KG has no (protein, outcome) edges.
 
-| | `off_target_predictions_gnn.csv` | `off_target_predictions_with_effects.csv` |
-|--|-----------------------------------|-------------------------------------------|
-| **Produced by** | GNN script (`kg_gnn_link_prediction.py`) | Post-processing (`add_effects_to_predictions.py`) |
-| **Effect column** | `gnn_predicted_outcomes` | `associated_adverse_effects` |
-| **How effects are obtained** | **Model prediction:** A dedicated outcome head scores every (protein, Disease/AE) pair and returns the top-k per protein. Learned from the graph; rankings can vary by protein; can list outcomes even when the KG has no direct edge. | **Lookup:** For each protein, the script finds all KG edges `(protein, associated_with, adverse_event)` and lists those targets. No model — only outcomes that already exist as edges in the KG; empty if there are none. |
-
-Use the **GNN CSV** for model-predicted outcomes; use the **with_effects CSV** for ontology-derived effects and to compare with the GNN.
+This keeps a single predictions file and makes the reasoning explicit and path-based for safety/validation.
 
 ---
 
@@ -113,12 +108,12 @@ All input data are under `data/`. KG outputs: `kg_nodes.csv` / `kg_edges.csv` (i
 
 **Expand the KG with more proteins.** To get more informative predictions:
 - Add more **Protein/Gene nodes** to the graph (e.g. from a broader kinase panel, STRING/OpenTargets, or a curated list of plausible off-targets).
-- Keep (Pralsetinib, inhibits, protein) edges only for **known** targets; leave the rest as “no edge” so the model can rank them. Then the **candidate novel off-targets** list (and `off_target_predictions_gnn_candidates.csv`) will be a larger, ranked set of hypotheses to validate.
+- Keep (Pralsetinib, inhibits, protein) edges only for **known** targets; leave the rest as “no edge” so the model can rank them. Then **`off_target_predictions_candidates.csv`** will be a larger, ranked set of hypotheses to validate.
 
 **Other next steps.**  
 - **Held-out evaluation:** Reserve some (Pralsetinib, inhibits, protein) edges for testing (don’t use them in training) to measure link-prediction performance.  
 - **Richer outcome signal:** Add more (protein, associated_with, Disease/AE) edges so the outcome head has more signal and per-protein outcomes are more differentiated.  
-- **Interpretation:** Use `known_target` and the _candidates file to separate “KG-consistent known targets” from “candidate novel off-targets” and focus validation on the latter.
+- **Interpretation:** Use `known_target` and `off_target_predictions_candidates.csv` to separate “KG-consistent known targets” from “candidate novel off-targets” and focus validation on the latter.
 
 ---
 
@@ -130,6 +125,6 @@ All input data are under `data/`. KG outputs: `kg_nodes.csv` / `kg_edges.csv` (i
 | `data_extraction.ipynb` | Build initial KG from PubChem |
 | `scripts/enrich_go.py` | GO + target–outcome enrichment |
 | `scripts/visualize_kg.py` | PyVis HTML export |
-| `scripts/kg_gnn_*.py` | GNN data, model (two heads: drug–protein + protein–outcome), train/infer (predicts proteins + protein-specific GNN-ranked Disease/AE) |
-| `scripts/add_effects_to_predictions.py` | Map predicted proteins → adverse effects via KG (ontology lookup) |
+| `scripts/kg_gnn_*.py` | GNN data, model (two heads: drug–protein + protein–outcome), train/infer |
+| `scripts/build_off_target_predictions.py` | Add KG effects + path-based reasoning → canonical `off_target_predictions.csv` |
 | `eda/eda.ipynb` | Exploratory analysis on final KG |
