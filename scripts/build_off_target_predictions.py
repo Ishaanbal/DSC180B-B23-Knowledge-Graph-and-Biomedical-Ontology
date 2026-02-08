@@ -3,10 +3,10 @@ Build the final off-target predictions CSV from GNN output: add KG-derived
 effects and path-based chain-of-thought reasoning (actual KG paths).
 
 Single script replaces: add_effects_to_predictions + add_reasoning_to_predictions.
-Output: one canonical file, data/off_target_predictions.csv.
+Output: one canonical file, predictions/off_target_predictions.csv.
 
 Usage:
-  python scripts/build_off_target_predictions.py --predictions data/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out data/off_target_predictions.csv
+  python scripts/build_off_target_predictions.py --predictions predictions/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out predictions/off_target_predictions.csv
 """
 
 from __future__ import annotations
@@ -122,7 +122,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--predictions",
-        default="data/off_target_predictions_gnn.csv",
+        default="predictions/off_target_predictions_gnn.csv",
         help="GNN predictions CSV",
     )
     parser.add_argument(
@@ -142,7 +142,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--out",
-        default="data/off_target_predictions.csv",
+        default="predictions/off_target_predictions.csv",
         help="Output CSV (canonical predictions + effects + reasoning)",
     )
     args = parser.parse_args()

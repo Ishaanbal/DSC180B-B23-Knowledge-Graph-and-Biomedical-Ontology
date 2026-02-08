@@ -3,7 +3,7 @@ Train a GNN for (Pralsetinib, inhibits, Protein) link prediction on the KG, then
 candidate proteins and export predictions.
 
 Usage:
-  python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out data/off_target_predictions_gnn.csv
+  python scripts/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out predictions/off_target_predictions_gnn.csv
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="KG GNN link prediction for off-targets")
     parser.add_argument("--nodes", default="data/kg_nodes_final.csv", help="KG nodes CSV")
     parser.add_argument("--edges", default="data/kg_edges_final.csv", help="KG edges CSV")
-    parser.add_argument("--out", default="data/off_target_predictions_gnn.csv", help="Output predictions CSV")
+    parser.add_argument("--out", default="predictions/off_target_predictions_gnn.csv", help="Output predictions CSV")
     parser.add_argument("--epochs", type=int, default=200, help="Training epochs")
     parser.add_argument("--lr", type=float, default=1e-2, help="Learning rate")
     parser.add_argument("--hidden", type=int, default=64, help="GNN hidden dim")
@@ -250,7 +250,8 @@ def main() -> None:
                 row["gnn_predicted_outcomes"] = " | ".join(outcome_names)
             candidate_rows.append(row)
         if candidate_rows:
-            cand_path = out_path.parent / "off_target_predictions_candidates.csv"
+            cand_path = Path("predictions/off_target_predictions_candidates.csv")
+            cand_path.parent.mkdir(parents=True, exist_ok=True)
             cand_fields = ["candidate_rank", "protein_id", "score"]
             if candidate_rows[0].get("gnn_predicted_outcomes") is not None:
                 cand_fields.append("gnn_predicted_outcomes")
