@@ -1455,3 +1455,14 @@ KIF5B - kinesin family member 5B (human),associated_with,Vascular Malformations,
 KIF5B - kinesin family member 5B (human),associated_with,Vascular Remodeling,,,MESH:D066253,CTD
 KIF5B - kinesin family member 5B (human),associated_with,Vascular System Injuries,,,MESH:D057772,CTD
 KIF5B - kinesin family member 5B (human),associated_with,Wilms Tumor,,,MESH:D009396,CTD
+FLT3,interacts_with,HRAS,7,,STRING,STRING_PPI
+CCDC6,interacts_with,EML4,6,,STRING,STRING_PPI
+CCDC6,interacts_with,KIF5B,7,,STRING,STRING_PPI
+CCDC6,interacts_with,RET,9,,STRING,STRING_PPI
+KDR,interacts_with,HRAS,5,,STRING,STRING_PPI
+KDR,interacts_with,PTK2B,5,,STRING,STRING_PPI
+KIF5B,interacts_with,RET,8,,STRING,STRING_PPI
+KIF5B,interacts_with,EML4,9,,STRING,STRING_PPI
+EML4,interacts_with,RET,8,,STRING,STRING_PPI
+EML4,interacts_with,HRAS,9,,STRING,STRING_PPI
+RET,interacts_with,HRAS,8,,STRING,STRING_PPI

@@ -1,3 +1,21 @@
 candidate_rank,protein_id,score,gnn_predicted_outcomes
-1,EML4,0.0715576559305191,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-2,HRAS,0.05431443825364113,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
+1,EML4,0.9999957084655762,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+2,HRAS,0.0016718092374503613,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+3,KIF11,0.0014356872998178005,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+4,HNRNPF,0.000535162165760994,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+5,NEK3,0.00020032284373883158,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+6,CCNH,7.815581193426624e-05,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+7,LUM,2.948951987491455e-05,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+8,PRKX,1.1115500456071459e-05,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+9,BMX,4.349042683315929e-06,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+10,CLCN6,1.7664611959844478e-06,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+11,ALDH3A2,6.406302759387472e-07,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+12,IRAK1,2.08719853844741e-07,"Thyroid Neoplasms | Hypertension | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+13,SMARCA4,6.964143040022464e-08,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+14,SMARCA2,2.3315084973773992e-08,"Thyroid Neoplasms | Hypertension | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
+15,SCNN1B,7.680964309031424e-09,"Thyroid Neoplasms | Hypertension | Carcinoma, Non-Small-Cell Lung | Anemia | Neutropenia"
+16,FXR1,2.5672124426279197e-09,"Thyroid Neoplasms | Hypertension | Carcinoma, Non-Small-Cell Lung | Lung Diseases | Anemia"
+17,ATP1A2,8.694692188448983e-10,"Thyroid Neoplasms | Hypertension | Adenocarcinoma | Carcinoma, Non-Small-Cell Lung | Lung Diseases"
+18,BCAM,2.988276015525315e-10,"Thyroid Neoplasms | Neoplasms, Glandular and Epithelial | Hypertension | Adenocarcinoma | Carcinoma, Non-Small-Cell Lung"
+19,KNTC1,1.0432431307716428e-10,"Carcinoma, Lewis Lung | Anemia, Sideroblastic | Lymphoma, B-Cell | Carcinoma in Situ | Triple Negative Breast Neoplasms"
+20,VASP,3.649263183302942e-11,"Thyroid Neoplasms | Hypertension | Adenocarcinoma | Carcinoma, Non-Small-Cell Lung | Lung Diseases"
