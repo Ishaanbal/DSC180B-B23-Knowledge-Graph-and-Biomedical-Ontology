@@ -1,3 +1,3 @@
 candidate_rank,protein_id,score,gnn_predicted_outcomes
-1,EML4,0.08921703696250916,"Thyroid Neoplasms | Anemia | Hypertension | Carcinoma, Non-Small-Cell Lung | Neutropenia"
-2,HRAS,0.06939523667097092,"Anemia | Thyroid Neoplasms | Hypertension | Carcinoma, Non-Small-Cell Lung | Neutropenia"
+1,EML4,0.0715576559305191,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
+2,HRAS,0.05431443825364113,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung

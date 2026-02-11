@@ -7,7 +7,7 @@ adverse-event mining. Outputs kg_edges_v2.csv and kg_nodes_v2.csv for use
 by enrich_go.py.
 
 Usage:
-  python scripts/build_kg_from_sources.py --data-dir data --out-edges data/kg_edges_v2.csv --out-nodes data/kg_nodes_v2.csv
+  python scripts/kg_construction/build_kg_from_sources.py --data-dir data --out-edges data/kg_edges_v2.csv --out-nodes data/kg_nodes_v2.csv
 """
 
 from __future__ import annotations
