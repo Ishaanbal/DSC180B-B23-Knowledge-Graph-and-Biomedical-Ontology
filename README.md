@@ -12,7 +12,7 @@ Pralsetinib has limited long-term real-world safety data. Post-marketing pharmac
 
 ## Pipeline overview
 
-1. **Build KG** — Data extraction (bioassays, literature, clinical trials, co-occurrences) → `kg_nodes.csv`, `kg_edges.csv`.
+1. **Build KG** — Run `scripts/build_kg_from_sources.py` to extract from PubChem (bioactivity, targets, clinical trials, indications, co-occurrence JSONs, literature AEs) → `data/kg_nodes_v2.csv`, `data/kg_edges_v2.csv`.
 2. **Enrich** — GO pathways + target–outcome links → `kg_nodes_final.csv`, `kg_edges_final.csv`.
 3. **Visualize** — Interactive PyVis HTML.
 4. **Predict off-targets and outcomes** — GNN runs on the full graph; outputs **`predictions/off_target_predictions_gnn.csv`** (intermediate). Then **`build_off_target_predictions.py`** adds KG-derived effects and **path-based chain-of-thought reasoning** (actual KG paths) → single canonical **`predictions/off_target_predictions.csv`**.
@@ -22,6 +22,16 @@ Pralsetinib has limited long-term real-world safety data. Post-marketing pharmac
 ## Running scripts
 
 **Environment:** `conda env create -f environment.yml` (or `conda env update -f environment.yml`). Dependencies: Python 3.10, pandas, networkx, pytorch, torch-geometric (pip), pyvis, matplotlib, seaborn.
+
+### Build initial KG from sources
+
+Extract edges and nodes from PubChem and other data under `data/`:
+
+```bash
+python scripts/build_kg_from_sources.py --data-dir data --out-edges data/kg_edges_v2.csv --out-nodes data/kg_nodes_v2.csv
+```
+
+**Output:** `data/kg_edges_v2.csv`, `data/kg_nodes_v2.csv` (inputs for enrichment below). Sources: bioactivity, consolidated targets, clinical trials, OpenTargets indications, chemical/gene co-occurrence JSONs, literature adverse-event mining.
 
 ### Enrichment (GO + target–outcome)
 
@@ -99,7 +109,7 @@ This keeps a single predictions file and makes the reasoning explicit and path-b
 
 ## Data files & sources
 
-All KG input data are under `data/`. KG outputs: `kg_nodes.csv` / `kg_edges.csv` (initial), `kg_nodes_final.csv` / `kg_edges_final.csv` (after enrichment).
+All KG input data are under `data/`. KG outputs: `kg_nodes_v2.csv` / `kg_edges_v2.csv` (from `build_kg_from_sources.py`), then `kg_nodes_final.csv` / `kg_edges_final.csv` (after enrichment).
 
 | File | Source | Role in pipeline |
 |------|--------|-------------------|
@@ -138,7 +148,7 @@ All KG input data are under `data/`. KG outputs: `kg_nodes.csv` / `kg_edges.csv`
 |------|--------|
 | `data/` | KG inputs: KG CSVs, PubChem exports, GO/outcome mappings (no prediction outputs) |
 | `predictions/` | Model outputs: off_target_predictions*.csv (GNN results, canonical file, candidates) |
-| `data_extraction.ipynb` | Build initial KG from PubChem |
+| `scripts/build_kg_from_sources.py` | Build initial KG from PubChem/sources → `kg_nodes_v2.csv`, `kg_edges_v2.csv` |
 | `scripts/enrich_go.py` | GO + target–outcome enrichment |
 | `scripts/visualize_kg.py` | PyVis HTML export |
 | `scripts/kg_gnn_*.py` | GNN data, model (two heads: drug–protein + protein–outcome), train/infer |
