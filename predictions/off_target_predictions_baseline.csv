@@ -1,0 +1,16 @@
+rank,protein_id,score,known_target
+1,RET - ret proto-oncogene (human),13246.41,True
+2,KDR - kinase insert domain receptor (human),35.0,True
+3,KIF5B - kinesin family member 5B (human),13.0,True
+4,FLT3 - fms related receptor tyrosine kinase 3 (human),6.5,True
+5,CCDC6 - coiled-coil domain containing 6 (human),4.4,True
+6,Tyrosine-protein kinase JAK2 (human),2.0,True
+7,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.4,True
+8,CCDC6,0.0,True
+9,DRD2,0.0,True
+10,EML4,0.0,False
+11,HRAS,0.0,False
+12,KDR,0.0,True
+13,KIF5B,0.0,True
+14,PTK2B,0.0,True
+15,RET,0.0,True
