@@ -1,16 +1,16 @@
 rank,protein_id,score,known_target,gnn_predicted_outcomes
-1,RET - ret proto-oncogene (human),1.0,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-2,RET,0.9999034404754639,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-3,KIF5B - kinesin family member 5B (human),0.9994801878929138,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-4,CCDC6 - coiled-coil domain containing 6 (human),0.99858558177948,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-5,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.992621660232544,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-6,Tyrosine-protein kinase JAK2 (human),0.9887617230415344,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-7,FLT3 - fms related receptor tyrosine kinase 3 (human),0.97054123878479,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-8,KDR - kinase insert domain receptor (human),0.9416784048080444,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-9,PTK2B,0.07719016820192337,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-10,EML4,0.0715576559305191,False,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-11,KIF5B,0.06631641089916229,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-12,KDR,0.06175823509693146,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-13,DRD2,0.057809144258499146,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-14,HRAS,0.05431443825364113,False,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-15,CCDC6,0.051253531128168106,True,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
+1,RET - ret proto-oncogene (human),1.0,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+2,RET,0.9999967813491821,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+3,KIF5B - kinesin family member 5B (human),0.9999725818634033,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+4,CCDC6 - coiled-coil domain containing 6 (human),0.9998881816864014,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+5,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.9993143081665039,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+6,Tyrosine-protein kinase JAK2 (human),0.99915611743927,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+7,FLT3 - fms related receptor tyrosine kinase 3 (human),0.998340368270874,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+8,KDR - kinase insert domain receptor (human),0.9970098733901978,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+9,PTK2B,0.086698517203331,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+10,EML4,0.08205975592136383,False,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+11,KIF5B,0.0779595598578453,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+12,KDR,0.07418257743120193,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+13,DRD2,0.07070673257112503,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+14,HRAS,0.06754076480865479,False,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+15,CCDC6,0.06467154622077942,True,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"

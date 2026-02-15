@@ -165,7 +165,23 @@ All KG input data are under `data/`. KG outputs: `kg_nodes_v2.csv` / `kg_edges_v
 - **Interpretation:** Use `known_target` and `predictions/off_target_predictions_candidates.csv` to separate “KG-consistent known targets” from “candidate novel off-targets” and focus validation on the latter.
 
 ---
+## EDA findings
 
+Exploratory analysis (`eda/eda.ipynb`) identifies a critical bottleneck in the current KG:
+
+- **15 total proteins** (13 known targets, 2 novel candidates)
+- **33% outcome coverage** (5/15 proteins have Disease/AE associations)
+- **10% kinase panel coverage** (2/20 expected kinases present)
+- **GNN validation:** Recalls 13/13 known targets, predicts only 2 novel candidates
+
+**Root cause:** Data extraction limited to proteins with direct Pralsetinib bioassay data.
+
+**Expansion strategy:** Add 39 proteins to reach 41-protein kinase panel:
+- High-priority kinases: EGFR, JAK2, FLT3, SRC, ABL1, KIT, FGFR1-3, ALK, ROS1, MET, AXL, BRAF, MEK1-2, ERK1-2
+- ADME proteins: CYP3A4, CYP2D6, CYP1A2, ABCB1, ABCG2
+- Data sources: ChEMBL (IC50 panel), OpenTargets (target-disease), STRING (PPI), CTD (outcomes)
+
+**Projected impact:** 19.5× increase in candidate space (2 → 39 candidates), 91 nodes, 319 edges.
 ## Repo layout
 
 | Path | Purpose |

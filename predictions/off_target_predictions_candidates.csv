@@ -1,3 +1,3 @@
 candidate_rank,protein_id,score,gnn_predicted_outcomes
-1,EML4,0.0715576559305191,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
-2,HRAS,0.05431443825364113,Neutropenia | Anemia | Hypertension | Acute Lung Injury | Adenocarcinoma of Lung
+1,EML4,0.08205975592136383,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
+2,HRAS,0.06754076480865479,"Neutropenia | Anemia | Hypertension | Anemia, Hypochromic | Anemia, Iron-Deficiency"
