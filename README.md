@@ -163,43 +163,21 @@ KG outputs: `data/kg_nodes_v2.csv` / `data/kg_edges_v2.csv` (from build), then `
 
 ## Results & performance
 
-**Current KG statistics (after expansion):**
+**KG statistics (final graph, after enrichment & expansion):**
 - **1,084 nodes** (≈580 before expansion)
 - **1,464 edges** (≈1,456 before expansion)
-- **517 proteins** (15 before expansion) — ~34× increase in candidate set
+- **516 candidate proteins** for ranking (13 known Pralsetinib off-targets in KG) — ~34× increase over pre-expansion protein set
 
-**Prediction performance (top-100):**
-- **GNN:** Finds all **13/13 known targets** in top-100; top-10 contains **9/10 known targets**.
-- **Baseline:** Finds only **8/13 known targets** in top-100; top-10 contains **7/10 known targets**.
-- **Overlap:** 25 proteins overlap between GNN and baseline top-100.
+**Prediction performance** (from `notebooks/model_eval.ipynb`):
 
-**Key finding:** The GNN significantly outperforms the simple baseline once the protein set is expanded. The baseline relies only on direct KG edges, while the GNN leverages multi-hop paths (e.g., Drug → known target → PPI → new protein) to rank proteins without direct connections.
+*Fair evaluation (held-out test set):* Train/test split on known (Pralsetinib, inhibits, protein) edges: **9 train**, **4 held-out**, 516 candidates. GNN trained only on train positives, evaluated on held-out proteins.
+- **Recall@5:** 25% · **Recall@10:** 50% · **Recall@20:** 100%
+- **MRR:** 0.147 · **Mean rank (test):** 11.5
 
-## Next steps & future work
+*Pipeline comparison (canonical `predictions/off_target_predictions.csv` vs baseline):* Full pipeline GNN (trained on all 13 known targets) vs baseline on top-k. Known targets in top-k: **GNN** 4, 9, 13 at k=5,10,20; **Baseline** 5, 7, 7. Overlap in top-k: 2, 3, 7. This comparison is optimistic for the GNN because it is evaluated on targets it was trained on; the fair comparison is the held-out metrics above.
 
-**Potential improvements.**
-- **Held-out evaluation:** Reserve some (Pralsetinib, inhibits, protein) edges for testing (don’t use them in training) to measure link-prediction performance.  
-- **Richer outcome signal:** Add more (protein, associated_with, Disease/AE) edges so the outcome head has more signal and per-protein outcomes are more differentiated.  
-- **Interpretation:** Use `known_target` and `predictions/off_target_predictions_candidates.csv` to separate “KG-consistent known targets” from “candidate novel off-targets” and focus validation on the latter.
+**Key finding:** On the held-out test set, the GNN recovers all four held-out known targets within top-20 (Recall@20 = 100%). The baseline uses only direct KG edge weights; the GNN uses the full graph and multi-hop structure to rank proteins, including those without direct (drug, inhibits, protein) edges.
 
----
-## EDA findings
-
-Exploratory analysis (`notebooks/eda.ipynb`) identifies a critical bottleneck in the current KG:
-
-- **15 total proteins** (13 known targets, 2 novel candidates)
-- **33% outcome coverage** (5/15 proteins have Disease/AE associations)
-- **10% kinase panel coverage** (2/20 expected kinases present)
-- **GNN validation:** Recalls 13/13 known targets, predicts only 2 novel candidates
-
-**Root cause:** Data extraction limited to proteins with direct Pralsetinib bioassay data.
-
-**Expansion strategy:** Add 39 proteins to reach 41-protein kinase panel:
-- High-priority kinases: EGFR, JAK2, FLT3, SRC, ABL1, KIT, FGFR1-3, ALK, ROS1, MET, AXL, BRAF, MEK1-2, ERK1-2
-- ADME proteins: CYP3A4, CYP2D6, CYP1A2, ABCB1, ABCG2
-- Data sources: ChEMBL (IC50 panel), OpenTargets (target-disease), STRING (PPI), CTD (outcomes)
-
-**Projected impact:** 19.5× increase in candidate space (2 → 39 candidates), 91 nodes, 319 edges.
 ## Repo layout
 
 | Path | Purpose |
