@@ -670,6 +670,7 @@ def main():
         shortcut_count = 0
 
     nodes_enriched.to_csv(out_nodes_path, index=False)
+    edges_enriched = edges_enriched.drop_duplicates(subset=['source', 'relation', 'target'], keep='first')
     edges_enriched.to_csv(out_edges_path, index=False)
 
     print("KG enrichment complete.")

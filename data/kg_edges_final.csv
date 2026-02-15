@@ -1,49 +1,20 @@
 source,relation,target,value,unit,metadata,source_file
 Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.3,nM,IC50 (AID: 1934929),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.3,nM,IC50 (AID: 1895756),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1934930),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1934928),Bioactivity
 Pralsetinib,inhibits,CCDC6 - coiled-coil domain containing 6 (human),0.4,nM,IC50 (AID: 1895760),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1895758),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1895755),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.4,nM,IC50 (AID: 1895760),Bioactivity
 Pralsetinib,inhibits,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.4,nM,IC50 (AID: 2091116),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.7,nM,IC50 (AID: 1776961),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),0.78,nM,IC50 (AID: 1776959),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),1.0,nM,Kd (AID: 1995913),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),1.9300000000000002,nM,IC50 (AID: 1776960),Bioactivity
 Pralsetinib,inhibits,Tyrosine-protein kinase JAK2 (human),2.0,nM,IC50 (AID: 1776972),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),2.4,nM,IC50 (AID: 1946834),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),4.0,nM,GI50 (AID: 1704862),Bioactivity
 Pralsetinib,inhibits,KIF5B - kinesin family member 5B (human),4.0,nM,GI50 (AID: 1704858),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),4.0,nM,GI50 (AID: 1704857),Bioactivity
-Pralsetinib,inhibits,KIF5B - kinesin family member 5B (human),4.0,nM,GI50 (AID: 1704862),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),4.0,nM,GI50 (AID: 1704858),Bioactivity
-Pralsetinib,inhibits,CCDC6 - coiled-coil domain containing 6 (human),4.0,nM,GI50 (AID: 1704857),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),5.0,nM,IC50 (AID: 1895764),Bioactivity
-Pralsetinib,inhibits,KIF5B - kinesin family member 5B (human),5.0,nM,IC50 (AID: 1895764),Bioactivity
 Pralsetinib,inhibits,FLT3 - fms related receptor tyrosine kinase 3 (human),6.5,nM,IC50 (AID: 1776973),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),10.0,nM,IC50 (AID: 1806406),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),10.0,nM,IC50 (AID: 1806405),Bioactivity
 Pralsetinib,inhibits,KDR - kinase insert domain receptor (human),35.0,nM,IC50 (AID: 1895759),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),100.0,nM,IC50 (AID: 1806406),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),100.0,nM,IC50 (AID: 1806405),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),500.0,nM,IC50 (AID: 1804253),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),500.0,nM,IC50 (AID: 1804254),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),6000.0,nM,IC50 (AID: 1804253),Bioactivity
-Pralsetinib,inhibits,RET - ret proto-oncogene (human),6000.0,nM,IC50 (AID: 1804254),Bioactivity
 Pralsetinib,inhibits,RET,Active,,Proto-oncogene c-Ret (RET),ConsolidatedTargets
 Pralsetinib,targets,RET,Active,,RET,ConsolidatedTargets
 Pralsetinib,inhibits,PTK2B,Active,,PTK2B,ConsolidatedTargets
-Pralsetinib,inhibits,RET,Active,,ret proto-oncogene,ConsolidatedTargets
 Pralsetinib,targets,EML4,Active,,EML4,ConsolidatedTargets
 Pralsetinib,inhibits,KIF5B,Active,,KIF5B,ConsolidatedTargets
 Pralsetinib,inhibits,KDR,Active,,kinase insert domain receptor,ConsolidatedTargets
 Pralsetinib,inhibits,DRD2,Active,,DRD2,ConsolidatedTargets
 Pralsetinib,targets,HRAS,Active,,HRAS,ConsolidatedTargets
-Pralsetinib,inhibits,RET,Active,,RET,ConsolidatedTargets
 Pralsetinib,inhibits,CCDC6,Active,,CCDC6,ConsolidatedTargets
-Pralsetinib,targets,RET,Active,,Proto-oncogene tyrosine-protein kinase receptor Ret,ConsolidatedTargets
 Pralsetinib,co_occurs_with_chemical,Selpercatinib,Co-occurrence,Text Mining,PubChem Neighbor,C:/Users/suchi/dsc180/DSC180B-B23-Knowledge-Graph-and-Biomedical-Ontology/data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
 Pralsetinib,co_occurs_with_chemical,Cabozantinib,Co-occurrence,Text Mining,PubChem Neighbor,C:/Users/suchi/dsc180/DSC180B-B23-Knowledge-Graph-and-Biomedical-Ontology/data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
 Pralsetinib,co_occurs_with_chemical,Vandetanib,Co-occurrence,Text Mining,PubChem Neighbor,C:/Users/suchi/dsc180/DSC180B-B23-Knowledge-Graph-and-Biomedical-Ontology/data/Chemical_Co-Occurrences-in-Literature_CID_129073603.json
