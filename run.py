@@ -1,12 +1,12 @@
 """
 Single entry point to reproduce the pipeline or run individual steps.
 
-Run the full pipeline (build KG → enrich → train GNN → build predictions):
+Run the full pipeline (build KG → enrich (GO+expand) → train GNN → build predictions):
   python run.py all
 
 Run one step by keyword:
   python run.py build_kg    # Build initial KG from PubChem/sources
-  python run.py enrich       # Enrich KG with GO + target–outcome
+  python run.py enrich      # Enrich KG (GO + outcomes) + expand with proteins
   python run.py visualize   # Export interactive PyVis HTML
   python run.py train       # Train GNN and write raw predictions
   python run.py predict     # Add effects + path-based reasoning → canonical CSV
@@ -53,8 +53,8 @@ def cmd_build_kg(extra: list[str]) -> int:
 
 
 def cmd_enrich(extra: list[str]) -> int:
-    """Enrich KG with GO + target–outcome → kg_nodes_final.csv, kg_edges_final.csv."""
-    script = SCRIPTS / "kg_construction" / "enrich_go.py"
+    """Enrich KG with GO + target–outcome and expand with proteins → kg_nodes_final.csv, kg_edges_final.csv."""
+    script = SCRIPTS / "kg_construction" / "enrich_and_expand_kg.py"
     default = [
         "--nodes", str(DATA / "kg_nodes_v2.csv"),
         "--edges", str(DATA / "kg_edges_v2.csv"),
@@ -63,6 +63,8 @@ def cmd_enrich(extra: list[str]) -> int:
         "--out-nodes", str(DATA / "kg_nodes_final.csv"),
         "--out-edges", str(DATA / "kg_edges_final.csv"),
         "--add-similarity", "--drop-shortcuts",
+        "--drug", "Pralsetinib",
+        "--max-proteins", "500",
     ]
     ok = _run(script, default + extra, "enrich")
     return 0 if ok else 1
@@ -117,7 +119,7 @@ def main() -> None:
     parser.add_argument(
         "step",
         choices=["build_kg", "enrich", "visualize", "train", "predict", "all"],
-        help="Pipeline step: build_kg, enrich, visualize, train, predict, or all",
+        help="Pipeline step: build_kg, enrich (GO+expand), visualize, train, predict, or all",
     )
     parser.add_argument(
         "--no-viz",
@@ -135,6 +137,7 @@ def main() -> None:
     }
 
     if args.step == "all":
+        # Full pipeline: build KG -> enrich (GO/outcomes + expand proteins) -> visualize -> train GNN -> build final predictions.
         order = ["build_kg", "enrich", "visualize", "train", "predict"]
         if args.no_viz:
             order.remove("visualize")

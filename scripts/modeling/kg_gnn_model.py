@@ -40,7 +40,6 @@ class GCNLinkPredictor(nn.Module):
             nn.Linear(hidden_channels, 1),
         )
         # Separate head for (protein, outcome) so outcome scores can vary by protein.
-        # Deeper head to amplify small differences in protein embeddings.
         self.outcome_link_mlp = nn.Sequential(
             nn.Linear(2 * self.embed_dim, hidden_channels),
             nn.ReLU(),

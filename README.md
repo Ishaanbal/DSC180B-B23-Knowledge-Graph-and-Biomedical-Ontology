@@ -13,25 +13,26 @@ Pralsetinib has limited long-term real-world safety data. Post-marketing pharmac
 ## Pipeline overview
 
 1. **Build KG** — Run `scripts/kg_construction/build_kg_from_sources.py` to extract from PubChem (bioactivity, targets, clinical trials, indications, co-occurrence JSONs, literature AEs) → `data/kg_nodes_v2.csv`, `data/kg_edges_v2.csv`.
-2. **Enrich** — GO pathways + target–outcome links → `kg_nodes_final.csv`, `kg_edges_final.csv`.
+2. **Enrich + expand** — GO pathways + target–outcome links **and** expansion with additional proteins from STRING (PPI network) and UniProt (human kinases) → `kg_nodes_final.csv`, `kg_edges_final.csv`.
 3. **Visualize** — Interactive PyVis HTML.
 4. **Predict off-targets and outcomes** — GNN runs on the full graph; outputs **`predictions/off_target_predictions_gnn.csv`** (intermediate). Then **`build_off_target_predictions.py`** adds KG-derived effects and **path-based chain-of-thought reasoning** (actual KG paths) → single canonical **`predictions/off_target_predictions.csv`**.
+5. **Baseline comparison** — Simple KG baseline model (sums edge weights) for comparison with GNN.
 
 ---
 
 ## Running scripts
 
-**Environment:** `conda env create -f environment.yml` (or `conda env update -f environment.yml`). Dependencies: Python 3.10, pandas, networkx, pytorch, torch-geometric (pip), pyvis, matplotlib, seaborn.
+**Environment:** `conda env create -f environment.yml` (or `conda env update -f environment.yml`).
 
 ### Reproduce results (single entry point)
 
 From the project root, use **`run.py`** with a keyword to run one step or the full pipeline:
 
 ```bash
-python run.py all              # Full pipeline: build_kg → enrich → visualize → train → predict
+python run.py all              # Full pipeline: build_kg → enrich (GO+expand) → visualize → train → predict
 python run.py all --no-viz     # Same but skip visualization
 python run.py build_kg         # Build initial KG only
-python run.py enrich           # Enrich KG only
+python run.py enrich           # Enrich KG (GO + outcomes) and expand with proteins
 python run.py visualize        # Export PyVis HTML only
 python run.py train            # Train GNN and write raw predictions
 python run.py predict          # Add effects + reasoning → canonical predictions CSV
@@ -57,17 +58,22 @@ python scripts/kg_construction/build_kg_from_sources.py --data-dir data --out-ed
 
 **Output:** `data/kg_edges_v2.csv`, `data/kg_nodes_v2.csv` (inputs for enrichment below). Sources: bioactivity, consolidated targets, clinical trials, OpenTargets indications, chemical/gene co-occurrence JSONs, literature adverse-event mining.
 
-### Enrichment (GO + target–outcome)
+### Enrichment (GO + target–outcome + expand proteins)
 
 ```bash
-python scripts/kg_construction/enrich_go.py --nodes data/kg_nodes_v2.csv --edges data/kg_edges_v2.csv --go-mapping data/protein_go_mapping.csv --outcome-mapping data/protein_outcome_mapping_onc.csv --out-nodes data/kg_nodes_final.csv --out-edges data/kg_edges_final.csv --add-similarity --drop-shortcuts
+python scripts/kg_construction/enrich_and_expand_kg.py \
+    --nodes data/kg_nodes_v2.csv \
+    --edges data/kg_edges_v2.csv \
+    --go-mapping data/protein_go_mapping.csv \
+    --outcome-mapping data/protein_outcome_mapping_onc.csv \
+    --out-nodes data/kg_nodes_final.csv \
+    --out-edges data/kg_edges_final.csv \
+    --add-similarity --drop-shortcuts \
+    --drug Pralsetinib \
+    --max-proteins 500
 ```
 
-Optional auto-annotate GO mapping:
-
-```bash
-python scripts/kg_construction/enrich_go.py --generate-go-mapping --go-mapping data/protein_go_mapping.csv --outcome-mapping data/protein_outcome_mapping.csv
-```
+Output: `kg_nodes_final.csv`, `kg_edges_final.csv`. Use `enrich_go.py` directly for more fine-grained control.
 
 ### Visualization
 
@@ -83,11 +89,6 @@ python scripts/viz/visualize_kg.py --nodes data/kg_nodes_final.csv --edges data/
 
 ### GNN off-target prediction (train + infer)
 
-The GNN uses the **full graph** (Drug, Protein, Disease, Adverse Event, Pathway, etc.): message passing runs over all nodes. It is trained on two **separate** link-prediction tasks:
-
-- **(drug, inhibits, protein)** — one MLP head; used for off-target ranking.
-- **(protein, associated_with, Disease/AE)** — a **dedicated outcome MLP head** (separate from the drug–protein head), so outcome rankings can differ per protein.
-
 ```bash
 python scripts/modeling/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out predictions/off_target_predictions_gnn.csv --epochs 200
 ```
@@ -100,40 +101,65 @@ python scripts/modeling/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.cs
 
 ### Build final predictions (effects + path-based reasoning)
 
-One script adds KG-derived effects and **path-based chain-of-thought** (explicit KG paths) so predictions are non-redundant and auditable:
-
 ```bash
 python scripts/modeling/build_off_target_predictions.py --predictions predictions/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out predictions/off_target_predictions.csv
 ```
 
-**Output: `predictions/off_target_predictions.csv`** (canonical file). Columns: `rank`, `protein_id`, `score`, `known_target`, `gnn_predicted_outcomes`, `associated_adverse_effects`, **`reasoning`**.
-
-The **`reasoning`** column is path-based on the KG:
+**Output: `predictions/off_target_predictions.csv`** (canonical file). Columns include **`reasoning`**, which is path-based on the KG:
 - **Path 1:** `Pralsetinib --[inhibits]--> protein_id` (with evidence from KG, e.g. IC50), or “No edge in KG; GNN predicts link (score=…)” for novel predictions.
 - **Path 2:** `protein_id --[associated_with]--> outcome1 | outcome2 | …` (actual KG edges to Disease/AE), or “No edges in KG; GNN top predicted: …” when the KG has no (protein, outcome) edges.
 
-This keeps a single predictions file and makes the reasoning explicit and path-based for safety/validation.
+### Baseline KG model (for comparison)
+
+Sums the absolute `value` from `(drug, inhibits, protein)` edges in the KG (no ML). For comparison with the GNN.
+
+```bash
+python scripts/modeling/kg_baseline_link_prediction.py \
+    --nodes data/kg_nodes_final.csv \
+    --edges data/kg_edges_final.csv \
+    --out predictions/off_target_predictions_baseline.csv \
+    --top 100
+```
+
+**Output:** `predictions/off_target_predictions_baseline.csv` — `rank`, `protein_id`, `score`, `known_target`.
+
+### Compare GNN vs Baseline
+
+Compare GNN and baseline predictions:
+
+```bash
+python scripts/modeling/compare_baseline_gnn.py \
+    --gnn predictions/off_target_predictions_gnn.csv \
+    --baseline predictions/off_target_predictions_baseline.csv
+```
+
+Reports:
+- Total known targets in each prediction file
+- Top-k enrichment (known targets in top-10/25/50/100)
+- Overlap in proteins between GNN and baseline top-k
+- Rank correlation (requires `scipy`)
 
 ---
 
 ## Data and predictions layout
 
-- **`data/`** — Inputs used to build the KG: PubChem exports, GO/outcome mappings, and the KG itself (`kg_nodes*.csv`, `kg_edges*.csv`). No model outputs live here.
-- **`predictions/`** — Model outputs only (see comparison below).
+- **`data/`** — KG inputs (PubChem exports, GO/outcome mappings, `kg_nodes*.csv`, `kg_edges*.csv`).
+- **`predictions/`** — Model outputs only.
 
-**Difference between the three prediction CSVs:**
+**Difference between prediction CSVs:**
 
 | File | Produced by | Rows | Purpose |
 |------|-------------|------|---------|
 | **`off_target_predictions_gnn.csv`** | GNN script | Top-k proteins (all) | Raw GNN output; input to build script. Columns: rank, protein_id, score, known_target, gnn_predicted_outcomes. |
 | **`off_target_predictions.csv`** | Build script | Same as _gnn | **Canonical file** — use this for analysis. Adds `associated_adverse_effects` and path-based `reasoning`. |
+| **`off_target_predictions_baseline.csv`** | Baseline script | Top-k proteins | Simple KG baseline (sums edge weights) for comparison with GNN. Columns: rank, protein_id, score, known_target. |
 | **`off_target_predictions_candidates.csv`** | GNN script | Only proteins with *no* (Pralsetinib, inhibits, protein) edge in KG | Convenience list of **novel off-target candidates** to validate. Redundant with filtering the canonical file on `known_target == False`. |
 
 ---
 
 ## Data files & sources
 
-All KG input data are under `data/`. KG outputs: `kg_nodes_v2.csv` / `kg_edges_v2.csv` (from `build_kg_from_sources.py`), then `kg_nodes_final.csv` / `kg_edges_final.csv` (after enrichment).
+KG outputs: `kg_nodes_v2.csv` / `kg_edges_v2.csv` (from build), then `kg_nodes_final.csv` / `kg_edges_final.csv` (after enrich).
 
 | File | Source | Role in pipeline |
 |------|--------|-------------------|
@@ -151,15 +177,23 @@ All KG input data are under `data/`. KG outputs: `kg_nodes_v2.csv` / `kg_edges_v
 
 ---
 
-## Next steps & concerns
+## Results & performance
 
-**Current limitation — small protein set.** With the current KG we have only **15 candidate proteins** (Protein/Gene nodes) and **13 of them are known targets** (they already have a (Pralsetinib, inhibits, protein) edge). So the GNN is mostly recalling known edges and only **2 proteins** appear as candidate novel off-targets. The result therefore doesn’t yet tell us much we didn’t already encode in the graph.
+**Current KG statistics (after expansion):**
+- **1,084 nodes** (≈580 before expansion)
+- **1,464 edges** (≈1,456 before expansion)
+- **517 proteins** (15 before expansion) — ~34× increase in candidate set
 
-**Expand the KG with more proteins.** To get more informative predictions:
-- Add more **Protein/Gene nodes** to the graph (e.g. from a broader kinase panel, STRING/OpenTargets, or a curated list of plausible off-targets).
-- Keep (Pralsetinib, inhibits, protein) edges only for **known** targets; leave the rest as “no edge” so the model can rank them. Then **`predictions/off_target_predictions_candidates.csv`** will be a larger, ranked set of hypotheses to validate.
+**Prediction performance (top-100):**
+- **GNN:** Finds all **13/13 known targets** in top-100; top-10 contains **9/10 known targets**.
+- **Baseline:** Finds only **8/13 known targets** in top-100; top-10 contains **7/10 known targets**.
+- **Overlap:** 25 proteins overlap between GNN and baseline top-100.
 
-**Other next steps.**  
+**Key finding:** The GNN significantly outperforms the simple baseline once the protein set is expanded. The baseline relies only on direct KG edges, while the GNN leverages multi-hop paths (e.g., Drug → known target → PPI → new protein) to rank proteins without direct connections.
+
+## Next steps & future work
+
+**Potential improvements.**
 - **Held-out evaluation:** Reserve some (Pralsetinib, inhibits, protein) edges for testing (don’t use them in training) to measure link-prediction performance.  
 - **Richer outcome signal:** Add more (protein, associated_with, Disease/AE) edges so the outcome head has more signal and per-protein outcomes are more differentiated.  
 - **Interpretation:** Use `known_target` and `predictions/off_target_predictions_candidates.csv` to separate “KG-consistent known targets” from “candidate novel off-targets” and focus validation on the latter.
@@ -186,11 +220,11 @@ Exploratory analysis (`eda/eda.ipynb`) identifies a critical bottleneck in the c
 
 | Path | Purpose |
 |------|--------|
-| **`run.py`** | **Single entry point:** run by keyword (`build_kg`, `enrich`, `visualize`, `train`, `predict`, `all`) to reproduce results |
-| `data/` | KG inputs: KG CSVs, PubChem exports, GO/outcome mappings (no prediction outputs) |
-| `predictions/` | Model outputs: off_target_predictions*.csv (GNN results, canonical file, candidates) |
+| **`run.py`** | Entry point: `build_kg`, `enrich`, `visualize`, `train`, `predict`, `all` |
+| `data/` | KG inputs and KG CSVs |
+| `predictions/` | off_target_predictions*.csv (see table above) |
 | **Scripts** (by type) | |
-| `scripts/kg_construction/` | **KG build & enrichment:** `build_kg_from_sources.py`, `enrich_go.py` |
-| `scripts/modeling/` | **GNN & prediction output:** `kg_gnn_data.py`, `kg_gnn_model.py`, `kg_gnn_link_prediction.py`, `build_off_target_predictions.py` |
+| `scripts/kg_construction/` | **KG build, enrichment & expansion:** `build_kg_from_sources.py`, `enrich_and_expand_kg.py` |
+| `scripts/modeling/` | **GNN, baseline & prediction output:** `kg_gnn_data.py`, `kg_gnn_model.py`, `kg_gnn_link_prediction.py`, `kg_baseline_link_prediction.py`, `build_off_target_predictions.py`, `compare_baseline_gnn.py` |
 | `scripts/viz/` | **Visualization:** `visualize_kg.py` |
-| `eda/eda.ipynb` | Exploratory analysis on final KG |
+| `notebooks/eda.ipynb` | Exploratory analysis on final KG |
