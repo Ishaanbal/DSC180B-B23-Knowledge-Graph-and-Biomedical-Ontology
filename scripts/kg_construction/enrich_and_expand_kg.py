@@ -45,14 +45,6 @@ expand_proteins = importlib.util.module_from_spec(spec_expand)
 assert spec_expand.loader is not None
 spec_expand.loader.exec_module(expand_proteins)
 
-# Import extend_kg_with_external_sources.py as a module
-extend_path = Path(__file__).parent / "extend_kg_with_external_sources.py"
-spec_extend = importlib.util.spec_from_file_location("extend_kg", extend_path)
-extend_kg = importlib.util.module_from_spec(spec_extend)
-assert spec_extend.loader is not None
-spec_extend.loader.exec_module(extend_kg)
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Enrich KG with GO/outcomes, then expand with more proteins."
@@ -91,26 +83,7 @@ def main() -> None:
     parser.add_argument("--string-min-score", type=int, default=400)
     parser.add_argument("--skip-uniprot", action="store_true")
     parser.add_argument("--skip-string", action="store_true")
-    # Arguments for external extension (from extend_kg_with_external_sources.py)
-    parser.add_argument(
-        "--external-dti",
-        type=Path,
-        default=Path("data/external_dti.csv"),
-        help="External drug–target interactions CSV.",
-    )
-    parser.add_argument(
-        "--external-ppi",
-        type=Path,
-        default=Path("data/external_ppi.csv"),
-        help="External protein–protein interactions CSV.",
-    )
-    parser.add_argument(
-        "--external-protein-disease",
-        type=Path,
-        default=Path("data/external_protein_disease.csv"),
-        help="External protein–disease/adverse event associations CSV.",
-    )
-    
+
     args = parser.parse_args()
     
     nodes_path = Path(args.nodes)
@@ -301,19 +274,6 @@ def main() -> None:
         edges_enriched = pd.concat([edges_enriched, new_edges_expanded], ignore_index=True)
         print(f"[enrich_and_expand]   Added {len(new_edges_expanded)} new PPI edges")
     
-    # ===== STEP 3: EXTEND (external DTI/PPI/disease, if provided) =====
-    print("[enrich_and_expand] Step 3: Extending KG with external DTI/PPI/disease sources (if CSVs exist)...")
-
-    nodes_enriched, edges_enriched = extend_kg.add_external_dti(
-        nodes_enriched, edges_enriched, args.external_dti
-    )
-    nodes_enriched, edges_enriched = extend_kg.add_external_ppi(
-        nodes_enriched, edges_enriched, args.external_ppi
-    )
-    nodes_enriched, edges_enriched = extend_kg.add_external_protein_disease(
-        nodes_enriched, edges_enriched, args.external_protein_disease
-    )
-
     # Remove duplicates
     nodes_enriched = nodes_enriched.drop_duplicates(subset=["id"])
     edges_enriched = edges_enriched.drop_duplicates(

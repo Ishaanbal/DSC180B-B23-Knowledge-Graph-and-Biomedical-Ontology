@@ -207,10 +207,6 @@ def main() -> None:
         w.writerows(rows)
     print(f"Wrote top-{top_k} predictions to {out_path}")
 
-    # Quick eval: how many known positives in top-k?
-    in_top = sum(1 for i in range(top_k) if candidate_tails[order[i]] in pos_set)
-    print(f"Known positives in top-{top_k}: {in_top} / {len(positive_tails)}")
-
     # Candidate novel off-targets: top-k proteins with NO (Pralsetinib, inhibits, protein) edge in KG
     if args.top_candidates > 0:
         cand_outcome_t = torch.tensor(candidate_outcomes, dtype=torch.long, device=device) if (use_outcome_task and candidate_outcomes) else None
