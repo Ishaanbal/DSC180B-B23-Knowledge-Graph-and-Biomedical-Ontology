@@ -13,7 +13,7 @@ Pralsetinib has limited long-term real-world safety data. Post-marketing pharmac
 ## Pipeline overview
 
 1. **Build KG** — Run `scripts/kg_construction/build_kg_from_sources.py` to extract from PubChem (bioactivity, targets, clinical trials, indications, co-occurrence JSONs, literature AEs) → `data/kg_nodes_v2.csv`, `data/kg_edges_v2.csv`.
-2. **Enrich + expand** — GO pathways + target–outcome links **and** expansion with additional proteins from STRING (PPI network) and UniProt (human kinases) → `kg_nodes_final.csv`, `kg_edges_final.csv`.
+2. **Enrich + expand** — GO pathways + target–outcome links **and** expansion with additional proteins from STRING (PPI network) and UniProt (human kinases) → `data/kg_nodes_final.csv`, `data/kg_edges_final.csv`.
 3. **Visualize** — Interactive PyVis HTML.
 4. **Predict off-targets and outcomes** — GNN runs on the full graph; outputs **`predictions/off_target_predictions_gnn.csv`** (intermediate). Then **`build_off_target_predictions.py`** adds KG-derived effects and **path-based chain-of-thought reasoning** (actual KG paths) → single canonical **`predictions/off_target_predictions.csv`**.
 5. **Baseline comparison** — Simple KG baseline model (sums edge weights) for comparison with GNN.
@@ -73,7 +73,7 @@ python scripts/kg_construction/enrich_and_expand_kg.py \
     --max-proteins 500
 ```
 
-Output: `kg_nodes_final.csv`, `kg_edges_final.csv`. Use `enrich_go.py` directly for more fine-grained control.
+Output: `data/kg_nodes_final.csv`, `data/kg_edges_final.csv`. Use `enrich_go.py` directly for more fine-grained control.
 
 ### Visualization
 
@@ -150,28 +150,28 @@ Reports:
 
 | File | Produced by | Rows | Purpose |
 |------|-------------|------|---------|
-| **`off_target_predictions_gnn.csv`** | GNN script | Top-k proteins (all) | Raw GNN output; input to build script. Columns: rank, protein_id, score, known_target, gnn_predicted_outcomes. |
-| **`off_target_predictions.csv`** | Build script | Same as _gnn | **Canonical file** — use this for analysis. Adds `associated_adverse_effects` and path-based `reasoning`. |
-| **`off_target_predictions_baseline.csv`** | Baseline script | Top-k proteins | Simple KG baseline (sums edge weights) for comparison with GNN. Columns: rank, protein_id, score, known_target. |
-| **`off_target_predictions_candidates.csv`** | GNN script | Only proteins with *no* (Pralsetinib, inhibits, protein) edge in KG | Convenience list of **novel off-target candidates** to validate. Redundant with filtering the canonical file on `known_target == False`. |
+| **`predictions/off_target_predictions_gnn.csv`** | GNN script | Top-k proteins (all) | Raw GNN output; input to build script. Columns: rank, protein_id, score, known_target, gnn_predicted_outcomes. |
+| **`predictions/off_target_predictions.csv`** | Build script | Same as _gnn | **Canonical file** — use this for analysis. Adds `associated_adverse_effects` and path-based `reasoning`. |
+| **`predictions/off_target_predictions_baseline.csv`** | Baseline script | Top-k proteins | Simple KG baseline (sums edge weights) for comparison with GNN. Columns: rank, protein_id, score, known_target. |
+| **`predictions/off_target_predictions_candidates.csv`** | GNN script | Only proteins with *no* (Pralsetinib, inhibits, protein) edge in KG | Convenience list of **novel off-target candidates** to validate. Redundant with filtering the canonical file on `known_target == False`. |
 
 ---
 
 ## Data files & sources
 
-KG outputs: `kg_nodes_v2.csv` / `kg_edges_v2.csv` (from build), then `kg_nodes_final.csv` / `kg_edges_final.csv` (after enrich).
+KG outputs: `data/kg_nodes_v2.csv` / `data/kg_edges_v2.csv` (from build), then `data/kg_nodes_final.csv` / `data/kg_edges_final.csv` (after enrich).
 
 | File | Source | Role in pipeline |
 |------|--------|-------------------|
-| `pubchem_cid_129073603_bioactivity.csv` | PubChem / ChEMBL | IC50, Kd, Ki → **inhibits** edges (RET, off-targets). |
-| `pubchem_cid_129073603_literature.csv` | PubChem | Abstracts → text mining for **associated_with** (target → AE). |
-| `Chemical_Co-Occurrences-in-Literature_*.json` | PubChem | Chemical–chemical co-occurrence. |
-| `Chemical_Gene-Co-Occurrences-in-Literature_*.json` | PubChem | Chemical–gene co-occurrence → latent off-targets (e.g. KDR, EGFR). |
-| `pubchem_cid_129073603_clinicaltrials.csv` | PubChem / FDA | Trial conditions → **treats** edges. |
-| `pubchem_cid_129073603_opentargetsdrugindication.csv` | OpenTargets | Indications → **treats**. |
-| `pubchem_cid_129073603_consolidatedcompoundtarget.csv` | ChEMBL / TTD | Primary MoA → node typing (e.g. RET inhibitor). |
-| `protein_go_mapping.csv` | GO / UniProt or manual | Protein → GO Biological Process → **involved_in** (Pathway nodes). |
-| `protein_outcome_mapping.csv` / `protein_outcome_mapping_onc.csv` | CTD / OpenTargets | Protein → Disease/AE → **associated_with** edges. |
+| `data/pubchem_cid_129073603_bioactivity.csv` | PubChem / ChEMBL | IC50, Kd, Ki → **inhibits** edges (RET, off-targets). |
+| `data/pubchem_cid_129073603_literature.csv` | PubChem | Abstracts → text mining for **associated_with** (target → AE). |
+| `data/Chemical_Co-Occurrences-in-Literature_*.json` | PubChem | Chemical–chemical co-occurrence. |
+| `data/Chemical_Gene-Co-Occurrences-in-Literature_*.json` | PubChem | Chemical–gene co-occurrence → latent off-targets (e.g. KDR, EGFR). |
+| `data/pubchem_cid_129073603_clinicaltrials.csv` | PubChem / FDA | Trial conditions → **treats** edges. |
+| `data/pubchem_cid_129073603_opentargetsdrugindication.csv` | OpenTargets | Indications → **treats**. |
+| `data/pubchem_cid_129073603_consolidatedcompoundtarget.csv` | ChEMBL / TTD | Primary MoA → node typing (e.g. RET inhibitor). |
+| `data/protein_go_mapping.csv` | GO / UniProt or manual | Protein → GO Biological Process → **involved_in** (Pathway nodes). |
+| `data/protein_outcome_mapping.csv` / `data/protein_outcome_mapping_onc.csv` | CTD / OpenTargets | Protein → Disease/AE → **associated_with** edges. |
 
 **Graph schema:** Nodes = Drug, Protein, Gene/Protein, Disease, Adverse Event, Pathway, Chemical, Gene. Edges = inhibits, treats, associated_with, involved_in, co_occurs_with_*, etc. **Key chains:** Hypertension ↔ KDR; Neutropenia ↔ JAK2/FLT3; Pneumonitis (text-mined).
 
@@ -201,7 +201,7 @@ KG outputs: `kg_nodes_v2.csv` / `kg_edges_v2.csv` (from build), then `kg_nodes_f
 ---
 ## EDA findings
 
-Exploratory analysis (`eda/eda.ipynb`) identifies a critical bottleneck in the current KG:
+Exploratory analysis (`notebooks/eda.ipynb`) identifies a critical bottleneck in the current KG:
 
 - **15 total proteins** (13 known targets, 2 novel candidates)
 - **33% outcome coverage** (5/15 proteins have Disease/AE associations)
@@ -228,3 +228,4 @@ Exploratory analysis (`eda/eda.ipynb`) identifies a critical bottleneck in the c
 | `scripts/modeling/` | **GNN, baseline & prediction output:** `kg_gnn_data.py`, `kg_gnn_model.py`, `kg_gnn_link_prediction.py`, `kg_baseline_link_prediction.py`, `build_off_target_predictions.py`, `compare_baseline_gnn.py` |
 | `scripts/viz/` | **Visualization:** `visualize_kg.py` |
 | `notebooks/eda.ipynb` | Exploratory analysis on final KG |
+| `notebooks/model_eval.ipynb` | GNN link-prediction evaluation (train/test split, metrics, figures) |
