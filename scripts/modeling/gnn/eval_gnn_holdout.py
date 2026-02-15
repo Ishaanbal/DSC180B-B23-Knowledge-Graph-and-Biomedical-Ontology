@@ -3,7 +3,7 @@ Evaluate GNN link prediction with a small held-out set of known (Pralsetinib, in
 edges. This does NOT affect the main training pipeline; it's only for model testing.
 
 Usage (from project root):
-  python scripts/model_testing/eval_gnn_holdout.py \
+  python scripts/modeling/gnn/eval_gnn_holdout.py \
       --nodes data/kg_nodes_final.csv \
       --edges data/kg_edges_final.csv \
       --holdout-frac 0.3 \
@@ -19,8 +19,8 @@ from pathlib import Path
 import numpy as np
 import torch
 
-# Allow importing from scripts/modeling/ when run from project root
-_SCRIPT_DIR = Path(__file__).resolve().parents[1] / "modeling"
+# Allow importing from scripts/modeling/gnn/ when run from project root
+_SCRIPT_DIR = Path(__file__).resolve().parent
 import sys
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))

@@ -8,7 +8,7 @@ Idea:
 - Rank proteins by this score and export a CSV that mirrors the GNN output.
 
 Usage (from project root):
-  python scripts/modeling/kg_baseline_link_prediction.py \
+  python scripts/modeling/baseline/kg_baseline_link_prediction.py \
       --nodes data/kg_nodes_final.csv \
       --edges data/kg_edges_final.csv \
       --out predictions/off_target_predictions_baseline.csv

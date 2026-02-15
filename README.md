@@ -90,7 +90,7 @@ python scripts/viz/visualize_kg.py --nodes data/kg_nodes_final.csv --edges data/
 ### GNN off-target prediction (train + infer)
 
 ```bash
-python scripts/modeling/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out predictions/off_target_predictions_gnn.csv --epochs 200
+python scripts/modeling/gnn/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out predictions/off_target_predictions_gnn.csv --epochs 200
 ```
 
 **Output (intermediate):**
@@ -102,7 +102,7 @@ python scripts/modeling/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.cs
 ### Build final predictions (effects + path-based reasoning)
 
 ```bash
-python scripts/modeling/build_off_target_predictions.py --predictions predictions/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out predictions/off_target_predictions.csv
+python scripts/modeling/gnn/build_off_target_predictions.py --predictions predictions/off_target_predictions_gnn.csv --edges data/kg_edges_final.csv --nodes data/kg_nodes_final.csv --out predictions/off_target_predictions.csv
 ```
 
 **Output: `predictions/off_target_predictions.csv`** (canonical file). Columns include **`reasoning`**, which is path-based on the KG:
@@ -114,7 +114,7 @@ python scripts/modeling/build_off_target_predictions.py --predictions prediction
 Sums the absolute `value` from `(drug, inhibits, protein)` edges in the KG (no ML). For comparison with the GNN.
 
 ```bash
-python scripts/modeling/kg_baseline_link_prediction.py \
+python scripts/modeling/baseline/kg_baseline_link_prediction.py \
     --nodes data/kg_nodes_final.csv \
     --edges data/kg_edges_final.csv \
     --out predictions/off_target_predictions_baseline.csv \
@@ -122,22 +122,6 @@ python scripts/modeling/kg_baseline_link_prediction.py \
 ```
 
 **Output:** `predictions/off_target_predictions_baseline.csv` — `rank`, `protein_id`, `score`, `known_target`.
-
-### Compare GNN vs Baseline
-
-Compare GNN and baseline predictions:
-
-```bash
-python scripts/modeling/compare_baseline_gnn.py \
-    --gnn predictions/off_target_predictions_gnn.csv \
-    --baseline predictions/off_target_predictions_baseline.csv
-```
-
-Reports:
-- Total known targets in each prediction file
-- Top-k enrichment (known targets in top-10/25/50/100)
-- Overlap in proteins between GNN and baseline top-k
-- Rank correlation (requires `scipy`)
 
 ---
 
@@ -225,7 +209,8 @@ Exploratory analysis (`notebooks/eda.ipynb`) identifies a critical bottleneck in
 | `predictions/` | off_target_predictions*.csv (see table above) |
 | **Scripts** (by type) | |
 | `scripts/kg_construction/` | **KG build, enrichment & expansion:** `build_kg_from_sources.py`, `enrich_and_expand_kg.py` |
-| `scripts/modeling/` | **GNN, baseline & prediction output:** `kg_gnn_data.py`, `kg_gnn_model.py`, `kg_gnn_link_prediction.py`, `kg_baseline_link_prediction.py`, `build_off_target_predictions.py`, `compare_baseline_gnn.py` |
+| `scripts/modeling/gnn/` | **GNN:** `kg_gnn_data.py`, `kg_gnn_model.py`, `kg_gnn_link_prediction.py`, `build_off_target_predictions.py`, `eval_gnn_holdout.py` |
+| `scripts/modeling/baseline/` | **Baseline:** `kg_baseline_link_prediction.py` |
 | `scripts/viz/` | **Visualization:** `visualize_kg.py` |
 | `notebooks/eda.ipynb` | Exploratory analysis on final KG |
 | `notebooks/model_eval.ipynb` | GNN link-prediction evaluation (train/test split, metrics, figures) |

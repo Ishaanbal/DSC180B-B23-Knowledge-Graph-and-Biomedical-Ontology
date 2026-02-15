@@ -3,7 +3,7 @@ Train a GNN for (Pralsetinib, inhibits, Protein) link prediction on the KG, then
 candidate proteins and export predictions.
 
 Usage:
-  python scripts/modeling/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out predictions/off_target_predictions_gnn.csv
+  python scripts/modeling/gnn/kg_gnn_link_prediction.py --nodes data/kg_nodes_final.csv --edges data/kg_edges_final.csv --out predictions/off_target_predictions_gnn.csv
 """
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ from pathlib import Path
 
 import numpy as np
 
-# Allow importing from scripts/modeling/ when run from project root
+# Allow importing from scripts/modeling/gnn/ when run from project root
 _SCRIPT_DIR = Path(__file__).resolve().parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))

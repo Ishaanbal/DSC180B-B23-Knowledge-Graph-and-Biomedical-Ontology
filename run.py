@@ -86,7 +86,7 @@ def cmd_visualize(extra: list[str]) -> int:
 
 def cmd_train(extra: list[str]) -> int:
     """Train GNN and write raw predictions → off_target_predictions_gnn.csv (+ candidates)."""
-    script = SCRIPTS / "modeling" / "kg_gnn_link_prediction.py"
+    script = SCRIPTS / "modeling" / "gnn" / "kg_gnn_link_prediction.py"
     PREDICTIONS.mkdir(parents=True, exist_ok=True)
     default = [
         "--nodes", str(DATA / "kg_nodes_final.csv"),
@@ -100,7 +100,7 @@ def cmd_train(extra: list[str]) -> int:
 
 def cmd_predict(extra: list[str]) -> int:
     """Add effects + path-based reasoning → off_target_predictions.csv."""
-    script = SCRIPTS / "modeling" / "build_off_target_predictions.py"
+    script = SCRIPTS / "modeling" / "gnn" / "build_off_target_predictions.py"
     default = [
         "--predictions", str(PREDICTIONS / "off_target_predictions_gnn.csv"),
         "--edges", str(DATA / "kg_edges_final.csv"),
