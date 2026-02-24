@@ -43,11 +43,15 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
     parser.add_argument("--top", type=int, default=100, help="Top-k predictions to write")
     parser.add_argument("--save-model", default="", metavar="PATH", help="Save model state_dict to PATH (e.g. models/kg_gnn.pt)")
-    parser.add_argument("--outcome-weight", type=float, default=0.5, help="Weight for (protein, outcome) loss vs inhibits loss")
-    parser.add_argument("--top-outcomes", type=int, default=5, help="Top-k Disease/AE per protein to write in output")
-    parser.add_argument("--no-outcome-task", action="store_true", help="Disable (protein, associated_with, outcome) training and outcome column")
+    # Outcome task is now disabled; keep args for backward CLI compatibility but ignore them.
+    parser.add_argument("--outcome-weight", type=float, default=0.5, help=argparse.SUPPRESS)
+    parser.add_argument("--top-outcomes", type=int, default=0, help=argparse.SUPPRESS)
+    parser.add_argument("--no-outcome-task", action="store_true", help=argparse.SUPPRESS)
     parser.add_argument("--top-candidates", type=int, default=20, help="Top-k candidate novel off-targets (no KG edge) to write to _candidates CSV; 0 to disable")
     args = parser.parse_args()
+    # Force-disable outcome task so we only train on (drug, inhibits, protein)
+    args.no_outcome_task = True
+    args.top_outcomes = 0
 
     torch.manual_seed(args.seed)
 
