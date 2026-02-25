@@ -83,7 +83,7 @@ def main() -> None:
     )
     neg_tail_indices = [p[1] for p in neg_pairs]
 
-    # Outcome task (optional, same as training script)
+    # Outcome task (deprecated) – compute pairs but do not train on them
     outcome_pos_pairs, candidate_outcomes, protein_to_outcomes = get_protein_outcome_pairs(
         edges_path, id_to_idx, nodes_path
     )
@@ -118,7 +118,7 @@ def main() -> None:
         hidden_channels=args.hidden,
         out_channels=args.embed,
         num_layers=2,
-        dropout=0.3,
+        dropout=0.5,
     ).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
 
@@ -126,11 +126,7 @@ def main() -> None:
     pos_tensor = torch.tensor(train_pos, dtype=torch.long, device=device)
     neg_tensor = torch.tensor(neg_tail_indices, dtype=torch.long, device=device)
 
-    if use_outcome_task:
-        pos_src_t = torch.tensor([p for p, _ in outcome_pos_pairs_matched], dtype=torch.long, device=device)
-        pos_dst_t = torch.tensor([o for _, o in outcome_pos_pairs_matched], dtype=torch.long, device=device)
-        neg_src_t = torch.tensor(outcome_neg_src, dtype=torch.long, device=device)
-        neg_dst_t = torch.tensor(outcome_neg_dst, dtype=torch.long, device=device)
+    # Outcome tensors are unused now; evaluation is on main task only.
 
     model.train()
     for epoch in range(args.epochs):

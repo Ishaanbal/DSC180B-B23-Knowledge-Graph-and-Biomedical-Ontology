@@ -1,101 +1,101 @@
-rank,protein_id,score,known_target,gnn_predicted_outcomes
-1,RET - ret proto-oncogene (human),1.0,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-2,RET,1.0,True,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-3,KIF5B - kinesin family member 5B (human),0.9999984502792358,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-4,EML4,0.9999972581863403,False,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-5,PTK2B,0.9999915361404419,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-6,KIF5B,0.9999915361404419,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-7,CCDC6 - coiled-coil domain containing 6 (human),0.9999892711639404,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-8,DRD2,0.9999626874923706,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-9,CCDC6,0.9999626874923706,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-10,KDR,0.999962568283081,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-11,KDR - kinase insert domain receptor (human),0.9998643398284912,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-12,FLT3 - fms related receptor tyrosine kinase 3 (human),0.9998619556427002,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-13,Tyrosine-protein kinase JAK2 (human),0.9998565912246704,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-14,Proto-oncogene tyrosine-protein kinase receptor Ret (human),0.9998533725738525,True,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-15,KIF11,0.0031525795347988605,False,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-16,HNRNPF,0.0011631088564172387,False,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-17,NEK3,0.00042682202183641493,False,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-18,CCNH,0.00015191217244137079,False,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-19,HRAS,0.00013427653175313026,False,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-20,LUM,5.014348789700307e-05,False,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-21,PRKX,1.5137359696382191e-05,False,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-22,BMX,4.566436018649256e-06,False,"Hypertension | Thyroid Neoplasms | Neutropenia | Anemia | Carcinoma, Non-Small-Cell Lung"
-23,CLCN6,1.413398649674491e-06,False,"Thyroid Neoplasms | Neutropenia | Anemia | Hypertension | Carcinoma, Non-Small-Cell Lung"
-24,ALDH3A2,4.410653957620525e-07,False,"Anemia | Hypertension | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-25,IRAK1,1.4212149324066559e-07,False,"Anemia | Hypertension | Thyroid Neoplasms | Carcinoma, Non-Small-Cell Lung | Neutropenia"
-26,SMARCA4,4.696446254115472e-08,False,"Hypertension | Carcinoma, Non-Small-Cell Lung | Neoplasms | Anemia | Thyroid Neoplasms"
-27,SMARCA2,1.586028197664291e-08,False,"Anemia | Hypertension | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-28,SCNN1B,5.2665134475660125e-09,False,"Anemia | Hypertension | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-29,FXR1,1.7693717602185188e-09,False,"Carcinoma, Non-Small-Cell Lung | Anemia | Hypertension | Thyroid Neoplasms | Neutropenia"
-30,ATP1A2,6.023337939531359e-10,False,"Carcinoma, Non-Small-Cell Lung | Neoplasms | Anemia | Acute Lung Injury | Carcinoma, Endometrioid"
-31,BCAM,2.080704913920428e-10,False,"Carcinoma, Non-Small-Cell Lung | Anemia | Hypertension | Thyroid Neoplasms | Neutropenia"
-32,KNTC1,7.311097560691593e-11,False,"Carcinoma, Non-Small-Cell Lung | Neoplasms | Anemia | Acute Lung Injury | Carcinoma, Endometrioid"
-33,VASP,2.5816857332494614e-11,False,"Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Cholestasis, Intrahepatic | Desmoid Tumors"
-34,PDLIM4,9.293048969238882e-12,False,"Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Cholestasis, Intrahepatic | Desmoid Tumors"
-35,CSRP3,3.414570709514564e-12,False,"Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Cholestasis, Intrahepatic | Desmoid Tumors"
-36,CPT1A,1.2758295938816722e-12,False,"Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Cholestasis, Intrahepatic | Desmoid Tumors"
-37,IDH3A,4.677740941989861e-13,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-38,SELENOP,1.6872192933146263e-13,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-39,NUP153,5.946535852705687e-14,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-40,CLK3,2.131119987511948e-14,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-41,ACADVL,7.718360727024948e-15,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-42,CEBPA,2.8187916054984085e-15,False,"Lymphoma, Non-Hodgkin | Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell"
-43,PRIM2,1.0491189148431786e-15,False,"Neoplasm Recurrence, Local | Gastrointestinal Neoplasms | Immune Complex Diseases | Lymphoma, Large B-Cell, Diffuse | Neoplasm Metastasis"
-44,PPM1F,3.78367420546789e-16,False,"Renal hypouricemia | Carcinoma, Hepatocellular | Lymphoma, AIDS-Related | Neuroectodermal Tumors | Leukemia, Lymphocytic, Chronic, B-Cell"
-45,SYT7,2.466850315886753e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-46,DNPH1,2.4527657461606903e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-47,GCG,2.3968160436209915e-16,False,"Esophageal Neoplasms | IMMUNE SUPPRESSION | Leukemia | Urogenital Neoplasms | Encephalomyelitis, Autoimmune, Experimental"
-48,GOT2,2.3898407273003524e-16,False,"Laryngeal Neoplasms | Carcinoma, Ductal, Breast | Genital Neoplasms, Female | Soft Tissue Neoplasms | Neuroectodermal Tumors, Primitive, Peripheral"
-49,ABL1,2.376041766496192e-16,False,"Porphyrias, Hepatic | Hematologic Neoplasms | Peripheral Vascular Diseases | Testicular Neoplasms | Cardiovascular Abnormalities"
-50,COL1A1,2.3729802717874595e-16,False,"Vascular System Injuries | Ocular Hypertension | Mammary Neoplasms, Animal | Pseudotumor Cerebri | Liver Neoplasms"
-51,CRYAB,2.3698772195247526e-16,False,Colonic Neoplasms | Thyroid Neoplasms | Neoplasm Invasiveness | Bone Marrow Neoplasms | Lymphatic Metastasis
-52,RGS14,2.347500461942866e-16,False,"Carcinoma, Bronchogenic | Splenic Neoplasms | Arrhythmias, Cardiac | Squamous Cell Carcinoma of Head and Neck | Thyroid Hormone Metabolism, Abnormal"
-53,OTC,2.313681612732554e-16,False,"Testicular Germ Cell Tumor | Acute Lung Injury | Anemia, Macrocytic | Retinal Neovascularization | Carcinoma, Endometrioid"
-54,HTATSF1,2.2308759365067697e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-55,APOE,2.2131267581437499e-16,False,"Choriocarcinoma | Pituitary Neoplasms | Ureteral Neoplasms | Carcinoma, Transitional Cell | Leukemia L1210"
-56,XRCC2,2.2071493525140947e-16,False,"Leukemia, Lymphocytic, Chronic, B-Cell | Hypertension, Pulmonary | Paraganglioma, Extra-Adrenal | Hypothyroidism | Bone Neoplasms"
-57,LDHA,2.2039520678360057e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-58,CLPTM1,2.1483526928293354e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-59,HAND1,2.1316746140978983e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-60,RRP9,2.0423776214714917e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-61,FGG,2.0303216956541029e-16,False,"Leukemia, Lymphocytic, Chronic, B-Cell | Hypertension, Pulmonary | Paraganglioma, Extra-Adrenal | Hypothyroidism | Bone Neoplasms"
-62,KCNQ2,1.9610358564065792e-16,False,"Ureteral Neoplasms | Carcinoma, Transitional Cell | Leukemia L1210 | Skin Neoplasms | Hypertension, Portal"
-63,NDUFB10,1.9165732441206289e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-64,C9,1.8657879279301192e-16,False,"Inflammatory Breast Neoplasms | Congenital Hypothyroidism | Carcinoma, Bronchogenic | Splenic Neoplasms | Arrhythmias, Cardiac"
-65,AKAP8,1.8119743366042774e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-66,KCNQ3,1.720996248275367e-16,False,"Thyroid Neoplasms | Neoplasm Invasiveness | Bone Marrow Neoplasms | Lymphatic Metastasis | Edema, Cardiac"
-67,AFP,1.720792828019128e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-68,APC2,1.6853288820065706e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-69,AHCYL1,1.5885376330304336e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-70,BCL2L11,1.5162499884271795e-16,False,"Pseudotumor Cerebri | Liver Neoplasms | Wilms Tumor | Neoplasms, Bone Tissue | Lung Injury"
-71,ECD,1.5151225081650452e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-72,PF4,1.4188210824604377e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-73,DLGAP3,1.404582590965991e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-74,LATS1,1.3480456563658285e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-75,KLF4,1.341141808450114e-16,False,"Urogenital Neoplasms | Encephalomyelitis, Autoimmune, Experimental | Renal Artery Obstruction | Lymphoma, T-Cell | Skin Diseases, Vascular"
-76,CENPA,1.3336270380211922e-16,False,"Carcinoma, Pancreatic Ductal | Esophageal Squamous Cell Carcinoma | Lung Diseases, Obstructive | Neovascularization, Pathologic | Vaginal Neoplasms"
-77,SLC28A2,1.3146752052219693e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-78,TMEM50A,1.25905981599864e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-79,STAU1,1.211126221513519e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-80,AP2A1,1.196167090269416e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-81,TFRC,1.1831201359037397e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-82,PTBP3,1.1827997192216612e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-83,CBFA2T2,1.0791062766910348e-16,False,"Cardiovascular Abnormalities | Carcinoma, Ehrlich Tumor | Adrenal Gland Diseases | Adenocarcinoma of Lung | Pharyngeal Neoplasms"
-84,HERC2,1.0703697274101477e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-85,GAS2,1.0444822829596881e-16,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-86,PRB2,9.864093732236883e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-87,CDS2,9.292937430669838e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-88,PRPF3,8.446191018779726e-17,False,"Soft Tissue Neoplasms | Neuroectodermal Tumors, Primitive, Peripheral | Vascular Malformations | Hepatic Encephalopathy | Carcinoma, Papillary"
-89,TYROBP,8.380813971885985e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-90,STAMBP,7.837327854425574e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-91,MMP1,7.74336146032853e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-92,SMARCA5,6.796550017121143e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-93,ADCY5,6.5140003399963e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-94,CTIF,6.371021840244264e-17,False,"Carcinoma, Endometrioid | Precancerous Conditions | Desmoplastic Small Round Cell Tumor | Vascular Remodeling | Disseminated Intravascular Coagulation"
-95,OPN1SW,5.910849354080194e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Anemia, Refractory, with Excess of Blasts | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell"
-96,ADCY3,5.554869199617793e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-97,ETHE1,5.5312081945040815e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-98,FNTB,4.830943226824045e-17,False,"Cardiac Output, High | Carcinoma, Ovarian Epithelial | Burkitt Lymphoma | Colonic Neoplasms | Thyroid Neoplasms"
-99,NADK,4.801290787097489e-17,False,"Carcinoma, Large Cell | Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell"
-100,TGFB1I1,4.703811522375055e-17,False,"Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Carcinoma, Small Cell | Cholestasis, Intrahepatic | Desmoid Tumors"
+rank,protein_id,score,known_target
+1,RET - ret proto-oncogene (human),1.0,True
+2,Proto-oncogene tyrosine-protein kinase receptor Ret (human),1.0,True
+3,CCDC6 - coiled-coil domain containing 6 (human),1.0,True
+4,PTK2B,1.0,True
+5,RET,1.0,True
+6,HRAS,1.0,False
+7,CCDC6,1.0,True
+8,KDR,1.0,True
+9,KIF5B,1.0,True
+10,EML4,1.0,False
+11,DRD2,1.0,True
+12,KIF5B - kinesin family member 5B (human),1.0,True
+13,Tyrosine-protein kinase JAK2 (human),1.0,True
+14,FLT3 - fms related receptor tyrosine kinase 3 (human),1.0,True
+15,KDR - kinase insert domain receptor (human),1.0,True
+16,KIF11,0.9949871301651001,False
+17,HNRNPF,0.6238489151000977,False
+18,NEK3,0.011354806832969189,False
+19,CCNH,8.339712803717703e-05,False
+20,LUM,2.4911291802709457e-06,False
+21,PRKX,1.1216678785785916e-07,False
+22,BMX,6.9854122486390224e-09,False
+23,CLCN6,5.722001206187599e-10,False
+24,ALDH3A2,6.070842439864776e-11,False
+25,IRAK1,7.526386631984128e-12,False
+26,SMARCA4,9.499497542753144e-13,False
+27,FLT3,8.319847089911792e-13,False
+28,SMARCA2,1.3538919063551397e-13,False
+29,SCNN1B,2.4025992987112242e-14,False
+30,FXR1,4.4910673656806555e-15,False
+31,ATP1A2,8.449740219177619e-16,False
+32,BCAM,1.5921107885788667e-16,False
+33,KNTC1,3.0733945290244496e-17,False
+34,VASP,6.153275394822234e-18,False
+35,PDLIM4,1.2805845692777907e-18,False
+36,CSRP3,2.7683705924709667e-19,False
+37,CPT1A,6.001862258441087e-20,False
+38,IDH3A,1.3580562439603244e-20,False
+39,SELENOP,2.9777734648020397e-21,False
+40,NUP153,6.284374952029937e-22,False
+41,CLK3,1.3673076159061024e-22,False
+42,SCT,7.140166855417734e-23,False
+43,CSF1,7.025527695404844e-23,False
+44,FGR,6.959589021147954e-23,False
+45,PARP1,6.702706249237957e-23,False
+46,CNP,6.609774648070576e-23,False
+47,POLA1,6.407219780070064e-23,False
+48,ANXA4,6.160846528683782e-23,False
+49,IFIT1,6.080087997917048e-23,False
+50,UCHL1,5.750344139534665e-23,False
+51,CLTA,5.488586838319126e-23,False
+52,H2AC11,5.179667014568405e-23,False
+53,TPM1,4.613926265602656e-23,False
+54,POLR2M,4.334101525302659e-23,False
+55,FBP1,3.627581921368616e-23,False
+56,TRAPPC2,3.596346184965485e-23,False
+57,ACADVL,2.976384817173361e-23,False
+58,TRAPPC2B,2.956299471893348e-23,False
+59,FGF2,2.6828739712565034e-23,False
+60,RAB34,2.0379109192508478e-23,False
+61,ROS1,1.9726509809168102e-23,False
+62,RPSA,1.4429909942618787e-23,False
+63,TUBA3C,1.372077289820122e-23,False
+64,VIM,1.0508651198998854e-23,False
+65,RARA,8.87638754556985e-24,False
+66,ITGA5,7.624592295589845e-24,False
+67,CEBPA,6.740960007798296e-24,False
+68,SAG,5.5726136198161905e-24,False
+69,FCGR3A,5.515722943483914e-24,False
+70,SNRNP70,3.981534422096512e-24,False
+71,BLTP3B,3.106078480372353e-24,False
+72,CYP2C8,2.9900281665291585e-24,False
+73,MMP2,2.8067933304014586e-24,False
+74,CHRM2,1.9664663508629228e-24,False
+75,PRIM2,1.6021569741964708e-24,False
+76,CHGA,1.5920071939670578e-24,False
+77,LAMB1,1.379608071565724e-24,False
+78,ARHGAP10,1.0947497084371245e-24,False
+79,HNRNPC,9.327847316816725e-25,False
+80,KIT,8.526408024461964e-25,False
+81,PFN1,6.183348647954553e-25,False
+82,CLU,4.603794708060154e-25,False
+83,CAPN1,3.9518139888846973e-25,False
+84,PPM1F,3.91352958307819e-25,False
+85,FAM170A,3.774143038025328e-25,False
+86,GP1BA,2.4576811125550565e-25,False
+87,MCF2,2.4101268515551037e-25,False
+88,H1-0,1.45708907755611e-25,False
+89,SH3PXD2B,1.274731553362629e-25,False
+90,MYL2,1.2707648156045318e-25,False
+91,CENPA,9.842248352190824e-26,False
+92,NEFM,9.253734697587826e-26,False
+93,MAP2,6.766252885223848e-26,False
+94,H2BC11,5.955795680127247e-26,False
+95,CCDC66,4.261971725215365e-26,False
+96,PTMA,3.8887049315777417e-26,False
+97,RALA,3.6663771195416347e-26,False
+98,MYL1,2.5783789264656508e-26,False
+99,FNTB,2.41442296955601e-26,False
+100,ERG,1.993207453650944e-26,False

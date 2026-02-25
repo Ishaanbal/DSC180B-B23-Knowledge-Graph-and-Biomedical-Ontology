@@ -69,7 +69,7 @@ def load_kg_graph(
             idx = default_type_int
         onehot = [0.0] * len(NODE_TYPES)
         onehot[idx] = 1.0
-        # Strong node identity so outcome head can rank outcomes differently per protein
+        # Strong node identity so proteins get distinct embeddings
         scale = 2.0 * np.pi * i / max(n_nodes, 1)
         node_identity = []
         for k in range(1, 9):

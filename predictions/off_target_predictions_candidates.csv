@@ -1,21 +1,21 @@
-candidate_rank,protein_id,score,gnn_predicted_outcomes
-1,EML4,0.9999972581863403,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-2,KIF11,0.0031525795347988605,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-3,HNRNPF,0.0011631088564172387,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-4,NEK3,0.00042682202183641493,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-5,CCNH,0.00015191217244137079,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-6,HRAS,0.00013427653175313026,"Hypertension | Anemia | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-7,LUM,5.014348789700307e-05,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-8,PRKX,1.5137359696382191e-05,"Hypertension | Thyroid Neoplasms | Anemia | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-9,BMX,4.566436018649256e-06,"Hypertension | Thyroid Neoplasms | Neutropenia | Anemia | Carcinoma, Non-Small-Cell Lung"
-10,CLCN6,1.413398649674491e-06,"Thyroid Neoplasms | Neutropenia | Anemia | Hypertension | Carcinoma, Non-Small-Cell Lung"
-11,ALDH3A2,4.410653957620525e-07,"Anemia | Hypertension | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-12,IRAK1,1.4212149324066559e-07,"Anemia | Hypertension | Thyroid Neoplasms | Carcinoma, Non-Small-Cell Lung | Neutropenia"
-13,SMARCA4,4.696446254115472e-08,"Hypertension | Carcinoma, Non-Small-Cell Lung | Neoplasms | Anemia | Thyroid Neoplasms"
-14,SMARCA2,1.586028197664291e-08,"Anemia | Hypertension | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-15,SCNN1B,5.2665134475660125e-09,"Anemia | Hypertension | Thyroid Neoplasms | Neutropenia | Carcinoma, Non-Small-Cell Lung"
-16,FXR1,1.7693717602185188e-09,"Carcinoma, Non-Small-Cell Lung | Anemia | Hypertension | Thyroid Neoplasms | Neutropenia"
-17,ATP1A2,6.023337939531359e-10,"Carcinoma, Non-Small-Cell Lung | Neoplasms | Anemia | Acute Lung Injury | Carcinoma, Endometrioid"
-18,BCAM,2.080704913920428e-10,"Carcinoma, Non-Small-Cell Lung | Anemia | Hypertension | Thyroid Neoplasms | Neutropenia"
-19,KNTC1,7.311097560691593e-11,"Carcinoma, Non-Small-Cell Lung | Neoplasms | Anemia | Acute Lung Injury | Carcinoma, Endometrioid"
-20,VASP,2.5816857332494614e-11,"Leukemia, Monocytic, Acute | Leukemia-Lymphoma, Adult T-Cell | Carcinoma, Squamous Cell | Cholestasis, Intrahepatic | Desmoid Tumors"
+candidate_rank,protein_id,score
+1,HRAS,1.0
+2,EML4,1.0
+3,KIF11,0.9949871301651001
+4,HNRNPF,0.6238489151000977
+5,NEK3,0.011354806832969189
+6,CCNH,8.339712803717703e-05
+7,LUM,2.4911291802709457e-06
+8,PRKX,1.1216678785785916e-07
+9,BMX,6.9854122486390224e-09
+10,CLCN6,5.722001206187599e-10
+11,ALDH3A2,6.070842439864776e-11
+12,IRAK1,7.526386631984128e-12
+13,SMARCA4,9.499497542753144e-13
+14,FLT3,8.319847089911792e-13
+15,SMARCA2,1.3538919063551397e-13
+16,SCNN1B,2.4025992987112242e-14
+17,FXR1,4.4910673656806555e-15
+18,ATP1A2,8.449740219177619e-16
+19,BCAM,1.5921107885788667e-16
+20,KNTC1,3.0733945290244496e-17
