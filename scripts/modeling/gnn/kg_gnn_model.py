@@ -20,7 +20,7 @@ class GCNLinkPredictor(nn.Module):
         hidden_channels: int = 64,
         out_channels: int = 32,
         num_layers: int = 2,
-        dropout: float = 0.3,
+        dropout: float = 0.5,
     ):
         super().__init__()
         self.convs = nn.ModuleList()

@@ -118,7 +118,7 @@ def main() -> None:
         hidden_channels=args.hidden,
         out_channels=args.embed,
         num_layers=2,
-        dropout=0.3,
+        dropout=0.5,
     ).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
 
